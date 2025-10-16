@@ -1,0 +1,57 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Yellow dragon disease"},
+      {"type": "Plant", "name": "Seville oranges"},
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "citrus crops"},
+      {"type": "Plant", "name": "citrus tree"},
+      {"type": "Pest", "name": "Candidatus liberibacter"},
+      {"type": "Vector", "name": "Trioza eryteae"},
+      {"type": "Geographic", "name": "Seville"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Latin America"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Canary Islands"},
+      {"type": "Geographic", "name": "Galicia"},
+      {"type": "Geographic", "name": "northwestern Spain"},
+      {"type": "Geographic", "name": "Andalusia"},
+      {"type": "Geographic", "name": "southern Spain"},
+      {"type": "Geographic", "name": "Florida"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Yellow dragon disease", "type": "Affects", "target": "Seville oranges"},
+      {"source": "Yellow dragon disease", "type": "Affects", "target": "citrus crops"},
+      {"source": "Yellow dragon disease", "type": "Affects", "target": "citrus tree"},
+      {"source": "Candidatus liberibacter", "type": "Causes", "target": "Yellow dragon disease"},
+      {"source": "Yellow dragon disease", "type": "Have been found on", "target": "orange trees"},
+      {"source": "Trioza eryteae", "type": "Transmits", "target": "Candidatus liberibacter"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "Asia"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "Latin America"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "United States"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "China"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "Africa"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "Brazil"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "Florida"},
+      {"source": "Trioza eryteae", "type": "Located in", "target": "Canary Islands"},
+      {"source": "Trioza eryteae", "type": "Located in", "target": "Portugal"},
+      {"source": "Trioza eryteae", "type": "Located in", "target": "Galicia"},
+      {"source": "Trioza eryteae", "type": "Located in", "target": "northwestern Spain"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "48 Asian countries"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "53 African states"},
+      {"source": "Yellow dragon disease", "type": "Located in", "target": "United States"}
+    ]
+  }
+]
+```

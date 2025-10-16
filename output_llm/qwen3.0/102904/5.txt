@@ -1,0 +1,52 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Transgenic Sweet Orange"},
+      {"type": "Plant", "name": "Citrus × sinensis (L.) Osbeck"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Pest", "name": "Sarcotoxin IA"},
+      {"type": "Pest", "name": "stx IA"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Plant", "name": "STX-5"},
+      {"type": "Plant", "name": "STX-11"},
+      {"type": "Plant", "name": "STX-12"},
+      {"type": "Plant", "name": "STX-13"},
+      {"type": "Plant", "name": "non-transgenic control"},
+      {"type": "Plant", "name": "flesh fly"},
+      {"type": "Plant", "name": "Sarcophaga peregrina"},
+      {"type": "Geographic", "name": "Int. J. Mol. Sci."},
+      {"type": "Geographic", "name": "2022"},
+      {"type": "Geographic", "name": "23(16), 9300"},
+      {"type": "Geographic", "name": "https://doi.org/10.3390/ijms23169300"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Located in", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "HLB", "type": "Located in", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "greening", "type": "Located in", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "CLas", "type": "Causes", "target": "HLB"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Affects", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "CLas", "type": "Affects", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "Transgenic Sweet Orange", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "Sarcotoxin IA", "type": "Have been found on", "target": "flesh fly"},
+      {"source": "stx IA", "type": "Have been found on", "target": "Sarcophaga peregrina"},
+      {"source": "Pera sweet orange", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "STX-5", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "STX-11", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "STX-12", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "STX-13", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "non-transgenic control", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "Int. J. Mol. Sci.", "type": "Located in", "target": "2022"},
+      {"source": "2022", "type": "Have been found on", "target": "23(16), 9300"},
+      {"source": "23(16), 9300", "type": "Have been found on", "target": "https://doi.org/10.3390/ijms23169300"}
+    ]
+  }
+]
+```

@@ -1,0 +1,52 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Plant", "name": "pine trees"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Vector", "name": "Monochamus spp."},
+      {"type": "Geographic", "name": "Japan"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Pest", "name": "Bxy-madd-4"},
+      {"type": "Plant", "name": "Caenorhabditis elegans"},
+      {"type": "Pest", "name": "Bxy-madd-4A"},
+      {"type": "Pest", "name": "Bxy-madd-4B"},
+      {"type": "Pest", "name": "Bxy-MADD-4A"},
+      {"type": "Pest", "name": "Bxy-MADD-4B"},
+      {"type": "Pest", "name": "ADAMTSL1"},
+      {"type": "Pest", "name": "ADAMTS"},
+      {"type": "Pest", "name": "MADD-4"},
+      {"type": "Pest", "name": "UNC-40"},
+      {"type": "Pest", "name": "nrx-1"},
+      {"type": "Pest", "name": "nlg-1"},
+      {"type": "Plant", "name": "Toxocara canis"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "pine wilt disease", "type": "Affects", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Japan"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Asia"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Europe"},
+      {"source": "Monochamus spp.", "type": "Transmits", "target": "Bursaphelenchus xylophilus"},
+      {"source": "Bxy-madd-4", "type": "Have been found on", "target": "Bursaphelenchus xylophilus"},
+      {"source": "Bxy-madd-4", "type": "Affects", "target": "Bursaphelenchus xylophilus"},
+      {"source": "Bxy-madd-4A", "type": "Have been found on", "target": "Bursaphelenchus xylophilus"},
+      {"source": "Bxy-madd-4B", "type": "Have been found on", "target": "Bursaphelenchus xylophilus"},
+      {"source": "Bxy-MADD-4A", "type": "Have been found on", "target": "Caenorhabditis elegans"},
+      {"source": "Bxy-MADD-4B", "type": "Have been found on", "target": "Caenorhabditis elegans"},
+      {"source": "ADAMTSL1", "type": "Have been found on", "target": "Toxocara canis"},
+      {"source": "ADAMTS", "type": "Have been found on", "target": "mammals"},
+      {"source": "ADAMTS", "type": "Have been found on", "target": "invertebrates"},
+      {"source": "MADD-4", "type": "Have been found on", "target": "Caenorhabditis elegans"},
+      {"source": "UNC-40", "type": "Have been found on", "target": "Caenorhabditis elegans"},
+      {"source": "nrx-1", "type": "Have been found on", "target": "Caenorhabditis elegans"},
+      {"source": "nlg-1", "type": "Have been found on", "target": "Caenorhabditis elegans"}
+    ]
+  }
+]
+```

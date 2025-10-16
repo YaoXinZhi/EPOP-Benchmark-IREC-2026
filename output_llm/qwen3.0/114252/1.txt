@@ -1,0 +1,72 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Quercus suber"},
+      {"type": "Plant", "name": "cork oak"},
+      {"type": "Pest", "name": "Phytophthora quercina"},
+      {"type": "Disease", "name": "dieback"},
+      {"type": "Geographic", "name": "Morocco"},
+      {"type": "Geographic", "name": "Maâmora forest"},
+      {"type": "Geographic", "name": "Touazithe"},
+      {"type": "Geographic", "name": "North Africa"},
+      {"type": "Pest", "name": "Phytophthora cinnamomi"},
+      {"type": "Plant", "name": "Pedunculate Oak"},
+      {"type": "Plant", "name": "Buxus sempervirens"},
+      {"type": "Plant", "name": "Pinus radiata"},
+      {"type": "Plant", "name": "Metasequoia glyptostroboides"},
+      {"type": "Pest", "name": "Phytophthora plurivora"},
+      {"type": "Pest", "name": "Phytophthora occultans"},
+      {"type": "Pest", "name": "Phytophthora acerina"},
+      {"type": "Pest", "name": "Pythium spiculum"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Czech Republic"},
+      {"type": "Geographic", "name": "Iberia"},
+      {"type": "Geographic", "name": "Tunisia"},
+      {"type": "Geographic", "name": "Algeria"},
+      {"type": "Geographic", "name": "Southwest Europe"},
+      {"type": "Geographic", "name": "Northwest Africa"},
+      {"type": "Geographic", "name": "Mediterranean basin"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Quercus suber", "type": "Located in", "target": "Southwest Europe"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Northwest Africa"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Morocco"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Mediterranean basin"},
+      {"source": "Phytophthora quercina", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Quercus suber"},
+      {"source": "Phytophthora quercina", "type": "Have been found on", "target": "Quercus suber"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Morocco"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Maâmora forest"},
+      {"source": "Maâmora forest", "type": "Located in", "target": "Morocco"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Spain"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Italy"},
+      {"source": "Phytophthora cinnamomi", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Quercus suber"},
+      {"source": "Phytophthora plurivora", "type": "Causes", "target": "root rot"},
+      {"source": "root rot", "type": "Affects", "target": "Pedunculate Oak"},
+      {"source": "Phytophthora plurivora", "type": "Have been found on", "target": "Pedunculate Oak"},
+      {"source": "Phytophthora occultans", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Buxus sempervirens"},
+      {"source": "Phytophthora occultans", "type": "Have been found on", "target": "Buxus sempervirens"},
+      {"source": "Phytophthora acerina", "type": "Causes", "target": "root rot"},
+      {"source": "root rot", "type": "Affects", "target": "Metasequoia glyptostroboides"},
+      {"source": "Phytophthora acerina", "type": "Have been found on", "target": "Metasequoia glyptostroboides"},
+      {"source": "Pythium spiculum", "type": "Causes", "target": "root rot"},
+      {"source": "root rot", "type": "Affects", "target": "Quercus suber"},
+      {"source": "Pythium spiculum", "type": "Have been found on", "target": "Quercus suber"},
+      {"source": "Phytophthora cryptogea", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Pinus radiata"},
+      {"source": "Phytophthora cryptogea", "type": "Have been found on", "target": "Pinus radiata"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Doñana Biological Reserve"},
+      {"source": "Doñana Biological Reserve", "type": "Located in", "target": "Spain"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Doñana Biological Reserve"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Czech Republic"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Czech Republic"}
+    ]
+  }
+]
+```

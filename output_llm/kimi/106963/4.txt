@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Burggrafenamt"
+    },
+    {
+      "type": "Geographic",
+      "name": "Unterland"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salurn"
+    },
+    {
+      "type": "Geographic",
+      "name": "South Tyrol"
+    },
+    {
+      "type": "Disease",
+      "name": "yellowing diseases"
+    },
+    {
+      "type": "Plant",
+      "name": "vine"
+    },
+    {
+      "type": "Disease",
+      "name": "golden yellowing"
+    },
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée"
+    },
+    {
+      "type": "Plant",
+      "name": "Chardonnay"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinot Grigio"
+    },
+    {
+      "type": "Pest",
+      "name": "American leafhopper"
+    },
+    {
+      "type": "Disease",
+      "name": "blackwood disease"
+    },
+    {
+      "type": "Pest",
+      "name": "Flavescence dorèe phytoplasma (FDp)"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "yellowing diseases",
+      "type": "Located in",
+      "target": "Unterland"
+    },
+    {
+      "source": "yellowing diseases",
+      "type": "Located in",
+      "target": "Salurn"
+    },
+    {
+      "source": "yellowing diseases",
+      "type": "Located in",
+      "target": "Burggrafenamt"
+    },
+    {
+      "source": "golden yellowing",
+      "type": "Located in",
+      "target": "Burggrafenamt"
+    },
+    {
+      "source": "golden yellowing",
+      "type": "Causes",
+      "target": "Flavescence dorée"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Affects",
+      "target": "vine"
+    },
+    {
+      "source": "American leafhopper",
+      "type": "Transmits",
+      "target": "Flavescence dorèe phytoplasma (FDp)"
+    },
+    {
+      "source": "Flavescence dorèe phytoplasma (FDp)",
+      "type": "Causes",
+      "target": "golden yellowing"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Located in",
+      "target": "South Tyrol"
+    },
+    {
+      "source": "Chardonnay",
+      "type": "Have been found on",
+      "target": "vine"
+    },
+    {
+      "source": "Pinot Grigio",
+      "type": "Have been found on",
+      "target": "vine"
+    },
+    {
+      "source": "blackwood disease",
+      "type": "Affects",
+      "target": "vine"
+    }
+  ]
+}
+

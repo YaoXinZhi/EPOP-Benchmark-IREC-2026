@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Corsica"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Geographic",
+      "name": "2100"
+    },
+    {
+      "type": "Geographic",
+      "name": "temperate zone"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Has been found on",
+      "target": "insect vectors"
+    },
+    {
+      "source": "insect vectors",
+      "type": "Transmits",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Corsica"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "France"
+    }
+  ]
+}
+

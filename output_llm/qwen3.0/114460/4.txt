@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Oriental fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Geographic", "name": "Fountain Valley"},
+      {"type": "Geographic", "name": "Orange County"},
+      {"type": "Geographic", "name": "California"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Plant", "name": "fruit trees"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "Fountain Valley"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "Orange County"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "California"},
+      {"source": "Oriental fruit fly", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "Fountain Valley", "type": "Located in", "target": "Orange County"},
+      {"source": "Orange County", "type": "Located in", "target": "California"},
+      {"source": "California", "type": "Located in", "target": "United States"}
+    ]
+  }
+]
+```

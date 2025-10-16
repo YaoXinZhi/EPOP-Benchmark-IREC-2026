@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Chrysopa formosa"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera litura"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Chrysopa formosa",
+      "type": "Transmits",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Chrysopa formosa",
+      "type": "Transmits",
+      "target": "Spodoptera litura"
+    }
+  ]
+}
+

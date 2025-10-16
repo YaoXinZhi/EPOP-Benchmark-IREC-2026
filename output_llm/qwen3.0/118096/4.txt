@@ -1,0 +1,55 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Trioza erytreae"},
+      {"type": "Vector", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "mandarin"},
+      {"type": "Plant", "name": "Citrange reed"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Huelva"},
+      {"type": "Geographic", "name": "Ayamonte"},
+      {"type": "Geographic", "name": "Galicia"},
+      {"type": "Geographic", "name": "Cantabria"},
+      {"type": "Geographic", "name": "Asturias"},
+      {"type": "Geographic", "name": "the Basque Country"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Algarve"},
+      {"type": "Geographic", "name": "Hefer Valley"},
+      {"type": "Geographic", "name": "Tel Aviv"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "Valencia"},
+      {"type": "Geographic", "name": "Almeria"},
+      {"type": "Geographic", "name": "Mediterranean"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Trioza erytreae", "type": "Transmits", "target": "HLB"},
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB"},
+      {"source": "HLB", "type": "Affects", "target": "citrus"},
+      {"source": "HLB", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Portugal"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Israel"},
+      {"source": "HLB", "type": "Located in", "target": "Israel"},
+      {"source": "HLB", "type": "Located in", "target": "Florida"},
+      {"source": "HLB", "type": "Located in", "target": "Brazil"},
+      {"source": "Citrange reed", "type": "Located in", "target": "Spain"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Located in", "target": "Spain"},
+      {"source": "HLB", "type": "Located in", "target": "Portugal"},
+      {"source": "HLB", "type": "Located in", "target": "Mediterranean"}
+    ]
+  }
+]
+```

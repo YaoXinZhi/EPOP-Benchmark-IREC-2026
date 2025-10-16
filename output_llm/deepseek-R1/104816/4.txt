@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Monochamus alternatus"},
+    {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+    {"type": "Disease", "name": "pine wilt disease"},
+    {"type": "Plant", "name": "pines"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Yunnan"}
+  ],
+  "relationships": [
+    {"source": "Monochamus alternatus", "type": "Transmits", "target": "Bursaphelenchus xylophilus"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+    {"source": "pine wilt disease", "type": "Affects", "target": "pines"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "China"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Portugal"},
+    {"source": "Monochamus alternatus", "type": "Located in", "target": "Yunnan"}
+  ]
+}
+

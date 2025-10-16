@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Veracruz"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Geographic", "name": "Mexican Republic"},
+      {"type": "Plant", "name": "seedlings"},
+      {"type": "Organization", "name": "National Agrifood Health, Safety and Quality Service"},
+      {"type": "Organization", "name": "Senasica"},
+      {"type": "Organization", "name": "Secretary of Agricultural, Rural, Fisheries and Food Development"},
+      {"type": "Organization", "name": "Sedarpa"},
+      {"type": "Organization", "name": "Postgraduate College"},
+      {"type": "Organization", "name": "State Plant Health Committee"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Veracruz", "type": "Located in", "target": "citrus plants"},
+      {"source": "citrus plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "Persian lemon", "type": "Located in", "target": "Veracruz"},
+      {"source": "orange", "type": "Located in", "target": "Veracruz"},
+      {"source": "tangerine", "type": "Located in", "target": "Veracruz"},
+      {"source": "grapefruit", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Located in", "target": "Veracruz"},
+      {"source": "Postgraduate College", "type": "Located in", "target": "Veracruz"},
+      {"source": "State Plant Health Committee", "type": "Located in", "target": "Veracruz"},
+      {"source": "Senasica", "type": "Located in", "target": "Veracruz"},
+      {"source": "Sedarpa", "type": "Located in", "target": "Veracruz"},
+      {"source": "seedlings", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Located in", "target": "citrus plants"},
+      {"source": "Senasica", "type": "Located in", "target": "Veracruz"},
+      {"source": "seedlings", "type": "Located in", "target": "Mexican Republic"}
+    ]
+  }
+]
+```

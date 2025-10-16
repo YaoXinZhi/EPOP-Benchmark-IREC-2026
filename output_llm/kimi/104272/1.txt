@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Flavescence dorée phytoplasma"
+    },
+    {
+      "type": "Disease",
+      "name": "golden flavescence"
+    },
+    {
+      "type": "Vector",
+      "name": "Scaphoideus titanus Ball"
+    },
+    {
+      "type": "Geographic",
+      "name": "Diário da República"
+    },
+    {
+      "type": "Geographic",
+      "name": "national territory"
+    },
+    {
+      "type": "Geographic",
+      "name": "Vine and Wine Information System (SiVV)"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Flavescence dorée phytoplasma",
+      "type": "Causes",
+      "target": "golden flavescence"
+    },
+    {
+      "source": "Scaphoideus titanus Ball",
+      "type": "Transmits",
+      "target": "Flavescence dorée phytoplasma"
+    },
+    {
+      "source": "Flavescence dorée phytoplasma",
+      "type": "Located in",
+      "target": "national territory"
+    },
+    {
+      "source": "Scaphoideus titanus Ball",
+      "type": "Located in",
+      "target": "national territory"
+    },
+    {
+      "source": "Scaphoideus titanus Ball",
+      "type": "Have been found on",
+      "target": "Vine and Wine Information System (SiVV)"
+    }
+  ]
+}
+

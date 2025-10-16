@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "UK"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Plant", "name": "bananas"},
+    {"type": "Pest", "name": "Fusarium oxysporum cubense Race 1"},
+    {"type": "Pest", "name": "Tropical Race 4"},
+    {"type": "Plant", "name": "Cavendish bananas"}
+  ],
+  "relationships": [
+    {"source": "Fusarium oxysporum cubense Race 1", "type": "Causes", "target": "Panama disease"},
+    {"source": "Tropical Race 4", "type": "Causes", "target": "Panama disease"},
+    {"source": "Panama disease", "type": "Affects", "target": "bananas"},
+    {"source": "Panama disease", "type": "Affects", "target": "Cavendish bananas"}
+  ]
+}
+

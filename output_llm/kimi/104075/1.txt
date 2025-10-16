@@ -1,0 +1,229 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter species"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Vector",
+      "name": "Diaphorina citri Kuwayama"
+    },
+    {
+      "type": "Vector",
+      "name": "Trioza erytreae Del Guercio"
+    },
+    {
+      "type": "Geographic",
+      "name": "China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Geographic",
+      "name": "USA"
+    },
+    {
+      "type": "Geographic",
+      "name": "India"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Geographic",
+      "name": "Louisiana"
+    },
+    {
+      "type": "Geographic",
+      "name": "South Carolina"
+    },
+    {
+      "type": "Geographic",
+      "name": "Georgia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Texas"
+    },
+    {
+      "type": "Geographic",
+      "name": "California"
+    },
+    {
+      "type": "Geographic",
+      "name": "Arizona"
+    },
+    {
+      "type": "Geographic",
+      "name": "South China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Taiwan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Japan"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter africanus"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter americanus"
+    },
+    {
+      "type": "Pest",
+      "name": "HLB bacteria"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Huanglongbing",
+      "type": "Causes",
+      "target": "chlorosis"
+    },
+    {
+      "source": "Candidatus Liberibacter species",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Candidatus Liberibacter africanus",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Candidatus Liberibacter americanus",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Candidatus Liberibacter species",
+      "type": "Transmits",
+      "target": "Diaphorina citri Kuwayama"
+    },
+    {
+      "source": "Candidatus Liberibacter species",
+      "type": "Transmits",
+      "target": "Trioza erytreae Del Guercio"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "China"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "USA"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "India"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Florida"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Louisiana"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "South Carolina"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Georgia"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Texas"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Arizona"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "South China"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Taiwan"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Japan"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Candidatus Liberibacter africanus",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Candidatus Liberibacter americanus",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "HLB bacteria",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    }
+  ]
+}
+

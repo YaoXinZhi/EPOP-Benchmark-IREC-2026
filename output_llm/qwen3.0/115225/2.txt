@@ -1,0 +1,48 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Pest", "name": "Xylella fastidiosa pauca"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Ostuni"},
+      {"type": "Geographic", "name": "Polignano"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Apulia"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "The Netherlands"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "PNAS"},
+      {"type": "Geographic", "name": "H2020 POnTE Project"},
+      {"type": "Geographic", "name": "University of Wageningen"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella fastidiosa pauca", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Located in", "target": "Puglia"},
+      {"source": "Xylella", "type": "Located in", "target": "Polignano"},
+      {"source": "Xylella", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "target": "Apulia"},
+      {"source": "Xylella", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella", "type": "Located in", "target": "Europe"},
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella fastidiosa pauca", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa pauca", "type": "Located in", "target": "Greece"},
+      {"source": "Xylella fastidiosa pauca", "type": "Located in", "target": "Spain"},
+      {"source": "Xylella", "type": "Located in", "target": "Ostuni"},
+      {"source": "Xylella", "type": "Located in", "target": "Puglia"}
+    ]
+  }
+]
+```

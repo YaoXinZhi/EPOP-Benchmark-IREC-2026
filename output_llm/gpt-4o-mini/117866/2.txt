@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Cosmopolites sordidus"},
+    {"type": "Pest", "name": "banana borer"},
+    {"type": "Pest", "name": "B. caledonica"},
+    {"type": "Disease", "name": "fusariosis"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Plant", "name": "banana trees"},
+    {"type": "Pest", "name": "B. bassiana"},
+    {"type": "Disease", "name": "Fusarium oxysporum f. sp. cubense"},
+    {"type": "Geographic", "name": "Vale do Ribeira"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "São Paulo"}
+  ],
+  "relationships": [
+    {"source": "Cosmopolites sordidus", "type": "Causes", "target": "fusariosis"},
+    {"source": "B. caledonica", "type": "Have been found on", "target": "banana trees"},
+    {"source": "fusariosis", "type": "Affects", "target": "banana trees"},
+    {"source": "B. caledonica", "type": "Have been found on", "target": "banana borer"},
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Affects", "target": "banana trees"},
+    {"source": "B. caledonica", "type": "Transmits", "target": "Cosmopolites sordidus"}
+  ]
+}
+

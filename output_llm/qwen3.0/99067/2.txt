@@ -1,0 +1,65 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "Phytophthora"},
+      {"type": "Plant", "name": "Citrus tristeza virus"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "yellow branch disease"},
+      {"type": "Plant", "name": "HLB"},
+      {"type": "Plant", "name": "US-942"},
+      {"type": "Plant", "name": "US-897"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "Californian Bitters"},
+      {"type": "Plant", "name": "C35"},
+      {"type": "Plant", "name": "Carpenter"},
+      {"type": "Plant", "name": "citrange Carrizo"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Plant", "name": "Citrus clementina"},
+      {"type": "Plant", "name": "Citrus sinensis"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Mediterranean environment"},
+      {"type": "Geographic", "name": "Acireale"},
+      {"type": "Geographic", "name": "Etnean capital"},
+      {"type": "Geographic", "name": "Ct"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Affects", "target": "Tristeza"},
+      {"source": "citrus plants", "type": "Affects", "target": "Huanglongbing"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus plants"},
+      {"source": "Tristeza", "type": "Causes", "target": "citrus plants"},
+      {"source": "Huanglongbing", "type": "Causes", "target": "citrus plants"},
+      {"source": "HLB", "type": "Causes", "target": "citrus plants"},
+      {"source": "Tristeza", "type": "Located in", "target": "citrus-growing Italy"},
+      {"source": "Tristeza", "type": "Located in", "target": "Sicily"},
+      {"source": "HLB", "type": "Located in", "target": "United States"},
+      {"source": "US-942", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "US-897", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Californian Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "citrange Carrizo", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "C35", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Californian Bitters", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Furr", "type": "Have been found on", "target": "Mandared"},
+      {"source": "citrange Carrizo", "type": "Have been found on", "target": "Mandared"},
+      {"source": "United States", "type": "Located in", "target": "HLB"},
+      {"source": "Spain", "type": "Located in", "target": "HLB"},
+      {"source": "Mediterranean environment", "type": "Located in", "target": "HLB"},
+      {"source": "Acireale", "type": "Located in", "target": "Mediterranean environment"},
+      {"source": "Etnean capital", "type": "Located in", "target": "Sicily"},
+      {"source": "Ct", "type": "Located in", "target": "Acireale"}
+    ]
+  }
+]
+```

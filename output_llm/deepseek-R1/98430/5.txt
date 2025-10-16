@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Plant", "name": "maize"},
+    {"type": "Plant", "name": "other crops"},
+    {"type": "Vector", "name": "ladybugs"},
+    {"type": "Vector", "name": "earwigs"},
+    {"type": "Vector", "name": "Hippodamia convergens"},
+    {"type": "Vector", "name": "Doru luteipes"},
+    {"type": "Geographic", "name": "Pirassununga"},
+    {"type": "Geographic", "name": "São Paulo state"},
+    {"type": "Geographic", "name": "Brazil"}
+  ],
+  "relationships": [
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize"},
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "other crops"},
+    {"source": "ladybugs", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "earwigs", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "Hippodamia convergens", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "Doru luteipes", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "maize", "type": "Located in", "target": "Pirassununga"},
+    {"source": "maize", "type": "Located in", "target": "São Paulo state"},
+    {"source": "maize", "type": "Located in", "target": "Brazil"}
+  ]
+}
+

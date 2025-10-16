@@ -1,0 +1,171 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "HBL"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ayamonte"
+    },
+    {
+      "type": "Geographic",
+      "name": "Huelva"
+    },
+    {
+      "type": "Geographic",
+      "name": "Galicia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cantabria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asturias"
+    },
+    {
+      "type": "Geographic",
+      "name": "Basque Country"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Vector",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Algarve"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hefer Valley"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tel Aviv"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "mandarin"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrange reed"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Pest",
+      "name": "HLB"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Commission"
+    },
+    {
+      "type": "Vector",
+      "name": "Trioza erytreae"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Galicia"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Cantabria"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Asturias"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Basque Country"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Transmits",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Trioza erytreae",
+      "type": "Located in",
+      "target": "Algarve"
+    },
+    {
+      "source": "Citrange reed",
+      "type": "Have been found on",
+      "target": "Asian psyllid"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Causes",
+      "target": "HLB"
+    },
+    {
+      "source": "HLB",
+      "type": "Affects",
+      "target": "citrus"
+    }
+  ]
+}
+

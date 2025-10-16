@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Pinus rigida Mill."},
+    {"type": "Pest", "name": "pine wood nematodes"},
+    {"type": "Plant", "name": "Pinus densiflora"},
+    {"type": "Plant", "name": "Pinus koraiensis"},
+    {"type": "Geographic", "name": "North America"}
+  ],
+  "relationships": [
+    {"source": "Pinus rigida Mill.", "type": "Located in", "target": "North America"},
+    {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus rigida Mill."},
+    {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus densiflora"},
+    {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus koraiensis"}
+  ]
+}
+

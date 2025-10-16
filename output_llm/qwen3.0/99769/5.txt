@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Disease", "name": "Xylella bacterium"},
+      {"type": "Vector", "name": "foam cicadas"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Plant", "name": "blackberries"},
+      {"type": "Plant", "name": "oleander"},
+      {"type": "Plant", "name": "oak"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Balearic Islands"},
+      {"type": "Geographic", "name": "Alicante"},
+      {"type": "Geographic", "name": "Italy"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella bacterium"},
+      {"source": "Xylella bacterium", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella bacterium", "type": "Affects", "target": "blackberries"},
+      {"source": "Xylella bacterium", "type": "Affects", "target": "oleander"},
+      {"source": "Xylella bacterium", "type": "Affects", "target": "oak"},
+      {"source": "foam cicadas", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Balearic Islands"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Alicante"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"}
+    ]
+  }
+]
+```

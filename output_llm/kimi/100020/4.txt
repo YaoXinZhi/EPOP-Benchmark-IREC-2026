@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Japanese beetle"
+    },
+    {
+      "type": "Geographic",
+      "name": "southern Germany"
+    },
+    {
+      "type": "Geographic",
+      "name": "Freiburg"
+    },
+    {
+      "type": "Geographic",
+      "name": "Baden-Württemberg"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asia"
+    },
+    {
+      "type": "Geographic",
+      "name": "northern Italy"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "southern Germany"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Freiburg"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Baden-Württemberg"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "EU"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Asia"
+    }
+  ]
+}
+

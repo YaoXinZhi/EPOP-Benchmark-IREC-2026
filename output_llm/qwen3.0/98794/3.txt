@@ -1,0 +1,38 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "garlic"},
+      {"type": "Plant", "name": "Allium sativum"},
+      {"type": "Disease", "name": "garlic bulb soft rot"},
+      {"type": "Disease", "name": "Rhizopus soft rot"},
+      {"type": "Pest", "name": "Rhizopus arrhizus"},
+      {"type": "Pest", "name": "Rhizopus oryzae"},
+      {"type": "Geographic", "name": "Hebei Province"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Daming County"},
+      {"type": "Geographic", "name": "Handan City"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Rhizopus arrhizus", "type": "Causes", "target": "garlic bulb soft rot"},
+      {"source": "garlic bulb soft rot", "type": "Affects", "target": "garlic"},
+      {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "garlic"},
+      {"source": "garlic bulb soft rot", "type": "Located in", "target": "Hebei Province"},
+      {"source": "garlic bulb soft rot", "type": "Located in", "target": "China"},
+      {"source": "garlic bulb soft rot", "type": "Located in", "target": "Daming County"},
+      {"source": "garlic bulb soft rot", "type": "Located in", "target": "Handan City"},
+      {"source": "Rhizopus arrhizus", "type": "Located in", "target": "Hebei Province"},
+      {"source": "Rhizopus arrhizus", "type": "Located in", "target": "China"},
+      {"source": "Rhizopus arrhizus", "type": "Located in", "target": "Daming County"},
+      {"source": "Rhizopus arrhizus", "type": "Located in", "target": "Handan City"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "Hebei Province"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "China"},
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "garlic"},
+      {"source": "Rhizopus arrhizus", "type": "Causes", "target": "Rhizopus soft rot"},
+      {"source": "Rhizopus soft rot", "type": "Have been found on", "target": "garlic"}
+    ]
+  }
+]
+```

@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Olive quick decline syndrome"},
+    {"type": "Pest", "name": "Xylella fastidiosa subsp. pauca"},
+    {"type": "Plant", "name": "olive cultivars"},
+    {"type": "Plant", "name": "Cellina di Nardò"},
+    {"type": "Plant", "name": "Leccino"},
+    {"type": "Plant", "name": "FS17"},
+    {"type": "Geographic", "name": "Italy"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa subsp. pauca", "type": "Causes", "target": "Olive quick decline syndrome"},
+    {"source": "Olive quick decline syndrome", "type": "Affects", "target": "olive cultivars"},
+    {"source": "Olive quick decline syndrome", "type": "Located in", "target": "Italy"},
+    {"source": "Xylella fastidiosa subsp. pauca", "type": "Have been found on", "target": "Cellina di Nardò"},
+    {"source": "Xylella fastidiosa subsp. pauca", "type": "Have been found on", "target": "Leccino"},
+    {"source": "Xylella fastidiosa subsp. pauca", "type": "Have been found on", "target": "FS17"}
+  ]
+}
+

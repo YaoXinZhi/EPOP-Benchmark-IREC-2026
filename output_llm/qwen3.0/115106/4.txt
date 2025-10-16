@@ -1,0 +1,50 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "plane tree canker"},
+      {"type": "Disease", "name": "canker stain"},
+      {"type": "Pest", "name": "Ceratocystis platani"},
+      {"type": "Plant", "name": "plane trees"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "the south of France"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Greece"},
+      {"type": "Geographic", "name": "Switzerland"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Albania"},
+      {"type": "Geographic", "name": "Provence-Alpes-Côte d'Azur"},
+      {"type": "Geographic", "name": "Occitanie"},
+      {"type": "Geographic", "name": "Auvergne-Rhône-Alpes"},
+      {"type": "Geographic", "name": "Corsica"},
+      {"type": "Geographic", "name": "New Aquitaine"},
+      {"type": "Geographic", "name": "Pays de la Loire"},
+      {"type": "Geographic", "name": "Île-de-France"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Ceratocystis platani", "type": "Causes", "target": "plane tree canker"},
+      {"source": "plane tree canker", "type": "Affects", "target": "plane trees"},
+      {"source": "plane tree canker", "type": "Located in", "target": "France"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Italy"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Greece"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Switzerland"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Turkey"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Albania"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Provence-Alpes-Côte d'Azur"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Occitanie"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Auvergne-Rhône-Alpes"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Corsica"},
+      {"source": "plane tree canker", "type": "Located in", "target": "New Aquitaine"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Pays de la Loire"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Île-de-France"},
+      {"source": "Ceratocystis platani", "type": "Located in", "target": "United States"},
+      {"source": "plane tree canker", "type": "Located in", "target": "Europe"},
+      {"source": "Ceratocystis platani", "type": "Have been found on", "target": "plane trees"}
+    ]
+  }
+]
+```

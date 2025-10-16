@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "Olive"},
+    {"type": "Plant", "name": "Polygala mirtifolia"},
+    {"type": "Plant", "name": "almond tree"},
+    {"type": "Disease", "name": "epidemic that has hit the olive growing of central-southern Puglia"},
+    {"type": "Geographic", "name": "south-east of Bari"},
+    {"type": "Geographic", "name": "province of Brindisi"},
+    {"type": "Geographic", "name": "free zone"},
+    {"type": "Geographic", "name": "buffer zone"},
+    {"type": "Geographic", "name": "containment zone"},
+    {"type": "Geographic", "name": "Puglia"},
+    {"type": "Geographic", "name": "Polignano"},
+    {"type": "Geographic", "name": "Monopoli"},
+    {"type": "Geographic", "name": "Fasano"},
+    {"type": "Geographic", "name": "Martina Franca"},
+    {"type": "Geographic", "name": "Alberobello"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "south-east of Bari"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "province of Brindisi"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "free zone"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "buffer zone"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "containment zone"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "epidemic that has hit the olive growing of central-southern Puglia"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "Olive"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "Polygala mirtifolia"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "almond tree"},
+    {"source": "epidemic that has hit the olive growing of central-southern Puglia", "type": "Affects", "target": "Olive"},
+    {"source": "Olive", "type": "Located in", "target": "Puglia"},
+    {"source": "Polygala mirtifolia", "type": "Located in", "target": "Polignano"},
+    {"source": "almond tree", "type": "Located in", "target": "Polignano"},
+    {"source": "Olive", "type": "Located in", "target": "Monopoli"},
+    {"source": "Olive", "type": "Located in", "target": "Fasano"},
+    {"source": "Olive", "type": "Located in", "target": "Martina Franca"},
+    {"source": "Olive", "type": "Located in", "target": "Alberobello"}
+  ]
+}
+

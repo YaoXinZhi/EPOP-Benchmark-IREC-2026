@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Veracruz"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "Persian lemon"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "tangerine"
+    },
+    {
+      "type": "Plant",
+      "name": "grapefruit"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexican Republic"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "Persian lemon",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "orange",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "tangerine",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "grapefruit",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "Persian lemon"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "orange"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "tangerine"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "grapefruit"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Mexican Republic"
+    }
+  ]
+}
+

@@ -1,0 +1,33 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "citrus fruit fly"},
+      {"type": "Pest", "name": "oriental fruit fly"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "mangoes"},
+      {"type": "Geographic", "name": "Ishigaki City"},
+      {"type": "Geographic", "name": "Yaeyama Prefecture"},
+      {"type": "Geographic", "name": "Taiwan"},
+      {"type": "Geographic", "name": "Philippines"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "private houses"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus fruit fly", "type": "Located in", "target": "Ishigaki City"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "Ishigaki City"},
+      {"source": "citrus fruit fly", "type": "Have been found on", "target": "fruits"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "fruits"},
+      {"source": "citrus fruit fly", "type": "Located in", "target": "Yaeyama Prefecture"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "Yaeyama Prefecture"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "Taiwan"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "Philippines"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "mangoes"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "private houses"}
+    ]
+  }
+]
+```

@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Buhaira Gardens"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Plant", "name": "citrus trees"},
+    {"type": "Geographic", "name": "Seville"},
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Pest", "name": "bacterium that causes the death of the tree"},
+    {"type": "Vector", "name": "insects that transmit the bacterium"}
+  ],
+  "relationships": [
+    {"source": "orange trees", "type": "Located in", "target": "Buhaira Gardens"},
+    {"source": "citrus trees", "type": "Located in", "target": "Seville"},
+    {"source": "bacterium that causes the death of the tree", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "insects that transmit the bacterium", "type": "Transmits", "target": "bacterium that causes the death of the tree"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "orange trees"},
+    {"source": "Huanglongbing", "type": "Located in", "target": "Spain"},
+    {"source": "bacterium that causes the death of the tree", "type": "Have been found on", "target": "orange trees"},
+    {"source": "insects that transmit the bacterium", "type": "Have been found on", "target": "orange trees"}
+  ]
+}
+

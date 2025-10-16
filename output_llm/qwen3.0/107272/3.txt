@@ -1,0 +1,63 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "banana fungus"},
+      {"type": "Disease", "name": "banana disease"},
+      {"type": "Disease", "name": "Tropical Race 4"},
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Disease", "name": "TR4"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Pest", "name": "Fusarium odoratissimum"},
+      {"type": "Plant", "name": "banana plants"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Plant", "name": "local banana strains"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Ruanda"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Utrecht University"},
+      {"type": "Geographic", "name": "Wageningen University & Research"},
+      {"type": "Geographic", "name": "Wageningen"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "banana fungus", "type": "Causes", "target": "banana disease"},
+      {"source": "Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "TR4", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "Fusarium odoratissimum", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "banana fungus", "type": "Affects", "target": "banana plants"},
+      {"source": "banana disease", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium wilt", "type": "Affects", "banana"},
+      {"source": "TR4", "type": "Affects", "target": "banana"},
+      {"source": "TR4", "type": "Affects", "target": "Cavendish banana"},
+      {"source": "TR4", "type": "Affects", "target": "local banana strains"},
+      {"source": "Panama disease", "type": "Affects", "target": "banana"},
+      {"source": "banana fungus", "type": "Have been found on", "target": "banana plants"},
+      {"source": "Tropical Race 4", "type": "Have been found on", "target": "banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "banana plants"},
+      {"source": "Fusarium odoratissimum", "type": "Have been found on", "target": "banana plants"},
+      {"source": "banana fungus", "type": "Located in", "target": "Africa"},
+      {"source": "banana fungus", "type": "Located in", "target": "Asia"},
+      {"source": "banana fungus", "type": "Located in", "target": "South America"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Mozambique"},
+      {"source": "TR4", "type": "Located in", "target": "Mozambique"},
+      {"source": "TR4", "type": "Located in", "target": "Tanzania"},
+      {"source": "TR4", "type": "Located in", "target": "Malawi"},
+      {"source": "TR4", "type": "Located in", "target": "Uganda"},
+      {"source": "TR4", "type": "Located in", "target": "Ruanda"},
+      {"source": "Fusarium fungus", "type": "Located in", "target": "Latin America"},
+      {"source": "Fusarium odoratissimum", "type": "Located in", "target": "Mozambique"}
+    ]
+  }
+]
+```

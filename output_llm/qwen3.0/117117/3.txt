@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Pest", "name": "Anoplophora glabripennis"},
+      {"type": "Pest", "name": "Aromaa bungii"},
+      {"type": "Pest", "name": "Meloidogyne graminicola"},
+      {"type": "Geographic", "name": "Lombardy"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "vegetables"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Popillia japonica", "type": "Located in", "target": "Lombardy"},
+      {"source": "Anoplophora glabripennis", "type": "Located in", "target": "Lombardy"},
+      {"source": "Aromaa bungii", "type": "Located in", "target": "Lombardy"},
+      {"source": "Meloidogyne graminicola", "type": "Located in", "target": "Lombardy"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "plants"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "vegetables"},
+      {"source": "Anoplophora glabripennis", "type": "Have been found on", "target": "plants"},
+      {"source": "Anoplophora glabripennis", "type": "Have been found on", "target": "vegetables"},
+      {"source": "Aromaa bungii", "type": "Have been found on", "target": "plants"},
+      {"source": "Aromaa bungii", "type": "Have been found on", "target": "vegetables"},
+      {"source": "Meloidogyne graminicola", "type": "Have been found on", "target": "plants"},
+      {"source": "Meloidogyne graminicola", "type": "Have been found on", "target": "vegetables"}
+    ]
+  }
+]
+```

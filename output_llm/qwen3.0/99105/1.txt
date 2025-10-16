@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Vector", "name": "Diaphorina citri"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Murraya paniculata"},
+      {"type": "Disease", "name": "HBL"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "Greening"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "UNESP"},
+      {"type": "Geographic", "name": "Botucatu"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "Candidatus Liberibacter spp."},
+      {"source": "Candidatus Liberibacter spp.", "type": "Causes", "target": "HBL"},
+      {"source": "HBL", "type": "Affects", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "Murraya paniculata"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Brazil"},
+      {"source": "HBL", "type": "Located in", "target": "Brazil"},
+      {"source": "Huanglongbing", "type": "Causes", "target": "Greening"},
+      {"source": "UNESP", "type": "Located in", "target": "Botucatu"}
+    ]
+  }
+]
+```

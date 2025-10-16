@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa pauca ST53"},
+    {"type": "Plant", "name": "olive trees"},
+    {"type": "Geographic", "name": "Castellana Grotte"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Puglia"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Geographic", "name": "Locorotondo"},
+    {"type": "Geographic", "name": "Monopoli"},
+    {"type": "Geographic", "name": "Polignano"},
+    {"type": "Geographic", "name": "Alberobello"},
+    {"type": "Geographic", "name": "Northern Puglia"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa pauca ST53", "type": "Located in", "target": "Puglia"},
+    {"source": "olive trees", "type": "Located in", "target": "Castellana Grotte"},
+    {"source": "Castellana Grotte", "type": "Located in", "target": "Bari"},
+    {"source": "Locorotondo", "type": "Located in", "target": "Bari"},
+    {"source": "Monopoli", "type": "Located in", "target": "Bari"},
+    {"source": "Polignano", "type": "Located in", "target": "Bari"},
+    {"source": "Alberobello", "type": "Located in", "target": "Bari"},
+    {"source": "Xylella fastidiosa pauca ST53", "type": "Have been found on", "target": "olive trees"}
+  ]
+}
+

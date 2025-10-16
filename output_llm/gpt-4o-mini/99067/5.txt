@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Pest", "name": "Phytophthora"},
+    {"type": "Pest", "name": "CTV-Citrus tristeza virus"},
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Disease", "name": "yellow branch disease"},
+    {"type": "Disease", "name": "Tristeza"},
+    {"type": "Plant", "name": "Tarocco Scirè"},
+    {"type": "Plant", "name": "Citrus clementina"},
+    {"type": "Plant", "name": "Citrus sinensis"},
+    {"type": "Pest", "name": "Bitters"},
+    {"type": "Pest", "name": "C35"},
+    {"type": "Pest", "name": "Carpenter"},
+    {"type": "Pest", "name": "Furr"},
+    {"type": "Pest", "name": "Carrizo"},
+    {"type": "Pest", "name": "US-942"},
+    {"type": "Pest", "name": "US-897"}
+  ],
+  "relationships": [
+    {"source": "citrus fruits", "type": "Located in", "target": "Italy"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Sicily"},
+    {"source": "Phytophthora", "type": "Causes", "target": "Huanglongbing (HLB)"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Furr", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Carrizo", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Citrus clementina", "type": "Have been found on", "target": "Mandared"},
+    {"source": "Citrus sinensis", "type": "Have been found on", "target": "Mandared"},
+    {"source": "Huanglongbing (HLB)", "type": "Causes", "target": "citrus fruits"},
+    {"source": "Tristeza", "type": "Causes", "target": "citrus fruits"}
+  ]
+}
+

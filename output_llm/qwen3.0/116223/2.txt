@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Veracruz"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "nurseries"},
+      {"type": "Geographic", "name": "Mexican Republic"},
+      {"type": "Plant", "name": "seedlings"},
+      {"type": "Plant", "name": "land"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "nurseries", "type": "Located in", "target": "Veracruz"},
+      {"source": "nurseries", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "HLB", "type": "Located in", "target": "Veracruz"},
+      {"source": "nurseries", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Affects", "target": "plants"},
+      {"source": "nurseries", "type": "Located in", "target": "Mexican Republic"},
+      {"source": "plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "plants", "type": "Located in", "target": "Mexican Republic"},
+      {"source": "HLB", "type": "Affects", "target": "land"}
+    ]
+  }
+]
+```

@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Phyllosticta citricarpa"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Disease", "name": "Black Spot disease"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "Mercosur"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Uruguay"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "South Africa"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Phyllosticta citricarpa", "type": "Causes", "target": "Black Spot disease"},
+      {"source": "Black Spot disease", "type": "Affects", "target": "citrus"},
+      {"source": "Phyllosticta citricarpa", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "Brazil", "type": "Located in", "name": "Brazil"},
+      {"source": "Argentina", "type": "Located in", "name": "Argentina"},
+      {"source": "Uruguay", "type": "Located in", "name": "Uruguay"},
+      {"source": "Colombia", "type": "Located in", "name": "Colombia"},
+      {"source": "South Africa", "type": "Located in", "name": "South Africa"},
+      {"source": "European Union", "type": "Located in", "name": "European Union"},
+      {"source": "citrus", "type": "Located in", "name": "European Union"},
+      {"source": "citrus fruits", "type": "Located in", "name": "European Union"}
+    ]
+  }
+]
+```

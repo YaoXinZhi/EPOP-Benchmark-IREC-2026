@@ -1,0 +1,48 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Transgenic Sweet Orange"},
+      {"type": "Plant", "name": "Citrus × sinensis"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Pest", "name": "Sarcotoxin IA"},
+      {"type": "Pest", "name": "AMP sarcotoxin IA"},
+      {"type": "Pest", "name": "stx IA"},
+      {"type": "Pest", "name": "Sarcophaga peregrina"},
+      {"type": "Plant", "name": "STX-5"},
+      {"type": "Plant", "name": "STX-11"},
+      {"type": "Plant", "name": "STX-12"},
+      {"type": "Plant", "name": "STX-13"},
+      {"type": "Geographic", "name": "Int. J. Mol. Sci."},
+      {"type": "Geographic", "name": "MDPI"},
+      {"type": "Geographic", "name": "ACS"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Transgenic Sweet Orange", "type": "Have been found on", "target": "Citrus × sinensis"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "Citrus × sinensis"},
+      {"source": "HLB", "type": "Affects", "target": "Citrus × sinensis"},
+      {"source": "greening", "type": "Affects", "target": "Citrus × sinensis"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "greening"},
+      {"source": "Sarcotoxin IA", "type": "Have been found on", "target": "Transgenic Sweet Orange"},
+      {"source": "AMP sarcotoxin IA", "type": "Have been found on", "target": "Transgenic Sweet Orange"},
+      {"source": "stx IA", "type": "Have been found on", "target": "Transgenic Sweet Orange"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "stx IA"},
+      {"source": "Transgenic Sweet Orange", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "Transgenic Sweet Orange", "type": "Located in", "target": "MDPI"},
+      {"source": "Transgenic Sweet Orange", "type": "Located in", "target": "ACS"},
+      {"source": "STX-5", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-11", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-12", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-13", "type": "Located in", "target": "Int. J. Mol. Sci."}
+    ]
+  }
+]
+```

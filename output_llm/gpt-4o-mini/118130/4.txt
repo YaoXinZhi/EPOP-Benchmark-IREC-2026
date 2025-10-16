@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Plant", "name": "maize"},
+    {"type": "Plant", "name": "sorghum"},
+    {"type": "Plant", "name": "rice"},
+    {"type": "Plant", "name": "soybean"},
+    {"type": "Plant", "name": "cotton"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Middle East"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "Australasia"},
+    {"type": "Geographic", "name": "Switzerland"},
+    {"type": "Geographic", "name": "Zimbabwe"},
+    {"type": "Geographic", "name": "Japan"},
+    {"type": "Geographic", "name": "Korean Peninsula"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Geographic", "name": "tropical Pacific Islands"},
+    {"type": "Geographic", "name": "Europe"},
+    {"type": "Geographic", "name": "Oceania"}
+  ],
+  "relationships": [
+    {"source": "fall armyworm", "type": "Causes", "target": "economic damage"},
+    {"source": "fall armyworm", "type": "Have been found on", "target": "maize"},
+    {"source": "fall armyworm", "type": "Have been found on", "target": "sorghum"},
+    {"source": "fall armyworm", "type": "Have been found on", "target": "rice"},
+    {"source": "fall armyworm", "type": "Have been found on", "target": "soybean"},
+    {"source": "fall armyworm", "type": "Have been found on", "target": "cotton"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Africa"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Middle East"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Asia"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Australasia"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Switzerland"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Zimbabwe"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Japan"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Korean Peninsula"},
+    {"source": "fall armyworm", "type": "Located in", "target": "China"},
+    {"source": "fall armyworm", "type": "Located in", "target": "tropical Pacific Islands"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Europe"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Oceania"}
+  ]
+}
+

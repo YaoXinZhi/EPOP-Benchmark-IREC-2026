@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Geographic", "name": "Western China"},
+    {"type": "Geographic", "name": "Gansu"},
+    {"type": "Geographic", "name": "Qinghai"},
+    {"type": "Geographic", "name": "Shaanxi"},
+    {"type": "Geographic", "name": "Ningxia"},
+    {"type": "Geographic", "name": "Tibetan"},
+    {"type": "Geographic", "name": "Xinjiang"},
+    {"type": "Plant", "name": "wheat"},
+    {"type": "Plant", "name": "corn"}
+  ],
+  "relationships": [
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Western China"},
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "wheat"},
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "corn"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Gansu"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Qinghai"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Shaanxi"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Ningxia"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Tibetan"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Xinjiang"}
+  ]
+}
+

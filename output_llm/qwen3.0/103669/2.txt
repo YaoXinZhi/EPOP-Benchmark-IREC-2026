@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "sorghum plants"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Plant", "name": "sorghum leaves"},
+      {"type": "Plant", "name": "maize"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "fall armyworm larvae"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavonoids", "type": "Have been found on", "target": "sorghum leaves"},
+      {"source": "Flavonoids", "type": "Kill", "target": "fall armyworm"},
+      {"source": "Flavonoids", "type": "Stunt growth of", "target": "fall armyworm"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "corn"},
+      {"source": "Flavonoids", "type": "Affect", "target": "fall armyworm larvae"},
+      {"source": "Flavonoids", "type": "Are produced by", "target": "sorghum leaves"},
+      {"source": "Flavonoids", "type": "Are considered byproducts of", "target": "plant’s primary metabolism"},
+      {"source": "Flavonoids", "type": "Are seen as", "target": "pigments"},
+      {"source": "Flavonoids", "type": "Are found in", "target": "flowers"},
+      {"source": "Flavonoids", "type": "Are found in", "target": "vegetables"},
+      {"source": "Flavonoids", "type": "Are found in", "target": "fruits"},
+      {"source": "fall armyworm larvae", "type": "Have been reared on", "target": "artificial diet"},
+      {"source": "artificial diet", "type": "Supplemented with", "target": "sorghum flavonoids"}
+    ]
+  }
+]
+```

@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "psylla"},
+    {"type": "Pest", "name": "L. capsica"},
+    {"type": "Disease", "name": "citrus greening disease"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "pepper plant"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Plant", "name": "citrus trees"},
+    {"type": "Pest", "name": "Liberibacter"}
+  ],
+  "relationships": [
+    {"source": "L. capsica", "type": "Causes", "target": "citrus greening disease"},
+    {"source": "citrus greening disease", "type": "Affects", "target": "citrus trees"},
+    {"source": "L. capsica", "type": "Have been found on", "target": "pepper plant"},
+    {"source": "L. capsica", "type": "Have been found on", "target": "psylla"},
+    {"source": "psylla", "type": "Transmits", "target": "L. capsica"},
+    {"source": "L. capsica", "type": "Located in", "target": "Brazil"}
+  ]
+}
+

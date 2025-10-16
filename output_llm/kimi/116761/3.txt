@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Panama disease"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium oxysporum f. sp. cubense Tropical Race 4"
+    },
+    {
+      "type": "Pest",
+      "name": "FocTR4"
+    },
+    {
+      "type": "Pest",
+      "name": "Foc Race1"
+    },
+    {
+      "type": "Pest",
+      "name": "FocR1"
+    },
+    {
+      "type": "Plant",
+      "name": "bananas"
+    },
+    {
+      "type": "Pest",
+      "name": "azoles"
+    },
+    {
+      "type": "Pest",
+      "name": "succinate dehydrogenase inhibitors"
+    },
+    {
+      "type": "Pest",
+      "name": "SDHIs"
+    },
+    {
+      "type": "Pest",
+      "name": "strobilurins"
+    },
+    {
+      "type": "Pest",
+      "name": "benzimidazoles"
+    },
+    {
+      "type": "Pest",
+      "name": "captan"
+    },
+    {
+      "type": "Pest",
+      "name": "lipophilic cations"
+    },
+    {
+      "type": "Pest",
+      "name": "Zymoseptoria tritici"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium oxysporum f. sp. cubense Tropical Race 4",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "FocTR4",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "FocTR4",
+      "type": "Have been found on",
+      "target": "bananas"
+    },
+    {
+      "source": "FocTR4",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "FocR1",
+      "type": "Have been found on",
+      "target": "bananas"
+    },
+    {
+      "source": "captan",
+      "type": "Suppresses",
+      "target": "Panama disease"
+    },
+    {
+      "source": "lipophilic cations",
+      "type": "Suppresses",
+      "target": "Panama disease"
+    }
+  ]
+}
+

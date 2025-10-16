@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "xylella"},
+    {"type": "Vector", "name": "spittoon"},
+    {"type": "Geographic", "name": "Lecce-Bari state road"},
+    {"type": "Geographic", "name": "Bari-Lecce"},
+    {"type": "Geographic", "name": "Regional Phytosanitary Observatory"},
+    {"type": "Geographic", "name": "Innovapuglia"},
+    {"type": "Geographic", "name": "Salento city"},
+    {"type": "Geographic", "name": "Pescara"}
+  ],
+  "relationships": [
+    {"source": "xylella", "type": "Located in", "target": "Lecce-Bari state road"},
+    {"source": "xylella", "type": "Located in", "target": "Bari-Lecce"},
+    {"source": "spittoon", "type": "Transmits", "target": "xylella"}
+  ]
+}
+

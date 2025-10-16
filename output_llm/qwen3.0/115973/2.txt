@@ -1,0 +1,18 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Apulia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Apulia"}
+    ]
+  }
+]
+```

@@ -1,0 +1,25 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus seedlings"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "Tucumán"},
+      {"type": "Geographic", "name": "San Miguel de Tucumán"},
+      {"type": "Vector", "name": "aphid"},
+      {"type": "Plant", "name": "citrus"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "aphid", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "citrus seedlings", "type": "Have been found on", "target": "citrus"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "Tucumán"},
+      {"source": "citrus plants", "type": "Located in", "target": "Tucumán"},
+      {"source": "San Miguel de Tucumán", "type": "Located in", "target": "Tucumán"}
+    ]
+  }
+]
+```

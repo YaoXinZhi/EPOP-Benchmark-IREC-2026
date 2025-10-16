@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Pest",
+      "name": "Phytophthora"
+    },
+    {
+      "type": "Pest",
+      "name": "viruses and viroids"
+    },
+    {
+      "type": "Pest",
+      "name": "nematodes"
+    },
+    {
+      "type": "Pest",
+      "name": "CTV-Citrus tristeza virus"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Disease",
+      "name": "Citrus greening"
+    },
+    {
+      "type": "Disease",
+      "name": "Tristeza"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus fruits"
+    },
+    {
+      "type": "Plant",
+      "name": "Tarocco Scirè"
+    },
+    {
+      "type": "Plant",
+      "name": "Mandared"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus clementina"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus sinensis"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "Californian Bitters"
+    },
+    {
+      "type": "Plant",
+      "name": "C35"
+    },
+    {
+      "type": "Plant",
+      "name": "Carpenter"
+    },
+    {
+      "type": "Plant",
+      "name": "Furr"
+    },
+    {
+      "type": "Plant",
+      "name": "Carrizo"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "Californian Bitters"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "C35"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "Carrizo"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "Carpenter"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "Furr"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Affects",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "C35",
+      "type": "Located in",
+      "target": "Italy"
+    }
+  ]
+}
+

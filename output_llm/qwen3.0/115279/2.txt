@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Polignano a Mare"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Castellana Grotte"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Salento"},
+      {"type": "Geographic", "name": "Taranto"},
+      {"type": "Geographic", "name": "Barletta"},
+      {"type": "Geographic", "name": "Andria"},
+      {"type": "Disease", "name": "Xylella"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "Polignano a Mare"},
+      {"source": "Xylella", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "target": "Castellana Grotte"},
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "Puglia"},
+      {"source": "Xylella", "type": "Located in", "target": "Salento"},
+      {"source": "Xylella", "type": "Located in", "target": "Taranto"},
+      {"source": "Xylella", "type": "Located in", "target": "Barletta"},
+      {"source": "Xylella", "type": "Located in", "target": "Andria"}
+    ]
+  }
+]
+```

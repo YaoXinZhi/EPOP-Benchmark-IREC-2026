@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "bell pepper"},
+    {"type": "Plant", "name": "chili"},
+    {"type": "Plant", "name": "Solanum lycopersicum"},
+    {"type": "Plant", "name": "paprika"},
+    {"type": "Plant", "name": "chili pepper"},
+    {"type": "Plant", "name": "Capsicum spp."}
+  ],
+  "relationships": []
+}
+

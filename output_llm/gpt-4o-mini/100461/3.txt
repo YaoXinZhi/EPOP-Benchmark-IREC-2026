@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Japanese beetle"},
+    {"type": "Pest", "name": "Popillia japonica"},
+    {"type": "Geographic", "name": "Freiburg"},
+    {"type": "Geographic", "name": "Baden-Württemberg"},
+    {"type": "Geographic", "name": "northern Italy"},
+    {"type": "Geographic", "name": "Asia"}
+  ],
+  "relationships": [
+    {"source": "Popillia japonica", "type": "Have been found on", "target": "Freiburg"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "Freiburg"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "Baden-Württemberg"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "northern Italy"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "Asia"}
+  ]
+}
+

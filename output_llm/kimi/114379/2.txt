@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Porto Metropolitan Area"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella Fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Vila Nova de Gaia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santa Maria da Feira"
+    },
+    {
+      "type": "Geographic",
+      "name": "Porto"
+    },
+    {
+      "type": "Geographic",
+      "name": "Espinho"
+    },
+    {
+      "type": "Plant",
+      "name": "acacia longifolia"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus limon"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus reticulata blanco"
+    },
+    {
+      "type": "Vector",
+      "name": "Philaenus spumarius"
+    },
+    {
+      "type": "Plant",
+      "name": "olive"
+    },
+    {
+      "type": "Plant",
+      "name": "almond"
+    },
+    {
+      "type": "Plant",
+      "name": "vine"
+    },
+    {
+      "type": "Plant",
+      "name": "fig"
+    },
+    {
+      "type": "Geographic",
+      "name": "zoo in Vila Nova de Gaia"
+    },
+    {
+      "type": "Plant",
+      "name": "lavender"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Located in",
+      "target": "Porto Metropolitan Area"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Located in",
+      "target": "Vila Nova de Gaia"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Located in",
+      "target": "Santa Maria da Feira"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Located in",
+      "target": "Porto"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Located in",
+      "target": "Espinho"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Have been found on",
+      "target": "acacia longifolia"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Have been found on",
+      "target": "citrus limon"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Have been found on",
+      "target": "citrus reticulata blanco"
+    },
+    {
+      "source": "Philaenus spumarius",
+      "type": "Transmits",
+      "target": "Xylella Fastidiosa"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Affects",
+      "target": "olive"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Affects",
+      "target": "almond"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Affects",
+      "target": "vine"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Affects",
+      "target": "fig"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Located in",
+      "target": "zoo in Vila Nova de Gaia"
+    },
+    {
+      "source": "Xylella Fastidiosa",
+      "type": "Have been found on",
+      "target": "lavender"
+    }
+  ]
+}
+

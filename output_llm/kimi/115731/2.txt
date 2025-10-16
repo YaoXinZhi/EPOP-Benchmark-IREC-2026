@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée"
+    },
+    {
+      "type": "Disease",
+      "name": "grapevine yellows"
+    },
+    {
+      "type": "Pest",
+      "name": "phytoplasmas"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Phytoplasma vitis"
+    },
+    {
+      "type": "Vector",
+      "name": "Scaphoideus titanus"
+    },
+    {
+      "type": "Plant",
+      "name": "grapevine"
+    },
+    {
+      "type": "Plant",
+      "name": "Vitis vinifera"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tuscany"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Geographic",
+      "name": "Slovenia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Serbia"
+    },
+    {
+      "type": "Geographic",
+      "name": "central Italy"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Flavescence dorée",
+      "type": "Affects",
+      "target": "grapevine"
+    },
+    {
+      "source": "grapevine yellows",
+      "type": "Affects",
+      "target": "grapevine"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Causes",
+      "target": "Flavescence dorée"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Have been found on",
+      "target": "Vitis vinifera"
+    },
+    {
+      "source": "Scaphoideus titanus",
+      "type": "Transmits",
+      "target": "Candidatus Phytoplasma vitis"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Located in",
+      "target": "France"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Located in",
+      "target": "Slovenia"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Located in",
+      "target": "Serbia"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Located in",
+      "target": "Tuscany"
+    },
+    {
+      "source": "Vitis vinifera",
+      "type": "Located in",
+      "target": "Tuscany"
+    }
+  ]
+}
+

@@ -1,0 +1,47 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Asian longhorned beetle"},
+      {"type": "Pest", "name": "Asian long-horned beetle"},
+      {"type": "Pest", "name": "ALB"},
+      {"type": "Plant", "name": "maple"},
+      {"type": "Plant", "name": "birch"},
+      {"type": "Plant", "name": "beech"},
+      {"type": "Plant", "name": "hardwood species"},
+      {"type": "Plant", "name": "fruit trees"},
+      {"type": "Plant", "name": "compost"},
+      {"type": "Plant", "name": "wood"},
+      {"type": "Disease", "name": "affected trees"},
+      {"type": "Geographic", "name": "Lucerne"},
+      {"type": "Geographic", "name": "Central Switzerland"},
+      {"type": "Geographic", "name": "Canton Lucerne"},
+      {"type": "Geographic", "name": "Zell"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Winterthur"},
+      {"type": "Geographic", "name": "Marly"},
+      {"type": "Geographic", "name": "FR"},
+      {"type": "Geographic", "name": "Bafu"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Vector", "name": "Asian longhorned beetle"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Asian longhorned beetle", "type": "Causes", "target": "affected trees"},
+      {"source": "affected trees", "type": "Affects", "target": "maple"},
+      {"source": "affected trees", "type": "Affects", "target": "birch"},
+      {"source": "affected trees", "type": "Affects", "target": "beech"},
+      {"source": "affected trees", "type": "Affects", "target": "hardwood species"},
+      {"source": "affected trees", "type": "Affects", "target": "fruit trees"},
+      {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "compost"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Lucerne"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Zell"},
+      {"source": "Asian longhorned beetle", "type": "Transmits", "target": "affected trees"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Asia"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Zell"}
+    ]
+  }
+]
+```

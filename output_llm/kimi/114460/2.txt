@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Oriental fruit fly"
+    },
+    {
+      "type": "Vector",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Fountain Valley"
+    },
+    {
+      "type": "Geographic",
+      "name": "Orange County"
+    },
+    {
+      "type": "Geographic",
+      "name": "California"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "100 square miles"
+    },
+    {
+      "type": "Organization",
+      "name": "Animal and Plant Health Inspection Service"
+    },
+    {
+      "type": "Organization",
+      "name": "California Department of Food and Agriculture"
+    },
+    {
+      "type": "Organization",
+      "name": "USDA"
+    },
+    {
+      "type": "Person",
+      "name": "Richard Johnson"
+    },
+    {
+      "type": "Person",
+      "name": "Dr. Mark L Davidson"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Oriental fruit fly",
+      "type": "Located in",
+      "target": "Fountain Valley"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Located in",
+      "target": "Orange County"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Fountain Valley"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Orange County"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Animal and Plant Health Inspection Service",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "California Department of Food and Agriculture",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "USDA",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Has been found on",
+      "target": "fruit trees"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Has been found on",
+      "target": "fruit trees"
+    }
+  ]
+}
+

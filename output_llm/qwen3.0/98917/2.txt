@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Vector", "name": "foam cicadas"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Plant", "name": "blackberries"},
+      {"type": "Plant", "name": "oleander"},
+      {"type": "Plant", "name": "oak"},
+      {"type": "Disease", "name": "xylella"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "Netherlands"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "xylella"},
+      {"source": "xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "xylella", "type": "Affects", "target": "blackberries"},
+      {"source": "xylella", "type": "Affects", "target": "oleander"},
+      {"source": "xylella", "type": "Affects", "target": "oak"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "France"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Spain"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Portugal"},
+      {"source": "foam cicadas", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "foam cicadas", "type": "Located in", "target": "Netherlands"}
+    ]
+  }
+]
+```

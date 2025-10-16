@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Réunion"
+    },
+    {
+      "type": "Geographic",
+      "name": "Palais de la Source"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sainte-Marie"
+    },
+    {
+      "type": "Pest",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jardin de l’Etat"
+    },
+    {
+      "type": "Geographic",
+      "name": "Saint-Denis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Reunion"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Person",
+      "name": "Cyrille Melchior"
+    },
+    {
+      "type": "Person",
+      "name": "Richard Nirlo"
+    },
+    {
+      "type": "Person",
+      "name": "Patrick Fiori"
+    },
+    {
+      "type": "Person",
+      "name": "Raynaud"
+    },
+    {
+      "type": "Person",
+      "name": "Péi Raynaud Sadon"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cyrille Melchior",
+      "type": "Located in",
+      "target": "Réunion"
+    },
+    {
+      "source": "Richard Nirlo",
+      "type": "Located in",
+      "target": "Sainte-Marie"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Reunion"
+    },
+    {
+      "source": "Jardin de l’Etat",
+      "type": "Located in",
+      "target": "Saint-Denis"
+    },
+    {
+      "source": "JDPA",
+      "type": "Located in",
+      "target": "Jardin de l’Etat"
+    },
+    {
+      "source": "Péi Raynaud Sadon",
+      "type": "Located in",
+      "target": "Réunion"
+    }
+  ]
+}
+

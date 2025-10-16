@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Eastern fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "fruit"},
+      {"type": "Plant", "name": "vegetable"},
+      {"type": "Plant", "name": "fruit host"},
+      {"type": "Geographic", "name": "Campania"},
+      {"type": "Geographic", "name": "Palma Campania"},
+      {"type": "Geographic", "name": "European Commission"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "traps"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Palma Campania"},
+      {"source": "Eastern fruit fly", "type": "Located in", "target": "Campania"},
+      {"source": "Eastern fruit fly", "type": "Located in", "target": "Palma Campania"},
+      {"source": "Eastern fruit fly", "type": "Affects", "target": "fruit"},
+      {"source": "Eastern fruit fly", "type": "Affects", "target": "vegetable"},
+      {"source": "Bactrocera dorsalis", "type": "Affects", "target": "fruit"},
+      {"source": "Campania", "type": "Located in", "target": "European Commission"},
+      {"source": "Campania", "type": "Notifies", "target": "European Commission"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "fruit"}
+    ]
+  }
+]
+```

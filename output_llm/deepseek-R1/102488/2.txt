@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Citrus Greening Disease"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Pest", "name": "L. capsica"},
+    {"type": "Vector", "name": "psyllids"},
+    {"type": "Plant", "name": "pepper plant"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "citrus"}
+  ],
+  "relationships": [
+    {"source": "L. capsica", "type": "Located in", "target": "Brazil"},
+    {"source": "psyllids", "type": "Transmits", "target": "L. capsica"},
+    {"source": "L. capsica", "type": "Have been found on", "target": "pepper plant"},
+    {"source": "psyllids", "type": "Transmits", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus"}
+  ]
+}
+

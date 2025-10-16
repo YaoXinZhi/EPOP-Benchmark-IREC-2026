@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "bois noir disease"},
+    {"type": "Plant", "name": "grapevine"},
+    {"type": "Pest", "name": "Candidatus Phytoplasma solani"},
+    {"type": "Vector", "name": "Hyalesthes obsoletus"},
+    {"type": "Geographic", "name": "Franciacorta"},
+    {"type": "Geographic", "name": "Brescia"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Plant", "name": "Chardonnay"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Phytoplasma solani", "type": "Causes", "target": "bois noir disease"},
+    {"source": "bois noir disease", "type": "Affects", "target": "grapevine"},
+    {"source": "Hyalesthes obsoletus", "type": "Transmits", "target": "Candidatus Phytoplasma solani"},
+    {"source": "grapevine", "type": "Located in", "target": "Franciacorta"},
+    {"source": "grapevine", "type": "Located in", "target": "Brescia"},
+    {"source": "grapevine", "type": "Located in", "target": "Italy"},
+    {"source": "Chardonnay", "type": "Located in", "target": "Franciacorta"}
+  ]
+}
+

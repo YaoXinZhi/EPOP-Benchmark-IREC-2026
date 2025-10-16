@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Geographic", "name": "Réunion"},
+      {"type": "Geographic", "name": "Petite-Ile"},
+      {"type": "Vector", "name": "flies"},
+      {"type": "Plant", "name": "micro-wasp"},
+      {"type": "Plant", "name": "auxiliary insects"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "fruit fly", "type": "Have been found on", "target": "fruits"},
+      {"source": "fruit fly", "type": "Have been found on", "target": "vegetables"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetables"},
+      {"source": "fruit fly", "type": "Located in", "target": "Réunion"},
+      {"source": "Petite-Ile", "type": "Located in", "target": "Réunion"},
+      {"source": "augmentorium", "type": "Located in", "target": "Réunion"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Réunion"},
+      {"source": "flies", "type": "Transmits", "target": "fruit fly"},
+      {"source": "augmentorium", "type": "Affects", "target": "fruit fly"},
+      {"source": "augmentorium", "type": "Affects", "target": "flies"},
+      {"source": "augmentorium", "type": "Affects", "target": "auxiliary insects"},
+      {"source": "auxiliary insects", "type": "Have been found on", "target": "fruits"},
+      {"source": "auxiliary insects", "type": "Have been found on", "target": "vegetables"},
+      {"source": "micro-wasp", "type": "Have been found on", "target": "fruits"},
+      {"source": "micro-wasp", "type": "Have been found on", "target": "vegetables"}
+    ]
+  }
+]
+```

@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "brown wrinkle virus"},
+    {"type": "Geographic", "name": "Arcadia"},
+    {"type": "Geographic", "name": "Community of Levidi"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "pepper plants"},
+    {"type": "Plant", "name": "stypnus"},
+    {"type": "Plant", "name": "datula"},
+    {"type": "Plant", "name": "goosefoot"},
+    {"type": "Plant", "name": "petunia"},
+    {"type": "Plant", "name": "plants of the gourd family (Cucurbitaceae)"}
+  ],
+  "relationships": [
+    {"source": "brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+    {"source": "brown wrinkle virus", "type": "Located in", "target": "Community of Levidi"},
+    {"source": "brown wrinkle virus", "type": "Affects", "target": "tomato"},
+    {"source": "brown wrinkle virus", "type": "Affects", "target": "pepper plants"},
+    {"source": "brown wrinkle virus", "type": "Have been found on", "target": "stypnus"},
+    {"source": "brown wrinkle virus", "type": "Have been found on", "target": "datula"},
+    {"source": "brown wrinkle virus", "type": "Have been found on", "target": "goosefoot"},
+    {"source": "brown wrinkle virus", "type": "Have been found on", "target": "petunia"}
+  ]
+}
+

@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Golden flavescence"},
+    {"type": "Geographic", "name": "Burgraviato"},
+    {"type": "Geographic", "name": "Bassa Atesina"},
+    {"type": "Geographic", "name": "Salorno"},
+    {"type": "Plant", "name": "vines"},
+    {"type": "Plant", "name": "Chardonnay"},
+    {"type": "Plant", "name": "Pinot Grigio"},
+    {"type": "Disease", "name": "flavescence dorée"},
+    {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma"},
+    {"type": "Vector", "name": "American vine leafhopper"}
+  ],
+  "relationships": [
+    {"source": "Golden flavescence", "type": "Located in", "target": "Burgraviato"},
+    {"source": "Golden flavescence", "type": "Located in", "target": "Bassa Atesina"},
+    {"source": "Golden flavescence", "type": "Located in", "target": "Salorno"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+    {"source": "flavescence dorée", "type": "Causes", "target": "Golden flavescence"},
+    {"source": "American vine leafhopper", "type": "Transmits", "target": "Flavescence dorèe-Phytoplasma"},
+    {"source": "Flavescence dorèe-Phytoplasma", "type": "Causes", "target": "flavescence dorée"}
+  ]
+}
+

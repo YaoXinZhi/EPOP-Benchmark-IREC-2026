@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Geographic", "name": "Réunion"},
+      {"type": "Geographic", "name": "Petite-Ile"},
+      {"type": "Geographic", "name": "South"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "fruit fly", "type": "Have been found on", "target": "fruits"},
+      {"source": "fruit fly", "type": "Have been found on", "target": "vegetables"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetables"},
+      {"source": "fruit fly", "type": "Located in", "target": "Réunion"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Petite-Ile"},
+      {"source": "Simon Hoareau", "type": "Located in", "target": "South"},
+      {"source": "augmentorium", "type": "Located in", "target": "Réunion"}
+    ]
+  }
+]
+```

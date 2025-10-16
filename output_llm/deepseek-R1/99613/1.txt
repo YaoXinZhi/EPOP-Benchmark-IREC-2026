@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Philaenus spumarius"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Disease", "name": "vector-borne disease"}
+  ],
+  "relationships": [
+    {"source": "Philaenus spumarius", "type": "Transmits", "target": "Xylella fastidiosa"},
+    {"source": "Xylella fastidiosa", "type": "Affects", "target": "vector-borne disease"}
+  ]
+}
+

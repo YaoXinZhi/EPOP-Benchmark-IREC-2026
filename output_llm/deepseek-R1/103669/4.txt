@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "sorghum"},
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Plant", "name": "corn"},
+    {"type": "Geographic", "name": "Penn State"}
+  ],
+  "relationships": [
+    {"source": "fall armyworm", "type": "Have been found on", "target": "corn"},
+    {"source": "sorghum", "type": "Located in", "target": "Penn State"}
+  ]
+}
+

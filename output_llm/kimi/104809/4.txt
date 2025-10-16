@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia Region"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salento"
+    },
+    {
+      "type": "Geographic",
+      "name": "BARI"
+    },
+    {
+      "type": "Disease",
+      "name": "xylella"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Puglia Region"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Salento"
+    },
+    {
+      "source": "olive trees",
+      "type": "Affected",
+      "target": "xylella"
+    }
+  ]
+}
+

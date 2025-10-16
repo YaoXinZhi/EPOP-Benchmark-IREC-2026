@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Philaenus spumarius"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Insecticide", "name": "Pyrethrin"},
+    {"type": "Insecticide", "name": "acetamiprid"},
+    {"type": "Insecticide", "name": "deltamethrin"},
+    {"type": "Insecticide", "name": "spinosad"},
+    {"type": "Insecticide", "name": "sulfoxaflor"},
+    {"type": "Insecticide", "name": "kaolin"}
+  ],
+  "relationships": [
+    {"source": "Philaenus spumarius", "type": "Transmits", "target": "Xylella fastidiosa"},
+    {"source": "Pyrethrin", "type": "Reduces transmission of", "target": "Xylella fastidiosa"},
+    {"source": "acetamiprid", "type": "Reduces transmission of", "target": "Xylella fastidiosa"},
+    {"source": "deltamethrin", "type": "Alters feeding behaviour of", "target": "Philaenus spumarius"},
+    {"source": "acetamiprid", "type": "Alters feeding behaviour of", "target": "Philaenus spumarius"},
+    {"source": "Pyrethrin", "type": "Alters feeding behaviour of", "target": "Philaenus spumarius"}
+  ]
+}
+

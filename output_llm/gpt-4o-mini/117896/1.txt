@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+    {"type": "Pest", "name": "pine stem nematode"},
+    {"type": "Pest", "name": "pine wood nematode"},
+    {"type": "Plant", "name": "Pinus genus"},
+    {"type": "Plant", "name": "pine trees"},
+    {"type": "Plant", "name": "Fagus sylvatica"},
+    {"type": "Plant", "name": "Quercus robur"},
+    {"type": "Geographic", "name": "United States of America"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Canada"},
+    {"type": "Geographic", "name": "Mexico"},
+    {"type": "Geographic", "name": "Japan"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Geographic", "name": "Taiwan"},
+    {"type": "Geographic", "name": "Republic of Korea"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Far East"},
+    {"type": "Geographic", "name": "Siberian regions"},
+    {"type": "Geographic", "name": "Russian Federation"}
+  ],
+  "relationships": [
+    {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "serious problems for coniferous plants"},
+    {"source": "pine stem nematode", "type": "Have been found on", "target": "pine trees"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine trees"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "Fagus sylvatica"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "Quercus robur"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "United States of America"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Florida"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Canada"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Mexico"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Japan"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "China"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Taiwan"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Republic of Korea"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Portugal"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Far East"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Siberian regions"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Russian Federation"},
+    {"source": "Monochamus species", "type": "Transmits", "target": "Bursaphelenchus xylophilus"}
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Bactrocera dorsalis"},
+    {"type": "Geographic", "name": "Palma Campania"},
+    {"type": "Geographic", "name": "Campania Region"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Palma Campania"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania Region"}
+  ]
+}
+

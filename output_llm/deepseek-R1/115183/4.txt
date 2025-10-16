@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Xylella"},
+    {"type": "Plant", "name": "olive trees"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Geographic", "name": "Fasano"},
+    {"type": "Geographic", "name": "Martina Franca"},
+    {"type": "Geographic", "name": "Locorotondo"},
+    {"type": "Geographic", "name": "Polignano"},
+    {"type": "Geographic", "name": "Apulian"},
+    {"type": "Organization", "name": "Coldiretti Puglia"},
+    {"type": "Organization", "name": "Unaprol"},
+    {"type": "Organization", "name": "Ipsp"},
+    {"type": "Organization", "name": "Cnr"}
+  ],
+  "relationships": [
+    {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+    {"source": "olive trees", "type": "Located in", "target": "Bari"},
+    {"source": "olive trees", "type": "Located in", "target": "Fasano"},
+    {"source": "olive trees", "type": "Located in", "target": "Martina Franca"},
+    {"source": "olive trees", "type": "Located in", "target": "Locorotondo"},
+    {"source": "olive trees", "type": "Located in", "target": "Polignano"},
+    {"source": "olive trees", "type": "Located in", "target": "Apulian"}
+  ]
+}
+

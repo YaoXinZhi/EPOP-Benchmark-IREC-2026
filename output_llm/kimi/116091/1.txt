@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Plant-parasitic nematodes"
+    },
+    {
+      "type": "Pest",
+      "name": "Aphelenchoides besseyi"
+    },
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Pest",
+      "name": "Ditylenchus dipsaci"
+    },
+    {
+      "type": "Pest",
+      "name": "Globodera spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Heterodera spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Meloidogyne spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Nacobbus aberrans"
+    },
+    {
+      "type": "Pest",
+      "name": "Pratylenchus spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Radopholus similis"
+    },
+    {
+      "type": "Pest",
+      "name": "Rotylenchulus reniformis"
+    },
+    {
+      "type": "Pest",
+      "name": "Xiphinema index"
+    },
+    {
+      "type": "Geographic",
+      "name": "European"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Plant-parasitic nematodes",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Plant-parasitic nematodes",
+      "type": "Located in",
+      "target": "Mediterranean"
+    },
+    {
+      "source": "Aphelenchoides besseyi",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Ditylenchus dipsaci",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Globodera spp.",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Heterodera spp.",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Meloidogyne spp.",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Nacobbus aberrans",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Pratylenchus spp.",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Radopholus similis",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Rotylenchulus reniformis",
+      "type": "Located in",
+      "target": "European"
+    },
+    {
+      "source": "Xiphinema index",
+      "type": "Located in",
+      "target": "European"
+    }
+  ]
+}
+

@@ -1,0 +1,38 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "leaves"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "roots"},
+      {"type": "Vector", "name": "Japanese beetle"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "southern Germany"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "southern Germany"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Asia"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "Japanese beetle", "type": "Transmits", "target": "Popillia japonica"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Italy"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "EU"}
+    ]
+  }
+]
+```

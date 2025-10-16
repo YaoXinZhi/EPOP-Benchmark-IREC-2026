@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Plant", "name": "maize"},
+    {"type": "Vector", "name": "ladybugs"},
+    {"type": "Vector", "name": "Doru luteipes"},
+    {"type": "Geographic", "name": "Pirassununga"},
+    {"type": "Geographic", "name": "São Paulo state"},
+    {"type": "Geographic", "name": "Brazil"}
+  ],
+  "relationships": [
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Brazil"},
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize"},
+    {"source": "ladybugs", "type": "Have been found on", "target": "maize"},
+    {"source": "Doru luteipes", "type": "Have been found on", "target": "maize"},
+    {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize"},
+    {"source": "Spodoptera frugiperda", "type": "Affects", "target": "maize"}
+  ]
+}
+

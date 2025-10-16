@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Disease",
+      "name": "Tristeza"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing (HLB) or Citrus greening"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus fruits"
+    },
+    {
+      "type": "Disease",
+      "name": "yellow branch disease"
+    },
+    {
+      "type": "Plant",
+      "name": "Tarocco Scirè"
+    },
+    {
+      "type": "Plant",
+      "name": "Mandared"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus clementina"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus sinensis"
+    },
+    {
+      "type": "Plant",
+      "name": "pigemented orange cultivars"
+    },
+    {
+      "type": "Plant",
+      "name": "Californians"
+    },
+    {
+      "type": "Plant",
+      "name": "Californian Bitters"
+    },
+    {
+      "type": "Plant",
+      "name": "C35"
+    },
+    {
+      "type": "Plant",
+      "name": "Carpenter"
+    },
+    {
+      "type": "Plant",
+      "name": "citrange Carrizo"
+    },
+    {
+      "type": "Plant",
+      "name": "Californians Furr"
+    },
+    {
+      "type": "Plant",
+      "name": "US-942"
+    },
+    {
+      "type": "Plant",
+      "name": "US-897"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "Huanglongbing (HLB) or Citrus greening",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "citrus fruits",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "yellow branch disease",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "Californian Bitters"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "C35"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "Carpenter"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "citrange Carrizo"
+    },
+    {
+      "source": "Mandared",
+      "type": "Affects",
+      "target": "Citrus clementina"
+    },
+    {
+      "source": "Mandared",
+      "type": "Affects",
+      "target": "Citrus sinensis"
+    },
+    {
+      "source": "Californians",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "C35",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "Carpenter",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "citrange Carrizo",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "Californians Furr",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "US-942",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    },
+    {
+      "source": "US-897",
+      "type": "Have been found on",
+      "target": "citrus fruits"
+    }
+  ]
+}
+

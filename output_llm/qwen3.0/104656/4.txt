@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Asian longhorned beetle"},
+      {"type": "Pest", "name": "Asian long-horned beetle"},
+      {"type": "Pest", "name": "ALB"},
+      {"type": "Plant", "name": "maple"},
+      {"type": "Plant", "name": "birch"},
+      {"type": "Plant", "name": "beech"},
+      {"type": "Plant", "name": "hardwood species"},
+      {"type": "Plant", "name": "fruit trees"},
+      {"type": "Geographic", "name": "Lucerne"},
+      {"type": "Geographic", "name": "Central Switzerland"},
+      {"type": "Geographic", "name": "Canton Lucerne"},
+      {"type": "Geographic", "name": "Zell"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Winterthur"},
+      {"type": "Geographic", "name": "Marly (FR)"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Lucerne"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Zell"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "maple"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "birch"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "beech"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "hardwood species"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "wood"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Asian long-horned beetle", "type": "Transmits", "target": "Asian long-horned beetle"},
+      {"source": "Asian long-horned beetle", "type": "Causes", "target": "tree damage"},
+      {"source": "Asian long-horned beetle", "type": "Causes", "target": "death of trees"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Canton Lucerne"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Central Switzerland"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Zell"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Central Switzerland"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Lucerne"}
+    ]
+  }
+]
+```

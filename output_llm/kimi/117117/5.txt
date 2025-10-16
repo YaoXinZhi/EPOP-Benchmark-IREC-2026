@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Lombardy"
+    },
+    {
+      "type": "Pest",
+      "name": "popillia japonica"
+    },
+    {
+      "type": "Pest",
+      "name": "anoplophora glabripennis"
+    },
+    {
+      "type": "Pest",
+      "name": "meloidogyne graminicola"
+    },
+    {
+      "type": "Pest",
+      "name": "aromaa bungii"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "popillia japonica",
+      "type": "Located in",
+      "target": "Lombardy"
+    },
+    {
+      "source": "anoplophora glabripennis",
+      "type": "Located in",
+      "target": "Lombardy"
+    },
+    {
+      "source": "meloidogyne graminicola",
+      "type": "Located in",
+      "target": "Lombardy"
+    },
+    {
+      "source": "aromaa bungii",
+      "type": "Located in",
+      "target": "Lombardy"
+    }
+  ]
+}
+

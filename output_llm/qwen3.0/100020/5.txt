@@ -1,0 +1,69 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Pest", "name": "garden leaf beetle"},
+      {"type": "Pest", "name": "rose chafer"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "leaves"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "roots"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "southern Germany"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "southern Germany"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "EU"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Asia"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Italy"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg area"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Germany"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Freiburg"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "southern Germany"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Europe"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "EU"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "flowers"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "leaves"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "fruits"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "roots"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Asia"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Italy"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Freiburg area"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Germany"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Germany"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "garden leaf beetle", "type": "Located in", "target": "Europe"},
+      {"source": "rose chafer", "type": "Located in", "target": "Europe"},
+      {"source": "garden leaf beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "garden leaf beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "garden leaf beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "garden leaf beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "rose chafer", "type": "Have been found on", "target": "flowers"},
+      {"source": "rose chafer", "type": "Have been found on", "target": "leaves"},
+      {"source": "rose chafer", "type": "Have been found on", "target": "fruits"},
+      {"source": "rose chafer", "type": "Have been found on", "target": "roots"}
+    ]
+  }
+]
+```

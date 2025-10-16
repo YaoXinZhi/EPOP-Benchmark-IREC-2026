@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Disease", "name": "Xylella"},
+    {"type": "Geographic", "name": "University of Bari"},
+    {"type": "Geographic", "name": "Cnr"},
+    {"type": "Geographic", "name": "Agritest s.r.l."},
+    {"type": "Geographic", "name": "Advanced Science"},
+    {"type": "Geographic", "name": "Institute for the Sustainable Protection of Plants"},
+    {"type": "Geographic", "name": "Cnr-Ipsp"},
+    {"type": "Geographic", "name": "Institute of Photonics and Nanotechnology"},
+    {"type": "Geographic", "name": "Cnr-Ifn"},
+    {"type": "Geographic", "name": "National Research Council"},
+    {"type": "Geographic", "name": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics of the University of Bari"},
+    {"type": "Geographic", "name": "Puglia"},
+    {"type": "Geographic", "name": "Interuniversity Department of Physics of the University of Bari"},
+    {"type": "Geographic", "name": "Cnr-Ifn section of Bari"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+    {"source": "Xylella", "type": "Affects", "target": "plants"}
+  ]
+}
+

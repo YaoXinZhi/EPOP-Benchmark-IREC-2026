@@ -1,0 +1,15 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"}
+    ]
+  }
+]
+```

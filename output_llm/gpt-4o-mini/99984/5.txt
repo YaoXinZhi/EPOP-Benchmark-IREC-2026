@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Popillia japonica"},
+    {"type": "Geographic", "name": "Piedmont"},
+    {"type": "Plant", "name": "hazelnuts"}
+  ],
+  "relationships": [
+    {"source": "Popillia japonica", "type": "Have been found on", "target": "hazelnuts"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "Piedmont"}
+  ]
+}
+

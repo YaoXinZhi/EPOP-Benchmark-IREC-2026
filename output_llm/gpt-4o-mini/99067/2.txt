@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Pest", "name": "Phytophthora"},
+    {"type": "Disease", "name": "CTV-Citrus tristeza virus"},
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Disease", "name": "yellow branch disease"},
+    {"type": "Pest", "name": "Tristeza"},
+    {"type": "Plant", "name": "Tarocco Scirè"},
+    {"type": "Plant", "name": "Citrus clementina"},
+    {"type": "Plant", "name": "Citrus sinensis"},
+    {"type": "Pest", "name": "Californian Bitters"},
+    {"type": "Pest", "name": "C35"},
+    {"type": "Pest", "name": "Carpenter"},
+    {"type": "Pest", "name": "Citrange Carrizo"},
+    {"type": "Pest", "name": "Furr"},
+    {"type": "Pest", "name": "US-942"},
+    {"type": "Pest", "name": "US-897"}
+  ],
+  "relationships": [
+    {"source": "citrus fruits", "type": "Located in", "target": "Italy"},
+    {"source": "Tristeza", "type": "Causes", "target": "yellow branch disease"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Phytophthora", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "C35"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Californian Bitters"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Carpenter"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Furr"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Citrange Carrizo"},
+    {"source": "Citrus clementina", "type": "Have been found on", "target": "C35"},
+    {"source": "Citrus sinensis", "type": "Have been found on", "target": "C35"},
+    {"source": "Citrus clementina", "type": "Have been found on", "target": "Californian Bitters"},
+    {"source": "Citrus sinensis", "type": "Have been found on", "target": "Californian Bitters"},
+    {"source": "Citrus clementina", "type": "Have been found on", "target": "Carpenter"},
+    {"source": "Citrus sinensis", "type": "Have been found on", "target": "Carpenter"},
+    {"source": "Citrus clementina", "type": "Have been found on", "target": "Furr"},
+    {"source": "Citrus sinensis", "type": "Have been found on", "target": "Furr"}
+  ]
+}
+

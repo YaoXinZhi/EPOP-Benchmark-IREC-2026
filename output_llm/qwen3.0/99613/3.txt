@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Philaenus spumarius"},
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Pest", "name": "acetamiprid"},
+      {"type": "Pest", "name": "deltamethrin"},
+      {"type": "Pest", "name": "spinosad"},
+      {"type": "Pest", "name": "sulfoxaflor"},
+      {"type": "Pest", "name": "pyrethrin"},
+      {"type": "Pest", "name": "kaolin"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Philaenus spumarius", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "pyrethrin", "type": "Have been found on", "target": "Philaenus spumarius"},
+      {"source": "acetamiprid", "type": "Have been found on", "target": "Philaenus spumarius"},
+      {"source": "deltamethrin", "type": "Have been found on", "target": "Philaenus spumarius"},
+      {"source": "spinosad", "type": "Have been found on", "target": "Philaenus spumarius"},
+      {"source": "sulfoxaflor", "type": "Have been found on", "target": "Philaenus spumarius"},
+      {"source": "kaolin", "type": "Have been found on", "target": "Philaenus spumarius"},
+      {"source": "pyrethrin", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "vector-borne disease"}
+    ]
+  }
+]
+```

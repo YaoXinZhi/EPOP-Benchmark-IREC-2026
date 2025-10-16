@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "xylella"},
+      {"type": "Vector", "name": "spittoon"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Lecce"},
+      {"type": "Geographic", "name": "Salento"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "spittoon", "type": "Transmits", "target": "xylella"},
+      {"source": "xylella", "type": "Located in", "target": "Bari"},
+      {"source": "xylella", "type": "Located in", "target": "Lecce"}
+    ]
+  }
+]
+```

@@ -1,0 +1,56 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Geographic", "name": "Polignano a Mare"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Polignano"},
+      {"type": "Geographic", "name": "Castellana Grotte"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Salento"},
+      {"type": "Geographic", "name": "Taranto"},
+      {"type": "Geographic", "name": "Barletta"},
+      {"type": "Geographic", "name": "Alberobello"},
+      {"type": "Geographic", "name": "Monopoli"},
+      {"type": "Geographic", "name": "Manduria"},
+      {"type": "Geographic", "name": "Avetrana"},
+      {"type": "Geographic", "name": "Sava"},
+      {"type": "Geographic", "name": "Maruggio"},
+      {"type": "Geographic", "name": "Torricella"},
+      {"type": "Geographic", "name": "Andria"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "name": "Polignano a Mare"},
+      {"source": "Xylella", "type": "Located in", "name": "Martina Franca"},
+      {"source": "Xylella", "type": "Located in", "name": "Fasano"},
+      {"source": "Xylella", "type": "Located in", "name": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "name": "Polignano"},
+      {"source": "Xylella", "type": "Located in", "name": "Castellana Grotte"},
+      {"source": "Xylella", "type": "Located in", "name": "Bari"},
+      {"source": "Xylella", "type": "Located in", "name": "Puglia"},
+      {"source": "Xylella", "type": "Located in", "name": "Salento"},
+      {"source": "Xylella", "type": "Located in", "name": "Taranto"},
+      {"source": "Xylella", "type": "Located in", "name": "Barletta"},
+      {"source": "Xylella", "type": "Located in", "name": "Alberobello"},
+      {"source": "Xylella", "type": "Located in", "name": "Monopoli"},
+      {"source": "Xylella", "type": "Located in", "name": "Manduria"},
+      {"source": "Xylella", "type": "Located in", "name": "Avetrana"},
+      {"source": "Xylella", "type": "Located in", "name": "Sava"},
+      {"source": "Xylella", "type": "Located in", "name": "Maruggio"},
+      {"source": "Xylella", "type": "Located in", "name": "Torricella"},
+      {"source": "Xylella", "type": "Located in", "name": "Andria"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"}
+    ]
+  }
+]
+```

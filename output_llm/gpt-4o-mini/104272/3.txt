@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "golden flavescence"},
+    {"type": "Pest", "name": "Flavescence dorée phytoplasma"},
+    {"type": "Vector", "name": "Scaphoideus titanus Ball"},
+    {"type": "Geographic", "name": "national territory"}
+  ],
+  "relationships": [
+    {"source": "Flavescence dorée phytoplasma", "type": "Causes", "target": "golden flavescence"},
+    {"source": "Scaphoideus titanus Ball", "type": "Transmits", "target": "Flavescence dorée phytoplasma"},
+    {"source": "golden flavescence", "type": "Affects", "target": "national territory"},
+    {"source": "Scaphoideus titanus Ball", "type": "Have been found on", "target": "national territory"}
+  ]
+}
+

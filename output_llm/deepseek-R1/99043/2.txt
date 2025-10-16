@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Citrus seedlings"},
+    {"type": "Geographic", "name": "Tucumán"},
+    {"type": "Geographic", "name": "San Miguel de Tucumán"},
+    {"type": "Geographic", "name": "Los Vasquez"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Disease", "name": "HLB"},
+    {"type": "Plant", "name": "citrus plants"},
+    {"type": "Plant", "name": "citrus fruits"}
+  ],
+  "relationships": [
+    {"source": "Citrus seedlings", "type": "Located in", "target": "Tucumán"},
+    {"source": "citrus plants", "type": "Located in", "target": "Los Vasquez"},
+    {"source": "HLB", "type": "Affects", "target": "citrus fruits"}
+  ]
+}
+

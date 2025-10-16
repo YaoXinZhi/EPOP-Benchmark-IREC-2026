@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Plague of the yellow dragon"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "huanglongbing"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Geographic", "name": "Venezuela"},
+      {"type": "Geographic", "name": "Zulia state"},
+      {"type": "Geographic", "name": "Maracaibo"},
+      {"type": "Geographic", "name": "San Francisco"},
+      {"type": "Geographic", "name": "Costa Oriental del Lago"},
+      {"type": "Geographic", "name": "Aragua"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Plague of the yellow dragon", "type": "Affects", "target": "citrus"},
+      {"source": "HLB", "type": "Causes", "target": "Plague of the yellow dragon"},
+      {"source": "huanglongbing", "type": "Causes", "target": "Plague of the yellow dragon"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "Venezuela"},
+      {"source": "citrus", "type": "Located in", "target": "Venezuela"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Zulia state"},
+      {"source": "Zulia state", "type": "Located in", "target": "Venezuela"},
+      {"source": "Maracaibo", "type": "Located in", "target": "Zulia state"},
+      {"source": "San Francisco", "type": "Located in", "target": "Zulia state"},
+      {"source": "Costa Oriental del Lago", "type": "Located in", "target": "Zulia state"},
+      {"source": "Aragua", "type": "Located in", "target": "Venezuela"}
+    ]
+  }
+]
+```

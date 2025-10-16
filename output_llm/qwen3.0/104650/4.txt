@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+      {"type": "Plant", "name": "tomatoes"},
+      {"type": "Geographic", "name": "Jordan Valley"},
+      {"type": "Geographic", "name": "Jordan"},
+      {"type": "Plant", "name": "Solanum nigrum"},
+      {"type": "Plant", "name": "Malva parviflora"},
+      {"type": "Geographic", "name": "Mediterranean"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "tomatoes"},
+      {"source": "Tomato brown rugose fruit virus", "type": "Have been found on", "target": "tomatoes"},
+      {"source": "tomatoes", "type": "Located in", "target": "Jordan"},
+      {"source": "Jordan Valley", "type": "Located in", "target": "Jordan"},
+      {"source": "Tomato brown rugose fruit virus", "type": "Have been found on", "target": "Solanum nigrum"},
+      {"source": "Tomato brown rugose fruit virus", "type": "Have been found on", "target": "Malva parviflora"},
+      {"source": "Jordan Valley", "type": "Located in", "target": "Mediterranean"}
+    ]
+  }
+]
+```

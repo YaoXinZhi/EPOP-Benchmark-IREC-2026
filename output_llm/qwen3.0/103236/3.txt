@@ -1,0 +1,35 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "ground cover meadows"},
+      {"type": "Pest", "name": "HBL"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Geographic", "name": "Buhaira Gardens"},
+      {"type": "Geographic", "name": "Seville"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "pollinating insects"},
+      {"type": "Plant", "name": "compatible bushes"},
+      {"type": "Plant", "name": "insect hotel"},
+      {"type": "Plant", "name": "nest boxes"},
+      {"type": "Plant", "name": "local bird species"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "HBL", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+      {"source": "HBL", "type": "Transmits", "target": "citrus trees"},
+      {"source": "HBL", "type": "Located in", "name": "Spain"},
+      {"source": "Huanglongbing", "type": "Located in", "name": "Europe"},
+      {"source": "ground cover meadows", "type": "Have been found on", "target": "orange trees"},
+      {"source": "Buhaira Gardens", "type": "Located in", "name": "Seville"},
+      {"source": "orange trees", "type": "Located in", "name": "Seville"},
+      {"source": "HBL", "type": "Located in", "name": "Spain"}
+    ]
+  }
+]
+```

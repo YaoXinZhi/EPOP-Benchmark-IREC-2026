@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Plant",
+      "name": "coniferous trees"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus genus"
+    },
+    {
+      "type": "Plant",
+      "name": "pine trees"
+    },
+    {
+      "type": "Plant",
+      "name": "beech"
+    },
+    {
+      "type": "Plant",
+      "name": "oak"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States of America"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexico"
+    },
+    {
+      "type": "Geographic",
+      "name": "Japan"
+    },
+    {
+      "type": "Geographic",
+      "name": "China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Taiwan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Republic of Korea"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Geographic",
+      "name": "Far East"
+    },
+    {
+      "type": "Geographic",
+      "name": "Siberian regions of Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Russian Federation"
+    },
+    {
+      "type": "Pest",
+      "name": "B. mucronatus"
+    },
+    {
+      "type": "Vector",
+      "name": "Monochamus species"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "United States of America"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Mexico"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Japan"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "China"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Taiwan"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Republic of Korea"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "B. mucronatus",
+      "type": "Located in",
+      "target": "Far East"
+    },
+    {
+      "source": "B. mucronatus",
+      "type": "Located in",
+      "target": "Siberian regions of Europe"
+    },
+    {
+      "source": "B. mucronatus",
+      "type": "Located in",
+      "target": "Russian Federation"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "Pinus genus"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "beech"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "oak"
+    },
+    {
+      "source": "Monochamus species",
+      "type": "Transmits",
+      "target": "Bursaphelenchus xylophilus"
+    }
+  ]
+}
+

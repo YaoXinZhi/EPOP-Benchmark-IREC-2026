@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Asian longhorned beetle"},
+    {"type": "Geographic", "name": "Lucerne"},
+    {"type": "Plant", "name": "maple"},
+    {"type": "Plant", "name": "birch"},
+    {"type": "Plant", "name": "beech"},
+    {"type": "Plant", "name": "fruit trees"},
+    {"type": "Pest", "name": "ALB"}
+  ],
+  "relationships": [
+    {"source": "Asian longhorned beetle", "type": "Causes", "target": "ALB"},
+    {"source": "ALB", "type": "Have been found on", "target": "maple"},
+    {"source": "ALB", "type": "Have been found on", "target": "birch"},
+    {"source": "ALB", "type": "Have been found on", "target": "beech"},
+    {"source": "ALB", "type": "Have been found on", "target": "fruit trees"},
+    {"source": "ALB", "type": "Affects", "target": "maple"},
+    {"source": "ALB", "type": "Affects", "target": "birch"},
+    {"source": "ALB", "type": "Affects", "target": "beech"},
+    {"source": "ALB", "type": "Affects", "target": "fruit trees"},
+    {"source": "ALB", "type": "Located in", "target": "Lucerne"}
+  ]
+}
+

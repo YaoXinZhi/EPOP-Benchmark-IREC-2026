@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "brown rust virus"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "pepper"},
+    {"type": "Disease", "name": "brown wrinkle virus"},
+    {"type": "Geographic", "name": "Arcadia"},
+    {"type": "Geographic", "name": "Levidi"},
+    {"type": "Plant", "name": "stypnus"},
+    {"type": "Plant", "name": "datula"},
+    {"type": "Plant", "name": "goosefoot"},
+    {"type": "Plant", "name": "petunia"},
+    {"type": "Disease", "name": "tomato brown wrinkle virus (ToBRFV)"}
+  ],
+  "relationships": [
+    {"source": "brown rust virus", "type": "Have been found on", "target": "tomato"},
+    {"source": "brown wrinkle virus", "type": "Have been found on", "target": "tomato"},
+    {"source": "brown wrinkle virus", "type": "Affects", "target": "tomato"},
+    {"source": "brown wrinkle virus", "type": "Affects", "target": "pepper"},
+    {"source": "brown rust virus", "type": "Transmits", "target": "brown wrinkle virus"},
+    {"source": "brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+    {"source": "brown wrinkle virus", "type": "Located in", "target": "Levidi"},
+    {"source": "tomato brown wrinkle virus (ToBRFV)", "type": "Affects", "target": "tomato"},
+    {"source": "tomato brown wrinkle virus (ToBRFV)", "type": "Affects", "target": "pepper"}
+  ]
+}
+

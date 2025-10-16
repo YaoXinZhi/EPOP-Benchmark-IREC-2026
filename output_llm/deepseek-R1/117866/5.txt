@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {"type": "Fungus", "name": "Beauveria caledonica"},
+    {"type": "Pest", "name": "banana borer"},
+    {"type": "Pest", "name": "Cosmopolites sordidus"},
+    {"type": "Disease", "name": "fusariosis"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Plant", "name": "banana trees"},
+    {"type": "Vector", "name": "banana tree moleque"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Vale do Ribeira"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "São Paulo"},
+    {"type": "Geographic", "name": "United States"},
+    {"type": "Fungus", "name": "B. bassiana"},
+    {"type": "Disease", "name": "Fusarium oxysporum f. sp. cubense"},
+    {"type": "Disease", "name": "FOC"}
+  ],
+  "relationships": [
+    {"source": "Beauveria caledonica", "type": "Have been found on", "target": "banana borer"},
+    {"source": "Beauveria caledonica", "type": "Have been found on", "target": "Cosmopolites sordidus"},
+    {"source": "banana borer", "type": "Causes", "target": "fusariosis"},
+    {"source": "Cosmopolites sordidus", "type": "Causes", "target": "fusariosis"},
+    {"source": "fusariosis", "type": "Affects", "target": "banana trees"},
+    {"source": "Panama disease", "type": "Affects", "target": "banana trees"},
+    {"source": "banana tree moleque", "type": "Transmits", "target": "banana borer"},
+    {"source": "banana tree moleque", "type": "Transmits", "target": "Cosmopolites sordidus"},
+    {"source": "Beauveria caledonica", "type": "Located in", "target": "Brazil"},
+    {"source": "Beauveria caledonica", "type": "Located in", "target": "Vale do Ribeira"},
+    {"source": "Beauveria caledonica", "type": "Located in", "target": "Colombia"},
+    {"source": "Beauveria caledonica", "type": "Located in", "target": "São Paulo"},
+    {"source": "Beauveria caledonica", "type": "Located in", "target": "United States"},
+    {"source": "B. bassiana", "type": "Have been found on", "target": "banana borer"},
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Causes", "target": "fusariosis"},
+    {"source": "FOC", "type": "Causes", "target": "fusariosis"}
+  ]
+}
+

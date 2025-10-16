@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "flavescence dorée"},
+    {"type": "Plant", "name": "vines"},
+    {"type": "Geographic", "name": "Switzerland"},
+    {"type": "Geographic", "name": "canton of Ticino"},
+    {"type": "Pest", "name": "Candidatus phytoplasma vitis"}
+  ],
+  "relationships": [
+    {"source": "flavescence dorée", "type": "Causes", "target": "Candidatus phytoplasma vitis"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+    {"source": "Candidatus phytoplasma vitis", "type": "Have been found on", "target": "vines"},
+    {"source": "vines", "type": "Located in", "target": "Switzerland"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "Switzerland"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "canton of Ticino"}
+  ]
+}
+

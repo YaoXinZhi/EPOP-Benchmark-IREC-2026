@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tomato brown wrinkle virus"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Geographic", "name": "Arcadia"},
+      {"type": "Plant", "name": "stypnus"},
+      {"type": "Plant", "name": "datula"},
+      {"type": "Plant", "name": "goosefoot"},
+      {"type": "Plant", "name": "petunia"},
+      {"type": "Plant", "name": "Troy variety"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "tomato brown wrinkle virus", "type": "Located in", "name": "Arcadia"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "tomato"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "pepper"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "Troy variety"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "pepper"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "stypnus"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "datula"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "goosefoot"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "petunia"},
+      {"source": "tomato brown wrinkle virus", "type": "Transmits", "target": "pollinators"}
+    ]
+  }
+]
+```

@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Trioza eritreae"},
+    {"type": "Pest", "name": "HLB"},
+    {"type": "Plant", "name": "citrus plantations"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Huelva"},
+    {"type": "Geographic", "name": "Algarve"},
+    {"type": "Geographic", "name": "Aljezur"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Cantabria"},
+    {"type": "Geographic", "name": "Asturias"},
+    {"type": "Geographic", "name": "Basque"},
+    {"type": "Vector", "name": "Diaphorina citri"},
+    {"type": "Disease", "name": "Candidatus Liberibacter asiaticus"},
+    {"type": "Plant", "name": "orange and mandarin trees"},
+    {"type": "Plant", "name": "citrange reed"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Hefer Valley"},
+    {"type": "Geographic", "name": "Tel Aviv"}
+  ],
+  "relationships": [
+    {"source": "Trioza eritreae", "type": "Have been found on", "target": "citrus plantations"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Portugal"},
+    {"source": "HLB", "type": "Affects", "target": "citrus plantations"},
+    {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+    {"source": "orange and mandarin trees", "type": "Have been found on", "target": "citrange reed"},
+    {"source": "Diaphorina citri", "type": "Located in", "target": "Israel"},
+    {"source": "Diaphorina citri", "type": "Located in", "target": "Florida"},
+    {"source": "Diaphorina citri", "type": "Located in", "target": "Brazil"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Huelva"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Algarve"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Aljezur"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Galicia"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Cantabria"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Asturias"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Basque"},
+    {"source": "HLB", "type": "Located in", "target": "Hefer Valley"},
+    {"source": "HLB", "type": "Located in", "target": "Tel Aviv"}
+  ]
+}
+

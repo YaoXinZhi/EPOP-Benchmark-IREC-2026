@@ -1,0 +1,51 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "whitefly"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Pest", "name": "Scaptocoris castanea"},
+      {"type": "Pest", "name": "Bradysophora levis"},
+      {"type": "Pest", "name": "Bradysia matogrossensis"},
+      {"type": "Pest", "name": "Sphenophorus levis"},
+      {"type": "Vector", "name": "Cordyceps javanica"},
+      {"type": "Vector", "name": "Heterorhabditis bacteriophora"},
+      {"type": "Vector", "name": "Steinernema carpocapsae"},
+      {"type": "Vector", "name": "Tetrastichus howardi"},
+      {"type": "Vector", "name": "Telenomus podisi"},
+      {"type": "Vector", "name": "Beauveria bassiana"},
+      {"type": "Vector", "name": "Metarhizium anisopliae"},
+      {"type": "Geographic", "name": "MT North newspaper"},
+      {"type": "Geographic", "name": "Federal Official Gazette"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cordyceps javanica", "type": "Transmits", "target": "whitefly"},
+      {"source": "Heterorhabditis bacteriophora", "type": "Transmits", "target": "Spodoptera frugiperda"},
+      {"source": "Heterorhabditis bacteriophora", "type": "Transmits", "target": "Scaptocoris castanea"},
+      {"source": "Steinernema carpocapsae", "type": "Transmits", "target": "Spodoptera frugiperda"},
+      {"source": "Steinernema carpocapsae", "type": "Transmits", "target": "Bradysia matogrossensis"},
+      {"source": "Steinernema carpocapsae", "type": "Transmits", "target": "Sphenophorus levis"},
+      {"source": "Tetrastichus howardi", "type": "Transmits", "target": "Spodoptera frugiperda"},
+      {"source": "Telenomus podisi", "type": "Transmits", "target": "Spodoptera frugiperda"},
+      {"source": "Beauveria bassiana", "type": "Transmits", "target": "Spodoptera frugiperda"},
+      {"source": "Metarhizium anisopliae", "type": "Transmits", "target": "Spodoptera frugiperda"},
+      {"source": "whitefly", "type": "Have been found on", "target": "crops"},
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "crops"},
+      {"source": "Scaptocoris castanea", "type": "Have been found on", "target": "crops"},
+      {"source": "Bradysia matogrossensis", "type": "Have been found on", "target": "crops"},
+      {"source": "Sphenophorus levis", "type": "Have been found on", "target": "crops"},
+      {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Cordyceps javanica", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Heterorhabditis bacteriophora", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Steinernema carpocapsae", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Tetrastichus howardi", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Telenomus podisi", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "Federal Official Gazette"},
+      {"source": "Metarhizium anisopliae", "type": "Located in", "target": "Federal Official Gazette"}
+    ]
+  }
+]
+```

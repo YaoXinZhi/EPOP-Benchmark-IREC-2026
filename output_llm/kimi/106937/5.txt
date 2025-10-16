@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée"
+    },
+    {
+      "type": "Geographic",
+      "name": "Châtillonnais"
+    },
+    {
+      "type": "Geographic",
+      "name": "Nîmes"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Flavescence dorée",
+      "type": "Located in",
+      "target": "Châtillonnais"
+    }
+  ]
+}
+

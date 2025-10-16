@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Rhizopus arrhizus"},
+    {"type": "Pest", "name": "Rhizopus oryzae"},
+    {"type": "Plant", "name": "garlic"},
+    {"type": "Disease", "name": "garlic bulb soft rot"},
+    {"type": "Geographic", "name": "Hebei Province"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Plant", "name": "cassava"},
+    {"type": "Plant", "name": "potato"}
+  ],
+  "relationships": [
+    {"source": "Rhizopus arrhizus", "type": "Causes", "target": "garlic bulb soft rot"},
+    {"source": "garlic bulb soft rot", "type": "Affects", "target": "garlic"},
+    {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "garlic"},
+    {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "cassava"},
+    {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "potato"},
+    {"source": "garlic", "type": "Located in", "target": "Hebei Province"},
+    {"source": "garlic bulb soft rot", "type": "Located in", "target": "Hebei Province"},
+    {"source": "Rhizopus arrhizus", "type": "Located in", "target": "China"},
+    {"source": "Rhizopus oryzae", "type": "Located in", "target": "China"}
+  ]
+}
+

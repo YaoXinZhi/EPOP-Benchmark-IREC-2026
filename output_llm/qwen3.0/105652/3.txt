@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari area"},
+      {"type": "Geographic", "name": "Polignano a Mare"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "name": "Bari area"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "Polignano a Mare"}
+    ]
+  }
+]
+```

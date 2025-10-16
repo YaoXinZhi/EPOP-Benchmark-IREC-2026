@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Oriental fruit fly"
+    },
+    {
+      "type": "Vector",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Fountain Valley"
+    },
+    {
+      "type": "Geographic",
+      "name": "Orange County"
+    },
+    {
+      "type": "Geographic",
+      "name": "California"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "USDA"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Fountain Valley"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Orange County"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Located in",
+      "target": "Fountain Valley"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Located in",
+      "target": "Orange County"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Has been found on",
+      "target": "fruit trees"
+    },
+    {
+      "source": "Oriental fruit fly",
+      "type": "Has been found on",
+      "target": "fruit trees"
+    }
+  ]
+}
+

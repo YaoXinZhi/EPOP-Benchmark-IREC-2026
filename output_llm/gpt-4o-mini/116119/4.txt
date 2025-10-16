@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "fruit fly"},
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Réunion"},
+    {"type": "Geographic", "name": "Petite-Ile"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "fruit fly", "type": "Located in", "target": "Réunion"},
+    {"source": "fruit fly", "type": "Located in", "target": "Petite-Ile"}
+  ]
+}
+

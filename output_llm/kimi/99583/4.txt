@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "ToBRFV infection"
+    },
+    {
+      "type": "Plant",
+      "name": "tomatoes"
+    },
+    {
+      "type": "Geographic",
+      "name": "Dutch"
+    },
+    {
+      "type": "Geographic",
+      "name": "Netherlands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jordan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Germany"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hungary"
+    },
+    {
+      "type": "Pest",
+      "name": "ToBRFV"
+    },
+    {
+      "type": "Disease",
+      "name": "tomato brown shriveling"
+    },
+    {
+      "type": "Disease",
+      "name": "brown wrinkling"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ToBRFV",
+      "type": "Causes",
+      "target": "tomato brown shriveling"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Causes",
+      "target": "brown wrinkling"
+    },
+    {
+      "source": "ToBRFV infection",
+      "type": "Located in",
+      "target": "Dutch"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Jordan"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Germany"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Hungary"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Have been found on",
+      "target": "tomatoes"
+    },
+    {
+      "source": "tomato brown shriveling",
+      "type": "Affects",
+      "target": "tomatoes"
+    },
+    {
+      "source": "brown wrinkling",
+      "type": "Affects",
+      "target": "tomatoes"
+    }
+  ]
+}
+

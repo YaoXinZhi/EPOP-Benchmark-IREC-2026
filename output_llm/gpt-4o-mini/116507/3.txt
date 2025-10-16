@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Geographic", "name": "France"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Corsica"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "France"}
+  ]
+}
+

@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "Weil am Rhein"},
+      {"type": "Geographic", "name": "Freiburg area"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg area"},
+      {"source": "Weil am Rhein", "type": "Located in", "target": "Baden-Württemberg"}
+    ]
+  }
+]
+```

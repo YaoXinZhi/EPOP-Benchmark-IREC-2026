@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "citrus seedlings"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Vector", "name": "insect"},
+      {"type": "Geographic", "name": "Tucumán"},
+      {"type": "Geographic", "name": "San Miguel de Tucumán"},
+      {"type": "Geographic", "name": "NOA Sur Regional Center"},
+      {"type": "Geographic", "name": "Province"},
+      {"type": "Geographic", "name": "national territory"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "HLB", "type": "Located in", "target": "Tucumán"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "nursery"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "Tucumán"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "insect", "type": "Transmits", "target": "HLB"},
+      {"source": "Senasa", "type": "Located in", "target": "NOA Sur Regional Center"},
+      {"source": "Senasa", "type": "Located in", "target": "Province"},
+      {"source": "Senasa", "type": "Located in", "target": "national territory"},
+      {"source": "Senasa", "type": "Prevents", "target": "HLB"},
+      {"source": "Senasa", "type": "Prevents", "target": "spread of pests"},
+      {"source": "Senasa", "type": "Prevents", "target": "spread of diseases"},
+      {"source": "citrus seedlings", "type": "Have been found on", "target": "nursery"}
+    ]
+  }
+]
+```

@@ -1,0 +1,18 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "Central Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+    ]
+  }
+]
+```

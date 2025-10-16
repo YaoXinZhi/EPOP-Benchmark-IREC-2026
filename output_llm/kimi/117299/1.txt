@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Cavendish banana"
+    },
+    {
+      "type": "Disease",
+      "name": "Panama disease"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium Race 4 Tropical"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "the Netherlands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Philippines"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium"
+    },
+    {
+      "type": "Geographic",
+      "name": "Wageningen University"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium Race 4 Tropical",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Panama disease",
+      "type": "Affects",
+      "target": "Cavendish banana"
+    },
+    {
+      "source": "Fusarium",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Cavendish banana",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Cavendish banana",
+      "type": "Located in",
+      "target": "the Netherlands"
+    },
+    {
+      "source": "Cavendish banana",
+      "type": "Located in",
+      "target": "Philippines"
+    },
+    {
+      "source": "Rahan Meristem",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Banarica Colombia",
+      "type": "Located in",
+      "target": "Colombia"
+    },
+    {
+      "source": "Fusarium Race 4 Tropical",
+      "type": "Have been found on",
+      "target": "Cavendish banana"
+    },
+    {
+      "source": "Cavendish banana",
+      "type": "Located in",
+      "target": "Wageningen University"
+    }
+  ]
+}
+

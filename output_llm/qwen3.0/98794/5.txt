@@ -1,0 +1,45 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Rhizopus soft rot"},
+      {"type": "Plant", "name": "garlic"},
+      {"type": "Plant", "name": "Allium sativum"},
+      {"type": "Pest", "name": "Rhizopus arrhizus"},
+      {"type": "Pest", "name": "Rhizopus oryzae"},
+      {"type": "Geographic", "name": "Hebei Province"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Daming County"},
+      {"type": "Geographic", "name": "Handan City"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "ornamental plants"},
+      {"type": "Plant", "name": "cassava tubers"},
+      {"type": "Plant", "name": "potato tubers"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "garlic"},
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "vegetables"},
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "fruits"},
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "ornamental plants"},
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "cassava tubers"},
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "potato tubers"},
+      {"source": "Rhizopus arrhizus", "type": "Causes", "target": "Rhizopus soft rot"},
+      {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "garlic"},
+      {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "cassava tubers"},
+      {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "potato tubers"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "Hebei Province"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "China"},
+      {"source": "Rhizopus arrhizus", "type": "Located in", "target": "Hebei Province"},
+      {"source": "Rhizopus arrhizus", "type": "Located in", "target": "China"},
+      {"source": "garlic", "type": "Located in", "target": "Hebei Province"},
+      {"source": "garlic", "type": "Located in", "target": "China"},
+      {"source": "Daming County", "type": "Located in", "target": "Handan City"},
+      {"source": "Handan City", "type": "Located in", "target": "Hebei Province"},
+      {"source": "Hebei Province", "type": "Located in", "target": "China"}
+    ]
+  }
+]
+```

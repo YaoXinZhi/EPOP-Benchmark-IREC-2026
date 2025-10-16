@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Lecce-Bari state road"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari-Lecce"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salento"
+    },
+    {
+      "type": "Vector",
+      "name": "spittoon"
+    }
+  ],
+  "relationships": []
+}
+

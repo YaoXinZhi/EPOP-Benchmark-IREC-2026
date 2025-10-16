@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Disease", "name": "grapevine yellows"},
+    {"type": "Plant", "name": "Vitis vinifera"},
+    {"type": "Pest", "name": "Candidatus Phytoplasma vitis"},
+    {"type": "Vector", "name": "Scaphoideus titanus"},
+    {"type": "Geographic", "name": "Tuscany"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Geographic", "name": "Switzerland"},
+    {"type": "Geographic", "name": "Slovenia"},
+    {"type": "Geographic", "name": "Serbia"}
+  ],
+  "relationships": [
+    {"source": "Flavescence dorée", "type": "Affects", "target": "Vitis vinifera"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Causes", "target": "Flavescence dorée"},
+    {"source": "Scaphoideus titanus", "type": "Transmits", "target": "Candidatus Phytoplasma vitis"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "Tuscany"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Located in", "target": "Italy"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Located in", "target": "France"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Located in", "target": "Spain"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Located in", "target": "Switzerland"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Located in", "target": "Slovenia"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Located in", "target": "Serbia"}
+  ]
+}
+

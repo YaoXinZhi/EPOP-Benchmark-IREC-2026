@@ -1,0 +1,52 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Trioza erytreae"},
+      {"type": "Vector", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "mandarin trees"},
+      {"type": "Plant", "name": "Citrange reed"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "Algarve"},
+      {"type": "Geographic", "name": "Ayamonte"},
+      {"type": "Geographic", "name": "Huelva"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Hefer Valley"},
+      {"type": "Geographic", "name": "Tel Aviv"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Galicia"},
+      {"type": "Geographic", "name": "Cantabria"},
+      {"type": "Geographic", "name": "Asturias"},
+      {"type": "Geographic", "name": "The Basque Country"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Trioza erytreae", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Portugal"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Algarve"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Ayamonte"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Huelva"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Israel"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Hefer Valley"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Tel Aviv"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Israel"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Florida"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Brazil"},
+      {"source": "Citrange reed", "type": "Located in", "target": "Spain"},
+      {"source": "Citrus Management Committee", "type": "Located in", "target": "Spain"}
+    ]
+  }
+]
+```

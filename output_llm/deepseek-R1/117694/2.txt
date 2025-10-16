@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Platycladus orientalis"},
+    {"type": "Plant", "name": "Chinese thuja"},
+    {"type": "Pest", "name": "Cinara thujafilina Del Guercio"},
+    {"type": "Vector", "name": "Coccinella septempunctata"},
+    {"type": "Vector", "name": "Oenopia conglubata"},
+    {"type": "Geographic", "name": "Iran"},
+    {"type": "Geographic", "name": "Mashhad"},
+    {"type": "Geographic", "name": "Razavi Khorasan province"},
+    {"type": "Geographic", "name": "Lashkar"},
+    {"type": "Geographic", "name": "Sadaf"},
+    {"type": "Geographic", "name": "Sajjad"}
+  ],
+  "relationships": [
+    {"source": "Platycladus orientalis", "type": "Located in", "target": "Iran"},
+    {"source": "Platycladus orientalis", "type": "Located in", "target": "Mashhad"},
+    {"source": "Platycladus orientalis", "type": "Located in", "target": "Razavi Khorasan province"},
+    {"source": "Cinara thujafilina Del Guercio", "type": "Have been found on", "target": "Platycladus orientalis"},
+    {"source": "Coccinella septempunctata", "type": "Have been found on", "target": "Platycladus orientalis"},
+    {"source": "Oenopia conglubata", "type": "Have been found on", "target": "Platycladus orientalis"},
+    {"source": "Cinara thujafilina Del Guercio", "type": "Located in", "target": "Lashkar"},
+    {"source": "Cinara thujafilina Del Guercio", "type": "Located in", "target": "Sadaf"},
+    {"source": "Cinara thujafilina Del Guercio", "type": "Located in", "target": "Sajjad"},
+    {"source": "Coccinella septempunctata", "type": "Located in", "target": "Lashkar"},
+    {"source": "Coccinella septempunctata", "type": "Located in", "target": "Sadaf"},
+    {"source": "Oenopia conglubata", "type": "Located in", "target": "Sajjad"}
+  ]
+}
+

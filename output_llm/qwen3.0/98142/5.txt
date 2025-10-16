@@ -1,0 +1,35 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "Entre Ríos"},
+      {"type": "Pest", "name": "HLB"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Geographic", "name": "Osvaldo Magnasco"},
+      {"type": "Geographic", "name": "Concordia"},
+      {"type": "Pest", "name": "Candidatus liberibacter"},
+      {"type": "Plant", "name": "trifoliate rootstock"},
+      {"type": "Plant", "name": "trifoliate seedbed"},
+      {"type": "Plant", "name": "poncirus trifoliata"},
+      {"type": "Geographic", "name": "northeast of Entre Ríos"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "HLB", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "citrus plants", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "HLB", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "Osvaldo Magnasco", "type": "Located in", "target": "Concordia"},
+      {"source": "citrus plants", "type": "Located in", "target": "Osvaldo Magnasco"},
+      {"source": "Candidatus liberibacter", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "trifoliate rootstock", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "trifoliate seedbed", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "poncirus trifoliata", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "northeast of Entre Ríos", "type": "Located in", "target": "Entre Ríos"}
+    ]
+  }
+]
+```

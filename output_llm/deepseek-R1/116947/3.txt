@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Réunion"},
+    {"type": "Geographic", "name": "Palais de la Source"},
+    {"type": "Geographic", "name": "Sainte-Marie"},
+    {"type": "Geographic", "name": "Saint-Denis"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Pest", "name": "Bactrocera dorsalis"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Réunion"}
+  ]
+}
+

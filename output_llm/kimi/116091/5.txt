@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Plant-parasitic nematodes"
+    },
+    {
+      "type": "Pest",
+      "name": "Aphelenchoides besseyi"
+    },
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Pest",
+      "name": "Ditylenchus dipsaci"
+    },
+    {
+      "type": "Pest",
+      "name": "Globodera spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Heterodera spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Meloidogyne spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Nacobbus aberrans"
+    },
+    {
+      "type": "Pest",
+      "name": "Pratylenchus spp."
+    },
+    {
+      "type": "Pest",
+      "name": "Radopholus similis"
+    },
+    {
+      "type": "Pest",
+      "name": "Rotylenchulus reniformis"
+    },
+    {
+      "type": "Pest",
+      "name": "Xiphinema index"
+    },
+    {
+      "type": "Geographic",
+      "name": "European"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Plant-parasitic nematodes",
+      "type": "Causes",
+      "target": "food security and plant health"
+    },
+    {
+      "source": "Plant-parasitic nematodes",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Aphelenchoides besseyi",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Ditylenchus dipsaci",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Globodera spp.",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Heterodera spp.",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Meloidogyne spp.",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Nacobbus aberrans",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Pratylenchus spp.",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Radopholus similis",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Rotylenchulus reniformis",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    },
+    {
+      "source": "Xiphinema index",
+      "type": "Located in",
+      "target": "European and Mediterranean"
+    }
+  ]
+}
+

@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Nicaragua"
+    },
+    {
+      "type": "Geographic",
+      "name": "Panama"
+    },
+    {
+      "type": "Geographic",
+      "name": "Guatemala"
+    },
+    {
+      "type": "Geographic",
+      "name": "Costa Rica"
+    },
+    {
+      "type": "Geographic",
+      "name": "El Salvador"
+    },
+    {
+      "type": "Geographic",
+      "name": "Honduras"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Disease",
+      "name": "citrus sadness virus"
+    },
+    {
+      "type": "Disease",
+      "name": "leprosis"
+    },
+    {
+      "type": "Pest",
+      "name": "Mediterranean fly"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Candidatus Liberibacter",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "citrus sadness virus",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "leprosis",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Mediterranean fly",
+      "type": "Have been found on",
+      "target": "citrus"
+    }
+  ]
+}
+

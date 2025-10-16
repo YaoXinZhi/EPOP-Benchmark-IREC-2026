@@ -1,0 +1,14 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Tomato Brown Rugose Fruit Virus"},
+      {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "Tomato Rugrose Pest"}
+    ]
+  },
+  {
+    "relationships": []
+  }
+]
+```

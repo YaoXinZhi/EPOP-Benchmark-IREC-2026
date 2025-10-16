@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Réunion"
+    },
+    {
+      "type": "Geographic",
+      "name": "Palais de la Source"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sainte-Marie"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jardin de l’Etat"
+    },
+    {
+      "type": "Geographic",
+      "name": "Saint-Denis"
+    },
+    {
+      "type": "Pest",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Person",
+      "name": "Cyrille Melchior"
+    },
+    {
+      "type": "Person",
+      "name": "Richard Nirlo"
+    },
+    {
+      "type": "Person",
+      "name": "Patrick Fiori"
+    },
+    {
+      "type": "Person",
+      "name": "Péi Raynaud Sadon"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cyrille Melchior",
+      "type": "Located in",
+      "target": "Réunion"
+    },
+    {
+      "source": "Richard Nirlo",
+      "type": "Located in",
+      "target": "Sainte-Marie"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Reunion"
+    },
+    {
+      "source": "Cyrille Melchior",
+      "type": "Located in",
+      "target": "Réunion"
+    },
+    {
+      "source": "Jardin de l’Etat",
+      "type": "Located in",
+      "target": "Saint-Denis"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Causes",
+      "target": "significant losses"
+    },
+    {
+      "source": "Cyrille Melchior",
+      "type": "Have been found on",
+      "target": "fruit and vegetable producers"
+    }
+  ]
+}
+

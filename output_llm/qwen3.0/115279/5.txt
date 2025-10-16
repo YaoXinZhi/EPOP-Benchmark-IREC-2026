@@ -1,0 +1,33 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Polignano a Mare"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Castellana Grotte"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Alberobello"},
+      {"type": "Geographic", "name": "Monopoli"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Polignano a Mare"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Castellana Grotte"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Alberobello"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Monopoli"}
+    ]
+  }
+]
+```

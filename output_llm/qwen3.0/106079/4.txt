@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tomato brown wrinkle virus"},
+      {"type": "Disease", "name": "virus of brown wrinkling of tomato fruits"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Plant", "name": "tomato plants"},
+      {"type": "Plant", "name": "pepper plants"},
+      {"type": "Plant", "name": "Troy variety"},
+      {"type": "Geographic", "name": "Arcadia"},
+      {"type": "Geographic", "name": "Community of Levidi"},
+      {"type": "Geographic", "name": "P.E. Arcadia"},
+      {"type": "Plant", "name": "stypnus"},
+      {"type": "Plant", "name": "datula"},
+      {"type": "Plant", "name": "goosefoot"},
+      {"type": "Plant", "name": "petunia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "tomato brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "tomato plants"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "pepper plants"},
+      {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "Troy variety"},
+      {"source": "tomato brown wrinkle virus", "type": "Located in", "target": "Community of Levidi"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "tomato"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "pepper"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "stypnus"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "datula"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "goosefoot"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "petunia"}
+    ]
+  }
+]
+```

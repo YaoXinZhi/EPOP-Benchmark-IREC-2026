@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Asian longhorned beetle"
+    },
+    {
+      "type": "Geographic",
+      "name": "Central Switzerland Canton Lucerne"
+    },
+    {
+      "type": "Geographic",
+      "name": "Zell"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Plant",
+      "name": "deciduous trees"
+    },
+    {
+      "type": "Plant",
+      "name": "maple"
+    },
+    {
+      "type": "Plant",
+      "name": "birch"
+    },
+    {
+      "type": "Plant",
+      "name": "beech"
+    },
+    {
+      "type": "Plant",
+      "name": "hardwood species"
+    },
+    {
+      "type": "Plant",
+      "name": "fruit trees"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Located in",
+      "target": "Central Switzerland Canton Lucerne"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Located in",
+      "target": "Zell"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Has been found on",
+      "target": "deciduous trees"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Has been found on",
+      "target": "maple"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Has been found on",
+      "target": "birch"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Has been found on",
+      "target": "beech"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Has been found on",
+      "target": "hardwood species"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Has been found on",
+      "target": "fruit trees"
+    },
+    {
+      "source": "Asian longhorned beetle",
+      "type": "Located in",
+      "target": "Europe"
+    }
+  ]
+}
+

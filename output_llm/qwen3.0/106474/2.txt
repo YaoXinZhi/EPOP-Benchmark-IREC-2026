@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish bananas"},
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Disease", "name": "TR4"},
+      {"type": "Disease", "name": "TR1"},
+      {"type": "Pest", "name": "Fusarium"},
+      {"type": "Plant", "name": "banana crops"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Wageningen University"},
+      {"type": "Plant", "name": "Grand Naine bananas"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "TR4", "type": "Affects", "target": "Cavendish banana plants"},
+      {"source": "TR1", "type": "Affects", "target": "banana crops"},
+      {"source": "Fusarium", "type": "Causes", "target": "TR4"},
+      {"source": "Fusarium", "type": "Causes", "target": "TR1"},
+      {"source": "TR1", "type": "Have been found on", "target": "banana"},
+      {"source": "TR4", "type": "Have been found on", "target": "Cavendish bananas"},
+      {"source": "Wageningen University", "type": "Located in", "target": "Colombia"},
+      {"source": "TR1", "type": "Causes", "target": "resistance to TR4"},
+      {"source": "Cavendish banana plants", "type": "Located in", "target": "modern plantations"}
+    ]
+  }
+]
+```

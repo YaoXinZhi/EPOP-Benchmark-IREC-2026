@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "golden flavescence"},
+      {"type": "Pest", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Vector", "name": "Scaphoideus titanus Ball"},
+      {"type": "Plant", "name": "Vine"},
+      {"type": "Geographic", "name": "parishes"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavescence dorée phytoplasma", "type": "Causes", "target": "golden flavescence"},
+      {"source": "golden flavescence", "type": "Affects", "target": "Vine"},
+      {"source": "Scaphoideus titanus Ball", "type": "Transmits", "target": "Flavescence dorée phytoplasma"},
+      {"source": "Scaphoideus titanus Ball", "type": "Have been found on", "target": "Vine"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Located in", "target": "parishes"},
+      {"source": "Scaphoideus titanus Ball", "type": "Located in", "target": "parishes"}
+    ]
+  }
+]
+```

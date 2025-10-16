@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "citrus fruit fly"},
+    {"type": "Pest", "name": "oriental fruit fly"},
+    {"type": "Geographic", "name": "Ishigaki City"},
+    {"type": "Geographic", "name": "Yaeyama Prefecture"},
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Plant", "name": "mangoes"}
+  ],
+  "relationships": [
+    {"source": "citrus fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "mangoes"},
+    {"source": "Ishigaki City", "type": "Located in", "target": "Yaeyama Prefecture"}
+  ]
+}
+

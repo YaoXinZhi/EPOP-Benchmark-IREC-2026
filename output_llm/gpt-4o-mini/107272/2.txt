@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "New banana disease"},
+    {"type": "Pest", "name": "Fusarium wilt"},
+    {"type": "Pest", "name": "Fusarium odoratissimum Tropical Race 4"},
+    {"type": "Plant", "name": "banana"},
+    {"type": "Plant", "name": "Cavendish banana"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Mozambique"},
+    {"type": "Geographic", "name": "Tanzania"},
+    {"type": "Geographic", "name": "Malawi"},
+    {"type": "Geographic", "name": "Uganda"},
+    {"type": "Geographic", "name": "Ruanda"},
+    {"type": "Geographic", "name": "Latin America"}
+  ],
+  "relationships": [
+    {"source": "New banana disease", "type": "Located in", "target": "Africa"},
+    {"source": "Fusarium wilt", "type": "Causes", "target": "New banana disease"},
+    {"source": "Fusarium odoratissimum Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+    {"source": "Fusarium odoratissimum Tropical Race 4", "type": "Have been found on", "target": "banana"},
+    {"source": "Fusarium odoratissimum Tropical Race 4", "type": "Located in", "target": "Mozambique"},
+    {"source": "Fusarium odoratissimum Tropical Race 4", "type": "Located in", "target": "Africa"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "Cavendish banana"},
+    {"source": "New banana disease", "type": "Affects", "target": "Cavendish banana"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+    {"source": "Fusarium odoratissimum Tropical Race 4", "type": "Transmits", "target": "Fusarium wilt"}
+  ]
+}
+

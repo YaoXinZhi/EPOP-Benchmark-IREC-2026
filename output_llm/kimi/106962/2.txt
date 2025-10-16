@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Golden flavescence"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bassa Atesina"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salorno"
+    },
+    {
+      "type": "Geographic",
+      "name": "Burraviato"
+    },
+    {
+      "type": "Plant",
+      "name": "vines"
+    },
+    {
+      "type": "Plant",
+      "name": "Chardonnay"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinot Grigio"
+    },
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée"
+    },
+    {
+      "type": "Geographic",
+      "name": "South Tyrol"
+    },
+    {
+      "type": "Geographic",
+      "name": "Laimburg Research Center"
+    },
+    {
+      "type": "Pest",
+      "name": "American vine leafhopper"
+    },
+    {
+      "type": "Pest",
+      "name": "Flavescence dorèe-Phytoplasma (FDp)"
+    },
+    {
+      "type": "Disease",
+      "name": "black wood disease"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Golden flavescence",
+      "type": "Located in",
+      "target": "Bassa Atesina"
+    },
+    {
+      "source": "Golden flavescence",
+      "type": "Located in",
+      "target": "Salorno"
+    },
+    {
+      "source": "Golden flavescence",
+      "type": "Located in",
+      "target": "Burraviato"
+    },
+    {
+      "source": "Golden flavescence",
+      "type": "Affects",
+      "target": "vines"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Affects",
+      "target": "vines"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Located in",
+      "target": "South Tyrol"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Causes",
+      "target": "Golden flavescence"
+    },
+    {
+      "source": "American vine leafhopper",
+      "type": "Transmits",
+      "target": "Flavescence dorèe-Phytoplasma (FDp)"
+    },
+    {
+      "source": "Flavescence dorèe-Phytoplasma (FDp)",
+      "type": "Causes",
+      "target": "Golden flavescence"
+    },
+    {
+      "source": "black wood disease",
+      "type": "Affects",
+      "target": "vines"
+    }
+  ]
+}
+

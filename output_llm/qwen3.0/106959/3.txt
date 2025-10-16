@@ -1,0 +1,15 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Grapevine flavescence dorée phytoplasma"},
+      {"type": "Geographic", "name": "Oleksovička"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Grapevine flavescence dorée phytoplasma", "type": "Located in", "target": "Oleksovička"}
+    ]
+  }
+]
+```

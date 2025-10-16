@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "HBL"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Geographic",
+      "name": "Huelva"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ayamonte"
+    },
+    {
+      "type": "Geographic",
+      "name": "Porto"
+    },
+    {
+      "type": "Geographic",
+      "name": "Galicia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cantabria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asturias"
+    },
+    {
+      "type": "Geographic",
+      "name": "Basque Country"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB"
+    },
+    {
+      "type": "Vector",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Algarve"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hefer Valley"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tel Aviv"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "mandarin"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrange reed"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter asiaticus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Galicia"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Cantabria"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Asturias"
+    },
+    {
+      "source": "HBL",
+      "type": "Located in",
+      "target": "Basque Country"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Transmits",
+      "target": "HLB"
+    },
+    {
+      "source": "HBL",
+      "type": "Transmits",
+      "target": "HLB"
+    },
+    {
+      "source": "HLB",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Citrange reed",
+      "type": "Have been found on",
+      "target": "orange"
+    },
+    {
+      "source": "Citrange reed",
+      "type": "Have been found on",
+      "target": "mandarin"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Causes",
+      "target": "HLB"
+    }
+  ]
+}
+

@@ -1,0 +1,47 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "plantain"},
+      {"type": "Plant", "name": "Burro criollo"},
+      {"type": "Plant", "name": "CEMSA"},
+      {"type": "Plant", "name": "manzanos"},
+      {"type": "Plant", "name": "Jhonson plantains"},
+      {"type": "Plant", "name": "Canutillo"},
+      {"type": "Plant", "name": "Zacate borrego"},
+      {"type": "Plant", "name": "Ensete"},
+      {"type": "Plant", "name": "vain"},
+      {"type": "Plant", "name": "milky milk"},
+      {"type": "Plant", "name": "toad milk"},
+      {"type": "Disease", "name": "Fusarium oxysporum f. sp. Cubense"},
+      {"type": "Disease", "name": "race four tropical"},
+      {"type": "Pest", "name": "banana weevil"},
+      {"type": "Geographic", "name": "Cumanayagua"},
+      {"type": "Geographic", "name": "Cuba"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "plantain"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Located in", "target": "Cuba"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "Burro criollo"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "CEMSA"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "manzanos"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "Jhonson plantains"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "Canutillo"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "Zacate borrego"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "Ensete"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "vain"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "milky milk"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Have been found on", "target": "toad milk"},
+      {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Causes", "target": "race four tropical"},
+      {"source": "race four tropical", "type": "Affects", "target": "banana"},
+      {"source": "race four tropical", "type": "Affects", "target": "plantain"},
+      {"source": "banana weevil", "type": "Transmits", "target": "Fusarium oxysporum f. sp. Cubense"},
+      {"source": "Cumanayagua Territorial Plant Protection Station", "type": "Located in", "target": "Cumanayagua"}
+    ]
+  }
+]
+```

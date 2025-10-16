@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+    {"type": "Plant", "name": "tomatoes"},
+    {"type": "Plant", "name": "Solanum nigrum"},
+    {"type": "Plant", "name": "Malva parviflora"},
+    {"type": "Geographic", "name": "Jordan Valley"},
+    {"type": "Geographic", "name": "Jordan"}
+  ],
+  "relationships": [
+    {"source": "tomatoes", "type": "Have been found on", "target": "Tomato brown rugose fruit virus"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "tomatoes"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Causes", "target": "Solanum nigrum"},
+    {"source": "Solanum nigrum", "type": "Have been found on", "target": "Tomato brown rugose fruit virus"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Located in", "target": "Jordan Valley"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Located in", "target": "Jordan"}
+  ]
+}
+

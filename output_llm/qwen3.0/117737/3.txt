@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tomato brown rugose fruit virus"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Belgium"},
+      {"type": "Geographic", "name": "Westland"},
+      {"type": "Plant", "name": "tomato"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "tomato brown rugose fruit virus", "type": "Affects", "target": "tomato"},
+      {"source": "tomato brown rugose fruit virus", "type": "Located in", "target": "Netherlands"},
+      {"source": "tomato brown rugose fruit virus", "type": "Located in", "target": "Belgium"},
+      {"source": "tomato brown rugose fruit virus", "type": "Located in", "target": "Westland"}
+    ]
+  }
+]
+```

@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense"},
+      {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense (Foc)"},
+      {"type": "Pest", "name": "race 1 (R1)"},
+      {"type": "Pest", "name": "subtropical race 4 (ST4)"},
+      {"type": "Pest", "name": "isolate 229A"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "Musa spp."},
+      {"type": "Plant", "name": "Prata-Anã"},
+      {"type": "Plant", "name": "BRS Platina"},
+      {"type": "Plant", "name": "Grand Naine"},
+      {"type": "Plant", "name": "Cavendish"},
+      {"type": "Plant", "name": "xylem vessels"},
+      {"type": "Geographic", "name": "worldwide"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium oxysporum f. sp. cubense (Foc)", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium oxysporum f. sp. cubense", "type": "Have been found on", "target": "banana"},
+      {"source": "race 1 (R1)", "type": "Have been found on", "target": "Prata-Anã"},
+      {"source": "race 1 (R1)", "type": "Have been found on", "target": "Grand Naine"},
+      {"source": "subtropical race 4 (ST4)", "type": "Have been found on", "target": "Prata-Anã"},
+      {"source": "subtropical race 4 (ST4)", "type": "Have been found on", "target": "Grand Naine"},
+      {"source": "isolate 229A", "type": "Have been found on", "target": "Prata-Anã"},
+      {"source": "isolate 229A", "type": "Have been found on", "target": "Grand Naine"},
+      {"source": "Fusarium oxysporum f. sp. cubense (Foc)", "type": "Located in", "target": "worldwide"},
+      {"source": "race 1 (R1)", "type": "Located in", "target": "banana"},
+      {"source": "subtropical race 4 (ST4)", "type": "Located in", "target": "banana"},
+      {"source": "isolate 229A", "type": "Located in", "target": "banana"}
+    ]
+  }
+]
+```

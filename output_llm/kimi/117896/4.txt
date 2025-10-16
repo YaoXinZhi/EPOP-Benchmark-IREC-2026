@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus"
+    },
+    {
+      "type": "Plant",
+      "name": "Fagus sylvatica"
+    },
+    {
+      "type": "Plant",
+      "name": "Quercus robur"
+    },
+    {
+      "type": "Vector",
+      "name": "Monochamus"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States of America"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexico"
+    },
+    {
+      "type": "Geographic",
+      "name": "Japan"
+    },
+    {
+      "type": "Geographic",
+      "name": "China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Taiwan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Republic of Korea"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Geographic",
+      "name": "Far East"
+    },
+    {
+      "type": "Geographic",
+      "name": "Siberian regions of Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Russian Federation"
+    },
+    {
+      "type": "Geographic",
+      "name": "Azerbaijan"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "United States of America"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Mexico"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Japan"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "China"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Taiwan"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Republic of Korea"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Far East"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Siberian regions of Europe"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Russian Federation"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "Pinus"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "Fagus sylvatica"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "Quercus robur"
+    },
+    {
+      "source": "Monochamus",
+      "type": "Transmits",
+      "target": "Bursaphelenchus xylophilus"
+    }
+  ]
+}
+

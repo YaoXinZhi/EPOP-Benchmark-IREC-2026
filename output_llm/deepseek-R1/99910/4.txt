@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "HLB"},
+    {"type": "Disease", "name": "huanglongbing"},
+    {"type": "Disease", "name": "yellow dragon"},
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Venezuela"},
+    {"type": "Geographic", "name": "Zulia state"},
+    {"type": "Geographic", "name": "Maracaibo"},
+    {"type": "Geographic", "name": "San Francisco"},
+    {"type": "Geographic", "name": "Costa Oriental del Lago"},
+    {"type": "Geographic", "name": "Aragua"}
+  ],
+  "relationships": [
+    {"source": "HLB", "type": "Affects", "target": "citrus fruits"},
+    {"source": "huanglongbing", "type": "Affects", "target": "citrus fruits"},
+    {"source": "yellow dragon", "type": "Affects", "target": "citrus fruits"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Venezuela"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Zulia state"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Maracaibo"},
+    {"source": "citrus fruits", "type": "Located in", "target": "San Francisco"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Costa Oriental del Lago"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Aragua"}
+  ]
+}
+

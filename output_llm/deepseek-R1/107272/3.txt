@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "New banana disease"},
+    {"type": "Disease", "name": "Tropical Race 4 (TR4)"},
+    {"type": "Disease", "name": "Fusarium wilt"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Pest", "name": "Fusarium fungus"},
+    {"type": "Pest", "name": "Fusarium odoratissimum Tropical Race 4"},
+    {"type": "Plant", "name": "banana plants"},
+    {"type": "Plant", "name": "Cavendish banana"},
+    {"type": "Plant", "name": "local banana strains"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Mozambique"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "South America"},
+    {"type": "Geographic", "name": "Tanzania"},
+    {"type": "Geographic", "name": "Malawi"},
+    {"type": "Geographic", "name": "Uganda"},
+    {"type": "Geographic", "name": "Ruanda"},
+    {"type": "Geographic", "name": "Latin America"},
+    {"type": "Geographic", "name": "Europe"}
+  ],
+  "relationships": [
+    {"source": "New banana disease", "type": "Located in", "target": "Africa"},
+    {"source": "Tropical Race 4 (TR4)", "type": "Located in", "target": "Mozambique"},
+    {"source": "Tropical Race 4 (TR4)", "type": "Located in", "target": "Asia"},
+    {"source": "Tropical Race 4 (TR4)", "type": "Located in", "target": "South America"},
+    {"source": "Fusarium wilt", "type": "Located in", "target": "Mozambique"},
+    {"source": "Fusarium fungus", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "Fusarium odoratissimum Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "Fusarium fungus", "type": "Have been found on", "target": "banana plants"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "banana plants"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "Cavendish banana"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "local banana strains"},
+    {"source": "Panama disease", "type": "Affects", "target": "banana plants"}
+  ]
+}
+

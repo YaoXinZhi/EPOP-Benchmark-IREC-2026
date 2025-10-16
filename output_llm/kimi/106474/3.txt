@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "TR4"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish bananas"
+    },
+    {
+      "type": "Disease",
+      "name": "Fusarium wilt"
+    },
+    {
+      "type": "Pest",
+      "name": "TR1"
+    },
+    {
+      "type": "Plant",
+      "name": "Gros Michel"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "TR4",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    },
+    {
+      "source": "Fusarium wilt",
+      "type": "Affects",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "TR1",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    },
+    {
+      "source": "TR1",
+      "type": "Have been found on",
+      "target": "Gros Michel"
+    },
+    {
+      "source": "TR4",
+      "type": "Have been found on",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "Cavendish bananas",
+      "type": "Located in",
+      "target": "Colombia"
+    }
+  ]
+}
+

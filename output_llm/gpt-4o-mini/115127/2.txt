@@ -1,0 +1,35 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Cumanayagua"},
+    {"type": "Plant", "name": "banana"},
+    {"type": "Plant", "name": "plantain"},
+    {"type": "Disease", "name": "Fusarium oxysporum f. sp. Cubense"},
+    {"type": "Pest", "name": "banana weevil"},
+    {"type": "Plant", "name": "Burro criollo"},
+    {"type": "Plant", "name": "CEMSA"},
+    {"type": "Plant", "name": "los manzanos"},
+    {"type": "Plant", "name": "Jhonson plantains"},
+    {"type": "Plant", "name": "Canutillo"},
+    {"type": "Plant", "name": "Zacate borrego"},
+    {"type": "Plant", "name": "Ensete"},
+    {"type": "Plant", "name": "vain"},
+    {"type": "Plant", "name": "milky milk"},
+    {"type": "Plant", "name": "toad milk"}
+  ],
+  "relationships": [
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Causes", "target": "wilting"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "banana"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "plantain"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "Burro criollo"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "CEMSA"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "los manzanos"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "Jhonson plantains"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "Canutillo"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "Zacate borrego"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "Ensete"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "vain"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "milky milk"},
+    {"source": "Fusarium oxysporum f. sp. Cubense", "type": "Affects", "target": "toad milk"}
+  ]
+}
+

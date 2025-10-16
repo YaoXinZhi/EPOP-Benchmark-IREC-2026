@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Plant", "name": "pine trees"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Geographic", "name": "around the world"},
+      {"type": "Geographic", "name": "different geographic areas"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "pine wilt disease", "type": "Affects", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "around the world"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "different geographic areas"}
+    ]
+  }
+]
+```

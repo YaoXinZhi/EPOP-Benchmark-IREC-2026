@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Netherlands"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Vector",
+      "name": "foam cicadas"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Plant",
+      "name": "blackberries"
+    },
+    {
+      "type": "Plant",
+      "name": "oleander"
+    },
+    {
+      "type": "Plant",
+      "name": "oak"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Netherlands"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Transmits",
+      "target": "foam cicadas"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "blackberries"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "oleander"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "oak"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "France"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Spain"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "olive trees",
+      "type": "Affects",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "blackberries",
+      "type": "Affects",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "oleander",
+      "type": "Affects",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "oak",
+      "type": "Affects",
+      "target": "Xylella fastidiosa"
+    }
+  ]
+}
+

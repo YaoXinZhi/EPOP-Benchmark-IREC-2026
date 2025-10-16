@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ionian municipalities"
+    },
+    {
+      "type": "Geographic",
+      "name": "Manduria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Avetrana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sava"
+    },
+    {
+      "type": "Geographic",
+      "name": "Maruggio"
+    },
+    {
+      "type": "Geographic",
+      "name": "Torricella"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lecce"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brindisi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Taranto"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polignano a Mare"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Bari"
+    },
+    {
+      "type": "Geographic",
+      "name": "Avetrana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Carosino"
+    },
+    {
+      "type": "Geographic",
+      "name": "Faggiano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Fragagnano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lizzano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Monteiasi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pulsano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Roccaforzata"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Marzano di San Giuseppe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Castellana Grotte"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Brindisi"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Lecce"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Ionian municipalities"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Manduria"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Avetrana"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Sava"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Maruggio"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Torricella"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Lecce"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Brindisi"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Taranto"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Polignano a Mare"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "province of Bari"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "province of Brindisi"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "province of Lecce"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Castellana Grotte"
+    }
+  ]
+}
+

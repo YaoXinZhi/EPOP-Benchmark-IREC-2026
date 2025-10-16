@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Banana fungus"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Mozambique"},
+    {"type": "Geographic", "name": "Tanzania"},
+    {"type": "Geographic", "name": "Malawi"},
+    {"type": "Geographic", "name": "Uganda"},
+    {"type": "Geographic", "name": "Rwanda"},
+    {"type": "Pest", "name": "Fusarium fungus"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Plant", "name": "banana plant"},
+    {"type": "Plant", "name": "Cavendish bananas"}
+  ],
+  "relationships": [
+    {"source": "Banana fungus", "type": "Located in", "target": "Africa"},
+    {"source": "Fusarium fungus", "type": "Located in", "target": "Mozambique"},
+    {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+    {"source": "Panama disease", "type": "Affects", "target": "banana plant"},
+    {"source": "Panama disease", "type": "Affects", "target": "Cavendish bananas"},
+    {"source": "Fusarium fungus", "type": "Have been found on", "target": "banana plant"}
+  ]
+}
+

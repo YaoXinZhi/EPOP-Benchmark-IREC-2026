@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "brown wrinkle syndrome"
+    },
+    {
+      "type": "Geographic",
+      "name": "Arcadia"
+    },
+    {
+      "type": "Plant",
+      "name": "tomato"
+    },
+    {
+      "type": "Plant",
+      "name": "pepper"
+    },
+    {
+      "type": "Disease",
+      "name": "Tomato brown fruit wrinkle virus"
+    },
+    {
+      "type": "Plant",
+      "name": "stypnus"
+    },
+    {
+      "type": "Plant",
+      "name": "datula"
+    },
+    {
+      "type": "Plant",
+      "name": "goosefoot"
+    },
+    {
+      "type": "Plant",
+      "name": "petunia"
+    },
+    {
+      "type": "Plant",
+      "name": "gourd family"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "brown wrinkle syndrome",
+      "type": "Located in",
+      "target": "Arcadia"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Located in",
+      "target": "Arcadia"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Affects",
+      "target": "tomato"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Affects",
+      "target": "pepper"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Have been found on",
+      "target": "stypnus"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Have been found on",
+      "target": "datula"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Have been found on",
+      "target": "goosefoot"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Have been found on",
+      "target": "petunia"
+    }
+  ]
+}
+

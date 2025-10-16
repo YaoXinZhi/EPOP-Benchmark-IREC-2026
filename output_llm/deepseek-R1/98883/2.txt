@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Disease", "name": "serious diseases"},
+    {"type": "Plant", "name": "common crop"},
+    {"type": "Plant", "name": "wild plants"},
+    {"type": "Plant", "name": "host plant species"},
+    {"type": "Geographic", "name": "EU"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Pest", "name": "multiplex"},
+    {"type": "Pest", "name": "pauca"},
+    {"type": "Pest", "name": "sandyi"},
+    {"type": "Pest", "name": "X. taiwanensis"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "serious diseases"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "common crop"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "wild plants"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "host plant species"},
+    {"source": "multiplex", "type": "Located in", "target": "EU"},
+    {"source": "multiplex", "type": "Located in", "target": "France"},
+    {"source": "multiplex", "type": "Located in", "target": "Italy"},
+    {"source": "multiplex", "type": "Located in", "target": "Portugal"}
+  ]
+}
+

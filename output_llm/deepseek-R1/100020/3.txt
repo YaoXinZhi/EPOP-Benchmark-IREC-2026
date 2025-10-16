@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Japanese beetle"},
+    {"type": "Geographic", "name": "southern Germany"},
+    {"type": "Geographic", "name": "Freiburg"},
+    {"type": "Geographic", "name": "Baden-Württemberg"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "EU"},
+    {"type": "Geographic", "name": "northern Italy"},
+    {"type": "Pest", "name": "Popillia japonica"},
+    {"type": "Pest", "name": "garden leaf beetle"},
+    {"type": "Pest", "name": "rose chafer"}
+  ],
+  "relationships": [
+    {"source": "Japanese beetle", "type": "Located in", "target": "southern Germany"},
+    {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+    {"source": "Japanese beetle", "type": "Located in", "target": "Baden-Württemberg"},
+    {"source": "Japanese beetle", "type": "Located in", "target": "EU"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "Baden-Württemberg"},
+    {"source": "Japanese beetle", "type": "Located in", "target": "Asia"},
+    {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+    {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+    {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+    {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"}
+  ]
+}
+

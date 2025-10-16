@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Fusarium wilt"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium oxysporum f. sp. cubense"
+    },
+    {
+      "type": "Plant",
+      "name": "banana"
+    },
+    {
+      "type": "Plant",
+      "name": "Musa spp."
+    },
+    {
+      "type": "Plant",
+      "name": "Prata-type cultivars"
+    },
+    {
+      "type": "Plant",
+      "name": "Prata-Anã"
+    },
+    {
+      "type": "Plant",
+      "name": "BRS Platina"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish type"
+    },
+    {
+      "type": "Plant",
+      "name": "Grand Naine"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    },
+    {
+      "source": "Fusarium wilt",
+      "type": "Affects",
+      "target": "banana"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "Musa spp."
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "Prata-type cultivars"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "Prata-Anã"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "BRS Platina"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "Grand Naine"
+    }
+  ]
+}
+

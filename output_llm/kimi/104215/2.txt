@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Japanese beetle"
+    },
+    {
+      "type": "Geographic",
+      "name": "Weil am Rhein"
+    },
+    {
+      "type": "Geographic",
+      "name": "Karlsruhe"
+    },
+    {
+      "type": "Geographic",
+      "name": "LTZ Augustenberg"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Weil am Rhein"
+    }
+  ]
+}
+

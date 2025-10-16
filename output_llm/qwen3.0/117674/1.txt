@@ -1,0 +1,62 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "citrus greening"},
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Pest", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Pest", "name": "Diaphorina citri. kuwayama"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Northwest Argentina (NOA)"},
+      {"type": "Geographic", "name": "Jujuy"},
+      {"type": "Geographic", "name": "Salta"},
+      {"type": "Geographic", "name": "Tucumán"},
+      {"type": "Geographic", "name": "Catamarca"},
+      {"type": "Geographic", "name": "Northeast Argentina (NEA)"},
+      {"type": "Geographic", "name": "Entre Ríos"},
+      {"type": "Geographic", "name": "Corrientes"},
+      {"type": "Geographic", "name": "Misiones"},
+      {"type": "Geographic", "name": "Chaco"},
+      {"type": "Geographic", "name": "Formosa"},
+      {"type": "Geographic", "name": "Santiago del Estero"},
+      {"type": "Geographic", "name": "Santa Fe"},
+      {"type": "Geographic", "name": "Tucumán Province"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "Villa de Medinas"},
+      {"type": "Geographic", "name": "Chicligasta Department"},
+      {"type": "Geographic", "name": "Capayán Department"},
+      {"type": "Geographic", "name": "Catamarca Province"},
+      {"type": "Geographic", "name": "City of Buenos Aires"},
+      {"type": "Geographic", "name": "COSAVE"},
+      {"type": "Geographic", "name": "Southern Cone"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri. Kuwayama", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Corrientes"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Misiones"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Chaco"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Formosa"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Santiago del Estero"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Salta"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Jujuy"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Santa Fe"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Tucumán Province"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Catamarca Province"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Argentina"},
+      {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Located in", "target": "Catamarca Province"},
+      {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Located in", "target": "Catamarca Province"}
+    ]
+  }
+]
+```

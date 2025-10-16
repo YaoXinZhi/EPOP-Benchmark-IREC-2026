@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Plant", "name": "micro-wasp"},
+      {"type": "Vector", "name": "flies"},
+      {"type": "Geographic", "name": "Réunion"},
+      {"type": "Geographic", "name": "Petite-Ile"},
+      {"type": "Geographic", "name": "South"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetables"},
+      {"source": "fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "flies", "type": "Transmits", "target": "fruit fly"},
+      {"source": "fruit fly", "type": "Affects", "target": "citrus fruits"},
+      {"source": "fruit fly", "type": "Affects", "target": "fruits"},
+      {"source": "fruit fly", "type": "Affects", "target": "vegetables"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Petite-Ile"},
+      {"source": "Réunion", "type": "Located in", "target": "South"},
+      {"source": "augmentorium", "type": "Located in", "target": "Réunion"}
+    ]
+  }
+]
+```

@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "caterpillars"},
+      {"type": "Pest", "name": "fall armyworm moth"},
+      {"type": "Plant", "name": "alfalfa"},
+      {"type": "Plant", "name": "alfalfa"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Plant", "name": "Johnsongrass"},
+      {"type": "Geographic", "name": "Missouri"},
+      {"type": "Geographic", "name": "Arrow Rock"},
+      {"type": "Geographic", "name": "New Haven"},
+      {"type": "Geographic", "name": "Texas"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Geographic", "name": "Mexico"},
+      {"type": "Geographic", "name": "Dade County"},
+      {"type": "Vector", "name": "fall armyworm moth"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "caterpillars", "type": "Have been found on", "target": "alfalfa"},
+      {"source": "fall armyworm moth", "type": "Transmits", "target": "caterpillars"},
+      {"source": "fall armyworm moth", "type": "Have been found on", "target": "alfalfa"},
+      {"source": "fall armyworm moth", "type": "Have been found on", "target": "corn"},
+      {"source": "fall armyworm moth", "type": "Have been found on", "target": "Johnsongrass"},
+      {"source": "fall armyworm moth", "type": "Located in", "target": "Missouri"},
+      {"source": "fall armyworm moth", "type": "Located in", "target": "Texas"},
+      {"source": "fall armyworm moth", "type": "Located in", "target": "Florida"},
+      {"source": "fall armyworm moth", "type": "Located in", "target": "Mexico"},
+      {"source": "caterpillars", "type": "Located in", "target": "Missouri"},
+      {"source": "caterpillars", "type": "Affects", "target": "alfalfa"},
+      {"source": "caterpillars", "type": "Affects", "target": "corn"},
+      {"source": "caterpillars", "type": "Affects", "target": "Johnsongrass"},
+      {"source": "fall armyworm moth", "type": "Affects", "target": "alfalfa"},
+      {"source": "fall armyworm moth", "type": "Affects", "target": "corn"},
+      {"source": "fall armyworm moth", "type": "Affects", "target": "Johnsongrass"},
+      {"source": "fall armyworm moth", "type": "Causes", "target": "caterpillars"}
+    ]
+  }
+]
+```

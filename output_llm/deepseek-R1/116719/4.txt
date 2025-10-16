@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Geographic", "name": "Seville"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Disease", "name": "yellow dragon disease"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "Latin America"},
+    {"type": "Geographic", "name": "US"},
+    {"type": "Geographic", "name": "EU"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Disease", "name": "huanglongbing (HLB)"},
+    {"type": "Pest", "name": "Candidatus liberibacter"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Europe"},
+    {"type": "Vector", "name": "Trioza eryteae"},
+    {"type": "Geographic", "name": "Canaries"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Andalucía"},
+    {"type": "Geographic", "name": "southern Spain"}
+  ],
+  "relationships": [
+    {"source": "orange trees", "type": "Located in", "target": "Seville"},
+    {"source": "yellow dragon disease", "type": "Affects", "target": "orange trees"},
+    {"source": "Candidatus liberibacter", "type": "Causes", "target": "huanglongbing (HLB)"},
+    {"source": "huanglongbing (HLB)", "type": "Affects", "target": "orange trees"},
+    {"source": "Trioza eryteae", "type": "Transmits", "target": "Candidatus liberibacter"},
+    {"source": "Trioza eryteae", "type": "Have been found on", "target": "orange trees"},
+    {"source": "Trioza eryteae", "type": "Located in", "target": "Canaries"},
+    {"source": "Trioza eryteae", "type": "Located in", "target": "Portugal"},
+    {"source": "Trioza eryteae", "type": "Located in", "target": "Galicia"}
+  ]
+}
+

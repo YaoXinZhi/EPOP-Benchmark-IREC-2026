@@ -1,0 +1,66 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "brown wrinkle syndrome"},
+      {"type": "Pest", "name": "brown wrinkle virus"},
+      {"type": "Pest", "name": "Tomato brown fruit wrinkle virus"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Plant", "name": "Troy variety"},
+      {"type": "Geographic", "name": "Arcadia"},
+      {"type": "Geographic", "name": "Community of Levidi"},
+      {"type": "Plant", "name": "stypnus"},
+      {"type": "Plant", "name": "datula"},
+      {"type": "Plant", "name": "goosefoot"},
+      {"type": "Plant", "name": "petunia"},
+      {"type": "Plant", "name": "Cucurbitaceae"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "brown wrinkle virus", "type": "Causes", "target": "brown wrinkle syndrome"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "pepper"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "Community of Levidi"},
+      {"source": "brown wrinkle syndrome", "type": "Affects", "target": "tomato"},
+      {"source": "brown wrinkle syndrome", "type": "Affects", "target": "pepper"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "greenhouses"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "hydroponics"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "soil"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "tools"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "contaminated clothing"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "reusable plastic crates"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "pollinators"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "stypnus"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "datula"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "goosefoot"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "petunia"},
+      {"source": "brown wrinkle virus", "type": "Transmits", "target": "tomato"},
+      {"source": "brown wrinkle virus", "type": "Transmits", "target": "pepper"},
+      {"source": "pollinators", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "tools", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "contaminated clothing", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "reusable plastic crates", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "soil", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "greenhouses", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "hydroponics", "type": "Transmits", "target": "brown wrinkle virus"},
+      {"source": "pollinators", "type": "Transmits", "target": "tomato"},
+      {"source": "pollinators", "type": "Transmits", "target": "pepper"},
+      {"source": "tools", "type": "Transmits", "target": "tomato"},
+      {"source": "tools", "type": "Transmits", "target": "pepper"},
+      {"source": "contaminated clothing", "type": "Transmits", "target": "tomato"},
+      {"source": "contaminated clothing", "type": "Transmits", "target": "pepper"},
+      {"source": "reusable plastic crates", "type": "Transmits", "target": "tomato"},
+      {"source": "reusable plastic crates", "type": "Transmits", "target": "pepper"},
+      {"source": "soil", "type": "Transmits", "target": "tomato"},
+      {"source": "soil", "type": "Transmits", "target": "pepper"},
+      {"source": "greenhouses", "type": "Transmits", "target": "tomato"},
+      {"source": "greenhouses", "type": "Transmits", "target": "pepper"},
+      {"source": "hydroponics", "type": "Transmits", "target": "tomato"},
+      {"source": "hydroponics", "type": "Transmits", "target": "pepper"}
+    ]
+  }
+]
+```

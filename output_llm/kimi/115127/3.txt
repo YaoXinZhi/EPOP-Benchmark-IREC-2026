@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Cumanayagua"
+    },
+    {
+      "type": "Pest",
+      "name": "banana weevil"
+    },
+    {
+      "type": "Plant",
+      "name": "banana"
+    },
+    {
+      "type": "Plant",
+      "name": "plantain"
+    },
+    {
+      "type": "Disease",
+      "name": "Fusarium oxysporum f. sp. Cubense"
+    },
+    {
+      "type": "Plant",
+      "name": "Burro criollo"
+    },
+    {
+      "type": "Plant",
+      "name": "CEMSA"
+    },
+    {
+      "type": "Plant",
+      "name": "los manzanos"
+    },
+    {
+      "type": "Plant",
+      "name": "Jhonson plantains"
+    },
+    {
+      "type": "Plant",
+      "name": "Canutillo"
+    },
+    {
+      "type": "Plant",
+      "name": "Zacate borrego"
+    },
+    {
+      "type": "Plant",
+      "name": "Ensete"
+    },
+    {
+      "type": "Plant",
+      "name": "vain"
+    },
+    {
+      "type": "Plant",
+      "name": "milky milk"
+    },
+    {
+      "type": "Plant",
+      "name": "toad milk"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Causes",
+      "target": "Fusarium oxysporum f. sp. Cubense"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "Burro criollo"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "CEMSA"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "los manzanos"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "Jhonson plantains"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "Canutillo"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "Zacate borrego"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "Ensete"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "vain"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "milky milk"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. Cubense",
+      "type": "Have been found on",
+      "target": "toad milk"
+    },
+    {
+      "source": "banana weevil",
+      "type": "Have been found on",
+      "target": "banana"
+    },
+    {
+      "source": "banana weevil",
+      "type": "Have been found on",
+      "target": "plantain"
+    }
+  ]
+}
+

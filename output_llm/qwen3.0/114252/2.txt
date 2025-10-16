@@ -1,0 +1,71 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Quercus suber"},
+      {"type": "Plant", "name": "cork oak"},
+      {"type": "Pest", "name": "Phytophthora quercina"},
+      {"type": "Geographic", "name": "Morocco"},
+      {"type": "Geographic", "name": "SW Europe"},
+      {"type": "Geographic", "name": "NW Africa"},
+      {"type": "Geographic", "name": "Maâmora forest"},
+      {"type": "Geographic", "name": "Touazithe"},
+      {"type": "Disease", "name": "dieback"},
+      {"type": "Pest", "name": "Phytophthora cinnamomi"},
+      {"type": "Plant", "name": "Pinus radiata"},
+      {"type": "Pest", "name": "Phytophthora cryptogea"},
+      {"type": "Plant", "name": "Pedunculate Oak"},
+      {"type": "Pest", "name": "Phytophthora plurivora"},
+      {"type": "Plant", "name": "Buxus sempervirens"},
+      {"type": "Pest", "name": "Phytophthora occultans"},
+      {"type": "Plant", "name": "Metasequoia glyptostroboides"},
+      {"type": "Pest", "name": "Phytophthora acerina"},
+      {"type": "Plant", "name": "cork oaks"},
+      {"type": "Geographic", "name": "Doñana Biological Reserve"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Iberia"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Tunisia"},
+      {"type": "Geographic", "name": "Algeria"},
+      {"type": "Geographic", "name": "Czech Republic"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "North Africa"},
+      {"type": "Geographic", "name": "Mendel University in Brno"},
+      {"type": "Geographic", "name": "University of Sassari"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Quercus suber", "type": "Located in", "target": "SW Europe"},
+      {"source": "Quercus suber", "type": "Located in", "target": "NW Africa"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Maâmora forest"},
+      {"source": "Maâmora forest", "type": "Located in", "target": "Morocco"},
+      {"source": "Touazithe", "type": "Located in", "target": "Morocco"},
+      {"source": "Phytophthora quercina", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Quercus suber"},
+      {"source": "Phytophthora quercina", "type": "Have been found on", "target": "Quercus suber"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Morocco"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Spain"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Italy"},
+      {"source": "Phytophthora cryptogea", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Pinus radiata"},
+      {"source": "Phytophthora cryptogea", "type": "Have been found on", "target": "Pinus radiata"},
+      {"source": "Phytophthora plurivora", "type": "Causes", "target": "Root Rot"},
+      {"source": "Root Rot", "type": "Affects", "target": "Pedunculate Oak"},
+      {"source": "Root Rot", "type": "Affects", "target": "forest tree species"},
+      {"source": "Phytophthora plurivora", "type": "Have been found on", "target": "Pedunculate Oak"},
+      {"source": "Phytophthora occultans", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Buxus sempervirens"},
+      {"source": "Phytophthora occultans", "type": "Have been found on", "target": "Buxus sempervirens"},
+      {"source": "Phytophthora acerina", "type": "Causes", "target": "Root Rot"},
+      {"source": "Root Rot", "type": "Affects", "target": "Metasequoia glyptostroboides"},
+      {"source": "Phytophthora acerina", "type": "Have been found on", "target": "Metasequoia glyptostroboides"},
+      {"source": "Pythium spiculum", "type": "Causes", "target": "Root Rot"},
+      {"source": "Root Rot", "type": "Affects", "target": "cork oaks"},
+      {"source": "Pythium spiculum", "type": "Have been found on", "target": "cork oaks"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Mendel University in Brno"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "University of Sassari"}
+    ]
+  }
+]
+```

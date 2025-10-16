@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Disease", "name": "yellow dragon"},
+    {"type": "Disease", "name": "citrus sadness virus"},
+    {"type": "Disease", "name": "leprosis"},
+    {"type": "Pest", "name": "Candidatus Liberibacter"},
+    {"type": "Pest", "name": "Mediterranean fly larvae"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Geographic", "name": "Nicaragua"},
+    {"type": "Geographic", "name": "Panama"},
+    {"type": "Geographic", "name": "Guatemala"},
+    {"type": "Geographic", "name": "Costa Rica"},
+    {"type": "Geographic", "name": "El Salvador"},
+    {"type": "Geographic", "name": "Honduras"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Liberibacter", "type": "Causes", "target": "Huanglongbing (HLB)"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus"},
+    {"source": "citrus sadness virus", "type": "Affects", "target": "citrus"},
+    {"source": "leprosis", "type": "Affects", "target": "citrus"},
+    {"source": "Mediterranean fly larvae", "type": "Have been found on", "target": "host fruits"}
+  ]
+}
+

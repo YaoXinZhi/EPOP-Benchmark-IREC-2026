@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Balearic Islands"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "almond trees"},
+    {"type": "Plant", "name": "carob trees"},
+    {"type": "Plant", "name": "plants"},
+    {"type": "Disease", "name": "bacterium"},
+    {"type": "Plant", "name": "dried fruit"},
+    {"type": "Plant", "name": "species"},
+    {"type": "Pest", "name": "vector insects"},
+    {"type": "Disease", "name": "subspecies multiplex"},
+    {"type": "Disease", "name": "subspecies fastidiosa"},
+    {"type": "Disease", "name": "subspecies pauca"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Balearic Islands"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "plants"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "bacterium"},
+    {"source": "bacterium", "type": "Affects", "target": "almond trees"},
+    {"source": "bacterium", "type": "Affects", "target": "carob trees"},
+    {"source": "vector insects", "type": "Transmits", "target": "Xylella fastidiosa"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Corsica"},
+    {"source": "subspecies multiplex", "type": "Located in", "target": "Balearic Islands"},
+    {"source": "subspecies fastidiosa", "type": "Located in", "target": "Balearic Islands"},
+    {"source": "subspecies pauca", "type": "Located in", "target": "Ibiza"}
+  ]
+}
+

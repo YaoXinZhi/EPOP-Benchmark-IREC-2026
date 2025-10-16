@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "caterpillars"
+    },
+    {
+      "type": "Plant",
+      "name": "alfalfa"
+    },
+    {
+      "type": "Pest",
+      "name": "fall armyworm moth"
+    },
+    {
+      "type": "Geographic",
+      "name": "Missouri"
+    },
+    {
+      "type": "Plant",
+      "name": "corn"
+    },
+    {
+      "type": "Plant",
+      "name": "Johnsongrass"
+    },
+    {
+      "type": "Geographic",
+      "name": "south"
+    },
+    {
+      "type": "Geographic",
+      "name": "Texas"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Plant",
+      "name": "Bt corn"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Missouri"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "Missouri"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Have been found on",
+      "target": "alfalfa"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Have been found on",
+      "target": "corn"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Have been found on",
+      "target": "Johnsongrass"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "south"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "Texas"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "Florida"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Affects",
+      "target": "alfalfa"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Affects",
+      "target": "corn"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Affects",
+      "target": "Johnsongrass"
+    }
+  ]
+}
+

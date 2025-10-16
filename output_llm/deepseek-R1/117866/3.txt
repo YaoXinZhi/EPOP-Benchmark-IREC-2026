@@ -1,0 +1,34 @@
+{
+  "entities": [
+    {"type": "Fungus", "name": "Beauveria caledonica"},
+    {"type": "Pest", "name": "banana borer"},
+    {"type": "Pest", "name": "Cosmopolites sordidus"},
+    {"type": "Disease", "name": "fusariosis"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Plant", "name": "banana trees"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Vale do Ribeira"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "São Paulo"},
+    {"type": "Geographic", "name": "United States"},
+    {"type": "Fungus", "name": "B. bassiana"},
+    {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense"},
+    {"type": "Pest", "name": "FOC"}
+  ],
+  "relationships": [
+    {"source": "Beauveria caledonica", "type": "Have been found on", "target": "banana borer"},
+    {"source": "Beauveria caledonica", "type": "Have been found on", "target": "Cosmopolites sordidus"},
+    {"source": "banana borer", "type": "Causes", "target": "fusariosis"},
+    {"source": "Cosmopolites sordidus", "type": "Causes", "target": "fusariosis"},
+    {"source": "fusariosis", "type": "Affects", "target": "banana trees"},
+    {"source": "Panama disease", "type": "Affects", "target": "banana trees"},
+    {"source": "banana trees", "type": "Located in", "target": "Brazil"},
+    {"source": "banana trees", "type": "Located in", "target": "Vale do Ribeira"},
+    {"source": "banana trees", "type": "Located in", "target": "Colombia"},
+    {"source": "banana trees", "type": "Located in", "target": "São Paulo"},
+    {"source": "banana trees", "type": "Located in", "target": "United States"},
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Causes", "target": "fusariosis"},
+    {"source": "FOC", "type": "Causes", "target": "fusariosis"}
+  ]
+}
+

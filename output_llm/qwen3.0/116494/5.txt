@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Disease", "name": "TR4 Panama disease"},
+      {"type": "Disease", "name": "Fusarium Wilt (Foc TR4)"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Philippines"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "TR4 Panama disease", "type": "Affects", "target": "Cavendish banana"},
+      {"source": "Fusarium Wilt (Foc TR4)", "type": "Affects", "target": "banana"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Colombia"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Philippines"},
+      {"source": "TR4 Panama disease", "type": "Located in", "target": "Colombia"},
+      {"source": "Fusarium Wilt (Foc TR4)", "type": "Located in", "target": "Colombia"},
+      {"source": "Cavendish banana", "type": "Have been found on", "target": "banana"}
+    ]
+  }
+]
+```

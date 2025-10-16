@@ -1,0 +1,41 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Chinese thuja"},
+      {"type": "Plant", "name": "Platycladus orientalis"},
+      {"type": "Pest", "name": "Cinara thujafilina Del Guercio"},
+      {"type": "Vector", "name": "Coccinella septempunctata"},
+      {"type": "Vector", "name": "Oenopia conglubata"},
+      {"type": "Geographic", "name": "Iran"},
+      {"type": "Geographic", "name": "Lashkar"},
+      {"type": "Geographic", "name": "Sadaf"},
+      {"type": "Geographic", "name": "Sajjad"},
+      {"type": "Geographic", "name": "Mashhad"},
+      {"type": "Geographic", "name": "Razavi Khorasan province"},
+      {"type": "Geographic", "name": "Tehran"},
+      {"type": "Geographic", "name": "Ahwaz"},
+      {"type": "Geographic", "name": "Binalood"},
+      {"type": "Geographic", "name": "Hezar Masjed"},
+      {"type": "Geographic", "name": "Australia"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "World Health Organization"},
+      {"type": "Geographic", "name": "Canada"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Chinese thuja", "type": "Located in", "target": "Iran"},
+      {"source": "Platycladus orientalis", "type": "Located in", "target": "Mashhad"},
+      {"source": "Lashkar", "type": "Located in", "target": "Mashhad"},
+      {"source": "Sadaf", "type": "Located in", "target": "Mashhad"},
+      {"source": "Sajjad", "type": "Located in", "target": "Mashhad"},
+      {"source": "Mashhad", "type": "Located in", "target": "Razavi Khorasan province"},
+      {"source": "Cinara thujafilina Del Guercio", "type": "Have been found on", "target": "Platycladus orientalis"},
+      {"source": "Coccinella septempunctata", "type": "Have been found on", "target": "Platycladus orientalis"},
+      {"source": "Oenopia conglubata", "type": "Have been found on", "target": "Platycladus orientalis"}
+    ]
+  }
+]
+```

@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "citrus plants"},
+    {"type": "Geographic", "name": "Entre Ríos"},
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Pest", "name": "HLB pest"},
+    {"type": "Pest", "name": "Candidatus liberibacter"},
+    {"type": "Plant", "name": "poncirus trifoliata"}
+  ],
+  "relationships": [
+    {"source": "HLB pest", "type": "Causes", "target": "Huanglongbing (HLB)"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus plants"},
+    {"source": "HLB pest", "type": "Have been found on", "target": "citrus plants"},
+    {"source": "Huanglongbing (HLB)", "type": "Located in", "target": "Entre Ríos"},
+    {"source": "Candidatus liberibacter", "type": "Causes", "target": "Huanglongbing (HLB)"}
+  ]
+}
+

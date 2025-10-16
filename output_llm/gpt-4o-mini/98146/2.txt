@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Plant", "name": "citrus seedlings"},
+    {"type": "Geographic", "name": "Tucumán"},
+    {"type": "Geographic", "name": "San Miguel de Tucumán"}
+  ],
+  "relationships": [
+    {"source": "citrus seedlings", "type": "Located in", "target": "Tucumán"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus seedlings"},
+    {"source": "Huanglongbing (HLB)", "type": "Have been found on", "target": "citrus seedlings"}
+  ]
+}
+

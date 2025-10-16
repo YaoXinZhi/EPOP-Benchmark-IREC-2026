@@ -1,0 +1,42 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "golden-yellow yellowing"},
+      {"type": "Disease", "name": "yellowing diseases"},
+      {"type": "Geographic", "name": "Burggrafenamt"},
+      {"type": "Geographic", "name": "Unterland"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "lowlands"},
+      {"type": "Geographic", "name": "Salurn"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Disease", "name": "blackwood disease"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Plant", "name": "vineyard"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "Laimburg"},
+      {"type": "Disease", "name": "Flavescence dorèe phytoplasma"},
+      {"type": "Vector", "name": "American leafhopper"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "golden-yellow yellowing", "type": "Located in", "name": "Burggrafenamt"},
+      {"source": "vines", "type": "Located in", "name": "Unterland"},
+      {"source": "yellowing diseases", "type": "Located in", "name": "lowlands"},
+      {"source": "vines", "type": "Located in", "name": "Salurn"},
+      {"source": "golden-yellow yellowing", "type": "Affects", "target": "vines"},
+      {"source": "Flavescence dorée", "type": "Causes", "target": "golden-yellow yellowing"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "Chardonnay"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "Pinot Grigio"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "American leafhopper", "type": "Transmits", "target": "Flavescence dorée phytoplasma"},
+      {"source": "American leafhopper", "type": "Located in", "name": "South Tyrol"},
+      {"source": "Flavescence dorée", "type": "Located in", "name": "South Tyrol"}
+    ]
+  }
+]
+```

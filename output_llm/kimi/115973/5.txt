@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Apulia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari"
+    },
+    {
+      "type": "Organization",
+      "name": "University of Bari"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute for Sustainable Plant Protection-CNR"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute of Photonics and Nanotechnology (CNR-Ifn)"
+    },
+    {
+      "type": "Organization",
+      "name": "Agritest s.r.l."
+    },
+    {
+      "type": "Organization",
+      "name": "CNR Scientific Council"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute for the Sustainable Plant Protection (Cnr-Ipsp)"
+    },
+    {
+      "type": "Organization",
+      "name": "Department of Pharmacy-Sciences at Farmacia de the University of Bari"
+    },
+    {
+      "type": "Organization",
+      "name": "ERC Starting Grant project"
+    },
+    {
+      "type": "Organization",
+      "name": "Interateneum Physics Department of the University of Bari"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Apulia"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Luisa Torsi",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Donato Boscia",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Eleonora Macchia",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Luisa Torsi",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Gaetano Scamarcio",
+      "type": "Located in",
+      "target": "Bari"
+    }
+  ]
+}
+

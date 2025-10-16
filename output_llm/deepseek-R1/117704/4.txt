@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "flavescence dorée"},
+    {"type": "Plant", "name": "vine"},
+    {"type": "Plant", "name": "grape varieties"},
+    {"type": "Plant", "name": "white grape varieties"},
+    {"type": "Plant", "name": "red grape varieties"},
+    {"type": "Disease", "name": "bois noir"},
+    {"type": "Vector", "name": "Scaphoidus titanus"},
+    {"type": "Geographic", "name": "Lot"},
+    {"type": "Geographic", "name": "Parnac"},
+    {"type": "Geographic", "name": "Pradines"},
+    {"type": "Geographic", "name": "Mercuès"},
+    {"type": "Geographic", "name": "Douelle"},
+    {"type": "Geographic", "name": "Porte du Quercy"},
+    {"type": "Geographic", "name": "Sauzet"},
+    {"type": "Geographic", "name": "Luzech"},
+    {"type": "Geographic", "name": "Prayssac"},
+    {"type": "Geographic", "name": "Carnac"},
+    {"type": "Geographic", "name": "Sérignac"},
+    {"type": "Geographic", "name": "Saux"},
+    {"type": "Geographic", "name": "Montcuq"},
+    {"type": "Geographic", "name": "Glanes"}
+  ],
+  "relationships": [
+    {"source": "flavescence dorée", "type": "Located in", "target": "Lot"},
+    {"source": "Scaphoidus titanus", "type": "Transmits", "target": "flavescence dorée"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "vine"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "grape varieties"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "white grape varieties"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "red grape varieties"},
+    {"source": "bois noir", "type": "Affects", "target": "vine"},
+    {"source": "Scaphoidus titanus", "type": "Have been found on", "target": "vine"}
+  ]
+}
+

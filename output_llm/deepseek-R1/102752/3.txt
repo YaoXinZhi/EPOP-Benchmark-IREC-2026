@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Acrogonia"},
+    {"type": "Vector", "name": "Diestostemma"},
+    {"type": "Vector", "name": "Acrogonia albertoi"},
+    {"type": "Vector", "name": "Diestostemma cavichiolii"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "Amazon rainforest"},
+    {"type": "Plant", "name": "vascular plants"},
+    {"type": "Plant", "name": "agricultural crops"},
+    {"type": "Geographic", "name": "Flona Tapajós"},
+    {"type": "Geographic", "name": "Tapajós National Forest"},
+    {"type": "Geographic", "name": "Belterra"},
+    {"type": "Geographic", "name": "western Pará"}
+  ],
+  "relationships": [
+    {"source": "Acrogonia", "type": "Transmits", "target": "Xylella fastidiosa"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant diseases"},
+    {"source": "plant diseases", "type": "Affects", "target": "agricultural crops"},
+    {"source": "Acrogonia", "type": "Have been found on", "target": "vascular plants"},
+    {"source": "Diestostemma", "type": "Have been found on", "target": "vascular plants"},
+    {"source": "Acrogonia albertoi", "type": "Located in", "target": "Tapajós National Forest"},
+    {"source": "Diestostemma cavichiolii", "type": "Located in", "target": "Tapajós National Forest"},
+    {"source": "Tapajós National Forest", "type": "Located in", "target": "western Pará"}
+  ]
+}
+

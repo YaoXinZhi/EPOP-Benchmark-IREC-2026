@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Chrysopa formosa"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Pest", "name": "Spodoptera litura"},
+    {"type": "Geographic", "name": "China"}
+  ],
+  "relationships": [
+    {"source": "Chrysopa formosa", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "Chrysopa formosa", "type": "Transmits", "target": "Spodoptera litura"},
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "China"},
+    {"source": "Spodoptera litura", "type": "Located in", "target": "China"}
+  ]
+}
+

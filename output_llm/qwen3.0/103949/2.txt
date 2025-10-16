@@ -1,0 +1,27 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "xylella"},
+      {"type": "Vector", "name": "spittoon"},
+      {"type": "Geographic", "name": "Lecce-Bari state road"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Lecce"},
+      {"type": "Geographic", "name": "Salento city"},
+      {"type": "Geographic", "name": "Pescara"},
+      {"type": "Geographic", "name": "City Pescara News"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "spittoon", "type": "Transmits", "target": "xylella"},
+      {"source": "xylella", "type": "Located in", "target": "Lecce-Bari state road"},
+      {"source": "xylella", "type": "Located in", "target": "Bari"},
+      {"source": "xylella", "type": "Located in", "target": "Lecce"},
+      {"source": "xylella", "type": "Located in", "target": "Salento city"},
+      {"source": "xylella", "type": "Located in", "target": "Pescara"},
+      {"source": "xylella", "type": "Located in", "target": "City Pescara News"}
+    ]
+  }
+]
+```

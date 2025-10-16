@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Ostuni"},
+      {"type": "Geographic", "name": "Polignano"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Apulia"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Greece"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "The Netherlands"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Plant", "name": "ornamental and/or medicinal plants"},
+      {"type": "Plant", "name": "specified species"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "olive trees", "type": "Located in", "target": "Puglia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Polignano"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Apulia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Europe"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Greece"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Spain"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "The Netherlands"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Bari"}
+    ]
+  }
+]
+```

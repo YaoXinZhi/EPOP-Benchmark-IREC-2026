@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "banana fusariun"
+    },
+    {
+      "type": "Disease",
+      "name": "Fusarium wilt"
+    },
+    {
+      "type": "Plant",
+      "name": "banana"
+    },
+    {
+      "type": "Plant",
+      "name": "banana cultivar MaÃ§Ã£"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium oxysporum f.sp. cubense"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium kalimantanense"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium wilt",
+      "type": "Affects",
+      "target": "banana"
+    },
+    {
+      "source": "Fusarium wilt",
+      "type": "Causes",
+      "target": "banana fusariun"
+    },
+    {
+      "source": "Fusarium oxysporum f.sp. cubense",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    },
+    {
+      "source": "Fusarium kalimantanense",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    }
+  ]
+}
+

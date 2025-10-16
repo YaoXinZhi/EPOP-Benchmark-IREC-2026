@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "strawberries"},
+    {"type": "Pest", "name": "potato aphid"},
+    {"type": "Geographic", "name": "Midlands"},
+    {"type": "Geographic", "name": "UK"},
+    {"type": "Geographic", "name": "Central Europe"}
+  ],
+  "relationships": [
+    {"source": "strawberries", "type": "Located in", "target": "UK"},
+    {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+  ]
+}
+

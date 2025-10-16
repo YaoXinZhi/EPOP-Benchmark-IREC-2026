@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Pinheiro Wood Nematode"},
+      {"type": "Geographic", "name": "Lisbon"},
+      {"type": "Geographic", "name": "Tapada da Ajuda"},
+      {"type": "Plant", "name": "pine wood"},
+      {"type": "Plant", "name": "coniferous wood"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "DGAV — Directorate-General for Food and Veterinary Medicine", "type": "Located in", "target": "Lisbon"},
+      {"source": "Tapada da Ajuda", "type": "Located in", "target": "Lisbon"},
+      {"source": "Pinheiro Wood Nematode", "type": "Have been found on", "target": "pine wood"}
+    ]
+  }
+]
+```

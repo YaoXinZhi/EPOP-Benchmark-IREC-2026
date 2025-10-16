@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée"
+    },
+    {
+      "type": "Person",
+      "name": "Audrey Petit"
+    },
+    {
+      "type": "Organization",
+      "name": "IFV"
+    },
+    {
+      "type": "Person",
+      "name": "Héloïse Mahé"
+    },
+    {
+      "type": "Organization",
+      "name": "BIVB"
+    },
+    {
+      "type": "Pest",
+      "name": "Scaphodeus Titanus"
+    },
+    {
+      "type": "Plant",
+      "name": "vine plots"
+    },
+    {
+      "type": "Plant",
+      "name": "fallow plots"
+    },
+    {
+      "type": "Plant",
+      "name": "wild vines"
+    },
+    {
+      "type": "Geographic",
+      "name": "Burgundy"
+    },
+    {
+      "type": "Geographic",
+      "name": "New Zealand"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Audrey Petit",
+      "type": "Located in",
+      "target": "IFV"
+    },
+    {
+      "source": "Héloïse Mahé",
+      "type": "Located in",
+      "target": "BIVB"
+    },
+    {
+      "source": "Scaphodeus Titanus",
+      "type": "Has been found on",
+      "target": "vine plots"
+    },
+    {
+      "source": "Scaphodeus Titanus",
+      "type": "Has been found on",
+      "target": "fallow plots"
+    },
+    {
+      "source": "Scaphodeus Titanus",
+      "type": "Has been found on",
+      "target": "wild vines"
+    },
+    {
+      "source": "Héloïse Mahé",
+      "type": "Located in",
+      "target": "Burgundy"
+    }
+  ]
+}
+

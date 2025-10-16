@@ -1,0 +1,48 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Tropical Race 4"},
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Ruanda"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Utrecht University"},
+      {"type": "Geographic", "name": "Wageningen University & Research"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Mozambique"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Africa"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Asia"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "South America"},
+      {"source": "Tropical Race 4", "type": "Have been found on", "target": "banana"},
+      {"source": "Panama disease", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Africa"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Europe"},
+      {"source": "Cavendish banana", "type": "Affected by", "target": "Tropical Race 4"},
+      {"source": "Fusarium fungus", "type": "Transmits", "target": "Tropical Race 4"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Tanzania"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Malawi"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Uganda"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Ruanda"}
+    ]
+  }
+]
+```

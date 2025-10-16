@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Citrus"},
+      {"type": "Pest", "name": "Phyllosticta citricarpa"},
+      {"type": "Disease", "name": "Citrus Black Spot disease"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Uruguay"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "South Africa"},
+      {"type": "Geographic", "name": "Mercosur"},
+      {"type": "Organization", "name": "Unió Llauradora"},
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Pest", "name": "Cotonet"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Phyllosticta citricarpa", "type": "Causes", "target": "Citrus Black Spot disease"},
+      {"source": "Citrus Black Spot disease", "type": "Affects", "target": "Citrus"},
+      {"source": "Phyllosticta citricarpa", "type": "Have been found on", "target": "Citrus"},
+      {"source": "Brazil", "type": "Located in", "target": "Mercosur"},
+      {"source": "Argentina", "type": "Located in", "target": "Mercosur"},
+      {"source": "Uruguay", "type": "Located in", "target": "Mercosur"},
+      {"source": "Colombia", "type": "Located in", "target": "Mercosur"},
+      {"source": "Citrus", "type": "Located in", "target": "European Union"},
+      {"source": "Citrus", "type": "Located in", "target": "Brazil"},
+      {"source": "Citrus", "type": "Located in", "target": "Argentina"},
+      {"source": "Citrus", "type": "Located in", "target": "Uruguay"},
+      {"source": "Citrus", "type": "Located in", "target": "Colombia"},
+      {"source": "Citrus", "type": "Located in", "target": "South Africa"},
+      {"source": "Phyllosticta citricarpa", "type": "Located in", "target": "South Africa"},
+      {"source": "Xylella", "type": "Located in", "target": "European Union"},
+      {"source": "Cotonet", "type": "Located in", "target": "South Africa"},
+      {"source": "Xylella", "type": "Affects", "target": "Citrus"},
+      {"source": "Cotonet", "type": "Affects", "target": "Citrus"}
+    ]
+  }
+]
+```

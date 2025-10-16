@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Trioza eritreae"},
+    {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+    {"type": "Disease", "name": "huanglongbing"},
+    {"type": "Plant", "name": "citrus plantations"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Huelva"},
+    {"type": "Geographic", "name": "Algarve"},
+    {"type": "Geographic", "name": "Aljezur"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Cantabria"},
+    {"type": "Geographic", "name": "Asturias"},
+    {"type": "Geographic", "name": "Basque Country"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Hefer Valley"},
+    {"type": "Geographic", "name": "Tel Aviv"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Plant", "name": "mandarin trees"},
+    {"type": "Plant", "name": "citrange reed"}
+  ],
+  "relationships": [
+    {"source": "Trioza eritreae", "type": "Have been found on", "target": "citrus plantations"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Portugal"},
+    {"source": "huanglongbing", "type": "Affects", "target": "citrus plantations"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "huanglongbing"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Algarve"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Huelva"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Aljezur"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Galicia"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Cantabria"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Asturias"},
+    {"source": "Trioza eritreae", "type": "Located in", "target": "Basque Country"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Located in", "target": "Israel"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Located in", "target": "Hefer Valley"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Located in", "target": "Tel Aviv"},
+    {"source": "orange trees", "type": "Have been found on", "target": "citrange reed"},
+    {"source": "mandarin trees", "type": "Have been found on", "target": "citrange reed"}
+  ]
+}
+

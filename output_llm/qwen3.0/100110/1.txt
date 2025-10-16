@@ -1,0 +1,18 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Tomato Brown Rugose Fruit Virus"},
+      {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "Tomato brown rugose fruit virus (ToBRFV)"},
+      {"type": "Plant", "name": "Tomato"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tomato brown rugose fruit virus (ToBRFV)", "type": "Causes", "target": "Tomato brown rugose fruit virus"},
+      {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "Tomato"}
+    ]
+  }
+]
+```

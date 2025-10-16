@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "fall armyworm moth"},
+    {"type": "Plant", "name": "alfalfa"},
+    {"type": "Geographic", "name": "Missouri"},
+    {"type": "Geographic", "name": "Arrow Rock"},
+    {"type": "Plant", "name": "corn"},
+    {"type": "Plant", "name": "Johnsongrass"},
+    {"type": "Disease", "name": "crop-devouring caterpillars"},
+    {"type": "Pest", "name": "fall armyworms"},
+    {"type": "Pest", "name": "true armyworm"},
+    {"type": "Pest", "name": "armyworms"},
+    {"type": "Pest", "name": "Bt corn"}
+  ],
+  "relationships": [
+    {"source": "fall armyworms", "type": "Have been found on", "target": "alfalfa"},
+    {"source": "fall armyworms", "type": "Have been found on", "target": "corn"},
+    {"source": "fall armyworms", "type": "Have been found on", "target": "Johnsongrass"},
+    {"source": "crop-devouring caterpillars", "type": "Affects", "target": "alfalfa"},
+    {"source": "fall armyworms", "type": "Causes", "target": "crop-devouring caterpillars"},
+    {"source": "fall armyworm moth", "type": "Transmits", "target": "fall armyworms"}
+  ]
+}
+

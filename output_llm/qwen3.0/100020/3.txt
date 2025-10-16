@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "leaves"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "roots"},
+      {"type": "Vector", "name": "Japanese beetle"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "southern Germany"},
+      {"type": "Geographic", "name": "Germany"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "northern Italy"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "name": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "southern Germany"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Germany"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Asia"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "EU"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Italy"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "northern Italy"},
+      {"source": "Japanese beetle", "type": "Affects", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Affects", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Affects", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Affects", "target": "roots"}
+    ]
+  }
+]
+```

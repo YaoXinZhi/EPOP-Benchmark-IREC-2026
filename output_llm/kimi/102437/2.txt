@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "psyllids"
+    },
+    {
+      "type": "Plant",
+      "name": "pepper plant"
+    },
+    {
+      "type": "Pest",
+      "name": "Liberibacter"
+    },
+    {
+      "type": "Disease",
+      "name": "citrus greening"
+    },
+    {
+      "type": "Pest",
+      "name": "L. capsica"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "L. capsica",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "L. capsica",
+      "type": "Have been found on",
+      "target": "pepper plant"
+    },
+    {
+      "source": "citrus greening",
+      "type": "Affects",
+      "target": "citrus trees"
+    },
+    {
+      "source": "Liberibacter",
+      "type": "Causes",
+      "target": "citrus greening"
+    },
+    {
+      "source": "psyllids",
+      "type": "Transmits",
+      "target": "L. capsica"
+    }
+  ]
+}
+

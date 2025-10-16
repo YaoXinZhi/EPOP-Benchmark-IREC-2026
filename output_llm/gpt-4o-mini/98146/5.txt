@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "citrus seedlings"},
+    {"type": "Geographic", "name": "Tucumán"},
+    {"type": "Geographic", "name": "San Miguel de Tucumán"}
+  ],
+  "relationships": [
+    {"source": "citrus seedlings", "type": "Located in", "target": "Tucumán"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus seedlings"}
+  ]
+}
+

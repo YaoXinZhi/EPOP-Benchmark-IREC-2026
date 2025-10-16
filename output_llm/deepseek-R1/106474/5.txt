@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish bananas"},
+    {"type": "Disease", "name": "TR4 fungus"},
+    {"type": "Geographic", "name": "Wageningen University"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Plant", "name": "Gros Michel variety"},
+    {"type": "Disease", "name": "TR1"},
+    {"type": "Plant", "name": "Cavendish"},
+    {"type": "Disease", "name": "Fusarium wilt"},
+    {"type": "Plant", "name": "Grand Naine bananas"},
+    {"type": "Disease", "name": "Tropical Race 4"}
+  ],
+  "relationships": [
+    {"source": "Cavendish bananas", "type": "Located in", "target": "Colombia"},
+    {"source": "TR4 fungus", "type": "Affects", "target": "Cavendish bananas"},
+    {"source": "TR1", "type": "Affects", "target": "Gros Michel variety"},
+    {"source": "Cavendish", "type": "Located in", "target": "Colombia"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "Grand Naine bananas"},
+    {"source": "Tropical Race 4", "type": "Affects", "target": "Grand Naine bananas"}
+  ]
+}
+

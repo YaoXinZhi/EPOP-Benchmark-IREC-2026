@@ -1,0 +1,30 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "many regions of the world"},
+      {"type": "Pest", "name": "oxytetracycline"},
+      {"type": "Pest", "name": "streptomycin"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "many regions of the world"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Located in", "target": "citrus plants"},
+      {"source": "oxytetracycline", "type": "Have been found on", "target": "citrus"},
+      {"source": "streptomycin", "type": "Have been found on", "target": "citrus"},
+      {"source": "oxytetracycline", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "streptomycin", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "oxytetracycline", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "streptomycin", "type": "Have been found on", "target": "citrus plants"}
+    ]
+  }
+]
+```

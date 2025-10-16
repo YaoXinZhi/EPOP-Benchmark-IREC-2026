@@ -1,0 +1,72 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tomato brown shriveling"},
+      {"type": "Plant", "name": "tomato farms"},
+      {"type": "Plant", "name": "tomatoes"},
+      {"type": "Disease", "name": "brown wrinkling of tomatoes"},
+      {"type": "Pest", "name": "ToBRFV"},
+      {"type": "Pest", "name": "tobamovirus"},
+      {"type": "Geographic", "name": "Dutch"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "mid-2019"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Jordan"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Germany"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Hungary"},
+      {"type": "Plant", "name": "young seedlings"},
+      {"type": "Pest", "name": "Tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "Jordan virus"},
+      {"type": "Pest", "name": "Tm-22 resistance gene"},
+      {"type": "Pest", "name": "TMV"},
+      {"type": "Pest", "name": "ToMV"},
+      {"type": "Organisation", "name": "NVWA"},
+      {"type": "Organisation", "name": "NÉBIH"},
+      {"type": "Organisation", "name": "FruitVeB"},
+      {"type": "Organisation", "name": "European and Mediterranean Plant Protection Organization"},
+      {"type": "Organisation", "name": "county Government Office"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "ToBRFV", "type": "Causes", "target": "tomato brown shriveling"},
+      {"source": "ToBRFV", "type": "Causes", "target": "brown wrinkling of tomatoes"},
+      {"source": "ToBRFV", "type": "Have been found on", "target": "tomato farms"},
+      {"source": "tobamovirus", "type": "Have been found on", "target": "tomato farms"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Dutch"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Netherlands"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Israel"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Jordan"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Sicily"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Italy"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Germany"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Europe"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Hungary"},
+      {"source": "ToBRFV", "type": "Affects", "target": "tomatoes"},
+      {"source": "ToBRFV", "type": "Affects", "target": "young seedlings"},
+      {"source": "ToBRFV", "type": "Transmits", "target": "tomatoes"},
+      {"source": "tobamovirus", "type": "Transmits", "target": "tomatoes"},
+      {"source": "ToBRFV", "type": "Located in", "target": "mid-2019"},
+      {"source": "Jordan virus", "type": "Located in", "target": "November 1, 2019"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2019"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2014"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2015"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2018"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2019"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2022"},
+      {"source": "ToBRFV", "type": "Located in", "target": "June 1"},
+      {"source": "ToBRFV", "type": "Located in", "target": "June 1, 2022"},
+      {"source": "ToBRFV", "type": "Located in", "target": "41 Dutch tomato farms"},
+      {"source": "ToBRFV", "type": "Located in", "target": "57 growers"},
+      {"source": "ToBRFV", "type": "Located in", "target": "12 places"},
+      {"source": "ToBRFV", "type": "Located in", "target": "6 farms"},
+      {"source": "ToBRFV", "type": "Located in", "target": "2 farms"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Jordan virus"}
+    ]
+  }
+]
+```

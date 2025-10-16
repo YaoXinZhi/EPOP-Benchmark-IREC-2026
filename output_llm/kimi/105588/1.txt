@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Balearic Islands"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Corsica"
+    },
+    {
+      "type": "Geographic",
+      "name": "Formentera"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ibiza"
+    },
+    {
+      "type": "Plant",
+      "name": "almond trees"
+    },
+    {
+      "type": "Plant",
+      "name": "carob trees"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Balearic Islands",
+      "type": "Located in",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "almond trees"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "carob trees"
+    },
+    {
+      "source": "Corsica",
+      "type": "Located in",
+      "target": "Plant Health technicians"
+    },
+    {
+      "source": "Formentera",
+      "type": "Located in",
+      "target": "Balearic Islands"
+    },
+    {
+      "source": "Ibiza",
+      "type": "Located in",
+      "target": "Xylella fastidiosa"
+    }
+  ]
+}
+

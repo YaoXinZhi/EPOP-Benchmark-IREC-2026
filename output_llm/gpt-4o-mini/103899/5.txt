@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "spittoon"},
+    {"type": "Pest", "name": "xylella"},
+    {"type": "Geographic", "name": "Lecce-Bari"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Geographic", "name": "Salento"}
+  ],
+  "relationships": [
+    {"source": "spittoon", "type": "Transmits", "target": "xylella"},
+    {"source": "xylella", "type": "Located in", "target": "Lecce-Bari"},
+    {"source": "xylella", "type": "Located in", "target": "Bari"},
+    {"source": "xylella", "type": "Located in", "target": "Salento"}
+  ]
+}
+

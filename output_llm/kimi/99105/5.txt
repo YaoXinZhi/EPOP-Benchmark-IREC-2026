@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "citrus psyllid"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Plant",
+      "name": "garden myrtle"
+    },
+    {
+      "type": "Plant",
+      "name": "Murraya paniculata"
+    },
+    {
+      "type": "Disease",
+      "name": "HBL"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Disease",
+      "name": "Greening"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus psyllid",
+      "type": "Transmits",
+      "target": "Candidatus Liberibacter spp."
+    },
+    {
+      "source": "Candidatus Liberibacter spp.",
+      "type": "Causes",
+      "target": "HBL"
+    },
+    {
+      "source": "HBL",
+      "type": "Affects",
+      "target": "orange"
+    },
+    {
+      "source": "citrus psyllid",
+      "type": "Have been found on",
+      "target": "garden myrtle"
+    },
+    {
+      "source": "citrus psyllid",
+      "type": "Have been found on",
+      "target": "Murraya paniculata"
+    },
+    {
+      "source": "citrus psyllid",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "orange",
+      "type": "Located in",
+      "target": "Brazil"
+    }
+  ]
+}
+

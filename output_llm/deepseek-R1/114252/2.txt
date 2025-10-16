@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Quercus suber"},
+    {"type": "Disease", "name": "Dieback of Quercus suber Trees"},
+    {"type": "Pest", "name": "Phytophthora quercina"},
+    {"type": "Geographic", "name": "Morocco"},
+    {"type": "Geographic", "name": "SW Europe"},
+    {"type": "Geographic", "name": "NW Africa"},
+    {"type": "Geographic", "name": "western Mediterranean basin"},
+    {"type": "Geographic", "name": "Iberia"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Tunisia"},
+    {"type": "Geographic", "name": "Algeria"},
+    {"type": "Geographic", "name": "Touazithe"},
+    {"type": "Geographic", "name": "Maâmora forest"},
+    {"type": "Pest", "name": "Phytophthora cinnamomi"},
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Geographic", "name": "Czech Republic"},
+    {"type": "Plant", "name": "Pinus radiata"},
+    {"type": "Pest", "name": "Phytophthora cryptogea"},
+    {"type": "Plant", "name": "Pedunculate Oak"},
+    {"type": "Pest", "name": "Phytophthora plurivora"},
+    {"type": "Plant", "name": "Buxus sempervirens"},
+    {"type": "Pest", "name": "Phytophthora occultans"},
+    {"type": "Plant", "name": "Metasequoia glyptostroboides"},
+    {"type": "Pest", "name": "Phytophthora acerina"},
+    {"type": "Pest", "name": "Pythium spiculum"}
+  ],
+  "relationships": [
+    {"source": "Quercus suber", "type": "Located in", "target": "SW Europe"},
+    {"source": "Quercus suber", "type": "Located in", "target": "NW Africa"},
+    {"source": "Quercus suber", "type": "Located in", "target": "western Mediterranean basin"},
+    {"source": "Dieback of Quercus suber Trees", "type": "Located in", "target": "Morocco"},
+    {"source": "Phytophthora quercina", "type": "Located in", "target": "Morocco"},
+    {"source": "Phytophthora quercina", "type": "Causes", "target": "Dieback of Quercus suber Trees"},
+    {"source": "Phytophthora quercina", "type": "Have been found on", "target": "Quercus suber"},
+    {"source": "Dieback of Quercus suber Trees", "type": "Affects", "target": "Quercus suber"},
+    {"source": "Phytophthora cinnamomi", "type": "Have been found on", "target": "Quercus suber"}
+  ]
+}
+

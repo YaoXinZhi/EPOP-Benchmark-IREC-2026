@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Geographic", "name": "Tavira"},
+      {"type": "Geographic", "name": "ZD Tavira"},
+      {"type": "Geographic", "name": "September 1, 2022"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Tavira"},
+      {"source": "ZD Tavira", "type": "Located in", "target": "Tavira"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "ZD Tavira"},
+      {"source": "ZD Tavira", "type": "Located in", "target": "September 1, 2022"}
+    ]
+  }
+]
+```

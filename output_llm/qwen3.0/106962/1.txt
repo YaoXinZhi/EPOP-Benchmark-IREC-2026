@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Golden flavescence"},
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Disease", "name": "black wood disease"},
+      {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma"},
+      {"type": "Vector", "name": "American vine leafhopper"},
+      {"type": "Geographic", "name": "Bassaa Atesina"},
+      {"type": "Geographic", "name": "Salorno"},
+      {"type": "Geographic", "name": "Burgraviato"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Laimburg Research Center"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "Burgraviato"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Pinot Grigio"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "grapevine"},
+      {"source": "Flavescence dorèe-Phytoplasma", "type": "Causes", "target": "flavescence dorée"},
+      {"source": "American vine leafhopper", "type": "Transmits", "target": "Flavescence dorèe-Phytoplasma"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Europe"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Salorno"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Bassaa Atesina"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "vineyards"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "vineyards"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "grapevine"}
+    ]
+  }
+]
+```

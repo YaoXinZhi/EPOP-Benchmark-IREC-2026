@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Rhizopus arrhizus"
+    },
+    {
+      "type": "Disease",
+      "name": "Garlic Bulb Soft Rot"
+    },
+    {
+      "type": "Plant",
+      "name": "garlic bulbs"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hebei Province, China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Daming County, Handan City"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Causes",
+      "target": "Garlic Bulb Soft Rot"
+    },
+    {
+      "source": "Garlic Bulb Soft Rot",
+      "type": "Affects",
+      "target": "garlic bulbs"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Have been found on",
+      "target": "garlic bulbs"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Located in",
+      "target": "Hebei Province, China"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Located in",
+      "target": "Daming County, Handan City"
+    }
+  ]
+}
+

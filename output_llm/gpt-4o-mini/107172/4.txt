@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish banana plants"},
+    {"type": "Pest", "name": "Fusarium fungus"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Pest", "name": "Fusarium tropical race 1 (TR1)"},
+    {"type": "Pest", "name": "Fusarium tropical race 4 (TR4)"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Western countries"}
+  ],
+  "relationships": [
+    {"source": "Fusarium tropical race 1 (TR1)", "type": "Causes", "target": "Panama disease"},
+    {"source": "Fusarium tropical race 4 (TR4)", "type": "Causes", "target": "Panama disease"},
+    {"source": "Cavendish banana plants", "type": "Have been found on", "target": "Fusarium tropical race 1 (TR1)"},
+    {"source": "Cavendish banana plants", "type": "Have been found on", "target": "Fusarium tropical race 4 (TR4)"},
+    {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana plants"},
+    {"source": "Fusarium tropical race 1 (TR1)", "type": "Transmits", "target": "Fusarium tropical race 4 (TR4)"},
+    {"source": "Cavendish banana plants", "type": "Located in", "target": "Western countries"},
+    {"source": "Fusarium fungus", "type": "Located in", "target": "Brazil"}
+  ]
+}
+

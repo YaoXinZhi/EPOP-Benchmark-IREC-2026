@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Disease", "name": "Xylella Fastidiosa - pauca strain"},
+    {"type": "Plant", "name": "olive trees"},
+    {"type": "Plant", "name": "centuries-old olive trees"},
+    {"type": "Plant", "name": "olive groves"},
+    {"type": "Geographic", "name": "Ionian municipalities"},
+    {"type": "Geographic", "name": "Manduria"},
+    {"type": "Geographic", "name": "Avetrana"},
+    {"type": "Geographic", "name": "Sava"},
+    {"type": "Geographic", "name": "Maruggio"},
+    {"type": "Geographic", "name": "Torricella"},
+    {"type": "Geographic", "name": "Lecce"},
+    {"type": "Geographic", "name": "Brindisi"},
+    {"type": "Geographic", "name": "Taranto"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Geographic", "name": "Polignano a Mare"},
+    {"type": "Geographic", "name": "Castellana Grotte"},
+    {"type": "Geographic", "name": "Carosino"},
+    {"type": "Geographic", "name": "Faggiano"},
+    {"type": "Geographic", "name": "Fragagnano"},
+    {"type": "Geographic", "name": "Lizzano"},
+    {"type": "Geographic", "name": "Monteiasi"},
+    {"type": "Geographic", "name": "Pulsano"},
+    {"type": "Geographic", "name": "Roccaforzata"},
+    {"type": "Geographic", "name": "San Marzano di San Giuseppe"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Ionian municipalities"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Lecce"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Brindisi"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Taranto"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Bari"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Polignano a Mare"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Castellana Grotte"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+    {"source": "Xylella Fastidiosa - pauca strain", "type": "Affects", "target": "olive trees"},
+    {"source": "Xylella Fastidiosa - pauca strain", "type": "Affects", "target": "centuries-old olive trees"},
+    {"source": "Xylella Fastidiosa - pauca strain", "type": "Affects", "target": "olive groves"}
+  ]
+}
+

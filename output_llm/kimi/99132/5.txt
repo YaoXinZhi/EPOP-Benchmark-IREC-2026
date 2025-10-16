@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Popillia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Novara area"
+    },
+    {
+      "type": "Plant",
+      "name": "vineyards"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Popillia",
+      "type": "Located in",
+      "target": "Novara area"
+    },
+    {
+      "source": "Popillia",
+      "type": "Has been found on",
+      "target": "vineyards"
+    }
+  ]
+}
+

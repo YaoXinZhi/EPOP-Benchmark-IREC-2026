@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Acrogonia albertoi"},
+      {"type": "Vector", "name": "Diestostemma cavichiolii"},
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "vascular plants"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Tapajós National Forest"},
+      {"type": "Geographic", "name": "Belterra"},
+      {"type": "Geographic", "name": "western Pará"},
+      {"type": "Geographic", "name": "Amazon rainforest"},
+      {"type": "Geographic", "name": "Federal University of Western Pará"},
+      {"type": "Geographic", "name": "Laben"},
+      {"type": "Geographic", "name": "Entomology Laboratory"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Acrogonia albertoi", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant diseases"},
+      {"source": "plant diseases", "type": "Affects", "target": "vascular plants"},
+      {"source": "Acrogonia albertoi", "type": "Have been found on", "target": "vascular plants"},
+      {"source": "Diestostemma cavichiolii", "type": "Have been found on", "target": "vascular plants"},
+      {"source": "Acrogonia albertoi", "type": "Located in", "target": "Tapajós National Forest"},
+      {"source": "Diestostemma cavichiolii", "type": "Located in", "target": "Tapajós National Forest"},
+      {"source": "Tapajós National Forest", "type": "Located in", "target": "Belterra"},
+      {"source": "Belterra", "type": "Located in", "target": "western Pará"},
+      {"source": "Acrogonia albertoi", "type": "Located in", "target": "Amazon rainforest"},
+      {"source": "Diestostemma cavichiolii", "type": "Located in", "target": "Amazon rainforest"},
+      {"source": "Acrogonia albertoi", "type": "Located in", "target": "Federal University of Western Pará"},
+      {"source": "Diestostemma cavichiolii", "type": "Located in", "target": "Federal University of Western Pará"},
+      {"source": "Acrogonia albertoi", "type": "Located in", "target": "Laben"},
+      {"source": "Diestostemma cavichiolii", "type": "Located in", "target": "Laben"}
+    ]
+  }
+]
+```

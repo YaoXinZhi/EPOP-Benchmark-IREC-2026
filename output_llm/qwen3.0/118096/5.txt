@@ -1,0 +1,71 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Trioza erytreae"},
+      {"type": "Vector", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "mandarin trees"},
+      {"type": "Plant", "name": "Citrange reed"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "Ayamonte"},
+      {"type": "Geographic", "name": "Huelva"},
+      {"type": "Geographic", "name": "Galicia"},
+      {"type": "Geographic", "name": "Cantabria"},
+      {"type": "Geographic", "name": "Asturias"},
+      {"type": "Geographic", "name": "Basque Country"},
+      {"type": "Geographic", "name": "Algarve"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Hefer Valley"},
+      {"type": "Geographic", "name": "Tel Aviv"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "Mediterranean"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Trioza erytreae", "type": "Transmits", "target": "HLB"},
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB"},
+      {"source": "HLB", "type": "Affects", "target": "citrus"},
+      {"source": "HLB", "type": "Affects", "target": "orange trees"},
+      {"source": "HLB", "type": "Affects", "target": "mandarin trees"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Have been found on", "target": "citrus"},
+      {"source": "HLB", "type": "Have been found on", "target": "orange trees"},
+      {"source": "HLB", "type": "Have been found on", "target": "mandarin trees"},
+      {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+      {"source": "Trioza erytreae", "type": "Have been found on", "target": "orange trees"},
+      {"source": "Trioza erytreae", "type": "Have been found on", "target": "mandarin trees"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "citrus"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "orange trees"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "mandarin trees"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Portugal"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Ayamonte"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Huelva"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Galicia"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Cantabria"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Asturias"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Basque Country"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Algarve"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Israel"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Hefer Valley"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Tel Aviv"},
+      {"source": "HLB", "type": "Located in", "target": "Israel"},
+      {"source": "HLB", "type": "Located in", "target": "Florida"},
+      {"source": "HLB", "type": "Located in", "target": "Brazil"},
+      {"source": "HLB", "type": "Located in", "target": "Portugal"},
+      {"source": "Citrange reed", "type": "Located in", "target": "Spain"},
+      {"source": "Citrus Management Committee", "type": "Located in", "target": "Spain"},
+      {"source": "European Commission", "type": "Located in", "target": "European Union"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Mediterranean"}
+    ]
+  }
+]
+```

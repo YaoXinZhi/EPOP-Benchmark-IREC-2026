@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Rhizopus soft rot"},
+      {"type": "Plant", "name": "garlic"},
+      {"type": "Plant", "name": "Allium sativum"},
+      {"type": "Pest", "name": "Rhizopus arrhizus"},
+      {"type": "Pest", "name": "Rhizopus oryzae"},
+      {"type": "Geographic", "name": "Hebei Province"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Daming County"},
+      {"type": "Geographic", "name": "Handan City"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "ornamental plants"},
+      {"type": "Plant", "name": "cassava tubers"},
+      {"type": "Plant", "name": "potato tubers"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Rhizopus soft rot", "type": "Affects", "target": "garlic"},
+      {"source": "Rhizopus arrhizus", "type": "Causes", "target": "Rhizopus soft rot"},
+      {"source": "Rhizopus soft rot", "type": "Have been found on", "target": "garlic"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "Hebei Province"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "China"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "Daming County"},
+      {"source": "Rhizopus soft rot", "type": "Located in", "target": "Handan City"},
+      {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "cassava tubers"},
+      {"source": "Rhizopus arrhizus", "type": "Have been found on", "target": "potato tubers"},
+      {"source": "Rhizopus arrhizus", "type": "syn", "target": "Rhizopus oryzae"}
+    ]
+  }
+]
+```

@@ -1,0 +1,51 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Geographic", "name": "Coldiretti Puglia"},
+      {"type": "Geographic", "name": "Polignano"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Apulia"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "The Netherlands"},
+      {"type": "Geographic", "name": "United States of America"},
+      {"type": "Geographic", "name": "Greece"},
+      {"type": "Geographic", "name": "Spain"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "Polignano"},
+      {"source": "Xylella", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "target": "Apulia"},
+      {"source": "Xylella", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella", "type": "Located in", "target": "Europe"},
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "Coldiretti Puglia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Europe"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Apulia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Polignano"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "target": "Greece"},
+      {"source": "Xylella", "type": "Located in", "target": "Spain"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Greece"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Spain"}
+    ]
+  }
+]
+```

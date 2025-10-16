@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "oriental fruit fly"
+    },
+    {
+      "type": "Geographic",
+      "name": "Campania"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean basin"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Naples"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Avellino"
+    },
+    {
+      "type": "Geographic",
+      "name": "municipalities"
+    },
+    {
+      "type": "Geographic",
+      "name": "general wholesale markets"
+    },
+    {
+      "type": "Geographic",
+      "name": "warehouses storage"
+    },
+    {
+      "type": "Geographic",
+      "name": "collective collection centers"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ministry for Agricultural Policies"
+    },
+    {
+      "type": "Geographic",
+      "name": "regional structure"
+    },
+    {
+      "type": "Pest",
+      "name": "Bactrocera Dorsalis"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "Campania"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "Mediterranean basin"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Has been found on",
+      "target": "province of Naples"
+    },
+    {
+      "source": "Bactrocera Dorsalis",
+      "type": "Located in",
+      "target": "province of Avellino"
+    },
+    {
+      "source": "Bactrocera Dorsalis",
+      "type": "Has been found on",
+      "target": "municipalities"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "general wholesale markets"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "warehouses storage"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "collective collection centers"
+    }
+  ]
+}
+

@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Balearic Islands"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "almond trees"},
+    {"type": "Plant", "name": "carob trees"},
+    {"type": "Plant", "name": "dried fruit"},
+    {"type": "Plant", "name": "host species"},
+    {"type": "Disease", "name": "plague"},
+    {"type": "Plant", "name": "Mallorca"},
+    {"type": "Plant", "name": "Menorca"},
+    {"type": "Plant", "name": "Ibiza"},
+    {"type": "Plant", "name": "Formentera"},
+    {"type": "Disease", "name": "bacteria"},
+    {"type": "Pest", "name": "transmitting insects"},
+    {"type": "Disease", "name": "multiplex"},
+    {"type": "Disease", "name": "fastidiosa"},
+    {"type": "Disease", "name": "pauca"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "plague"},
+    {"source": "plague", "type": "Affects", "target": "host species"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "almond trees"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "carob trees"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "Mallorca"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "Menorca"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "Ibiza"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "Formentera"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "dried fruit"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "transmitting insects"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "multiplex"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "fastidiosa"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "pauca"}
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish banana"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Pest", "name": "Fusarium Race 4 Tropical"},
+    {"type": "Pest", "name": "Foc T4R"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Netherlands"},
+    {"type": "Geographic", "name": "Philippines"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Plant", "name": "banana plants"},
+    {"type": "Plant", "name": "Cavendish varieties"},
+    {"type": "Pest", "name": "Fusarium (T4R)"},
+    {"type": "Pest", "name": "TR4"}
+  ],
+  "relationships": [
+    {"source": "Panama disease", "type": "Causes", "target": "Fusarium Race 4 Tropical"},
+    {"source": "Panama disease", "type": "Causes", "target": "Foc T4R"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Israel"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Netherlands"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Philippines"},
+    {"source": "banana plants", "type": "Located in", "target": "Colombia"},
+    {"source": "Fusarium Race 4 Tropical", "type": "Have been found on", "target": "Cavendish banana"},
+    {"source": "Foc T4R", "type": "Have been found on", "target": "Cavendish banana"},
+    {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana"},
+    {"source": "Fusarium (T4R)", "type": "Have been found on", "target": "Cavendish varieties"},
+    {"source": "TR4", "type": "Have been found on", "target": "Cavendish varieties"}
+  ]
+}
+

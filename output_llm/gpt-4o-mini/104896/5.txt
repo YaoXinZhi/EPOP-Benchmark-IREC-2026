@@ -1,0 +1,11 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Bactrocera dorsalis"},
+    {"type": "Geographic", "name": "Campania"},
+    {"type": "Geographic", "name": "Palma Campania"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits of income crops"}
+  ]
+}
+

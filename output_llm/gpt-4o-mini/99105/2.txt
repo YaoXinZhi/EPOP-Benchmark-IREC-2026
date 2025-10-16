@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Diaphorina citri"},
+    {"type": "Plant", "name": "orange"},
+    {"type": "Plant", "name": "Murraya paniculata"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Plant", "name": "orange juice"}
+  ],
+  "relationships": [
+    {"source": "Diaphorina citri", "type": "Transmits", "target": "Candidatus Liberibacter spp."},
+    {"source": "Candidatus Liberibacter spp.", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "Murraya paniculata"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "orange"}
+  ]
+}
+

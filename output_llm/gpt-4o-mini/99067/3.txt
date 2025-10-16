@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Pest", "name": "Phytophthora"},
+    {"type": "Pest", "name": "CTV-Citrus tristeza virus"},
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Disease", "name": "yellow branch disease"},
+    {"type": "Disease", "name": "Tristeza"},
+    {"type": "Plant", "name": "Tarocco Scirè"},
+    {"type": "Plant", "name": "Citrus clementina"},
+    {"type": "Plant", "name": "Citrus sinensis"},
+    {"type": "Pest", "name": "HLB disease"},
+    {"type": "Pest", "name": "Tristeza"}
+  ],
+  "relationships": [
+    {"source": "citrus fruits", "type": "Located in", "target": "Italy"},
+    {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Phytophthora", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "CTV-Citrus tristeza virus", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "HLB disease", "type": "Causes", "target": "Huanglongbing (HLB)"},
+    {"source": "Tristeza", "type": "Causes", "target": "Tristeza"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Citrus clementina"},
+    {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Citrus sinensis"}
+  ]
+}
+

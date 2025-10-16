@@ -1,0 +1,41 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "citrus seedlings"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Vector", "name": "insect"},
+      {"type": "Geographic", "name": "Tucumán"},
+      {"type": "Geographic", "name": "San Miguel de Tucumán"},
+      {"type": "Geographic", "name": "NOA Sur Regional Center"},
+      {"type": "Geographic", "name": "Province"},
+      {"type": "Geographic", "name": "national territory"},
+      {"type": "Organism", "name": "Senasa"},
+      {"type": "Organism", "name": "National Service for Agrifood Health and Quality"},
+      {"type": "Organism", "name": "National Plant Propagation Material Sanitation Program"},
+      {"type": "Person", "name": "Gustavo Dadda"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "HLB", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "HLB", "type": "Transmits", "target": "insect"},
+      {"source": "HLB", "type": "Located in", "target": "Tucumán"},
+      {"source": "HLB", "type": "Located in", "target": "national territory"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "nursery"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "Tucumán"},
+      {"source": "Senasa", "type": "Have been found on", "target": "citrus seedlings"},
+      {"source": "Senasa", "type": "Located in", "target": "NOA Sur Regional Center"},
+      {"source": "Senasa", "type": "Located in", "target": "Province"},
+      {"source": "Senasa", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Gustavo Dadda", "type": "Located in", "target": "Senasa Noa Sur Regional Center"},
+      {"source": "citrus seedlings", "type": "Affects", "target": "national territory"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Affects", "target": "national territory"},
+      {"source": "insect", "type": "Transmits", "target": "HLB"}
+    ]
+  }
+]
+```

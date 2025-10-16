@@ -1,0 +1,35 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Beauveria bassiana"},
+    {"type": "Pest", "name": "Bactrocera dorsalis (Hendel)"},
+    {"type": "Pest", "name": "Tetranychus urticae (Koch)"},
+    {"type": "Pest", "name": "Bemisia tabaci (Gennadius)"},
+    {"type": "Pest", "name": "Hermetia illucens (L.)"},
+    {"type": "Pest", "name": "Zeugodacus cucurbitae (Coquillett)"},
+    {"type": "Plant", "name": "pine trees"},
+    {"type": "Geographic", "name": "central Europe"},
+    {"type": "Geographic", "name": "southwestern Asia"},
+    {"type": "Geographic", "name": "North America"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "southern coastal areas of China"},
+    {"type": "Geographic", "name": "South America"},
+    {"type": "Geographic", "name": "Oceania"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "European region"},
+    {"type": "Geographic", "name": "American region"},
+    {"type": "Geographic", "name": "southeastern part of South America"},
+    {"type": "Geographic", "name": "central to the eastern part of Europe"},
+    {"type": "Geographic", "name": "coastal areas of Asia"}
+  ],
+  "relationships": [
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "central Europe"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "southwestern Asia"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "North America"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Africa"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "southern coastal areas of China"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "South America"},
+    {"source": "Beauveria bassiana", "type": "Have been found on", "target": "pine trees"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Have been found on", "target": "pine trees"}
+  ]
+}
+

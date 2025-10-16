@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Pest", "name": "Phytophthora"},
+    {"type": "Pest", "name": "CTV-Citrus tristeza virus"},
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Disease", "name": "yellow branch disease"},
+    {"type": "Disease", "name": "Tristeza"},
+    {"type": "Plant", "name": "Tarocco Scirè"},
+    {"type": "Plant", "name": "Citrus clementina"},
+    {"type": "Plant", "name": "Citrus sinensis"},
+    {"type": "Pest", "name": "HLB disease"},
+    {"type": "Pest", "name": "Tristeza of citrus fruits"},
+    {"type": "Plant", "name": "rootstocks"},
+    {"type": "Plant", "name": "C35"},
+    {"type": "Plant", "name": "Carpenter"},
+    {"type": "Plant", "name": "Bitters"},
+    {"type": "Plant", "name": "Furr"},
+    {"type": "Plant", "name": "Citrange Carrizo"},
+    {"type": "Vector", "name": "vector insects"}
+  ],
+  "relationships": [
+    {"source": "citrus fruits", "type": "Located in", "target": "Italy"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Sicily"},
+    {"source": "Phytophthora", "type": "Causes", "target": "Huanglongbing (HLB)"},
+    {"source": "CTV-Citrus tristeza virus", "type": "Causes", "target": "Tristeza"},
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"},
+    {"source": "rootstocks", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Furr", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Citrange Carrizo", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "HLB disease", "type": "Transmits", "target": "vector insects"},
+    {"source": "Tristeza of citrus fruits", "type": "Causes", "target": "citrus fruits"}
+  ]
+}
+

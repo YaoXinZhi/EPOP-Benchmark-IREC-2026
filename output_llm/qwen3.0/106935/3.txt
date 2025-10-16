@@ -1,0 +1,53 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Vector", "name": "Scaphodeus Titanus"},
+      {"type": "Plant", "name": "vine plots"},
+      {"type": "Plant", "name": "wild vines"},
+      {"type": "Geographic", "name": "Burgundy"},
+      {"type": "Geographic", "name": "New Zealand"}
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Flavescence dorée",
+        "type": "Located in",
+        "target": "Burgundy"
+      },
+      {
+        "source": "Scaphodeus Titanus",
+        "type": "Located in",
+        "target": "vine plots"
+      },
+      {
+        "source": "Scaphodeus Titanus",
+        "type": "Located in",
+        "target": "fallow plots"
+      },
+      {
+        "source": "Scaphodeus Titanus",
+        "type": "Located in",
+        "target": "wild vines"
+      },
+      {
+        "source": "Scaphodeus Titanus",
+        "type": "Transmits",
+        "target": "Flavescence dorée"
+      },
+      {
+        "source": "Flavescence dorée",
+        "type": "Affects",
+        "target": "vine plots"
+      },
+      {
+        "source": "Flavescence dorée",
+        "type": "Located in",
+        "target": "New Zealand"
+      }
+    ]
+  }
+]
+```

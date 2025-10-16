@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Pest", "name": "Xylotrechus chinensis"},
+      {"type": "Geographic", "name": "Occitanie"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Hérault"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Occitanie"},
+      {"source": "Xylotrechus chinensis", "type": "Located in", "name": "Hérault"},
+      {"source": "Occitanie", "type": "Located in", "name": "France"},
+      {"source": "Hérault", "type": "Located in", "name": "France"}
+    ]
+  }
+]
+```

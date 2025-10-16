@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Candidatus liberibacter"
+    },
+    {
+      "type": "Plant",
+      "name": "orange trees"
+    },
+    {
+      "type": "Disease",
+      "name": "huanglongbing"
+    },
+    {
+      "type": "Geographic",
+      "name": "Seville"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Latin America"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Africa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Geographic",
+      "name": "Canary Islands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Geographic",
+      "name": "Galicia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Vector",
+      "name": "Trioza eryteae"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus crops"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Candidatus liberibacter",
+      "type": "Causes",
+      "target": "huanglongbing"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Affects",
+      "target": "orange trees"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Affects",
+      "target": "citrus crops"
+    },
+    {
+      "source": "Trioza eryteae",
+      "type": "Transmits",
+      "target": "Candidatus liberibacter"
+    },
+    {
+      "source": "orange trees",
+      "type": "Located in",
+      "target": "Seville"
+    },
+    {
+      "source": "citrus crops",
+      "type": "Located in",
+      "target": "Asia"
+    },
+    {
+      "source": "citrus crops",
+      "type": "Located in",
+      "target": "Latin America"
+    },
+    {
+      "source": "citrus crops",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Located in",
+      "target": "Asia"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Located in",
+      "target": "Africa"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Located in",
+      "target": "Florida"
+    },
+    {
+      "source": "Trioza eryteae",
+      "type": "Located in",
+      "target": "Canary Islands"
+    },
+    {
+      "source": "Trioza eryteae",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "Trioza eryteae",
+      "type": "Located in",
+      "target": "Galicia"
+    },
+    {
+      "source": "Trioza eryteae",
+      "type": "Located in",
+      "target": "Spain"
+    }
+  ]
+}
+

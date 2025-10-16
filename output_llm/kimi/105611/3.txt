@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari area"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polignano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Castellana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lecce"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brindisi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Taranto Avetrana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Carosino"
+    },
+    {
+      "type": "Geographic",
+      "name": "Faggiano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Fragagnano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lizzano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Manduria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Maruggio"
+    },
+    {
+      "type": "Geographic",
+      "name": "Monteiasi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pulsano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Roccaforzata"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Marzano di San Giuseppe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sava"
+    },
+    {
+      "type": "Geographic",
+      "name": "Torricella"
+    },
+    {
+      "type": "Disease",
+      "name": "Xylella"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Causes",
+      "target": "Xylella"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella",
+      "type": "Affects",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Bari area"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Polignano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Castellana"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Puglia"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Lecce"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Brindisi"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Taranto Avetrana"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Carosino"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Faggiano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Fragagnano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Lizzano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Manduria"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Maruggio"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Monteiasi"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Pulsano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Roccaforzata"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "San Marzano di San Giuseppe"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Sava"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Torricella"
+    }
+  ]
+}
+

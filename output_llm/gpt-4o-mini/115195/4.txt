@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "infected plants"},
+    {"type": "Geographic", "name": "Puglia"},
+    {"type": "Geographic", "name": "University of Bari"},
+    {"type": "Geographic", "name": "Cnr"},
+    {"type": "Geographic", "name": "Institute for the Sustainable Protection of Plants"},
+    {"type": "Geographic", "name": "Institute of Photonics and Nanotechnology"},
+    {"type": "Geographic", "name": "National Research Council"},
+    {"type": "Geographic", "name": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "infected plants"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "disease"}
+  ]
+}
+

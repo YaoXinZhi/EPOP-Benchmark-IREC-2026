@@ -1,0 +1,33 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "bois noir"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Pest", "name": "Candidatus Phytoplasma solani"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Geographic", "name": "Euro-Mediterranean area"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Geographic", "name": "Franciacorta"},
+      {"type": "Geographic", "name": "province of Brescia"},
+      {"type": "Geographic", "name": "North Italy"},
+      {"type": "Geographic", "name": "Erbusco"},
+      {"type": "Geographic", "name": "Gussago"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "bois noir", "type": "Affects", "target": "grapevine"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Causes", "target": "bois noir"},
+      {"source": "Hyalesthes obsoletus", "type": "Transmits", "target": "Candidatus Phytoplasma solani"},
+      {"source": "bois noir", "type": "Located in", "target": "Euro-Mediterranean area"},
+      {"source": "grapevine", "type": "Located in", "target": "Franciacorta"},
+      {"source": "Chardonnay", "type": "Located in", "target": "Franciacorta"},
+      {"source": "Franciacorta", "type": "Located in", "target": "province of Brescia"},
+      {"source": "province of Brescia", "type": "Located in", "target": "North Italy"},
+      {"source": "Erbusco", "type": "Located in", "target": "Franciacorta"},
+      {"source": "Gussago", "type": "Located in", "target": "Franciacorta"}
+    ]
+  }
+]
+```

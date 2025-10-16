@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Transgenic Sweet Orange"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Pest", "name": "Agrobacterium"},
+      {"type": "Pest", "name": "Sarcophaga peregrina"},
+      {"type": "Plant", "name": "STX-5"},
+      {"type": "Plant", "name": "STX-11"},
+      {"type": "Plant", "name": "STX-12"},
+      {"type": "Plant", "name": "STX-13"},
+      {"type": "Geographic", "name": "Int. J. Mol. Sci. 2022, 23(16), 9300"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "HLB", "type": "Affects", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "Agrobacterium", "type": "Transmits", "target": "Sarcophaga peregrina"},
+      {"source": "Transgenic Sweet Orange", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "Transgenic Sweet Orange", "type": "Tolerance", "target": "‘Candidatus Liberibacter asiaticus"},
+      {"source": "HLB", "type": "Affects", "target": "Transgenic Sweet Orange"},
+      {"source": "STX-5", "type": "Tolerance", "target": "HLB"},
+      {"source": "STX-11", "type": "Tolerance", "target": "HLB"},
+      {"source": "STX-5", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "STX-11", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "STX-12", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "STX-13", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "Transgenic Sweet Orange", "type": "Located in", "target": "Int. J. Mol. Sci. 2022, 23(16), 9300"}
+    ]
+  }
+]
+```

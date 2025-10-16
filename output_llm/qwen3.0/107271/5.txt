@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Banana fungus"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "Fusarium"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "Cavendish bananas"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "African continent"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Rwanda"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Banana fungus", "type": "Located in", "target": "Africa"},
+      {"source": "Fusarium", "type": "Located in", "target": "Mozambique"},
+      {"source": "Fusarium", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium", "type": "Have been found on", "target": "banana"},
+      {"source": "Fusarium", "type": "Located in", "target": "African continent"},
+      {"source": "Banana fungus", "type": "Affects", "target": "Africa's food security"},
+      {"source": "Panama disease", "type": "Located in", "target": "South America"},
+      {"source": "Cavendish bananas", "type": "Located in", "target": "world market"},
+      {"source": "Cavendish bananas", "type": "Located in", "target": "Europe"},
+      {"source": "Fusarium", "type": "Affects", "target": "Cavendish bananas"}
+    ]
+  }
+]
+```

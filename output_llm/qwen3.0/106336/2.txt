@@ -1,0 +1,57 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Fusarium Race 4 Tropical"},
+      {"type": "Disease", "name": "Foc R4T"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "plantain"},
+      {"type": "Plant", "name": "Musaceae Plants"},
+      {"type": "Geographic", "name": "Tumbes region"},
+      {"type": "Geographic", "name": "Peru"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Sullana - Piura"},
+      {"type": "Geographic", "name": "Piura"},
+      {"type": "Geographic", "name": "Lambayeque"},
+      {"type": "Geographic", "name": "La Libertad"},
+      {"type": "Geographic", "name": "Cajamarca"},
+      {"type": "Geographic", "name": "Amazonas"},
+      {"type": "Geographic", "name": "San Martín"},
+      {"type": "Geographic", "name": "Loreto"},
+      {"type": "Geographic", "name": "Huánuco"},
+      {"type": "Geographic", "name": "Pasco"},
+      {"type": "Geographic", "name": "Ucayali"},
+      {"type": "Geographic", "name": "Junín"},
+      {"type": "Geographic", "name": "VRAE"},
+      {"type": "Geographic", "name": "Madre de Dios"},
+      {"type": "Geographic", "name": "Cusco"},
+      {"type": "Geographic", "name": "Puno"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "plantain"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Sullana - Piura"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Colombia"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Peru"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Tumbes region"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Piura"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Lambayeque"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "La Libertad"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Cajamarca"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Amazonas"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "San Martín"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Loreto"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Huánuco"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Pasco"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Ucayali"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Junín"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "VRAE"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Madre de Dios"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Cusco"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Puno"}
+    ]
+  }
+]
+```

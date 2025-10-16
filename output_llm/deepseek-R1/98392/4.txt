@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "Solanum lycopersicum"},
+    {"type": "Plant", "name": "paprika"},
+    {"type": "Plant", "name": "chili pepper"},
+    {"type": "Plant", "name": "Capsicum spp."}
+  ],
+  "relationships": [
+    {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "tomato"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "Solanum lycopersicum"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "paprika"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "chili pepper"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Affects", "target": "Capsicum spp."}
+  ]
+}
+

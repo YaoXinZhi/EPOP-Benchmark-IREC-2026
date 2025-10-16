@@ -1,0 +1,53 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Pest", "name": "armyworm"},
+      {"type": "Vector", "name": "fall armyworm moth"},
+      {"type": "Plant", "name": "alfalfa"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Plant", "name": "Johnsongrass"},
+      {"type": "Disease", "name": "not specified"},
+      {"type": "Geographic", "name": "Missouri"},
+      {"type": "Geographic", "name": "ARROW ROCK"},
+      {"type": "Geographic", "name": "New Haven"},
+      {"type": "Geographic", "name": "Texas"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Geographic", "name": "Mexico"},
+      {"type": "Geographic", "name": "Dade County"},
+      {"type": "Geographic", "name": "Auburn University"},
+      {"type": "Geographic", "name": "University of Missouri"},
+      {"type": "Geographic", "name": "Mizzou"},
+      {"type": "Geographic", "name": "Legacy Ridge Farms"},
+      {"type": "Geographic", "name": "Pin Oak Farms"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "fall armyworm", "type": "Have been found on", "target": "alfalfa"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "corn"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "Johnsongrass"},
+      {"source": "fall armyworm", "type": "Affects", "target": "alfalfa"},
+      {"source": "fall armyworm", "type": "Affects", "target": "corn"},
+      {"source": "fall armyworm", "type": "Affects", "target": "Johnsongrass"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Missouri"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Texas"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Florida"},
+      {"source": "fall armyworm moth", "type": "Transmits", "target": "fall armyworm"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Mexico"},
+      {"source": "alfalfa", "type": "Located in", "target": "Missouri"},
+      {"source": "corn", "type": "Located in", "target": "Missouri"},
+      {"source": "Johnsongrass", "type": "Located in", "target": "Dade County"},
+      {"source": "fall armyworm", "type": "Located in", "target": "ARROW ROCK"},
+      {"source": "fall armyworm", "type": "Located in", "target": "New Haven"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Pin Oak Farms"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Legacy Ridge Farms"},
+      {"source": "fall armyworm", "type": "Located in", "target": "University of Missouri"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Mizzou"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Auburn University"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Dade County"}
+    ]
+  }
+]
+```

@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Pest", "name": "oxytetracycline"},
+      {"type": "Pest", "name": "streptomycin"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "oxytetracycline", "type": "Have been found on", "target": "citrus"},
+      {"source": "streptomycin", "type": "Have been found on", "target": "citrus"},
+      {"source": "oxytetracycline", "type": "Transmits", "target": "Candidatus Liberibacter asiaticus"},
+      {"source": "streptomycin", "type": "Transmits", "target": "Candidatus Liberibacter asiaticus"}
+    ]
+  }
+]
+```

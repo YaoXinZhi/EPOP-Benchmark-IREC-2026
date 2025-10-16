@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa multiplex"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa pauca"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa sandyi"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella taiwanensis"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "plants"
+    },
+    {
+      "source": "Xylella fastidiosa multiplex",
+      "type": "Have been found on",
+      "target": "plants"
+    },
+    {
+      "source": "Xylella fastidiosa pauca",
+      "type": "Have been found on",
+      "target": "plants"
+    },
+    {
+      "source": "Xylella fastidiosa sandyi",
+      "type": "Have been found on",
+      "target": "plants"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "EU"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "France"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Portugal"
+    }
+  ]
+}
+

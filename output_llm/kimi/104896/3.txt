@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Naples"
+    },
+    {
+      "type": "Geographic",
+      "name": "Campania"
+    },
+    {
+      "type": "Geographic",
+      "name": "Palma Campania"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Commission"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Campania"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Palma Campania"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Has been found on",
+      "target": "fruits of income crops"
+    },
+    {
+      "source": "Campania",
+      "type": "Located in",
+      "target": "Naples"
+    }
+  ]
+}
+

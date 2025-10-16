@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "HLB plague"
+    },
+    {
+      "type": "Disease",
+      "name": "plague of the yellow dragon"
+    },
+    {
+      "type": "Disease",
+      "name": "huanglongbing"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Geographic",
+      "name": "Venezuela"
+    },
+    {
+      "type": "Geographic",
+      "name": "Zulia state"
+    },
+    {
+      "type": "Geographic",
+      "name": "Maracaibo"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Francisco"
+    },
+    {
+      "type": "Geographic",
+      "name": "Costa Oriental del Lago"
+    },
+    {
+      "type": "Geographic",
+      "name": "Aragua"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "HLB plague",
+      "type": "Located in",
+      "target": "Venezuela"
+    },
+    {
+      "source": "plague of the yellow dragon",
+      "type": "Located in",
+      "target": "Venezuela"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Located in",
+      "target": "Venezuela"
+    },
+    {
+      "source": "HLB plague",
+      "type": "Causes",
+      "target": "plague of the yellow dragon"
+    },
+    {
+      "source": "plague of the yellow dragon",
+      "type": "Causes",
+      "target": "huanglongbing"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Causes",
+      "target": "plague of the yellow dragon"
+    },
+    {
+      "source": "plague of the yellow dragon",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "HLB plague",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "huanglongbing",
+      "type": "Affects",
+      "target": "citrus"
+    }
+  ]
+}
+

@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Cavendish banana variety"
+    },
+    {
+      "type": "Disease",
+      "name": "TR4 Panama disease"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombian"
+    },
+    {
+      "type": "Geographic",
+      "name": "Philippines"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish banana plants"
+    },
+    {
+      "type": "Disease",
+      "name": "Panama disease TR4"
+    },
+    {
+      "type": "Disease",
+      "name": "Fusarium Wilt"
+    },
+    {
+      "type": "Plant",
+      "name": "banana"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cavendish banana variety",
+      "type": "Affects",
+      "target": "TR4 Panama disease"
+    },
+    {
+      "source": "Cavendish banana plants",
+      "type": "Affects",
+      "target": "Panama disease TR4"
+    },
+    {
+      "source": "Cavendish banana plants",
+      "type": "Located in",
+      "target": "Colombia"
+    },
+    {
+      "source": "Rahan Meristem",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Luis Alberto Restrepo",
+      "type": "Located in",
+      "target": "Colombian"
+    },
+    {
+      "source": "Cavendish banana plants",
+      "type": "Have been found on",
+      "target": "banana"
+    },
+    {
+      "source": "Fusarium Wilt",
+      "type": "Affects",
+      "target": "banana"
+    }
+  ]
+}
+

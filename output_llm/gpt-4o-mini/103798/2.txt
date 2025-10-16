@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Colletotrichum truncatum"},
+    {"type": "Plant", "name": "dragon fruit"},
+    {"type": "Plant", "name": "Hylocereus spp."},
+    {"type": "Disease", "name": "anthracnose"},
+    {"type": "Geographic", "name": "India"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Geographic", "name": "Malaysia"}
+  ],
+  "relationships": [
+    {"source": "Colletotrichum truncatum", "type": "Causes", "target": "anthracnose"},
+    {"source": "anthracnose", "type": "Affects", "target": "dragon fruit"},
+    {"source": "Colletotrichum truncatum", "type": "Have been found on", "target": "Hylocereus spp."},
+    {"source": "Colletotrichum truncatum", "type": "Located in", "target": "India"},
+    {"source": "Colletotrichum truncatum", "type": "Located in", "target": "China"},
+    {"source": "Colletotrichum truncatum", "type": "Located in", "target": "Malaysia"}
+  ]
+}
+

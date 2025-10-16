@@ -1,0 +1,53 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Tropical Race 4"},
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "Fusarium odoratissimum"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Ruanda"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium odoratissimum", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Panama disease", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Asia"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "South America"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Mozambique"},
+      {"source": "Fusarium wilt", "type": "Located in", "target": "Africa"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Africa"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "Cavendish banana"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium wilt", "type": "Threatens", "target": "Africa"},
+      {"source": "Tropical Race 4", "type": "Threatens", "target": "Africa"},
+      {"source": "Tropical Race 4", "type": "Spread through", "target": "Mozambique"},
+      {"source": "Tropical Race 4", "type": "Spread through", "target": "Africa"},
+      {"source": "Tropical Race 4", "type": "Spread through", "target": "Tanzania"},
+      {"source": "Tropical Race 4", "type": "Spread through", "target": "Malawi"},
+      {"source": "Tropical Race 4", "type": "Spread through", "target": "Uganda"},
+      {"source": "Tropical Race 4", "type": "Spread through", "target": "Ruanda"},
+      {"source": "Tropical Race 4", "type": "Transferred by", "target": "humans"},
+      {"source": "Tropical Race 4", "type": "Transferred by", "target": "cars"},
+      {"source": "Tropical Race 4", "type": "Transferred by", "target": "water"},
+      {"source": "Tropical Race 4", "type": "Transferred by", "target": "contaminated tools"},
+      {"source": "Tropical Race 4", "type": "Transferred by", "target": "soil carried on shoes"},
+      {"source": "Tropical Race 4", "type": "Transferred by", "target": "soil carried on car tyres"},
+      {"source": "Fusarium wilt", "type": "Threatens", "target": "food security"}
+    ]
+  }
+]
+```

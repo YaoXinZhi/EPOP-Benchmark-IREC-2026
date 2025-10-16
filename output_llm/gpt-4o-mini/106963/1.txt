@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "golden-yellow yellowing"},
+    {"type": "Geographic", "name": "Burggrafenamt"},
+    {"type": "Geographic", "name": "Unterland"},
+    {"type": "Geographic", "name": "South Tyrol"},
+    {"type": "Plant", "name": "vines"},
+    {"type": "Plant", "name": "Chardonnay"},
+    {"type": "Plant", "name": "Pinot Grigio"},
+    {"type": "Pest", "name": "Flavescence dorèe phytoplasma"},
+    {"type": "Vector", "name": "American leafhopper"}
+  ],
+  "relationships": [
+    {"source": "golden-yellow yellowing", "type": "Affects", "target": "vines"},
+    {"source": "golden-yellow yellowing", "type": "Located in", "target": "Burggrafenamt"},
+    {"source": "golden-yellow yellowing", "type": "Located in", "target": "Unterland"},
+    {"source": "golden-yellow yellowing", "type": "Located in", "target": "South Tyrol"},
+    {"source": "Flavescence dorèe phytoplasma", "type": "Causes", "target": "golden-yellow yellowing"},
+    {"source": "American leafhopper", "type": "Transmits", "target": "Flavescence dorèe phytoplasma"},
+    {"source": "Flavescence dorèe phytoplasma", "type": "Have been found on", "target": "vines"}
+  ]
+}
+

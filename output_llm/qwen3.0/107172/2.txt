@@ -1,0 +1,45 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Plant", "name": "banana plants"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "tropical race 1"},
+      {"type": "Pest", "name": "TR1"},
+      {"type": "Pest", "name": "TR4"},
+      {"type": "Geographic", "name": "banana-producing areas"},
+      {"type": "Geographic", "name": "Western countries"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "the Netherlands"},
+      {"type": "Geographic", "name": "Wageningen University"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cavendish banana plants", "type": "Have been found on", "target": "banana plants"},
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "tropical race 1", "type": "Causes", "target": "Panama disease"},
+      {"source": "TR1", "type": "Causes", "target": "Panama disease"},
+      {"source": "TR4", "type": "Causes", "target": "Panama disease"},
+      {"source": "Fusarium fungus", "type": "Have been found on", "target": "banana plants"},
+      {"source": "tropical race 1", "type": "Have been found on", "target": "banana plants"},
+      {"source": "TR1", "type": "Have been found on", "target": "banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "Panama disease", "type": "Affects", "target": "banana plants"},
+      {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana plants"},
+      {"source": "tropical race 1", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "TR1", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "TR4", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "TR1", "type": "Located in", "target": "Brazil"},
+      {"source": "Gros Michel", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Cavendish banana plants", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Cavendish banana plants", "type": "Located in", "target": "Western countries"},
+      {"source": "Gros Michel", "type": "Located in", "target": "Western countries"}
+    ]
+  }
+]
+```

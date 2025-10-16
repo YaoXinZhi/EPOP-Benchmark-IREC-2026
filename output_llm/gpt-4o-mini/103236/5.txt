@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Buhaira Gardens"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Geographic", "name": "Seville"},
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Geographic", "name": "European Union"},
+    {"type": "Geographic", "name": "Life Citrus program"},
+    {"type": "Geographic", "name": "Environment and Climate Action Program (LIFE)"}
+  ],
+  "relationships": [
+    {"source": "Huanglongbing", "type": "Causes", "target": "orange trees"},
+    {"source": "Huanglongbing", "type": "Have been found on", "target": "orange trees"},
+    {"source": "orange trees", "type": "Located in", "target": "Seville"},
+    {"source": "Buhaira Gardens", "type": "Located in", "target": "Seville"},
+    {"source": "Life Citrus program", "type": "Located in", "target": "European Union"},
+    {"source": "Environment and Climate Action Program (LIFE)", "type": "Located in", "target": "European Union"}
+  ]
+}
+

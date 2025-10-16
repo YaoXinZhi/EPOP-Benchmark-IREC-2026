@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "bananas"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense"},
+    {"type": "Pest", "name": "Fusarium oxysporum cubense Race 1"},
+    {"type": "Pest", "name": "Tropical Race 4"},
+    {"type": "Geographic", "name": "UK"},
+    {"type": "Geographic", "name": "Exeter"}
+  ],
+  "relationships": [
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Causes", "target": "Panama disease"},
+    {"source": "Fusarium oxysporum cubense Race 1", "type": "Causes", "target": "Panama disease"},
+    {"source": "Tropical Race 4", "type": "Causes", "target": "Panama disease"},
+    {"source": "Panama disease", "type": "Affects", "target": "bananas"},
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Have been found on", "target": "bananas"},
+    {"source": "Fusarium oxysporum cubense Race 1", "type": "Have been found on", "target": "bananas"},
+    {"source": "Tropical Race 4", "type": "Have been found on", "target": "bananas"}
+  ]
+}
+

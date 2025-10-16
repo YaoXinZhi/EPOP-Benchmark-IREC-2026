@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Tomato brown rot virus"},
+    {"type": "Pest", "name": "ToBRFV"},
+    {"type": "Geographic", "name": "Finland"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "pepper"},
+    {"type": "Geographic", "name": "Varsinais-Suomi"},
+    {"type": "Geographic", "name": "EU countries"}
+  ],
+  "relationships": [
+    {"source": "Tomato brown rot virus", "type": "Located in", "target": "Finland"},
+    {"source": "Tomato brown rot virus", "type": "Located in", "target": "Varsinais-Suomi"},
+    {"source": "Tomato brown rot virus", "type": "Located in", "target": "EU countries"},
+    {"source": "Tomato brown rot virus", "type": "Affects", "target": "tomato"},
+    {"source": "Tomato brown rot virus", "type": "Affects", "target": "pepper"},
+    {"source": "ToBRFV", "type": "Have been found on", "target": "tomato"}
+  ]
+}
+

@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Grapevine flavescence dorée phytoplasma"},
+      {"type": "Plant", "name": "Grapevine"},
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "Oleksovička"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Grapevine flavescence dorée phytoplasma", "type": "Causes", "target": "flavescence dorée"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Grapevine"},
+      {"source": "Grapevine flavescence dorée phytoplasma", "type": "Located in", "target": "Oleksovička"}
+    ]
+  }
+]
+```

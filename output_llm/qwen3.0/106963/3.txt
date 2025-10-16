@@ -1,0 +1,42 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "golden-yellow yellowing"},
+      {"type": "Disease", "name": "yellowing diseases"},
+      {"type": "Geographic", "name": "Burggrafenamt"},
+      {"type": "Geographic", "name": "Unterland"},
+      {"type": "Plant", "name": "vine"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Disease", "name": "blackwood disease"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "lowlands"},
+      {"type": "Geographic", "name": "Salurn"},
+      {"type": "Pest", "name": "Flavescence dorèe phytoplasma"},
+      {"type": "Vector", "name": "American leafhopper"},
+      {"type": "Plant", "name": "Laimburg"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "golden-yellow yellowing", "type": "Located in", "name": "Burggrafenamt"},
+      {"source": "yellowing diseases", "type": "Located in", "name": "Unterland"},
+      {"source": "yellowing diseases", "type": "Located in", "name": "lowlands"},
+      {"source": "yellowing diseases", "type": "Located in", "name": "Salurn"},
+      {"source": "golden-yellow yellowing", "type": "Affects", "target": "vine"},
+      {"source": "Flavescence dorée", "type": "Causes", "target": "golden-yellow yellowing"},
+      {"source": "Flavescence dorée", "type": "Have been found on", "target": "vine"},
+      {"source": "blackwood disease", "type": "Have been found on", "target": "vine"},
+      {"source": "Flavescence dorèe phytoplasma", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "American leafhopper", "type": "Transmits", "target": "Flavescence dorèe phytoplasma"},
+      {"source": "American leafhopper", "type": "Located in", "name": "Europe"},
+      {"source": "American leafhopper", "type": "Have been found on", "target": "vine"},
+      {"source": "vine", "type": "Located in", "name": "South Tyrol"},
+      {"source": "Chardonnay", "type": "Located in", "name": "South Tyrol"},
+      {"source": "Pinot Grigio", "type": "Located in", "name": "South Tyrol"}
+    ]
+  }
+]
+```

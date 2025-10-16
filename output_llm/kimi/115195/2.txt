@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Plant",
+      "name": "plants"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari"
+    },
+    {
+      "type": "Geographic",
+      "name": "National Research Council"
+    },
+    {
+      "type": "Geographic",
+      "name": "Advanced Science"
+    },
+    {
+      "type": "Geographic",
+      "name": "University of Bari"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cnr-Ipsp"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cnr-Ifn"
+    },
+    {
+      "type": "Geographic",
+      "name": "Agritest S.r.l."
+    },
+    {
+      "type": "Geographic",
+      "name": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics"
+    },
+    {
+      "type": "Geographic",
+      "name": "ERC Starting Grant"
+    },
+    {
+      "type": "Geographic",
+      "name": "Department of Pharmacy-Drug Sciences"
+    },
+    {
+      "type": "Geographic",
+      "name": "Interuniversity Department of Physics"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "plants"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Puglia"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "National Research Council"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "University of Bari"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Cnr-Ipsp"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Cnr-Ifn"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Agritest S.r.l."
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Department of Pharmacy-Drug Sciences"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Interuniversity Department of Physics"
+    }
+  ]
+}
+

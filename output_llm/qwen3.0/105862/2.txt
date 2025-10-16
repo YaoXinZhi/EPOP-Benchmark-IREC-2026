@@ -1,0 +1,64 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "greening disease"},
+      {"type": "Disease", "name": "huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "orange groves"},
+      {"type": "Plant", "name": "citrus belt"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "trees"},
+      {"type": "Pest", "name": "Candidatus Liberibacter spp."},
+      {"type": "Vector", "name": "psyllid"},
+      {"type": "Disease", "name": "cancer"},
+      {"type": "Disease", "name": "CVC"},
+      {"type": "Geographic", "name": "São Paulo"},
+      {"type": "Geographic", "name": "Minas Gerais"},
+      {"type": "Geographic", "name": "Triângulo Mineiro"},
+      {"type": "Geographic", "name": "Brotas"},
+      {"type": "Geographic", "name": "Limeira"},
+      {"type": "Geographic", "name": "Porto Ferreira"},
+      {"type": "Geographic", "name": "Avaré"},
+      {"type": "Geographic", "name": "Duartina"},
+      {"type": "Geographic", "name": "Altinópolis"},
+      {"type": "Geographic", "name": "Bebedouro"},
+      {"type": "Geographic", "name": "São José do Rio Preto"},
+      {"type": "Geographic", "name": "Itapetininga"},
+      {"type": "Geographic", "name": "Matão"},
+      {"type": "Geographic", "name": "Votuporanga"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "greening disease", "type": "Affects", "target": "orange groves"},
+      {"source": "greening disease", "type": "Affects", "target": "citrus"},
+      {"source": "greening disease", "type": "Affects", "target": "orange trees"},
+      {"source": "greening disease", "type": "Affects", "target": "trees"},
+      {"source": "Candidatus Liberibacter spp.", "type": "Causes", "target": "greening disease"},
+      {"source": "psyllid", "type": "Transmits", "target": "Candidatus Liberibacter spp."},
+      {"source": "psyllid", "type": "Have been found on", "target": "citrus"},
+      {"source": "greening disease", "type": "Located in", "target": "São Paulo"},
+      {"source": "greening disease", "type": "Located in", "target": "Minas Gerais"},
+      {"source": "greening disease", "type": "Located in", "target": "citrus belt"},
+      {"source": "greening disease", "type": "Located in", "target": "Brotas"},
+      {"source": "greening disease", "type": "Located in", "target": "Limeira"},
+      {"source": "greening disease", "type": "Located in", "target": "Porto Ferreira"},
+      {"source": "greening disease", "type": "Located in", "target": "Avaré"},
+      {"source": "greening disease", "type": "Located in", "target": "Duartina"},
+      {"source": "greening disease", "type": "Located in", "target": "Altinópolis"},
+      {"source": "greening disease", "type": "Located in", "target": "Bebedouro"},
+      {"source": "greening disease", "type": "Located in", "target": "São José do Rio Preto"},
+      {"source": "greening disease", "type": "Located in", "target": "Itapetininga"},
+      {"source": "greening disease", "type": "Located in", "target": "Matão"},
+      {"source": "greening disease", "type": "Located in", "target": "Votuporanga"},
+      {"source": "cancer", "type": "Affects", "target": "citrus"},
+      {"source": "cancer", "type": "Located in", "target": "citrus belt"},
+      {"source": "CVC", "type": "Affects", "target": "citrus"},
+      {"source": "CVC", "type": "Located in", "target": "citrus belt"}
+    ]
+  }
+]
+```

@@ -1,0 +1,10 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Tavira"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Tavira"}
+  ]
+}
+

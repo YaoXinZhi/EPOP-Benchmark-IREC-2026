@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Geographic", "name": "Tucumán"},
+      {"type": "Geographic", "name": "San Miguel de Tucumán"},
+      {"type": "Vector", "name": "aphid"},
+      {"type": "Plant", "name": "citrus seedlings"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "propagation material"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "nurseries"},
+      {"type": "Plant", "name": "farms"},
+      {"type": "Geographic", "name": "NOA Sur Regional Center"},
+      {"type": "Plant", "name": "greenhouses"},
+      {"type": "Plant", "name": "anti-aphid mesh"},
+      {"type": "Plant", "name": "double doors"},
+      {"type": "Plant", "name": "disinfection measures"},
+      {"type": "Plant", "name": "machetes"},
+      {"type": "Plant", "name": "chainsaws"},
+      {"type": "Plant", "name": "National Service for Agrifood Health and Quality"},
+      {"type": "Plant", "name": "National Plant Propagation Material Sanitation Program"},
+      {"type": "Plant", "name": "health agency"},
+      {"type": "Plant", "name": "Senasa"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "Senasa", "type": "Located in", "target": "Tucumán"},
+      {"source": "Senasa", "type": "Located in", "target": "San Miguel de Tucumán"},
+      {"source": "Senasa", "type": "Located in", "target": "NOA Sur Regional Center"},
+      {"source": "aphid", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "citrus seedlings", "type": "Have been found on", "target": "citrus"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "nurseries"},
+      {"source": "nurseries", "type": "Located in", "target": "Tucumán"},
+      {"source": "National Plant Propagation Material Sanitation Program", "type": "Located in", "target": "Senasa"},
+      {"source": "National Service for Agrifood Health and Quality", "type": "Located in", "target": "Senasa"},
+      {"source": "health agency", "type": "Located in", "target": "Senasa"},
+      {"source": "Senasa", "type": "Causes", "target": "elimination"},
+      {"source": "Senasa", "type": "Causes", "target": "confiscation"},
+      {"source": "Senasa", "type": "Have been found on", "target": "propagation material"},
+      {"source": "propagation material", "type": "Have been found on", "target": "greenhouses"},
+      {"source": "greenhouses", "type": "Have been found on", "target": "anti-aphid mesh"},
+      {"source": "greenhouses", "type": "Have been found on", "target": "double doors"},
+      {"source": "greenhouses", "type": "Have been found on", "target": "disinfection measures"},
+      {"source": "citrus plants", "type": "Located in", "target": "nurseries"},
+      {"source": "nurseries", "type": "Located in", "target": "Tucumán"},
+      {"source": "propagation material", "type": "Located in", "target": "farms"},
+      {"source": "Senasa", "type": "Have been found on", "target": "machetes"},
+      {"source": "Senasa", "type": "Have been found on", "target": "chainsaws"},
+      {"source": "Senasa", "type": "Have been found on", "target": "incineration"}
+    ]
+  }
+]
+```

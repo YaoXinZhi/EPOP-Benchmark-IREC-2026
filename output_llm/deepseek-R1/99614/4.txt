@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "host plant volatiles"},
+    {"type": "Plant", "name": "male attractant compounds"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant volatiles"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "male attractant compounds"}
+  ]
+}
+

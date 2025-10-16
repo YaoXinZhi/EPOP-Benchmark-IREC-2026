@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Xylella Fastidiosa"},
+    {"type": "Plant", "name": "Olive"},
+    {"type": "Geographic", "name": "Rome"},
+    {"type": "Geographic", "name": "Salento"},
+    {"type": "Geographic", "name": "Puglia Region"}
+  ],
+  "relationships": [
+    {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Salento"},
+    {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Puglia Region"},
+    {"source": "Olive", "type": "Located in", "target": "Salento"},
+    {"source": "Olive", "type": "Located in", "target": "Puglia Region"}
+  ]
+}
+

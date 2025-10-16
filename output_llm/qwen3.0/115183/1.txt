@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "province of Bari"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Polignano"},
+      {"type": "Geographic", "name": "buffer zone"},
+      {"type": "Geographic", "name": "free zone"},
+      {"type": "Geographic", "name": "Apulia"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Plant", "name": "monumental olive trees"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "province of Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "target": "Polignano"},
+      {"source": "Xylella", "type": "Located in", "target": "buffer zone"},
+      {"source": "Xylella", "type": "Located in", "target": "free zone"},
+      {"source": "Xylella", "type": "Located in", "target": "Apulia"},
+      {"source": "monumental olive trees", "type": "Located in", "target": "Apulia"}
+    ]
+  }
+]
+```

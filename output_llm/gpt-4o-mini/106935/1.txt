@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Pest", "name": "Scaphodeus Titanus"},
+    {"type": "Plant", "name": "vine"},
+    {"type": "Geographic", "name": "Burgundy"},
+    {"type": "Geographic", "name": "New Zealand"}
+  ],
+  "relationships": [
+    {"source": "Scaphodeus Titanus", "type": "Have been found on", "target": "vine"},
+    {"source": "Flavescence dorée", "type": "Affects", "target": "vine"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "Burgundy"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "New Zealand"}
+  ]
+}
+

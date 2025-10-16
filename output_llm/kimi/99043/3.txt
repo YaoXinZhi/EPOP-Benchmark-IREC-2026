@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Tucumán"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Miguel de Tucumán"
+    },
+    {
+      "type": "Geographic",
+      "name": "Los Vasquez"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus seedlings"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB"
+    },
+    {
+      "type": "Organization",
+      "name": "Senasa"
+    },
+    {
+      "type": "Organization",
+      "name": "National Service for Agrifood Health and Quality"
+    },
+    {
+      "type": "Organization",
+      "name": "Regional Center NOA Sur del Senasa"
+    },
+    {
+      "type": "Organization",
+      "name": "Secretary of Agriculture of the Province"
+    },
+    {
+      "type": "Person",
+      "name": "Mario Córdoba"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Citrus seedlings",
+      "type": "Located in",
+      "target": "Tucumán"
+    },
+    {
+      "source": "Citrus seedlings",
+      "type": "Located in",
+      "target": "Los Vasquez"
+    },
+    {
+      "source": "HLB",
+      "type": "Affects",
+      "target": "Citrus seedlings"
+    },
+    {
+      "source": "Senasa",
+      "type": "Located in",
+      "target": "Tucumán"
+    },
+    {
+      "source": "Regional Center NOA Sur del Senasa",
+      "type": "Located in",
+      "target": "Tucumán"
+    },
+    {
+      "source": "Secretary of Agriculture of the Province",
+      "type": "Located in",
+      "target": "Tucumán"
+    },
+    {
+      "source": "Mario Córdoba",
+      "type": "Located in",
+      "target": "Tucumán"
+    }
+  ]
+}
+

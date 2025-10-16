@@ -1,0 +1,52 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tomato brown shriveling"},
+      {"type": "Plant", "name": "tomato farms"},
+      {"type": "Plant", "name": "tomatoes"},
+      {"type": "Pest", "name": "ToBRFV"},
+      {"type": "Pest", "name": "Tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "tobamovirus"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Dutch"},
+      {"type": "Geographic", "name": "NVWA"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Jordan"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Germany"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Hungary"},
+      {"type": "Geographic", "name": "NÉBIH"},
+      {"type": "Geographic", "name": "European and Mediterranean Plant Protection Organization (EPPO)"},
+      {"type": "Geographic", "name": "FruitVeB"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "ToBRFV", "type": "Causes", "target": "tomato brown shriveling"},
+      {"source": "ToBRFV", "type": "Have been found on", "target": "tomato farms"},
+      {"source": "ToBRFV", "type": "Have been found on", "target": "tomatoes"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Netherlands"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Israel"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Jordan"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Sicily"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Italy"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Germany"},
+      {"source": "tomato brown shriveling", "type": "Affects", "target": "tomatoes"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Europe"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Hungary"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Jordan"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Netherlands"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Israel"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Sicily"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Germany"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Europe"},
+      {"source": "ToBRFV", "type": "Located in", "target": "NÉBIH"},
+      {"source": "ToBRFV", "type": "Located in", "target": "European and Mediterranean Plant Protection Organization (EPPO)"},
+      {"source": "ToBRFV", "type": "Located in", "target": "FruitVeB"}
+    ]
+  }
+]
+```

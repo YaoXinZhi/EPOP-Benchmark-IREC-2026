@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari"
+    },
+    {
+      "type": "Geographic",
+      "name": "Apulia"
+    },
+    {
+      "type": "Plant",
+      "name": "plants"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Apulia"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "plants"
+    }
+  ]
+}
+

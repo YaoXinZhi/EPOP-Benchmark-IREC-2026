@@ -1,0 +1,70 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Pest", "name": "Eastern fruit fly"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "fruit and vegetable sector"},
+      {"type": "Plant", "name": "host fruits"},
+      {"type": "Geographic", "name": "NAPLES"},
+      {"type": "Geographic", "name": "Campania"},
+      {"type": "Geographic", "name": "Palma Campania"},
+      {"type": "Geographic", "name": "European Commission"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "traps"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Palma Campania"},
+      {"source": "Bactrocera dorsalis", "type": "Affects", "target": "fruits"},
+      {"source": "Bactrocera dorsalis", "type": "Affects", "target": "fruit and vegetable sector"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "NAPLES"},
+      {"source": "Campania", "type": "Located in", "target": "NAPLES"},
+      {"source": "Palma Campania", "type": "Located in", "target": "Campania"},
+      {"source": "Campania", "type": "Have been found on", "target": "traps"},
+      {"source": "Campania", "type": "Have been found on", "target": "host fruits"},
+      {"source": "Campania", "type": "Have been found on", "target": "fruit and vegetable sector"},
+      {"source": "Campania", "type": "Have been found on", "target": "fruits"},
+      {"source": "Campania", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "Campania", "type": "Have been found on", "target": "Eastern fruit fly"},
+      {"source": "Campania", "type": "Have been found on", "target": "traps used for the monitoring network"},
+      {"source": "Campania", "type": "Have been found on", "target": "sites"},
+      {"source": "Campania", "type": "Have been found on", "target": "adult B. dorsalis traps"},
+      {"source": "Campania", "type": "Have been found on", "target": "the soil under the plants"},
+      {"source": "Campania", "type": "Have been found on", "target": "places at risk"},
+      {"source": "Campania", "type": "Have been found on", "target": "Bait"},
+      {"source": "Campania", "type": "Have been found on", "target": "fruits fallen to the ground"},
+      {"source": "Campania", "type": "Have been found on", "target": "fruits in the process of veraison"},
+      {"source": "Campania", "type": "Have been found on", "target": "phytosanitary treatments"},
+      {"source": "Campania", "type": "Have been found on", "target": "methileugenol"},
+      {"source": "Campania", "type": "Have been found on", "target": "parasite"},
+      {"source": "Campania", "type": "Have been found on", "target": "National Working Group"},
+      {"source": "Campania", "type": "Have been found on", "target": "National Phytosanitary Committee"},
+      {"source": "Campania", "type": "Have been found on", "target": "municipal administration of Palma Campania"},
+      {"source": "Campania", "type": "Have been found on", "target": "technical and organizational support"},
+      {"source": "Campania", "type": "Have been found on", "target": "information to citizens"},
+      {"source": "Campania", "type": "Have been found on", "target": "information to farmers"},
+      {"source": "Campania", "type": "Have been found on", "target": "institutions"},
+      {"source": "Campania", "type": "Have been found on", "target": "Emergency Plan"},
+      {"source": "Campania", "type": "Have been found on", "target": "Action Plan"},
+      {"source": "Campania", "type": "Have been found on", "target": "timely actions"},
+      {"source": "Campania", "type": "Have been found on", "target": "preventing the establishment"},
+      {"source": "Campania", "type": "Have been found on", "target": "harmful organism"},
+      {"source": "Campania", "type": "Have been found on", "target": "traps activated with methileugenol"},
+      {"source": "Campania", "type": "Have been found on", "target": "installation of traps"},
+      {"source": "Campania", "type": "Have been found on", "target": "elimination of the parasite"},
+      {"source": "Campania", "type": "Have been found on", "target": "further synergies"},
+      {"source": "Campania", "type": "Have been found on", "target": "technical support"},
+      {"source": "Campania", "type": "Have been found on", "target": "correct information"},
+      {"source": "Campania", "type": "Have been found on", "target": "state of the emergency"},
+      {"source": "Campania", "type": "Have been found on", "target": "citizens"},
+      {"source": "Campania", "type": "Have been found on", "target": "farmers"},
+      {"source": "Campania", "type": "Have been found on", "target": "management of the emergency case"},
+      {"source": "Campania", "type": "Have been found on", "target": "further useful information"},
+      {"source": "Campania", "type": "Have been found on", "target": "Bactrocera dorsalis"}
+    ]
+  }
+]
+```

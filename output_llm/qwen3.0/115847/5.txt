@@ -1,0 +1,25 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "plant disease"},
+      {"type": "Geographic", "name": "Salento area"},
+      {"type": "Geographic", "name": "Apulian provinces"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant disease"},
+      {"source": "plant disease", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "plant disease", "type": "Located in", "target": "Salento area"},
+      {"source": "plant disease", "type": "Located in", "target": "Apulian provinces"},
+      {"source": "plant disease", "type": "Located in", "target": "Puglia"}
+    ]
+  }
+]
+```

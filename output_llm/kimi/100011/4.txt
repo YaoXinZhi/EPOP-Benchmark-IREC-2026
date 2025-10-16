@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Japanese beetle"
+    },
+    {
+      "type": "Pest",
+      "name": "Popillia japonica"
+    },
+    {
+      "type": "Geographic",
+      "name": "Freiburg"
+    },
+    {
+      "type": "Geographic",
+      "name": "Baden-Württemberg"
+    },
+    {
+      "type": "Geographic",
+      "name": "northern Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asia"
+    },
+    {
+      "type": "Plant",
+      "name": "flowers"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "fruits"
+    },
+    {
+      "type": "Plant",
+      "name": "roots"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Freiburg"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Located in",
+      "target": "Freiburg"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Have been found on",
+      "target": "flowers"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Have been found on",
+      "target": "leaves"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Have been found on",
+      "target": "fruits"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Have been found on",
+      "target": "roots"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Located in",
+      "target": "Baden-Württemberg"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Located in",
+      "target": "northern Italy"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "Popillia japonica",
+      "type": "Located in",
+      "target": "Asia"
+    }
+  ]
+}
+

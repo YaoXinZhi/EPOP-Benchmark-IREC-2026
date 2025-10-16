@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Buhaira Gardens"
+    },
+    {
+      "type": "Geographic",
+      "name": "Seville"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Union"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Plant",
+      "name": "orange trees"
+    },
+    {
+      "type": "Pest",
+      "name": "HBL"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Buhaira Gardens",
+      "type": "Located in",
+      "target": "Seville"
+    },
+    {
+      "source": "orange trees",
+      "type": "Located in",
+      "target": "Buhaira Gardens"
+    },
+    {
+      "source": "HBL",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "orange trees"
+    },
+    {
+      "source": "HBL",
+      "type": "Have been found on",
+      "target": "orange trees"
+    }
+  ]
+}
+

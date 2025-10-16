@@ -1,0 +1,177 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Tomato brown rugose fruit virus"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jordan Valley"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jordan"
+    },
+    {
+      "type": "Plant",
+      "name": "weeds"
+    },
+    {
+      "type": "Plant",
+      "name": "tomatoes"
+    },
+    {
+      "type": "Plant",
+      "name": "Amaranthus retroflexus"
+    },
+    {
+      "type": "Plant",
+      "name": "Beta vulgaris subsp. maritima"
+    },
+    {
+      "type": "Plant",
+      "name": "Chenopodium murale"
+    },
+    {
+      "type": "Plant",
+      "name": "Conyza canadensis"
+    },
+    {
+      "type": "Plant",
+      "name": "Taraxacum officinale"
+    },
+    {
+      "type": "Plant",
+      "name": "Malva parviflora"
+    },
+    {
+      "type": "Plant",
+      "name": "Oxalis corniculata"
+    },
+    {
+      "type": "Plant",
+      "name": "Portulaca oleracea"
+    },
+    {
+      "type": "Plant",
+      "name": "Veronica syriaca"
+    },
+    {
+      "type": "Plant",
+      "name": "Solanum elaeagnifolium"
+    },
+    {
+      "type": "Plant",
+      "name": "S. nigrum"
+    },
+    {
+      "type": "Plant",
+      "name": "Corchorus olitorius"
+    },
+    {
+      "type": "Plant",
+      "name": "Nicotiana tabacum"
+    },
+    {
+      "type": "Plant",
+      "name": "D. metel"
+    },
+    {
+      "type": "Plant",
+      "name": "D. stramonium"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Jordan Valley"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Jordan"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Affects",
+      "target": "tomatoes"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Amaranthus retroflexus"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Beta vulgaris subsp. maritima"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Chenopodium murale"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Conyza canadensis"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Taraxacum officinale"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Malva parviflora"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Oxalis corniculata"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Portulaca oleracea"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Veronica syriaca"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Solanum elaeagnifolium"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "S. nigrum"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "Corchorus olitorius"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Transmitted",
+      "target": "Nicotiana tabacum"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Transmitted",
+      "target": "D. metel"
+    },
+    {
+      "source": "Tomato brown rugose fruit virus",
+      "type": "Transmitted",
+      "target": "D. stramonium"
+    }
+  ]
+}
+

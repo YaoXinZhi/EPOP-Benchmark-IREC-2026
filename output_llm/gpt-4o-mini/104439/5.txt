@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "whitefly"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Pest", "name": "Scaptocoris castanea"},
+    {"type": "Pest", "name": "Bradysia matogrossensis"},
+    {"type": "Pest", "name": "Sphenophorus levis"},
+    {"type": "Pest", "name": "Heterorhabditis bacteriophora"},
+    {"type": "Pest", "name": "Steinernema carpocapsae"},
+    {"type": "Plant", "name": "sugarcane"},
+    {"type": "Plant", "name": "crops"},
+    {"type": "Plant", "name": "caterpillar"},
+    {"type": "Plant", "name": "organic agriculture"},
+    {"type": "Plant", "name": "biological products"},
+    {"type": "Plant", "name": "low-toxicity products"},
+    {"type": "Plant", "name": "alternative for the management of resistant populations of whitefly"},
+    {"type": "Disease", "name": "phytosanitary support"},
+    {"type": "Pest", "name": "Tetrastichus howardi"},
+    {"type": "Pest", "name": "Telenomus podisi"},
+    {"type": "Pest", "name": "Beauveria bassiana"},
+    {"type": "Pest", "name": "Metarhizium anisopliae"},
+    {"type": "Pest", "name": "Cordyceps javanica"}
+  ],
+  "relationships": [
+    {"source": "Cordyceps javanica", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Heterorhabditis bacteriophora", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+    {"source": "Steinernema carpocapsae", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+    {"source": "Beauveria bassiana", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Metarhizium anisopliae", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Spodoptera frugiperda", "type": "Causes", "target": "caterpillar"},
+    {"source": "whitefly", "type": "Affects", "target": "crops"},
+    {"source": "Heterorhabditis bacteriophora", "type": "Have been found on", "target": "caterpillar"},
+    {"source": "Steinernema carpocapsae", "type": "Have been found on", "target": "caterpillar"},
+    {"source": "Tetrastichus howardi", "type": "Have been found on", "target": "caterpillar"},
+    {"source": "Telenomus podisi", "type": "Have been found on", "target": "caterpillar"},
+    {"source": "Bradysia matogrossensis", "type": "Have been found on", "target": "sugarcane"},
+    {"source": "Sphenophorus levis", "type": "Have been found on", "target": "sugarcane"}
+  ]
+}
+

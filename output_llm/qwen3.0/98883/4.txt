@@ -1,0 +1,35 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Pest", "name": "multiplex"},
+      {"type": "Pest", "name": "X. taiwanensis"},
+      {"type": "Pest", "name": "pauca"},
+      {"type": "Pest", "name": "fastidiosa"},
+      {"type": "Pest", "name": "sandyi"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "crop plants"},
+      {"type": "Plant", "name": "wild plants"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "EU"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "plants"},
+      {"source": "multiplex", "type": "Have been found on", "target": "plants"},
+      {"source": "pauca", "type": "Have been found on", "target": "plants"},
+      {"source": "fastidiosa", "type": "Have been found on", "target": "plants"},
+      {"source": "sandyi", "type": "Have been found on", "target": "plants"},
+      {"source": "multiplex", "type": "Located in", "target": "France"},
+      {"source": "multiplex", "type": "Located in", "target": "Italy"},
+      {"source": "multiplex", "type": "Located in", "target": "Portugal"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "European Union"}
+    ]
+  }
+]
+```

@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella Fastidiosa"},
+    {"type": "Plant", "name": "olive trees"},
+    {"type": "Geographic", "name": "Salento"},
+    {"type": "Geographic", "name": "Puglia Region"},
+    {"type": "Disease", "name": "bacteriosis"}
+  ],
+  "relationships": [
+    {"source": "olive trees", "type": "Have been found on", "target": "Xylella Fastidiosa"},
+    {"source": "Xylella Fastidiosa", "type": "Causes", "target": "bacteriosis"},
+    {"source": "bacteriosis", "type": "Affects", "target": "olive trees"},
+    {"source": "olive trees", "type": "Located in", "target": "Salento"},
+    {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Puglia Region"}
+  ]
+}
+

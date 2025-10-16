@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Plague of the yellow dragon"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Geographic", "name": "Venezuela"},
+    {"type": "Disease", "name": "HLB plague"},
+    {"type": "Disease", "name": "huanglongbing"},
+    {"type": "Disease", "name": "yellow dragon"},
+    {"type": "Geographic", "name": "Zulia state"},
+    {"type": "Geographic", "name": "Maracaibo"},
+    {"type": "Geographic", "name": "San Francisco"},
+    {"type": "Geographic", "name": "Costa Oriental del Lago"},
+    {"type": "Geographic", "name": "Aragua"}
+  ],
+  "relationships": [
+    {"source": "Plague of the yellow dragon", "type": "Affects", "target": "citrus"},
+    {"source": "citrus", "type": "Located in", "target": "Venezuela"},
+    {"source": "HLB plague", "type": "Affects", "target": "citrus"},
+    {"source": "huanglongbing", "type": "Affects", "target": "citrus"},
+    {"source": "yellow dragon", "type": "Affects", "target": "citrus"},
+    {"source": "citrus", "type": "Located in", "target": "Zulia state"},
+    {"source": "citrus", "type": "Located in", "target": "Maracaibo"},
+    {"source": "citrus", "type": "Located in", "target": "San Francisco"},
+    {"source": "citrus", "type": "Located in", "target": "Costa Oriental del Lago"},
+    {"source": "citrus", "type": "Located in", "target": "Aragua"}
+  ]
+}
+

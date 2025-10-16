@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "oriental fruit fly"},
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Pinellas County"},
+    {"type": "Plant", "name": "fig"},
+    {"type": "Plant", "name": "loquat"},
+    {"type": "Plant", "name": "mango"},
+    {"type": "Plant", "name": "orange"},
+    {"type": "Plant", "name": "peach"},
+    {"type": "Plant", "name": "plum"},
+    {"type": "Plant", "name": "sapote"},
+    {"type": "Plant", "name": "soursop"},
+    {"type": "Plant", "name": "Surinam cherry"},
+    {"type": "Plant", "name": "tangerine"},
+    {"type": "Plant", "name": "tropical almond"},
+    {"type": "Plant", "name": "guava"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fig"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "loquat"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "mango"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "orange"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "peach"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "plum"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "sapote"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "soursop"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Surinam cherry"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "tangerine"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "tropical almond"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "guava"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Florida"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Pinellas County"}
+  ]
+}
+

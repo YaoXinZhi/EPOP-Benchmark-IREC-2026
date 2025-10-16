@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Cnr"},
+      {"type": "Geographic", "name": "Agritest s.r.l."},
+      {"type": "Geographic", "name": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"type": "Geographic", "name": "Institute of Photonics and Nanotechnology (Cnr-Ifn)"},
+      {"type": "Geographic", "name": "National Research Council"},
+      {"type": "Geographic", "name": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Agritest S.r.l."},
+      {"type": "Geographic", "name": "Advanced Science"},
+      {"type": "Geographic", "name": "Luisa Torsi"},
+      {"type": "Geographic", "name": "Scientific Council of the CNR"},
+      {"type": "Geographic", "name": "Donato Boscia"},
+      {"type": "Geographic", "name": "Bari branch of the Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Eleonora Macchia"},
+      {"type": "Geographic", "name": "Department of Pharmacy-Drug Sciences of the University of Bari"},
+      {"type": "Geographic", "name": "ERC Starting Grant"},
+      {"type": "Geographic", "name": "Luisa Torsi"},
+      {"type": "Geographic", "name": "Gaetano Scamarcio"},
+      {"type": "Geographic", "name": "Interuniversity Department of Physics of the University of Bari"},
+      {"type": "Geographic", "name": "Cnr-Ifn section of Bari"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "plants"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "plants"},
+      {"source": "University of Bari", "type": "Located in", "name": "Bari"},
+      {"source": "Cnr", "type": "Located in", "name": "Italy"},
+      {"source": "Agritest s.r.l.", "type": "Located in", "name": "Italy"},
+      {"source": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)", "type": "Located in", "name": "Italy"},
+      {"source": "Institute of Photonics and Nanotechnology (Cnr-Ifn)", "type": "Located in", "name": "Italy"},
+      {"source": "National Research Council", "type": "Located in", "name": "Italy"},
+      {"source": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics", "type": "Located in", "name": "University of Bari"},
+      {"source": "Advanced Science", "type": "Located in", "name": "International"},
+      {"source": "Luisa Torsi", "type": "Located in", "name": "University of Bari"},
+      {"source": "Scientific Council of the CNR", "type": "Located in", "name": "Italy"},
+      {"source": "Donato Boscia", "type": "Located in", "name": "Bari"},
+      {"source": "Bari branch of the Institute for the Sustainable Protection of Plants (Cnr-Ipsp)", "type": "Located in", "name": "Bari"},
+      {"source": "Puglia", "type": "Located in", "name": "Italy"},
+      {"source": "Eleonora Macchia", "type": "Located in", "name": "University of Bari"},
+      {"source": "Department of Pharmacy-Drug Sciences of the University of Bari", "type": "Located in", "name": "University of Bari"},
+      {"source": "ERC Starting Grant", "type": "Located in", "name": "Europe"},
+      {"source": "Gaetano Scamarcio", "type": "Located in", "name": "University of Bari"},
+      {"source": "Interuniversity Department of Physics of the University of Bari", "type": "Located in", "name": "University of Bari"},
+      {"source": "Cnr-Ifn section of Bari", "type": "Located in", "name": "Bari"}
+    ]
+  }
+]
+```

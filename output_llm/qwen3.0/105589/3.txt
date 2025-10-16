@@ -1,0 +1,49 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Xylella fastidiosa"},
+      {"type": "Disease", "name": "pauca strain"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Ionian municipalities"},
+      {"type": "Geographic", "name": "Manduria"},
+      {"type": "Geographic", "name": "Avetrana"},
+      {"type": "Geographic", "name": "Sava"},
+      {"type": "Geographic", "name": "Maruggio"},
+      {"type": "Geographic", "name": "Torricella"},
+      {"type": "Geographic", "name": "Lecce"},
+      {"type": "Geographic", "name": "Brindisi"},
+      {"type": "Geographic", "name": "Taranto"},
+      {"type": "Geographic", "name": "province of Bari"},
+      {"type": "Geographic", "name": "Polignano a Mare"},
+      {"type": "Geographic", "name": "Castellana Grotte"},
+      {"type": "Geographic", "name": "province of Brindisi"},
+      {"type": "Geographic", "name": "province of Lecce"},
+      {"type": "Plant", "name": "olive groves"},
+      {"type": "Plant", "name": "extra virgin olive oil"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Ionian municipalities"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Manduria"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Avetrana"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Sava"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Maruggio"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Torricella"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Lecce"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Brindisi"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Taranto"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "province of Bari"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Polignano a Mare"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "name": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Affects", "name": "olive groves"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "Castellana Grotte"},
+      {"source": "Xylella fastidiosa", "type": "Affects", "name": "extra virgin olive oil"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "province of Brindisi"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "name": "province of Lecce"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "name": "pauca strain"}
+    ]
+  }
+]
+```

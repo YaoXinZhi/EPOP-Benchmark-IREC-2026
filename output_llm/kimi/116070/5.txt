@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "European Union"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mercosur countries"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Geographic",
+      "name": "Argentina"
+    },
+    {
+      "type": "Geographic",
+      "name": "Uruguay"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Geographic",
+      "name": "South Africa"
+    },
+    {
+      "type": "Pest",
+      "name": "Phyllosticta citricarpa"
+    },
+    {
+      "type": "Disease",
+      "name": "Black Spot disease"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Phyllosticta citricarpa",
+      "type": "Causes",
+      "target": "Black Spot disease"
+    },
+    {
+      "source": "Black Spot disease",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Mercosur countries",
+      "type": "Located in",
+      "target": "Brazil, Argentina and Uruguay"
+    },
+    {
+      "source": "Brazil",
+      "type": "Located in",
+      "target": "Mercosur countries"
+    },
+    {
+      "source": "Argentina",
+      "type": "Located in",
+      "target": "Mercosur countries"
+    },
+    {
+      "source": "Uruguay",
+      "type": "Located in",
+      "target": "Mercosur countries"
+    },
+    {
+      "source": "Colombia",
+      "type": "Located in",
+      "target": "Mercosur countries"
+    },
+    {
+      "source": "South Africa",
+      "type": "Located in",
+      "target": "South Africa"
+    },
+    {
+      "source": "Phyllosticta citricarpa",
+      "type": "Have been found on",
+      "target": "citrus"
+    }
+  ]
+}
+

@@ -1,0 +1,52 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella Fastidiosa"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "acacia longifolia"},
+      {"type": "Plant", "name": "citrus limon"},
+      {"type": "Plant", "name": "citrus reticulata blanco"},
+      {"type": "Vector", "name": "Philaenus spumarius"},
+      {"type": "Disease", "name": "Xylella Fastidiosa infection"},
+      {"type": "Geographic", "name": "Porto Metropolitan Area"},
+      {"type": "Geographic", "name": "Vila Nova de Gaia"},
+      {"type": "Geographic", "name": "Santa Maria da Feira"},
+      {"type": "Geographic", "name": "Porto"},
+      {"type": "Geographic", "name": "Espinho"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "European Commission"},
+      {"type": "Plant", "name": "lavender"},
+      {"type": "Geographic", "name": "zoo"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Porto Metropolitan Area"},
+      {"source": "Xylella Fastidiosa", "type": "Have been found on", "target": "citrus"},
+      {"source": "Xylella Fastidiosa", "type": "Have been found on", "target": "acacia longifolia"},
+      {"source": "Xylella Fastidiosa", "type": "Have been found on", "target": "citrus limon"},
+      {"source": "Xylella Fastidiosa", "type": "Have been found on", "target": "citrus reticulata blanco"},
+      {"source": "Xylella Fastidiosa", "type": "Have been found on", "target": "lavender"},
+      {"source": "Xylella Fastidiosa", "type": "Transmits", "target": "Philaenus spumarius"},
+      {"source": "Philaenus spumarius", "type": "Transmits", "target": "Xylella Fastidiosa"},
+      {"source": "Xylella Fastidiosa", "type": "Causes", "target": "Xylella Fastidiosa infection"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "acacia longifolia"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "citrus"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "citrus limon"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "citrus reticulata blanco"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "olive"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "almond"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "vine"},
+      {"source": "Xylella Fastidiosa infection", "type": "Affects", "target": "fig"},
+      {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Vila Nova de Gaia"},
+      {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Santa Maria da Feira"},
+      {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Porto"},
+      {"source": "Xylella Fastidiosa", "type": "Located in", "target": "Espinho"},
+      {"source": "Portugal", "type": "Located in", "target": "European Commission"},
+      {"source": "lavender", "type": "Located in", "target": "zoo"},
+      {"source": "zoo", "type": "Located in", "target": "Vila Nova de Gaia"}
+    ]
+  }
+]
+```

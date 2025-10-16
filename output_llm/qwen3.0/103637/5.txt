@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Beauveria bassiana"},
+      {"type": "Pest", "name": "Bactrocera dorsalis (Hendel)"},
+      {"type": "Plant", "name": "mango"},
+      {"type": "Plant", "name": "maize"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "central Europe"},
+      {"type": "Geographic", "name": "southwestern Asia"},
+      {"type": "Geographic", "name": "North America"},
+      {"type": "Geographic", "name": "Oceania"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Sanya"},
+      {"type": "Geographic", "name": "Haikou"},
+      {"type": "Geographic", "name": "Hainan Province"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Tropical Special Ornamental Plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Beauveria bassiana", "type": "Transmits", "target": "Bactrocera dorsalis (Hendel)"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "Bactrocera dorsalis (Hendel)"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "mango"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "maize"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "Asia"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "central Europe"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "southwestern Asia"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Asia"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Africa"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "South America"},
+      {"source": "mango", "type": "Located in", "target": "Asia"},
+      {"source": "maize", "type": "Located in", "target": "China"},
+      {"source": "Sanya", "type": "Located in", "target": "China"},
+      {"source": "Haikou", "type": "Located in", "target": "China"},
+      {"source": "Hainan Province", "type": "Located in", "target": "China"},
+      {"source": "Tropical Special Ornamental Plants", "type": "Located in", "target": "Hainan Province"}
+    ]
+  }
+]
+```

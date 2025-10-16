@@ -1,0 +1,38 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Banana plants"},
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Plant", "name": "Cavendish"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Pest", "name": "tropical race 1 (TR1)"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "tropical race 4 (TR4)"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Western countries"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "October"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "Banana plants"},
+      {"source": "tropical race 1 (TR1)", "type": "Causes", "target": "Panama disease"},
+      {"source": "tropical race 4 (TR4)", "type": "Causes", "target": "Panama disease"},
+      {"source": "tropical race 1 (TR1)", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "tropical race 4 (TR4)", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "Gert Kema", "type": "Located in", "target": "Netherlands"},
+      {"source": "tropical race 1 (TR1)", "type": "Located in", "target": "Brazil"},
+      {"source": "New Scientist Live", "type": "Located in", "target": "October"},
+      {"source": "tropical race 1 (TR1)", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Cavendish", "type": "Located in", "target": "Western countries"},
+      {"source": "tropical race 4 (TR4)", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "tropical race 1 (TR1)", "type": "Transmits", "target": "Panama disease"},
+      {"source": "tropical race 4 (TR4)", "type": "Transmits", "target": "Panama disease"}
+    ]
+  }
+]
+```

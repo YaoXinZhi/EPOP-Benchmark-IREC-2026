@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Aphelenchoides besseyi"},
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Pest", "name": "Ditylenchus dipsaci"},
+      {"type": "Pest", "name": "Globodera pallida"},
+      {"type": "Pest", "name": "Globodera rostochiensis"},
+      {"type": "Pest", "name": "Heterodera glycines"},
+      {"type": "Pest", "name": "Meloidogyne chitwoodi"},
+      {"type": "Pest", "name": "Meloidogyne enterolobii"},
+      {"type": "Pest", "name": "Meloidogyne fallax"},
+      {"type": "Pest", "name": "Meloidogyne mali"},
+      {"type": "Pest", "name": "Radopholus similis"},
+      {"type": "Pest", "name": "Xiphinema index"},
+      {"type": "Pest", "name": "Xiphinema rivesi"},
+      {"type": "Pest", "name": "Pratylenchus spp."},
+      {"type": "Pest", "name": "Rotylenchulus reniformis"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Mediterranean"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "European and Mediterranean Plant Protection Organization", "type": "Located in", "target": "Europe"},
+      {"source": "European and Mediterranean Plant Protection Organization", "type": "Located in", "target": "Mediterranean"},
+      {"source": "Aphelenchoides besseyi", "type": "Located in", "target": "Europe"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Europe"},
+      {"source": "Ditylenchus dipsaci", "type": "Located in", "target": "Europe"},
+      {"source": "Globodera pallida", "type": "Located in", "target": "Europe"},
+      {"source": "Globodera rostochiensis", "type": "Located in", "target": "Europe"},
+      {"source": "Heterodera glycines", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne chitwoodi", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne enterolobii", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne fallax", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne mali", "type": "Located in", "target": "Europe"},
+      {"source": "Radopholus similis", "type": "Located in", "target": "Europe"},
+      {"source": "Xiphinema rivesi", "type": "Located in", "target": "Europe"}
+    ]
+  }
+]
+```

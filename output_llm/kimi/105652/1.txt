@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari area"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polignano a Mare"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Bari area"
+    },
+    {
+      "source": "Xylella",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Polignano a Mare"
+    }
+  ]
+}
+

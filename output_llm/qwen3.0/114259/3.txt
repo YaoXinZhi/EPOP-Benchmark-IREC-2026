@@ -1,0 +1,70 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaporthe eres"},
+      {"type": "Plant", "name": "Vaccinium corymbosum"},
+      {"type": "Disease", "name": "stem blight"},
+      {"type": "Disease", "name": "dieback"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Northern Italy"},
+      {"type": "Geographic", "name": "Peveragno"},
+      {"type": "Geographic", "name": "Piedmont"},
+      {"type": "Geographic", "name": "Cuneo Province"},
+      {"type": "Plant", "name": "blueberry"},
+      {"type": "Plant", "name": "Draper"},
+      {"type": "Plant", "name": "Duke"},
+      {"type": "Plant", "name": "Machilus thunbergii"},
+      {"type": "Plant", "name": "Vaccinium virgatum"},
+      {"type": "Plant", "name": "hardy kiwifruit"},
+      {"type": "Plant", "name": "Populus davidiana × P. bolleana"},
+      {"type": "Plant", "name": "passion fruit"},
+      {"type": "Disease", "name": "leaf spot disease"},
+      {"type": "Disease", "name": "postharvest fruit rot disease"},
+      {"type": "Disease", "name": "leaf blotch"},
+      {"type": "Disease", "name": "leaf blight"},
+      {"type": "Pest", "name": "Phomopsis"},
+      {"type": "Geographic", "name": "Chile"},
+      {"type": "Geographic", "name": "Lithuania"},
+      {"type": "Geographic", "name": "the Netherlands"},
+      {"type": "Geographic", "name": "the U.S.A."},
+      {"type": "Geographic", "name": "Korea"},
+      {"type": "Geographic", "name": "China"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaporthe eres", "type": "Causes", "target": "stem blight"},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "dieback"},
+      {"source": "stem blight", "type": "Affects", "target": "Vaccinium corymbosum"},
+      {"source": "dieback", "type": "Affects", "target": "Vaccinium corymbosum"},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "Vaccinium corymbosum"},
+      {"source": "Vaccinium corymbosum", "type": "Located in", "target": "Italy"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Italy"},
+      {"source": "Vaccinium corymbosum", "type": "Located in", "target": "Northern Italy"},
+      {"source": "Northern Italy", "type": "Located in", "target": "Italy"},
+      {"source": "Peveragno", "type": "Located in", "target": "Piedmont"},
+      {"source": "Piedmont", "type": "Located in", "target": "Cuneo Province"},
+      {"source": "Draper", "type": "Have been found on", "target": "Vaccinium corymbosum"},
+      {"source": "Duke", "type": "Have been found on", "target": "Vaccinium corymbosum"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Chile"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Lithuania"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "the Netherlands"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "the U.S.A."},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "leaf spot disease"},
+      {"source": "leaf spot disease", "type": "Affects", "target": "Machilus thunbergii"},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "postharvest fruit rot disease"},
+      {"source": "postharvest fruit rot disease", "type": "Affects", "target": "hardy kiwifruit"},
+      {"source": "Diaporthe phoenicicola", "type": "Causes", "target": "leaf spot"},
+      {"source": "leaf spot", "type": "Affects", "target": "Vaccinium virgatum"},
+      {"source": "Diaporthe cercidis", "type": "Causes", "target": "leaf blotch"},
+      {"source": "Diaporthe nobilis", "type": "Causes", "target": "leaf blotch"},
+      {"source": "leaf blotch", "type": "Affects", "target": "Populus davidiana × P. bolleana"},
+      {"source": "Nigrospora sphaerica", "type": "Causes", "target": "leaf blight"},
+      {"source": "leaf blight", "type": "Affects", "target": "passion fruit"},
+      {"source": "Phomopsis", "type": "Have been found on", "target": "berry fruit"},
+      {"source": "berry fruit", "type": "Located in", "target": "Italy"}
+    ]
+  }
+]
+```

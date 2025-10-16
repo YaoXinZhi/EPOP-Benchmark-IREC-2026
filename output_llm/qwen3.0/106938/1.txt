@@ -1,0 +1,24 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Plant", "name": "grape vine"},
+      {"type": "Pest", "name": "Candidatus Phytoplasma vitis"},
+      {"type": "Vector", "name": "Scaphoideus titanus Ball"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Disease", "name": "Esca"},
+      {"type": "Plant", "name": "vine"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Candidatus Phytoplasma vitis", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "grape vine"},
+      {"source": "Scaphoideus titanus Ball", "type": "Transmits", "target": "Candidatus Phytoplasma vitis"},
+      {"source": "Flavescence dorée", "type": "Located in", "target": "Europe"},
+      {"source": "Esca", "type": "Affects", "target": "vine"}
+    ]
+  }
+]
+```

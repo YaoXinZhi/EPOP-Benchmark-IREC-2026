@@ -1,0 +1,42 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "banana bunchy top disease"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "banana bunches"},
+      {"type": "Geographic", "name": "Arua district"},
+      {"type": "Geographic", "name": "West Nile region"},
+      {"type": "Geographic", "name": "Kasese district"},
+      {"type": "Geographic", "name": "Mpondwe"},
+      {"type": "Geographic", "name": "Rwenzori Mountains"},
+      {"type": "Geographic", "name": "Kamwenge"},
+      {"type": "Geographic", "name": "Kitagwenda"},
+      {"type": "Geographic", "name": "Buganda"},
+      {"type": "Geographic", "name": "Ankole"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Democratic Republic of the Congo"},
+      {"type": "Geographic", "name": "Uganda"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "banana bunchy top disease", "type": "Affects", "target": "banana"},
+      {"source": "banana bunchy top disease", "type": "Have been found on", "target": "banana"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Arua district"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "West Nile region"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Kasese district"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Mpondwe"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Malawi"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Asia"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Democratic Republic of the Congo"},
+      {"source": "banana bunchy top disease", "type": "Located in", "target": "Uganda"},
+      {"source": "banana bunchy top disease", "type": "Spread to", "target": "Kamwenge"},
+      {"source": "banana bunchy top disease", "type": "Spread to", "target": "Kitagwenda"},
+      {"source": "banana bunchy top disease", "type": "Spread to", "target": "Buganda"},
+      {"source": "banana bunchy top disease", "type": "Spread to", "target": "Ankole"}
+    ]
+  }
+]
+```

@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "golden flavescence"},
+      {"type": "Pest", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Vector", "name": "Scaphoideus titanus Ball"},
+      {"type": "Plant", "name": "Vine"},
+      {"type": "Geographic", "name": "priority intervention areas"},
+      {"type": "Geographic", "name": "parishes"},
+      {"type": "Geographic", "name": "neighboring parishes"},
+      {"type": "Geographic", "name": "non-borderline parishes"},
+      {"type": "Geographic", "name": "national territory"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavescence dorée phytoplasma", "type": "Causes", "target": "golden flavescence"},
+      {"source": "golden flavescence", "type": "Affects", "target": "Vine"},
+      {"source": "Scaphoideus titanus Ball", "type": "Transmits", "target": "Flavescence dorée phytoplasma"},
+      {"source": "Scaphoideus titanus Ball", "type": "Have been found on", "target": "Vine"},
+      {"source": "priority intervention areas", "type": "Located in", "target": "national territory"},
+      {"source": "parishes", "type": "Located in", "target": "national territory"},
+      {"source": "neighboring parishes", "type": "Located in", "target": "national territory"},
+      {"source": "non-borderline parishes", "type": "Located in", "target": "national territory"}
+    ]
+  }
+]
+```

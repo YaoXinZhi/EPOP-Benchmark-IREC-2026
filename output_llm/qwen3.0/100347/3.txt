@@ -1,0 +1,47 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Pest", "name": "fall armyworm moth"},
+      {"type": "Plant", "name": "alfalfa"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Plant", "name": "Johnsongrass"},
+      {"type": "Plant", "name": "Bt corn"},
+      {"type": "Vector", "name": "fall armyworm moth"},
+      {"type": "Geographic", "name": "Missouri"},
+      {"type": "Geographic", "name": "Arrow Rock"},
+      {"type": "Geographic", "name": "New Haven"},
+      {"type": "Geographic", "name": "Texas"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Geographic", "name": "Mexico"},
+      {"type": "Geographic", "name": "Auburn University"},
+      {"type": "Geographic", "name": "Dade County"},
+      {"type": "Geographic", "name": "Legacy Ridge Farms"},
+      {"type": "Geographic", "name": "Pin Oak Farms"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "fall armyworm", "type": "Have been found on", "target": "alfalfa"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "corn"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "Johnsongrass"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Missouri"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Texas"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Florida"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Mexico"},
+      {"source": "fall armyworm", "type": "Transmits", "target": "fall armyworm moth"},
+      {"source": "fall armyworm moth", "type": "Transmits", "target": "fall armyworm"},
+      {"source": "fall armyworm", "type": "Affects", "target": "alfalfa"},
+      {"source": "fall armyworm", "type": "Affects", "target": "corn"},
+      {"source": "fall armyworm", "type": "Affects", "target": "Johnsongrass"},
+      {"source": "fall armyworm", "type": "Causes", "target": "damage"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Arrow Rock"},
+      {"source": "fall armyworm", "type": "Located in", "target": "New Haven"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Dade County"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Legacy Ridge Farms"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Pin Oak Farms"}
+    ]
+  }
+]
+```

@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Aphelenchoides besseyi"},
+    {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+    {"type": "Pest", "name": "Ditylenchus dipsaci"},
+    {"type": "Pest", "name": "Globodera spp."},
+    {"type": "Pest", "name": "Heterodera spp."},
+    {"type": "Pest", "name": "Meloidogyne spp."},
+    {"type": "Pest", "name": "Nacobbus aberrans"},
+    {"type": "Pest", "name": "Pratylenchus spp."},
+    {"type": "Pest", "name": "Radopholus similis"},
+    {"type": "Pest", "name": "Rotylenchulus reniformis"},
+    {"type": "Pest", "name": "Xiphinema index"},
+    {"type": "Pest", "name": "Globodera pallida"},
+    {"type": "Pest", "name": "G. rostochiensis"},
+    {"type": "Pest", "name": "Heterodera glycines"},
+    {"type": "Pest", "name": "Meloidogyne chitwoodi"},
+    {"type": "Pest", "name": "M. enterolobii"},
+    {"type": "Pest", "name": "M. fallax"},
+    {"type": "Pest", "name": "M. mali"},
+    {"type": "Pest", "name": "Xiphinema rivesi"},
+    {"type": "Geographic", "name": "European and Mediterranean Plant Protection Organization (EPPO)"},
+    {"type": "Geographic", "name": "EU member states"}
+  ],
+  "relationships": []
+}
+

@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Xylella Fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Puglia Region"},
+      {"type": "Geographic", "name": "Salento area"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella Fastidiosa", "type": "Affects", "target": "olive trees"},
+      {"source": "olive trees", "type": "Located in", "target": "Salento area"},
+      {"source": "Salento area", "type": "Located in", "target": "Puglia Region"}
+    ]
+  }
+]
+```

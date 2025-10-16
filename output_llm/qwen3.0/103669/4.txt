@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "sorghum plants"},
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Plant", "name": "sorghum leaves"},
+      {"type": "Plant", "name": "maize"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "fall armyworm larvae"},
+      {"type": "Geographic", "name": "Penn State"},
+      {"type": "Plant", "name": "artificial diet"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavonoids", "type": "Have been found on", "target": "sorghum leaves"},
+      {"source": "flavonoids", "type": "Have been found on", "target": "sorghum plants"},
+      {"source": "flavonoids", "type": "Have been found on", "target": "corn"},
+      {"source": "flavonoids", "type": "Affects", "target": "fall armyworm"},
+      {"source": "flavonoids", "type": "Affects", "target": "fall armyworm larvae"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "corn"},
+      {"source": "fall armyworm larvae", "type": "Have been found on", "target": "artificial diet"},
+      {"source": "Penn State", "type": "Located in", "target": "researchers"},
+      {"source": "flavonoids", "type": "Located in", "target": "plant flavonoids"},
+      {"source": "plant flavonoids", "type": "Located in", "target": "flowers"},
+      {"source": "plant flavonoids", "type": "Located in", "target": "vegetables"},
+      {"source": "plant flavonoids", "type": "Located in", "target": "fruits"},
+      {"source": "flavonoids", "type": "Located in", "target": "plant’s primary metabolism"},
+      {"source": "flavonoids", "type": "Located in", "target": "sorghum"}
+    ]
+  }
+]
+```

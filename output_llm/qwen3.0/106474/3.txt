@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish bananas"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Disease", "name": "TR4"},
+      {"type": "Disease", "name": "TR1"},
+      {"type": "Plant", "name": "banana plants"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Wageningen University"},
+      {"type": "Plant", "name": "Grand Naine bananas"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "TR4", "type": "Affects", "target": "Cavendish bananas"},
+      {"source": "TR1", "type": "Affects", "target": "banana plants"},
+      {"source": "TR1", "type": "Affects", "target": "Gros Michel"},
+      {"source": "Cavendish bananas", "type": "Located in", "target": "plantations"},
+      {"source": "TR4", "type": "Located in", "target": "plantations"},
+      {"source": "TR1", "type": "Located in", "target": "plantations"},
+      {"source": "Wageningen University", "type": "Located in", "target": "Colombia"},
+      {"source": "TR1", "type": "Have been found on", "target": "banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "Cavendish bananas"},
+      {"source": "TR1", "type": "Have been found on", "target": "Gros Michel"},
+      {"source": "banana plants", "type": "Have been found on", "target": "plantations"},
+      {"source": "Cavendish bananas", "type": "Have been found on", "target": "plantations"},
+      {"source": "TR1", "type": "Causes", "target": "TR1"},
+      {"source": "TR4", "type": "Causes", "target": "TR4"},
+      {"source": "TR1", "type": "Affects", "target": "Grand Naine bananas"},
+      {"source": "TR4", "type": "Affects", "target": "Grand Naine bananas"},
+      {"source": "TR1", "type": "Have been found on", "target": "Grand Naine bananas"}
+    ]
+  }
+]
+```

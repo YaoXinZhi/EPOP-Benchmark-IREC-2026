@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "sorghum plants"},
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Plant", "name": "corn"},
+    {"type": "Plant", "name": "sorghum leaves"},
+    {"type": "Plant", "name": "leaves of corn"},
+    {"type": "Plant", "name": "flowers"},
+    {"type": "Plant", "name": "vegetables"},
+    {"type": "Plant", "name": "fruits"}
+  ],
+  "relationships": [
+    {"source": "fall armyworm", "type": "Have been found on", "target": "corn"},
+    {"source": "sorghum plants", "type": "Located in", "target": "Penn State"}
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "infected plants"},
+    {"type": "Geographic", "name": "Puglia"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Disease", "name": "plant pathogenic organisms"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "infected plants"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant pathogenic organisms"},
+    {"source": "plant pathogenic organisms", "type": "Affects", "target": "infected plants"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Bari"}
+  ]
+}
+

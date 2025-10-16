@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Cavendish banana variety"
+    },
+    {
+      "type": "Disease",
+      "name": "TR4 Panama disease"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombian"
+    },
+    {
+      "type": "Geographic",
+      "name": "Philippines"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Disease",
+      "name": "Fusarium Wilt"
+    },
+    {
+      "type": "Plant",
+      "name": "banana"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cavendish banana variety",
+      "type": "Affects",
+      "target": "TR4 Panama disease"
+    },
+    {
+      "source": "Cavendish banana variety",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Cavendish banana variety",
+      "type": "Located in",
+      "target": "Colombian"
+    },
+    {
+      "source": "Cavendish banana variety",
+      "type": "Have been found on",
+      "target": "banana"
+    },
+    {
+      "source": "TR4 Panama disease",
+      "type": "Causes",
+      "target": "Fusarium Wilt"
+    },
+    {
+      "source": "TR4 Panama disease",
+      "type": "Located in",
+      "target": "Philippines"
+    },
+    {
+      "source": "TR4 Panama disease",
+      "type": "Located in",
+      "target": "Colombia"
+    }
+  ]
+}
+

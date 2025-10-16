@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "whitefly"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Pest",
+      "name": "Scaptocoris castanea"
+    },
+    {
+      "type": "Pest",
+      "name": "fungus flies"
+    },
+    {
+      "type": "Pest",
+      "name": "Bradysia matogrossensis"
+    },
+    {
+      "type": "Pest",
+      "name": "sugarcane weevil"
+    },
+    {
+      "type": "Pest",
+      "name": "Sphenophorus levis"
+    },
+    {
+      "type": "Pest",
+      "name": "caterpillar"
+    },
+    {
+      "type": "Vector",
+      "name": "Tetrastichus howardi"
+    },
+    {
+      "type": "Vector",
+      "name": "Telenomus podisi"
+    },
+    {
+      "type": "Pest",
+      "name": "Cordyceps javanica"
+    },
+    {
+      "type": "Pest",
+      "name": "Heterorhabditis bacteriophora"
+    },
+    {
+      "type": "Pest",
+      "name": "Steinernema carpocapsae"
+    },
+    {
+      "type": "Pest",
+      "name": "Beauveria bassiana"
+    },
+    {
+      "type": "Pest",
+      "name": "Metarhizium anisopliae"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cordyceps javanica",
+      "type": "Transmits",
+      "target": "whitefly"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Transmits",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Transmits",
+      "target": "Scaptocoris castanea"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Transmits",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Transmits",
+      "target": "Bradysia matogrossensis"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Transmits",
+      "target": "Sphenophorus levis"
+    },
+    {
+      "source": "Tetrastichus howardi",
+      "type": "Transmits",
+      "target": "caterpillar"
+    },
+    {
+      "source": "Telenomus podisi",
+      "type": "Transmits",
+      "target": "caterpillar"
+    }
+  ]
+}
+

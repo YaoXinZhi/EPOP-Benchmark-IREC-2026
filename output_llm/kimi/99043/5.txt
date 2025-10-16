@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Tucumán"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Miguel de Tucumán"
+    },
+    {
+      "type": "Geographic",
+      "name": "Los Vasquez"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus seedlings"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus fruits"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus seedlings",
+      "type": "Located in",
+      "target": "Tucumán"
+    },
+    {
+      "source": "citrus seedlings",
+      "type": "Located in",
+      "target": "Los Vasquez"
+    },
+    {
+      "source": "HLB",
+      "type": "Affects",
+      "target": "citrus fruits"
+    }
+  ]
+}
+

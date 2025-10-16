@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "rosemary"},
+    {"type": "Geographic", "name": "Algarve"},
+    {"type": "Geographic", "name": "Luz de Tavira"},
+    {"type": "Geographic", "name": "Santo Estevão"},
+    {"type": "Geographic", "name": "Tavira"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Algarve"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "rosemary"},
+    {"source": "rosemary", "type": "Affects", "target": "Xylella fastidiosa"}
+  ]
+}
+

@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize"},
+      {"type": "Plant", "name": "other crops"},
+      {"type": "Vector", "name": "Hippodamia convergens"},
+      {"type": "Vector", "name": "Doru luteipes"},
+      {"type": "Geographic", "name": "Pirassununga"},
+      {"type": "Geographic", "name": "São Paulo state"},
+      {"type": "Geographic", "name": "Brazil"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize"},
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "other crops"},
+      {"source": "Hippodamia convergens", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+      {"source": "Doru luteipes", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+      {"source": "Pirassununga", "type": "Located in", "target": "São Paulo state"},
+      {"source": "São Paulo state", "type": "Located in", "target": "Brazil"}
+    ]
+  }
+]
+```

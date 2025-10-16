@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "whitefly"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Pest",
+      "name": "Scaptocoris castanea"
+    },
+    {
+      "type": "Pest",
+      "name": "fungus flies"
+    },
+    {
+      "type": "Pest",
+      "name": "Bradysia matogrossensis"
+    },
+    {
+      "type": "Pest",
+      "name": "sugarcane weevil"
+    },
+    {
+      "type": "Pest",
+      "name": "Sphenophorus levis"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera"
+    },
+    {
+      "type": "Pest",
+      "name": "caterpillar"
+    },
+    {
+      "type": "Pest",
+      "name": "Tetraonchus howardi"
+    },
+    {
+      "type": "Pest",
+      "name": "Telenomus podisi"
+    },
+    {
+      "type": "Pest",
+      "name": "Beauveria bassiana"
+    },
+    {
+      "type": "Pest",
+      "name": "Metarhizium anisopliae"
+    },
+    {
+      "type": "Pest",
+      "name": "Cordyceps javanica"
+    },
+    {
+      "type": "Pest",
+      "name": "Heterorhabditis bacteriophora"
+    },
+    {
+      "type": "Pest",
+      "name": "Steinernema carpocapsae"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cordyceps javanica",
+      "type": "Have been found on",
+      "target": "whitefly"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Have been found on",
+      "target": "Scaptocoris castanea"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Have been found on",
+      "target": "Bradysia matogrossensis"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Have been found on",
+      "target": "Sphenophorus levis"
+    },
+    {
+      "source": "Tetraonchus howardi",
+      "type": "Have been found on",
+      "target": "caterpillar"
+    },
+    {
+      "source": "Telenomus podisi",
+      "type": "Have been found on",
+      "target": "caterpillar"
+    }
+  ]
+}
+

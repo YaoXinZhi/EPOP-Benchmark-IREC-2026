@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Monochamus alternatus"
+    },
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Vector",
+      "name": "Japanese pine sawyer"
+    },
+    {
+      "type": "Disease",
+      "name": "pine wilt disease"
+    },
+    {
+      "type": "Plant",
+      "name": "pines"
+    },
+    {
+      "type": "Geographic",
+      "name": "China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portugal"
+    },
+    {
+      "type": "Vector",
+      "name": "non-axenic M. alternatus"
+    },
+    {
+      "type": "Pest",
+      "name": "Beauveria bassiana"
+    },
+    {
+      "type": "Pest",
+      "name": "Pseudomonas"
+    },
+    {
+      "type": "Pest",
+      "name": "Serratia"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Causes",
+      "target": "pine wilt disease"
+    },
+    {
+      "source": "pine wilt disease",
+      "type": "Affects",
+      "target": "pines"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "pines"
+    },
+    {
+      "source": "Monochamus alternatus",
+      "type": "Transmits",
+      "target": "Bursaphelenchus xylophilus"
+    },
+    {
+      "source": "Pseudomonas",
+      "type": "Have been found on",
+      "target": "Monochamus alternatus"
+    },
+    {
+      "source": "Serratia",
+      "type": "Have been found on",
+      "target": "Monochamus alternatus"
+    },
+    {
+      "source": "Pseudomonas",
+      "type": "Transmits",
+      "target": "Beauveria bassiana"
+    },
+    {
+      "source": "Serratia",
+      "type": "Transmits",
+      "target": "Beauveria bassiana"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "China"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "Portugal"
+    },
+    {
+      "source": "Monochamus alternatus",
+      "type": "Located in",
+      "target": "China"
+    },
+    {
+      "source": "Monochamus alternatus",
+      "type": "Located in",
+      "target": "Portugal"
+    }
+  ]
+}
+

@@ -1,0 +1,63 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "Phytophthora"},
+      {"type": "Plant", "name": "Citrus tristeza virus"},
+      {"type": "Plant", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "HLB"},
+      {"type": "Plant", "name": "Citrus greening"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "Bitters"},
+      {"type": "Plant", "name": "C35"},
+      {"type": "Plant", "name": "Carpenter"},
+      {"type": "Plant", "name": "citrange Carrizo"},
+      {"type": "Plant", "name": "Furr"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Plant", "name": "Citrus clementina"},
+      {"type": "Plant", "name": "Citrus sinensis"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Disease", "name": "yellow branch disease"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Mediterranean"},
+      {"type": "Geographic", "name": "Acireale"},
+      {"type": "Geographic", "name": "Ct"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Italy"},
+      {"source": "Tristeza", "type": "Located in", "target": "citrus-growing Italy"},
+      {"source": "Tristeza", "type": "Located in", "target": "Sicily"},
+      {"source": "HLB", "type": "Located in", "target": "United States"},
+      {"source": "HLB", "type": "Located in", "target": "Italy"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"},
+      {"source": "yellow branch disease", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Bitters", "type": "Located in", "target": "California"},
+      {"source": "C35", "type": "Located in", "target": "California"},
+      {"source": "Carpenter", "type": "Located in", "target": "California"},
+      {"source": "Furr", "type": "Located in", "target": "California"},
+      {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Bitters"},
+      {"source": "Tarocco Scirè", "type": "Have been found on", "target": "C35"},
+      {"source": "Tarocco Scirè", "type": "Have been found on", "target": "Carpenter"},
+      {"source": "Tarocco Scirè", "type": "Have been found on", "target": "citrange Carrizo"},
+      {"source": "Mandared", "type": "Have been found on", "target": "C35"},
+      {"source": "Mandared", "type": "Have been found on", "target": "Bitters"},
+      {"source": "Mandared", "type": "Have been found on", "target": "Carpenter"},
+      {"source": "Mandared", "type": "Have been found on", "target": "Furr"},
+      {"source": "C35", "type": "Located in", "target": "Italy"},
+      {"source": "Bitters", "type": "Located in", "target": "Italy"},
+      {"source": "Carpenter", "type": "Located in", "target": "Italy"},
+      {"source": "Furr", "type": "Located in", "target": "Italy"}
+    ]
+  }
+]
+```

@@ -1,0 +1,240 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Trioza eritreae"
+    },
+    {
+      "type": "Disease",
+      "name": "yellow dragon"
+    },
+    {
+      "type": "Disease",
+      "name": "greening"
+    },
+    {
+      "type": "Disease",
+      "name": "huanlongbing"
+    },
+    {
+      "type": "Geographic",
+      "name": "Portuguese coast"
+    },
+    {
+      "type": "Geographic",
+      "name": "Algarve"
+    },
+    {
+      "type": "Geographic",
+      "name": "Aljezur"
+    },
+    {
+      "type": "Geographic",
+      "name": "Huelva"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ayamonte"
+    },
+    {
+      "type": "Geographic",
+      "name": "Galicia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cantabria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asturias"
+    },
+    {
+      "type": "Geographic",
+      "name": "Basque"
+    },
+    {
+      "type": "Geographic",
+      "name": "Porto"
+    },
+    {
+      "type": "Vector",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hefer Valley"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tel Aviv"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "mandarin"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Vector",
+      "name": "Tamarixia dryi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Canary Islands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Galicia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Montcada"
+    },
+    {
+      "type": "Geographic",
+      "name": "Valencian"
+    },
+    {
+      "type": "Geographic",
+      "name": "IBMCP"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Trioza eritreae",
+      "type": "Transmits",
+      "target": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Transmits",
+      "target": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "source": "yellow dragon",
+      "type": "Causes",
+      "target": "huanlongbing"
+    },
+    {
+      "source": "greening",
+      "type": "Causes",
+      "target": "huanlongbing"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Portuguese coast"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Algarve"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Aljezur"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Huelva"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Ayamonte"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Galicia"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Cantabria"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Asturias"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Basque"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Located in",
+      "target": "Porto"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Mediterranean"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Hefer Valley"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Tel Aviv"
+    },
+    {
+      "source": "huanlongbing",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Tamarixia dryi",
+      "type": "Transmits",
+      "target": "Trioza eritreae"
+    },
+    {
+      "source": "Trioza eritreae",
+      "type": "Have been found on",
+      "target": "citrus"
+    }
+  ]
+}
+

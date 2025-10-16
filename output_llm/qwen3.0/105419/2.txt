@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Geographic", "name": "Balearic Islands"},
+      {"type": "Geographic", "name": "Corsica"},
+      {"type": "Geographic", "name": "Mallorca"},
+      {"type": "Geographic", "name": "Menorca"},
+      {"type": "Geographic", "name": "Ibiza"},
+      {"type": "Geographic", "name": "Formentera"},
+      {"type": "Plant", "name": "almond trees"},
+      {"type": "Plant", "name": "carob trees"},
+      {"type": "Disease", "name": "plague"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plague"},
+      {"source": "plague", "type": "Affects", "target": "almond trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "almond trees"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "carob trees"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Balearic Islands"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Mallorca"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Menorca"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Ibiza"},
+      {"source": "Formentera", "type": "Located in", "target": "Balearic Islands"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Corsica"}
+    ]
+  }
+]
+```

@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Golden flavescence"},
+    {"type": "Geographic", "name": "Burgraviato"},
+    {"type": "Geographic", "name": "Bassa Atesina"},
+    {"type": "Geographic", "name": "Salorno"},
+    {"type": "Plant", "name": "vines"},
+    {"type": "Disease", "name": "flavescence dorée"},
+    {"type": "Geographic", "name": "South Tyrol"},
+    {"type": "Plant", "name": "Chardonnay"},
+    {"type": "Plant", "name": "Pinot Grigio"},
+    {"type": "Geographic", "name": "Laimburg Research Center"},
+    {"type": "Disease", "name": "black wood disease"},
+    {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma (FDp)"},
+    {"type": "Vector", "name": "American vine leafhopper"}
+  ],
+  "relationships": [
+    {"source": "Golden flavescence", "type": "Located in", "target": "Burgraviato"},
+    {"source": "Golden flavescence", "type": "Located in", "target": "Bassa Atesina"},
+    {"source": "Golden flavescence", "type": "Located in", "target": "Salorno"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "Chardonnay"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "Pinot Grigio"},
+    {"source": "Flavescence dorèe-Phytoplasma (FDp)", "type": "Causes", "target": "flavescence dorée"},
+    {"source": "American vine leafhopper", "type": "Transmits", "target": "Flavescence dorèe-Phytoplasma (FDp)"},
+    {"source": "American vine leafhopper", "type": "Have been found on", "target": "vines"}
+  ]
+}
+

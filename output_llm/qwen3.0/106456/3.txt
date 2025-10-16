@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "TR4 fungus"},
+      {"type": "Plant", "name": "Cavendish bananas"},
+      {"type": "Disease", "name": "TR1 fungus"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Wageningen University"},
+      {"type": "Plant", "name": "Cavendish cv Grand Naine bananas"},
+      {"type": "Disease", "name": "Fusarium wilt of banana"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "TR4 fungus", "type": "Affects", "target": "Cavendish bananas"},
+      {"source": "TR1 fungus", "type": "Affects", "target": "banana crops"},
+      {"source": "TR1 fungus", "type": "Affects", "target": "Cavendish banana plants"},
+      {"source": "TR4 fungus", "type": "Causes", "target": "Fusarium wilt of banana"},
+      {"source": "TR1 fungus", "type": "Causes", "target": "Fusarium wilt of banana"},
+      {"source": "TR4 fungus", "type": "Located in", "target": "Colombia"},
+      {"source": "TR1 fungus", "type": "Located in", "target": "Colombia"},
+      {"source": "TR1 fungus", "type": "Have been found on", "target": "banana crops"},
+      {"source": "TR4 fungus", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "TR1 fungus", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "TR1 fungus", "type": "Have been found on", "target": "Cavendish cv Grand Naine bananas"},
+      {"source": "TR4 fungus", "type": "Have been found on", "target": "Cavendish cv Grand Naine bananas"},
+      {"source": "Cavendish bananas", "type": "Located in", "target": "Colombia"},
+      {"source": "Gros Michel", "type": "Located in", "target": "Colombia"},
+      {"source": "Wageningen University", "type": "Located in", "target": "Colombia"}
+    ]
+  }
+]
+```

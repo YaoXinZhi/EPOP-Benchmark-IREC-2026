@@ -1,0 +1,9 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "methyl eugenol"},
+    {"type": "Plant", "name": "γ-octalactone"}
+  ],
+  "relationships": []
+}
+

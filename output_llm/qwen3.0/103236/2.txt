@@ -1,0 +1,25 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Pest", "name": "HBL"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Geographic", "name": "Buhaira Gardens"},
+      {"type": "Geographic", "name": "Seville"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "HBL", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "orange trees"},
+      {"source": "HBL", "type": "Have been found on", "target": "orange trees"},
+      {"source": "Buhaira Gardens", "type": "Located in", "name": "Seville"},
+      {"source": "HBL", "type": "Located in", "name": "Spain"},
+      {"source": "HBL", "type": "Located in", "name": "Europe"}
+    ]
+  }
+]
+```

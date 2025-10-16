@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "oriental fruit fly"
+    },
+    {
+      "type": "Geographic",
+      "name": "Campania"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mediterranean basin"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Naples"
+    },
+    {
+      "type": "Geographic",
+      "name": "province of Avellino"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bactrocera Dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ministry for Agricultural Policies"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "Campania"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "province of Naples"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Located in",
+      "target": "province of Avellino"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Has been found on",
+      "target": "fruit"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Has been found on",
+      "target": "wine"
+    },
+    {
+      "source": "oriental fruit fly",
+      "type": "Transmits",
+      "target": "Bactrocera Dorsalis"
+    }
+  ]
+}
+

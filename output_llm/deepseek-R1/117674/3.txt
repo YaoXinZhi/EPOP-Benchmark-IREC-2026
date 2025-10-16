@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "HLB Disease (Huanglongbing or citrus greening)"},
+    {"type": "Vector", "name": "Diaphorina citri"},
+    {"type": "Pest", "name": "Citrus Leafhopper (Diaphorina citri. kuwayama)"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Geographic", "name": "Northwest Argentina (NOA)"},
+    {"type": "Geographic", "name": "JUJUY"},
+    {"type": "Geographic", "name": "SALTA"},
+    {"type": "Geographic", "name": "TUCUMÁN"},
+    {"type": "Geographic", "name": "CATAMARCA"},
+    {"type": "Geographic", "name": "Argentine Northeast region (NEA)"},
+    {"type": "Geographic", "name": "ENTRE RÍOS"},
+    {"type": "Geographic", "name": "CORRIENTES"},
+    {"type": "Geographic", "name": "MISIONES"},
+    {"type": "Geographic", "name": "CHACO"},
+    {"type": "Geographic", "name": "FORMOSA"},
+    {"type": "Geographic", "name": "SANTIAGO DEL ESTERO"},
+    {"type": "Geographic", "name": "SANTA FE"},
+    {"type": "Geographic", "name": "Leales Department"},
+    {"type": "Geographic", "name": "Villa de Medinas, Chicligasta Department"},
+    {"type": "Geographic", "name": "Capayán Department"}
+  ],
+  "relationships": [
+    {"source": "Diaphorina citri", "type": "Transmits", "target": "Citrus Leafhopper (Diaphorina citri. kuwayama)"},
+    {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Causes", "target": "HLB Disease (Huanglongbing or citrus greening)"},
+    {"source": "HLB Disease (Huanglongbing or citrus greening)", "type": "Affects", "target": "citrus"},
+    {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Have been found on", "target": "citrus"},
+    {"source": "citrus", "type": "Located in", "target": "Northwest Argentina (NOA)"},
+    {"source": "citrus", "type": "Located in", "target": "JUJUY"},
+    {"source": "citrus", "type": "Located in", "target": "SALTA"},
+    {"source": "citrus", "type": "Located in", "target": "TUCUMÁN"},
+    {"source": "citrus", "type": "Located in", "target": "CATAMARCA"},
+    {"source": "citrus", "type": "Located in", "target": "Argentine Northeast region (NEA)"},
+    {"source": "citrus", "type": "Located in", "target": "ENTRE RÍOS"},
+    {"source": "citrus", "type": "Located in", "target": "CORRIENTES"},
+    {"source": "citrus", "type": "Located in", "target": "MISIONES"},
+    {"source": "citrus", "type": "Located in", "target": "CHACO"},
+    {"source": "citrus", "type": "Located in", "target": "FORMOSA"},
+    {"source": "citrus", "type": "Located in", "target": "SANTIAGO DEL ESTERO"},
+    {"source": "citrus", "type": "Located in", "target": "SANTA FE"},
+    {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Located in", "target": "Leales Department"},
+    {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Located in", "target": "Villa de Medinas, Chicligasta Department"},
+    {"source": "Citrus Leafhopper (Diaphorina citri. kuwayama)", "type": "Located in", "target": "Capayán Department"}
+  ]
+}
+

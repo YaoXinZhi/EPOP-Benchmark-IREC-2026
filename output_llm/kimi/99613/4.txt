@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Philaenus spumarius"
+    },
+    {
+      "type": "Pesticide",
+      "name": "Pyrethrin"
+    },
+    {
+      "type": "Pesticide",
+      "name": "acetamiprid"
+    },
+    {
+      "type": "Pesticide",
+      "name": "deltamethrin"
+    },
+    {
+      "type": "Pesticide",
+      "name": "spinosad"
+    },
+    {
+      "type": "Pesticide",
+      "name": "sulfoxaflor"
+    },
+    {
+      "type": "Pesticide",
+      "name": "kaolin"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Philaenus spumarius",
+      "type": "Transmits",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "Pyrethrin",
+      "type": "Reduces",
+      "target": "Xylella fastidiosa transmission"
+    },
+    {
+      "source": "acetamiprid",
+      "type": "Reduces",
+      "target": "X. fastidiosa inoculation rate"
+    },
+    {
+      "source": "deltamethrin",
+      "type": "Alters",
+      "target": "feeding behaviour of P. spumarius"
+    },
+    {
+      "source": "acetamiprid",
+      "type": "Alters",
+      "target": "feeding behaviour of P. spumarius"
+    },
+    {
+      "source": "spinosad",
+      "type": "Does not significantly impact",
+      "target": "feeding behaviour or survival of P. spumarius"
+    },
+    {
+      "source": "sulfoxaflor",
+      "type": "Does not significantly impact",
+      "target": "feeding behaviour or survival of P. spumarius"
+    },
+    {
+      "source": "kaolin",
+      "type": "Does not significantly impact",
+      "target": "feeding behaviour or survival of P. spumarius"
+    }
+  ]
+}
+

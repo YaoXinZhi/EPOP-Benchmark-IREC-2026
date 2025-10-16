@@ -1,0 +1,32 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Cosmopolites sordidus"},
+    {"type": "Pest", "name": "banana tree moleque"},
+    {"type": "Pest", "name": "B. caledonica"},
+    {"type": "Disease", "name": "fusariosis"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Plant", "name": "banana trees"},
+    {"type": "Pest", "name": "B. bassiana"},
+    {"type": "Disease", "name": "Fusarium oxysporum f. sp. cubense"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Vale do Ribeira"},
+    {"type": "Geographic", "name": "São Paulo"},
+    {"type": "Geographic", "name": "Cali, Colombia"},
+    {"type": "Geographic", "name": "University Federal de Viçosa"},
+    {"type": "Geographic", "name": "State University of Campinas"},
+    {"type": "Geographic", "name": "Luiz de Queiroz College of Agriculture"},
+    {"type": "Geographic", "name": "Embrapa"},
+    {"type": "Geographic", "name": "Embrapa Meio Ambiente"},
+    {"type": "Geographic", "name": "Embrapa Genetic Resources and Biotechnology"},
+    {"type": "Geographic", "name": "United States Department of Agriculture"}
+  ],
+  "relationships": [
+    {"source": "Cosmopolites sordidus", "type": "Causes", "target": "fusariosis"},
+    {"source": "fusariosis", "type": "Affects", "target": "banana trees"},
+    {"source": "B. caledonica", "type": "Have been found on", "target": "banana trees"},
+    {"source": "B. caledonica", "type": "Causes", "target": "Fusarium oxysporum f. sp. cubense"},
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Affects", "target": "banana trees"},
+    {"source": "B. caledonica", "type": "Transmits", "target": "Cosmopolites sordidus"}
+  ]
+}
+

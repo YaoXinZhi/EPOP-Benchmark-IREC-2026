@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Sardegna"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Geographic", "name": "Puglia"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Sardegna"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"}
+  ]
+}
+

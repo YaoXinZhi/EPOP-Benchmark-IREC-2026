@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Plant", "name": "maize"},
+    {"type": "Geographic", "name": "Africa"}
+  ],
+  "relationships": [
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Africa"},
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize"}
+  ]
+}
+

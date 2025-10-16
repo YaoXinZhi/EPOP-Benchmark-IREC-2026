@@ -1,0 +1,49 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "banana Panama disease"},
+      {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense Tropical Race 4"},
+      {"type": "Pest", "name": "Fusarium oxysporum f.sp. cubense Tropical Race 4"},
+      {"type": "Pest", "name": "FocTR4"},
+      {"type": "Pest", "name": "Foc Race1"},
+      {"type": "Pest", "name": "FocR1"},
+      {"type": "Pest", "name": "FocTR4 macroconidia"},
+      {"type": "Pest", "name": "FocTR4 microconidia"},
+      {"type": "Pest", "name": "FocTR4 chlamydospores"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Pest", "name": "Zymoseptoria tritici"},
+      {"type": "Pest", "name": "azoles"},
+      {"type": "Pest", "name": "succinate dehydrogenase inhibitors"},
+      {"type": "Pest", "name": "strobilurins"},
+      {"type": "Pest", "name": "benzimidazoles"},
+      {"type": "Pest", "name": "captan"},
+      {"type": "Pest", "name": "lipophilic cations"},
+      {"type": "Geographic", "name": "GB"},
+      {"type": "Geographic", "name": "WO"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium oxysporum f. sp. cubense Tropical Race 4", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "banana Panama disease", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium oxysporum f.sp. cubense Tropical Race 4", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "FocTR4", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "FocTR4 macroconidia", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "FocTR4 microconidia", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "FocTR4 chlamydospores", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "azoles", "type": "Have been found on", "target": "FocTR4"},
+      {"source": "succinate dehydrogenase inhibitors", "type": "Have been found on", "target": "FocTR4"},
+      {"source": "strobilurins", "type": "Have been found on", "target": "FocTR4"},
+      {"source": "benzimidazoles", "type": "Have been found on", "target": "FocTR4"},
+      {"source": "captan", "type": "Have been found on", "target": "banana Panama disease"},
+      {"source": "lipophilic cations", "type": "Have been found on", "target": "banana Panama disease"},
+      {"source": "banana Panama disease", "type": "Located in", "target": "soil"},
+      {"source": "FocTR4", "type": "Located in", "target": "soil"},
+      {"source": "FocR1", "type": "Located in", "target": "soil"},
+      {"source": "GB", "type": "Located in", "target": "Fusarium treatment in soil with MALCs"},
+      {"source": "WO", "type": "Located in", "target": "Antifungal Compositions"}
+    ]
+  }
+]
+```

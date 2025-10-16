@@ -1,0 +1,63 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Veracruz"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Geographic", "name": "Mexican Republic"},
+      {"type": "Plant", "name": "seedlings"},
+      {"type": "Plant", "name": "nurseries"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Geographic", "name": "Postgraduate College"},
+      {"type": "Geographic", "name": "National Agrifood Health, Safety and Quality Service"},
+      {"type": "Geographic", "name": "Senasica"},
+      {"type": "Geographic", "name": "Secretary of Agricultural, Rural, Fisheries and Food Development"},
+      {"type": "Geographic", "name": "Sedarpa"},
+      {"type": "Geographic", "name": "State Plant Health Committee"},
+      {"type": "Geographic", "name": "Plant Health Committees"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Located in", "target": "Veracruz"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Veracruz"},
+      {"source": "Postgraduate College", "type": "Located in", "target": "Veracruz"},
+      {"source": "State Plant Health Committee", "type": "Located in", "target": "Veracruz"},
+      {"source": "Plant Health Committees", "type": "Located in", "target": "Veracruz"},
+      {"source": "Senasica", "type": "Located in", "target": "Veracruz"},
+      {"source": "Sedarpa", "type": "Located in", "target": "Veracruz"},
+      {"source": "nurseries", "type": "Located in", "target": "Veracruz"},
+      {"source": "seedlings", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Causes", "target": "diseases"},
+      {"source": "citrus plants", "type": "Have been found on", "target": "HLB"},
+      {"source": "citrus plants", "type": "Have been found on", "target": "Huanglongbing"},
+      {"source": "citrus plants", "type": "Have been found on", "target": "HLB"},
+      {"source": "nurseries", "type": "Located in", "target": "Veracruz"},
+      {"source": "seedlings", "type": "Located in", "target": "Veracruz"},
+      {"source": "nurseries", "type": "Located in", "target": "Veracruz"},
+      {"source": "seedlings", "type": "Located in", "target": "Veracruz"},
+      {"source": "nurseries", "type": "Located in", "target": "Veracruz"},
+      {"source": "seedlings", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Affects", "target": "plants"},
+      {"source": "HLB", "type": "Located in", "target": "nurseries"},
+      {"source": "HLB", "type": "Affects", "target": "Persian lemon"},
+      {"source": "HLB", "type": "Affects", "target": "orange"},
+      {"source": "HLB", "type": "Affects", "target": "tangerine"},
+      {"source": "HLB", "type": "Affects", "target": "grapefruit"}
+    ]
+  }
+]
+```

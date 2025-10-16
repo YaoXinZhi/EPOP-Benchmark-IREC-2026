@@ -1,0 +1,9 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Geographic", "name": "Châtillon"},
+    {"type": "Geographic", "name": "Nîmes"}
+  ],
+  "relationships": []
+}
+

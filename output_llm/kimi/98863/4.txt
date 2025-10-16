@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "Aad Vollebregt"
+    },
+    {
+      "type": "Organization",
+      "name": "LTO"
+    },
+    {
+      "type": "Disease",
+      "name": "Xylella"
+    },
+    {
+      "type": "Geographic",
+      "name": "Southern Europe"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "lavender"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Aad Vollebregt",
+      "type": "Located in",
+      "target": "LTO"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Southern Europe"
+    },
+    {
+      "source": "Xylella",
+      "type": "Affects",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella",
+      "type": "Affects",
+      "target": "citrus trees"
+    },
+    {
+      "source": "Xylella",
+      "type": "Affects",
+      "target": "lavender"
+    }
+  ]
+}
+

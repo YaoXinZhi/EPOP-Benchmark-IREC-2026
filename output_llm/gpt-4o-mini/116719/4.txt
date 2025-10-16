@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Geographic", "name": "Seville"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Disease", "name": "yellow dragon disease"},
+    {"type": "Pest", "name": "Candidatus liberibacter"},
+    {"type": "Vector", "name": "Trioza eryteae"},
+    {"type": "Geographic", "name": "Canaries"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "Latin America"},
+    {"type": "Geographic", "name": "US"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Europe"},
+    {"type": "Geographic", "name": "Andalucía"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "48 Asian countries"},
+    {"type": "Geographic", "name": "53 African states"}
+  ],
+  "relationships": [
+    {"source": "yellow dragon disease", "type": "Affects", "target": "orange trees"},
+    {"source": "Candidatus liberibacter", "type": "Causes", "target": "yellow dragon disease"},
+    {"source": "Trioza eryteae", "type": "Transmits", "target": "Candidatus liberibacter"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "orange trees"},
+    {"source": "Trioza eryteae", "type": "Have been found on", "target": "Canaries"},
+    {"source": "Trioza eryteae", "type": "Have been found on", "target": "Portugal"},
+    {"source": "Trioza eryteae", "type": "Have been found on", "target": "Galicia"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "Florida"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "Asia"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "Latin America"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "US"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "Africa"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "Brazil"}
+  ]
+}
+

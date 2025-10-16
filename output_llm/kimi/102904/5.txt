@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Pest",
+      "name": "‘Candidatus Liberibacter asiaticus’"
+    },
+    {
+      "type": "Plant",
+      "name": "Pera sweet orange"
+    },
+    {
+      "type": "Plant",
+      "name": "Transgenic Sweet Orange"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus× sinensis(L.) Osbeck"
+    },
+    {
+      "type": "Plant",
+      "name": "genetically modified citrus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "‘Candidatus Liberibacter asiaticus’",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Pera sweet orange",
+      "type": "Have been found on",
+      "target": "‘Candidatus Liberibacter asiaticus’"
+    },
+    {
+      "source": "Transgenic Sweet Orange",
+      "type": "Have been found on",
+      "target": "‘Candidatus Liberibacter asiaticus’"
+    },
+    {
+      "source": "Citrus× sinensis(L.) Osbeck",
+      "type": "Have been found on",
+      "target": "‘Candidatus Liberibacter asiaticus’"
+    },
+    {
+      "source": "genetically modified citrus",
+      "type": "Have been found on",
+      "target": "‘Candidatus Liberibacter asiaticus’"
+    }
+  ]
+}
+

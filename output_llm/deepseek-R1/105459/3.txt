@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Asian long-horned beetle"},
+    {"type": "Geographic", "name": "Magdeburg"},
+    {"type": "Geographic", "name": "Wiesenpark"},
+    {"type": "Plant", "name": "poplars"},
+    {"type": "Plant", "name": "willows"}
+  ],
+  "relationships": [
+    {"source": "Asian long-horned beetle", "type": "Located in", "target": "Magdeburg"},
+    {"source": "Asian long-horned beetle", "type": "Located in", "target": "Wiesenpark"},
+    {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "poplars"},
+    {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "willows"}
+  ]
+}
+

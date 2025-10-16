@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "African vector HB"},
+    {"type": "Disease", "name": "HLB"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Huelva"},
+    {"type": "Geographic", "name": "Ayamonte"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Cantabria"},
+    {"type": "Geographic", "name": "Asturias"},
+    {"type": "Geographic", "name": "Basque Country"},
+    {"type": "Vector", "name": "Diaphorina citri"},
+    {"type": "Vector", "name": "Trioza erytreae"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Plant", "name": "mandarin trees"},
+    {"type": "Plant", "name": "Citrange reed"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Hefer Valley"},
+    {"type": "Geographic", "name": "Mediterranean"}
+  ],
+  "relationships": [
+    {"source": "African vector HB", "type": "Transmits", "target": "HLB"},
+    {"source": "HLB", "type": "Affects", "target": "citrus"},
+    {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB"},
+    {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+    {"source": "HLB", "type": "Located in", "target": "Portugal"},
+    {"source": "HLB", "type": "Located in", "target": "Israel"},
+    {"source": "HLB", "type": "Located in", "target": "Florida"},
+    {"source": "HLB", "type": "Located in", "target": "Brazil"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "orange trees"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "mandarin trees"},
+    {"source": "Citrange reed", "type": "Have been found on", "target": "orange trees"},
+    {"source": "Citrange reed", "type": "Have been found on", "target": "mandarin trees"}
+  ]
+}
+

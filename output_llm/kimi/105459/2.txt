@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Asian longhorn beetle"
+    },
+    {
+      "type": "Plant",
+      "name": "poplars"
+    },
+    {
+      "type": "Plant",
+      "name": "willows"
+    },
+    {
+      "type": "Geographic",
+      "name": "Magdeburg"
+    },
+    {
+      "type": "Geographic",
+      "name": "Wiesenpark"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Asian longhorn beetle",
+      "type": "Located in",
+      "target": "Magdeburg"
+    },
+    {
+      "source": "Asian longhorn beetle",
+      "type": "Located in",
+      "target": "Wiesenpark"
+    },
+    {
+      "source": "Asian longhorn beetle",
+      "type": "Have been found on",
+      "target": "poplars"
+    },
+    {
+      "source": "Asian longhorn beetle",
+      "type": "Have been found on",
+      "target": "willows"
+    }
+  ]
+}
+

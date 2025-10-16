@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "the Netherlands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Geographic",
+      "name": "Balearic Islands"
+    },
+    {
+      "type": "Geographic",
+      "name": "province Alicante"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Vector",
+      "name": "foam cicadas"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Plant",
+      "name": "blackberries"
+    },
+    {
+      "type": "Plant",
+      "name": "oleander"
+    },
+    {
+      "type": "Plant",
+      "name": "oak"
+    },
+    {
+      "type": "Disease",
+      "name": "Xylella"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Causes",
+      "target": "Xylella"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "blackberries"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "oleander"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "oak"
+    },
+    {
+      "source": "Xylella",
+      "type": "Affects",
+      "target": "olive trees"
+    },
+    {
+      "source": "foam cicadas",
+      "type": "Transmits",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Spain"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Balearic Islands"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "province Alicante"
+    },
+    {
+      "source": "foam cicadas",
+      "type": "Located in",
+      "target": "the Netherlands"
+    }
+  ]
+}
+

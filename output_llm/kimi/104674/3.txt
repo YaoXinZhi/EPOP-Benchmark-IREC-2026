@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "xylem"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves that were exposed"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves that were covered"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Have been found on",
+      "target": "citrus trees"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Have been found on",
+      "target": "leaves"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Have been found on",
+      "target": "citrus leaves"
+    },
+    {
+      "source": "streptomycin",
+      "type": "Have been found on",
+      "target": "leaves that were exposed"
+    },
+    {
+      "source": "oxytetracycline",
+      "type": "Have been found on",
+      "target": "leaves that were covered"
+    },
+    {
+      "source": "Candidatus Liberibacter asiaticus",
+      "type": "Located in",
+      "target": "phloem"
+    },
+    {
+      "source": "oxytetracycline",
+      "type": "Located in",
+      "target": "citrus trees"
+    },
+    {
+      "source": "streptomycin",
+      "type": "Located in",
+      "target": "xylem"
+    }
+  ]
+}
+

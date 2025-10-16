@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Geographic", "name": "Réunion"},
+      {"type": "Geographic", "name": "Sainte-Marie"},
+      {"type": "Geographic", "name": "Saint-Denis"},
+      {"type": "Plant", "name": "fruit and vegetable producers"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruit and vegetable producers"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Réunion"}
+    ]
+  }
+]
+```

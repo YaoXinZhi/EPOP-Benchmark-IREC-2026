@@ -1,0 +1,41 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Geographic", "name": "Veracruz"},
+      {"type": "Geographic", "name": "Mexican Republic"},
+      {"type": "Pest", "name": "Huanglongbing (HLB)"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Plant", "name": "seedlings"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "Persian lemon", "type": "Located in", "target": "Veracruz"},
+      {"source": "orange", "type": "Located in", "target": "Veracruz"},
+      {"source": "tangerine", "type": "Located in", "target": "Veracruz"},
+      {"source": "grapefruit", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Located in", "target": "Veracruz"},
+      {"source": "Huanglongbing (HLB)", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Affects", "target": "Persian lemon"},
+      {"source": "HLB", "type": "Affects", "target": "orange"},
+      {"source": "HLB", "type": "Affects", "target": "tangerine"},
+      {"source": "HLB", "type": "Affects", "target": "grapefruit"},
+      {"source": "HLB", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "HLB", "type": "Have been found on", "target": "Persian lemon"},
+      {"source": "HLB", "type": "Have been found on", "target": "orange"},
+      {"source": "HLB", "type": "Have been found on", "target": "tangerine"},
+      {"source": "HLB", "type": "Have been found on", "target": "grapefruit"}
+    ]
+  }
+]
+```

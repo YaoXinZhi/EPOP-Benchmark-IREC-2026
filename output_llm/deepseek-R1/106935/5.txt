@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Vector", "name": "Scaphodeus Titanus"},
+    {"type": "Plant", "name": "vine plots"},
+    {"type": "Plant", "name": "fallow plots"},
+    {"type": "Plant", "name": "wild vines"},
+    {"type": "Geographic", "name": "Burgundy"},
+    {"type": "Geographic", "name": "New Zealand"},
+    {"type": "Disease", "name": "leaf roll"}
+  ],
+  "relationships": [
+    {"source": "Scaphodeus Titanus", "type": "Have been found on", "target": "vine plots"},
+    {"source": "Scaphodeus Titanus", "type": "Have been found on", "target": "fallow plots"},
+    {"source": "Scaphodeus Titanus", "type": "Have been found on", "target": "wild vines"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "Burgundy"},
+    {"source": "leaf roll", "type": "Located in", "target": "New Zealand"}
+  ]
+}
+

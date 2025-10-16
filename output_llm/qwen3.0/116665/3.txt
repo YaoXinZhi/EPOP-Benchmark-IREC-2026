@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "oranges"},
+      {"type": "Pest", "name": "Phyllosticta citricarpa"},
+      {"type": "Disease", "name": "citrus black spot disease"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Geographic", "name": "third countries"},
+      {"type": "Geographic", "name": "Mercosur countries"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Uruguay"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "South Africa"},
+      {"type": "Geographic", "name": "Xylella"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Phyllosticta citricarpa", "type": "Causes", "target": "citrus black spot disease"},
+      {"source": "citrus black spot disease", "type": "Affects", "target": "citrus"},
+      {"source": "citrus", "type": "Located in", "target": "third countries"},
+      {"source": "citrus", "type": "Located in", "target": "European Union"},
+      {"source": "Phyllosticta citricarpa", "type": "Have been found on", "target": "citrus"},
+      {"source": "Brazil", "type": "Located in", "target": "Mercosur countries"},
+      {"source": "Argentina", "type": "Located in", "target": "Mercosur countries"},
+      {"source": "Uruguay", "type": "Located in", "target": "Mercosur countries"},
+      {"source": "Colombia", "type": "Located in", "target": "Mercosur countries"},
+      {"source": "citrus", "type": "Located in", "target": "South Africa"},
+      {"source": "oranges", "type": "Located in", "target": "South Africa"}
+    ]
+  }
+]
+```

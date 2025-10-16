@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "caterpillars"
+    },
+    {
+      "type": "Plant",
+      "name": "alfalfa"
+    },
+    {
+      "type": "Pest",
+      "name": "fall armyworm moth"
+    },
+    {
+      "type": "Geographic",
+      "name": "Missouri"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pin Oak Farms"
+    },
+    {
+      "type": "Geographic",
+      "name": "New Haven"
+    },
+    {
+      "type": "Geographic",
+      "name": "U.S."
+    },
+    {
+      "type": "Geographic",
+      "name": "southern Texas"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Plant",
+      "name": "corn"
+    },
+    {
+      "type": "Plant",
+      "name": "Johnsongrass"
+    },
+    {
+      "type": "Geographic",
+      "name": "Dade County"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexico"
+    },
+    {
+      "type": "Geographic",
+      "name": "Los Angeles"
+    },
+    {
+      "type": "Geographic",
+      "name": "Oklahoma"
+    },
+    {
+      "type": "Geographic",
+      "name": "Trecé Inc."
+    },
+    {
+      "type": "Geographic",
+      "name": "Provivi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Legacy Ridge Farms"
+    },
+    {
+      "type": "Geographic",
+      "name": "Arrow Rock"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Missouri"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Have been found on",
+      "target": "alfalfa"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Have been found on",
+      "target": "alfalfa"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "U.S."
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "southern Texas"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "Florida"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Have been found on",
+      "target": "corn"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Have been found on",
+      "target": "Johnsongrass"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Have been found on",
+      "target": "Johnsongrass"
+    },
+    {
+      "source": "Provivi",
+      "type": "Located in",
+      "target": "Los Angeles"
+    },
+    {
+      "source": "Trecé Inc.",
+      "type": "Located in",
+      "target": "Oklahoma"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Dade County"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "Missouri"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Legacy Ridge Farms"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Arrow Rock"
+    }
+  ]
+}
+

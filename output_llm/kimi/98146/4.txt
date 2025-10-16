@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "citrus seedlings"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tucumán"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Geographic",
+      "name": "Province"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Miguel de Tucumán"
+    },
+    {
+      "type": "Geographic",
+      "name": "NOA Sur Regional Center"
+    },
+    {
+      "type": "Pest",
+      "name": "vector insect"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Geographic",
+      "name": "national territory"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus seedlings",
+      "type": "Located in",
+      "target": "Tucumán"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Located in",
+      "target": "Province"
+    },
+    {
+      "source": "vector insect",
+      "type": "Transmits",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "citrus seedlings",
+      "type": "Have been found on",
+      "target": "Tucumán"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "national territory"
+    }
+  ]
+}
+

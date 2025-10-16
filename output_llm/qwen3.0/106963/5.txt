@@ -1,0 +1,42 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "golden-yellow yellowing"},
+      {"type": "Disease", "name": "yellowing diseases"},
+      {"type": "Geographic", "name": "Burggrafenamt"},
+      {"type": "Geographic", "name": "Unterland"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "lowlands"},
+      {"type": "Geographic", "name": "Salurn"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Disease", "name": "blackwood disease"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Plant", "name": "two- and three-year-old new plantations"},
+      {"type": "Geographic", "name": "Laimburg"},
+      {"type": "Vector", "name": "American leafhopper"},
+      {"type": "Disease", "name": "Flavescence dorèe phytoplasma"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "golden-yellow yellowing", "type": "Located in", "target": "Burggrafenamt"},
+      {"source": "yellowing diseases", "type": "Located in", "target": "Unterland"},
+      {"source": "yellowing diseases", "type": "Located in", "target": "lowlands"},
+      {"source": "yellowing diseases", "type": "Located in", "target": "Salurn"},
+      {"source": "golden-yellow yellowing", "type": "Affects", "target": "vines"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "blackwood disease", "type": "Affects", "target": "vines"},
+      {"source": "Flavescence dorèe phytoplasma", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "American leafhopper", "type": "Transmits", "target": "Flavescence dorèe phytoplasma"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Have been found on", "target": "vines"},
+      {"source": "American leafhopper", "type": "Have been found on", "target": "vines"},
+      {"source": "Flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "American leafhopper", "type": "Located in", "target": "South Tyrol"}
+    ]
+  }
+]
+```

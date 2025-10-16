@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Yellow dragon disease"},
+    {"type": "Plant", "name": "Seville oranges"},
+    {"type": "Plant", "name": "orange trees"},
+    {"type": "Pest", "name": "Candidatus liberibacter"},
+    {"type": "Vector", "name": "Trioza eryteae"},
+    {"type": "Geographic", "name": "Seville"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "Latin America"},
+    {"type": "Geographic", "name": "United States"},
+    {"type": "Geographic", "name": "Spain"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Canary Islands"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Africa"}
+  ],
+  "relationships": [
+    {"source": "Yellow dragon disease", "type": "Affects", "target": "Seville oranges"},
+    {"source": "Candidatus liberibacter", "type": "Causes", "target": "Yellow dragon disease"},
+    {"source": "Trioza eryteae", "type": "Transmits", "target": "Candidatus liberibacter"},
+    {"source": "Candidatus liberibacter", "type": "Have been found on", "target": "orange trees"},
+    {"source": "Candidatus liberibacter", "type": "Located in", "target": "Asia"},
+    {"source": "Candidatus liberibacter", "type": "Located in", "target": "Latin America"},
+    {"source": "Candidatus liberibacter", "type": "Located in", "target": "United States"},
+    {"source": "Trioza eryteae", "type": "Have been found on", "target": "orange trees"},
+    {"source": "Trioza eryteae", "type": "Located in", "target": "Canary Islands"},
+    {"source": "Trioza eryteae", "type": "Located in", "target": "Portugal"},
+    {"source": "Trioza eryteae", "type": "Located in", "target": "Galicia"},
+    {"source": "Candidatus liberibacter", "type": "Located in", "target": "Africa"},
+    {"source": "Candidatus liberibacter", "type": "Located in", "target": "Brazil"},
+    {"source": "Candidatus liberibacter", "type": "Located in", "target": "Florida"}
+  ]
+}
+

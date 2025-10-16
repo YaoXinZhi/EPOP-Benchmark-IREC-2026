@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "host plant volatiles"},
+    {"type": "Plant", "name": "male attractant compounds"},
+    {"type": "Plant", "name": "methyl eugenol"},
+    {"type": "Plant", "name": "γ-octalactone"},
+    {"type": "Plant", "name": "benzothiazole"},
+    {"type": "Plant", "name": "dipentene"},
+    {"type": "Plant", "name": "ethyl tiglate"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant volatiles"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "male attractant compounds"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "methyl eugenol"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "γ-octalactone"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "benzothiazole"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "dipentene"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "ethyl tiglate"}
+  ]
+}
+

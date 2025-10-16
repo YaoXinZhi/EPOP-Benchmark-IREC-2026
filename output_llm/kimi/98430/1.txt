@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Plant",
+      "name": "maize"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pirassununga, São Paulo state, Brazil"
+    },
+    {
+      "type": "Vector",
+      "name": "ladybugs"
+    },
+    {
+      "type": "Vector",
+      "name": "earwigs"
+    },
+    {
+      "type": "Vector",
+      "name": "Hippodamia convergens"
+    },
+    {
+      "type": "Vector",
+      "name": "Doru luteipes"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Spodoptera frugiperda",
+      "type": "Have been found on",
+      "target": "maize"
+    },
+    {
+      "source": "ladybugs",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "earwigs",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Hippodamia convergens",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Doru luteipes",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Spodoptera frugiperda",
+      "type": "Located in",
+      "target": "Pirassununga, São Paulo state, Brazil"
+    },
+    {
+      "source": "Hippodamia convergens",
+      "type": "Located in",
+      "target": "Pirassununga, São Paulo state, Brazil"
+    },
+    {
+      "source": "Doru luteipes",
+      "type": "Located in",
+      "target": "Pirassununga, São Paulo state, Brazil"
+    }
+  ]
+}
+

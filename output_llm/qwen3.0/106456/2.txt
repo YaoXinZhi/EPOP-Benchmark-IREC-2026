@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "TR4 fungus"},
+      {"type": "Plant", "name": "Cavendish bananas"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Pest", "name": "TR1 fungus"},
+      {"type": "Disease", "name": "Fusarium wilt of banana"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Wageningen University"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "TR4 fungus", "type": "Causes", "target": "Fusarium wilt of banana"},
+      {"source": "Fusarium wilt of banana", "type": "Affects", "target": "Cavendish bananas"},
+      {"source": "TR1 fungus", "type": "Have been found on", "target": "Cavendish bananas"},
+      {"source": "TR4 fungus", "type": "Have been found on", "target": "Cavendish bananas"},
+      {"source": "TR1 fungus", "type": "Located in", "target": "Wageningen University"},
+      {"source": "TR1 fungus", "type": "Located in", "target": "Colombia"},
+      {"source": "TR4 fungus", "type": "Located in", "target": "Colombia"}
+    ]
+  }
+]
+```

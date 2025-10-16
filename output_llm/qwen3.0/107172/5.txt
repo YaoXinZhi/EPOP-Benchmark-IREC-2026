@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Banana plants"},
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Pest", "name": "tropical race 1 (TR1)"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "TR4"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Geographic", "name": "the Netherlands"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Western countries"},
+      {"type": "Geographic", "name": "the world"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "Banana plants"},
+      {"source": "TR4", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana plants"},
+      {"source": "TR1", "type": "Have been found on", "target": "Banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "Banana plants"},
+      {"source": "tropical race 1 (TR1)", "type": "Have been found on", "target": "Banana plants"},
+      {"source": "TR1", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "Banana plants", "type": "Located in", "target": "the world"},
+      {"source": "Panama disease", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "TR1", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "TR4", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "TR1", "type": "Located in", "target": "Brazil"},
+      {"source": "Gros Michel", "type": "Located in", "target": "Western countries"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Western countries"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Cavendish banana plants", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "the world"},
+      {"source": "Cavendish banana plants", "type": "Located in", "target": "the world"}
+    ]
+  }
+]
+```

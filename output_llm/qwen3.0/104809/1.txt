@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "xylella"},
+      {"type": "Geographic", "name": "Salento"},
+      {"type": "Geographic", "name": "Puglia Region"},
+      {"type": "Geographic", "name": "Apulians"},
+      {"type": "Geographic", "name": "Bari"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "xylella", "type": "Located in", "target": "Salento"}
+    ]
+  }
+]
+```

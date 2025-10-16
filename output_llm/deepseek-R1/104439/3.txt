@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "whitefly"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Pest", "name": "Scaptocoris castanea"},
+    {"type": "Pest", "name": "Bradysia matogrossensis"},
+    {"type": "Pest", "name": "Sphenophorus levis"},
+    {"type": "Vector", "name": "Cordyceps javanica"},
+    {"type": "Vector", "name": "Heterorhabditis bacteriophora"},
+    {"type": "Vector", "name": "Steinernema carpocapsae"},
+    {"type": "Vector", "name": "Tetrastichus howardi"},
+    {"type": "Vector", "name": "Telenomus podisi"},
+    {"type": "Vector", "name": "Beauveria bassiana"},
+    {"type": "Vector", "name": "Metarhizium anisopliae"},
+    {"type": "Geographic", "name": "Federal Official Gazette"}
+  ],
+  "relationships": [
+    {"source": "Cordyceps javanica", "type": "Transmits", "target": "whitefly"},
+    {"source": "Heterorhabditis bacteriophora", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "Heterorhabditis bacteriophora", "type": "Transmits", "target": "Scaptocoris castanea"},
+    {"source": "Steinernema carpocapsae", "type": "Transmits", "target": "Spodoptera frugiperda"},
+    {"source": "Steinernema carpocapsae", "type": "Transmits", "target": "Bradysia matogrossensis"},
+    {"source": "Steinernema carpocapsae", "type": "Transmits", "target": "Sphenophorus levis"}
+  ]
+}
+

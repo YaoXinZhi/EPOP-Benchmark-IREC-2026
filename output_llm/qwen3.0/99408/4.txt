@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Pinus rigida"},
+      {"type": "Plant", "name": "Pinus rigida Mill."},
+      {"type": "Plant", "name": "Pinus densiflora"},
+      {"type": "Plant", "name": "Pinus koraiensis"},
+      {"type": "Pest", "name": "Pinewood nematodes"},
+      {"type": "Geographic", "name": "North America"},
+      {"type": "Plant", "name": "pitch pine"},
+      {"type": "Pest", "name": "pine wood nematodes"},
+      {"type": "Plant", "name": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"type": "Plant", "name": "Pinus koraiensis (Sieb. et Zucc.)"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Pinus rigida", "type": "Located in", "target": "North America"},
+      {"source": "Pinus rigida Mill.", "type": "Located in", "target": "North America"},
+      {"source": "Pinus rigida", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "Pinus rigida Mill.", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus rigida"},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus rigida Mill."},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus densiflora"},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus koraiensis"},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "Pinus koraiensis (Sieb. et Zucc.)"},
+      {"source": "Pinus rigida", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "Pinus rigida Mill.", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "Pinus densiflora", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "Pinus koraiensis", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "Pinus densiflora (Sieb. et Zucc.)", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "Pinus koraiensis (Sieb. et Zucc.)", "type": "Have been found on", "target": "pine wood nematodes"},
+      {"source": "pine wood nematodes", "type": "Have been found on", "target": "pitch pine"}
+    ]
+  }
+]
+```

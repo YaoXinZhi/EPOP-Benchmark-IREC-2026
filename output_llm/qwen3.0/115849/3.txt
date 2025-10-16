@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Geographic", "name": "Sardegnagol"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Disease", "name": "plant pest diseases"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "plants"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant pest diseases"},
+      {"source": "plant pest diseases", "type": "Affects", "target": "plants"},
+      {"source": "plant pest diseases", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "University of Bari", "type": "Located in", "target": "Italy"},
+      {"source": "Puglia", "type": "Located in", "target": "Italy"}
+    ]
+  }
+]
+```

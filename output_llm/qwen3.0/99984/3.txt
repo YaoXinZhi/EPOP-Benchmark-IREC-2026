@@ -1,0 +1,17 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Plant", "name": "hazelnuts"},
+      {"type": "Geographic", "name": "Piedmont"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Popillia japonica", "type": "Located in", "name": "Piedmont"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "hazelnuts"}
+    ]
+  }
+]
+```

@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "tomato brown wrinkle virus"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "pepper"},
+    {"type": "Plant", "name": "Troy variety"},
+    {"type": "Geographic", "name": "Arcadia"},
+    {"type": "Geographic", "name": "Community of Levidi"},
+    {"type": "Plant", "name": "stypnus"},
+    {"type": "Plant", "name": "datula"},
+    {"type": "Plant", "name": "goosefoot"},
+    {"type": "Plant", "name": "petunia"}
+  ],
+  "relationships": [
+    {"source": "tomato brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+    {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "tomato"},
+    {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "pepper"},
+    {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "Troy variety"},
+    {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "stypnus"},
+    {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "datula"},
+    {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "goosefoot"},
+    {"source": "tomato brown wrinkle virus", "type": "Have been found on", "target": "petunia"}
+  ]
+}
+

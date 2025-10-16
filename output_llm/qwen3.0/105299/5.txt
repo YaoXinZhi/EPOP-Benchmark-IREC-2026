@@ -1,0 +1,61 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "fruit crops"},
+      {"type": "Plant", "name": "olive fly"},
+      {"type": "Plant", "name": "Bactrocera oleae"},
+      {"type": "Plant", "name": "Citrus sp."},
+      {"type": "Plant", "name": "Malus sp."},
+      {"type": "Plant", "name": "Prunus sp."},
+      {"type": "Plant", "name": "Diospyros sp."},
+      {"type": "Plant", "name": "Vitis sp."},
+      {"type": "Plant", "name": "Pyrus sp."},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "cucurbits"},
+      {"type": "Plant", "name": "watermelon"},
+      {"type": "Plant", "name": "cucumber"},
+      {"type": "Plant", "name": "pumpkin"},
+      {"type": "Geographic", "name": "Campania"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Oceania"},
+      {"type": "Geographic", "name": "Pacific islands"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Mediterranean basin"},
+      {"type": "Geographic", "name": "Naples"},
+      {"type": "Geographic", "name": "Salerno"},
+      {"type": "Geographic", "name": "Palma Campania"},
+      {"type": "Geographic", "name": "Campania Region"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruit crops"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Asia"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Africa"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Oceania"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Pacific islands"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania Region"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Naples"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Salerno"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Palma Campania"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Citrus sp."},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Malus sp."},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Prunus sp."},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Diospyros sp."},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Vitis sp."},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Pyrus sp."},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "tomato"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "cucurbits"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "watermelon"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "cucumber"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "pumpkin"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "olive fly"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Bactrocera oleae"}
+    ]
+  }
+]
+```

@@ -1,0 +1,27 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "Fusarium Race 4 Tropical"},
+      {"type": "Pest", "name": "Foc T4R"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Philippines"},
+      {"type": "Geographic", "name": "Colombia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium Race 4 Tropical", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana"},
+      {"source": "Foc T4R", "type": "Causes", "target": "Panama disease"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Israel"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Netherlands"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Philippines"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Colombia"}
+    ]
+  }
+]
+```

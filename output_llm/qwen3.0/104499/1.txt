@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Plant", "name": "pine trees"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Disease", "name": "PWD"},
+      {"type": "Pest", "name": "pinewood nematode"},
+      {"type": "Pest", "name": "PWN"},
+      {"type": "Geographic", "name": "worldwide"},
+      {"type": "Geographic", "name": "different geographic areas"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "PWD"},
+      {"source": "pine wilt disease", "type": "Affects", "target": "pine trees"},
+      {"source": "PWD", "type": "Affects", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine trees"},
+      {"source": "pinewood nematode", "type": "Have been found on", "target": "pine trees"},
+      {"source": "PWN", "type": "Have been found on", "target": "pine trees"},
+      {"source": "pine wilt disease", "type": "Located in", "target": "worldwide"},
+      {"source": "PWD", "type": "Located in", "target": "worldwide"},
+      {"source": "pinewood nematode", "type": "Located in", "target": "different geographic areas"},
+      {"source": "PWN", "type": "Located in", "target": "different geographic areas"}
+    ]
+  }
+]
+```

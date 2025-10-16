@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Scots pine"},
+      {"type": "Plant", "name": "Pinus sylvestris"},
+      {"type": "Pest", "name": "pine processionary moth"},
+      {"type": "Pest", "name": "Thaumetopoea pityocampa Den. & Schiff."},
+      {"type": "Pest", "name": "mistletoe"},
+      {"type": "Pest", "name": "Viscum album L."},
+      {"type": "Disease", "name": "forest dieback"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "southeastern part of France"},
+      {"type": "Geographic", "name": "France"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "forest dieback", "type": "Affects", "target": "Scots pine"},
+      {"source": "pine processionary moth", "type": "Have been found on", "target": "Scots pine"},
+      {"source": "mistletoe", "type": "Have been found on", "target": "Scots pine"},
+      {"source": "forest dieback", "type": "Located in", "target": "Europe"},
+      {"source": "Scots pine", "type": "Located in", "target": "southeastern part of France"},
+      {"source": "Scots pine", "type": "Located in", "target": "France"}
+    ]
+  }
+]
+```

@@ -1,0 +1,17 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Popillia"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Geographic", "name": "Novara"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Popillia", "type": "Have been found on", "target": "vineyards"},
+      {"source": "vineyards", "type": "Located in", "target": "Novara"}
+    ]
+  }
+]
+```

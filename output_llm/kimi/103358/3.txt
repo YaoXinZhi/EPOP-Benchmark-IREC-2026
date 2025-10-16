@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Japanese beetle"
+    },
+    {
+      "type": "Geographic",
+      "name": "Baden-Württemberg"
+    },
+    {
+      "type": "Geographic",
+      "name": "Freiburg"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Baden-Württemberg"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Freiburg"
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Plant", "name": "plants"},
+    {"type": "Plant", "name": "common crop and wild plants"},
+    {"type": "Plant", "name": "plants naturally infected by multiplex subspecies of Xylella fastidiosa"},
+    {"type": "Plant", "name": "plants artificially infected by different subspecies of Xylella"},
+    {"type": "Plant", "name": "X. taiwanensis"},
+    {"type": "Geographic", "name": "EU"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Portugal"}
+  ],
+  "relationships": []
+}
+

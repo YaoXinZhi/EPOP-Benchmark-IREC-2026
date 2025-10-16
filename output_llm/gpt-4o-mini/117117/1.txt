@@ -1,0 +1,9 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "popillia japonica"},
+    {"type": "Pest", "name": "anoplophora glabripennis"},
+    {"type": "Pest", "name": "meloidogyne graminicola"}
+  ],
+  "relationships": []
+}
+

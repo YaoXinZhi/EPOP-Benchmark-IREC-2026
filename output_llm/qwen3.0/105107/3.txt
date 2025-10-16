@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Switzerland"},
+      {"type": "Geographic", "name": "Ticino"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Pest", "name": "phytoplasmas"},
+      {"type": "Disease", "name": "golden flavescence"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "phytoplasmas", "type": "Causes", "target": "flavescence dorée"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "France"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Switzerland"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Ticino"},
+      {"source": "phytoplasmas", "type": "Have been found on", "target": "vines"},
+      {"source": "golden flavescence", "type": "Affects", "target": "vine"}
+    ]
+  }
+]
+```

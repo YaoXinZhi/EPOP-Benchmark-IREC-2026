@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "caterpillars"},
+    {"type": "Geographic", "name": "Missouri"},
+    {"type": "Plant", "name": "alfalfa"},
+    {"type": "Pest", "name": "fall armyworm moth"},
+    {"type": "Geographic", "name": "U.S."},
+    {"type": "Geographic", "name": "Texas"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Plant", "name": "Johnsongrass"},
+    {"type": "Geographic", "name": "Dade County"},
+    {"type": "Plant", "name": "corn"},
+    {"type": "Geographic", "name": "Mexico"},
+    {"type": "Geographic", "name": "Auburn University"},
+    {"type": "Geographic", "name": "Arrow Rock"},
+    {"type": "Plant", "name": "Bt corn"}
+  ],
+  "relationships": [
+    {"source": "caterpillars", "type": "Located in", "target": "Missouri"},
+    {"source": "caterpillars", "type": "Have been found on", "target": "alfalfa"},
+    {"source": "fall armyworm moth", "type": "Located in", "target": "Texas"},
+    {"source": "fall armyworm moth", "type": "Located in", "target": "Florida"},
+    {"source": "fall armyworm moth", "type": "Have been found on", "target": "corn"},
+    {"source": "fall armyworm moth", "type": "Have been found on", "target": "Johnsongrass"},
+    {"source": "Johnsongrass", "type": "Located in", "target": "Dade County"},
+    {"source": "Bt corn", "type": "Located in", "target": "U.S."}
+  ]
+}
+

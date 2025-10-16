@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "xylella"},
+      {"type": "Vector", "name": "spittpoon"},
+      {"type": "Geographic", "name": "Lecce-Bari state road"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Lecce"},
+      {"type": "Geographic", "name": "Salento city"},
+      {"type": "Geographic", "name": "Pescara"},
+      {"type": "Plant", "name": "infected plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "spittpoon", "type": "Transmits", "target": "xylella"},
+      {"source": "xylella", "type": "Located in", "target": "Lecce-Bari state road"},
+      {"source": "infected plants", "type": "Located in", "target": "Lecce-Bari state road"}
+    ]
+  }
+]
+```

@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "caterpillars"
+    },
+    {
+      "type": "Plant",
+      "name": "alfalfa"
+    },
+    {
+      "type": "Pest",
+      "name": "fall armyworm moth"
+    },
+    {
+      "type": "Geographic",
+      "name": "Missouri"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pin Oak Farms"
+    },
+    {
+      "type": "Geographic",
+      "name": "New Haven"
+    },
+    {
+      "type": "Geographic",
+      "name": "U.S."
+    },
+    {
+      "type": "Geographic",
+      "name": "Oklahoma"
+    },
+    {
+      "type": "Geographic",
+      "name": "Texas"
+    },
+    {
+      "type": "Geographic",
+      "name": "Florida"
+    },
+    {
+      "type": "Plant",
+      "name": "corn"
+    },
+    {
+      "type": "Plant",
+      "name": "Johnsongrass"
+    },
+    {
+      "type": "Geographic",
+      "name": "Dade County"
+    },
+    {
+      "type": "Geographic",
+      "name": "Auburn University"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexico"
+    },
+    {
+      "type": "Geographic",
+      "name": "Los Angeles"
+    },
+    {
+      "type": "Geographic",
+      "name": "south"
+    },
+    {
+      "type": "Geographic",
+      "name": "north"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Missouri"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Have been found on",
+      "target": "alfalfa"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Located in",
+      "target": "U.S."
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Have been found on",
+      "target": "corn"
+    },
+    {
+      "source": "fall armyworm moth",
+      "type": "Have been found on",
+      "target": "Johnsongrass"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Pin Oak Farms"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "New Haven"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Texas"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Florida"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "Dade County"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "south"
+    },
+    {
+      "source": "caterpillars",
+      "type": "Located in",
+      "target": "north"
+    }
+  ]
+}
+

@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Lisbon"
+    },
+    {
+      "type": "Pest",
+      "name": "Pinheiro Wood Nematode"
+    },
+    {
+      "type": "Plant",
+      "name": "pine wood"
+    },
+    {
+      "type": "Organization",
+      "name": "DGAV — Directorate-General for Food and Veterinary Medicine"
+    },
+    {
+      "type": "Organization",
+      "name": "Industrial Wood Treatment Units"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DGAV — Directorate-General for Food and Veterinary Medicine",
+      "type": "Located in",
+      "target": "Lisbon"
+    },
+    {
+      "source": "Pinheiro Wood Nematode",
+      "type": "Have been found on",
+      "target": "pine wood"
+    }
+  ]
+}
+

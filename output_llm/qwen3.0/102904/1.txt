@@ -1,0 +1,53 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Citrus× sinensis"},
+      {"type": "Plant", "name": "Sweet Orange"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Pest", "name": "Sarcotoxin IA"},
+      {"type": "Pest", "name": "stx IA"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Plant", "name": "STX-5"},
+      {"type": "Plant", "name": "STX-11"},
+      {"type": "Plant", "name": "STX-12"},
+      {"type": "Plant", "name": "STX-13"},
+      {"type": "Geographic", "name": "Int. J. Mol. Sci."},
+      {"type": "Geographic", "name": "MDPI"},
+      {"type": "Geographic", "name": "ACS"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Affects", "target": "Citrus× sinensis"},
+      {"source": "HLB", "type": "Affects", "target": "Citrus× sinensis"},
+      {"source": "greening", "type": "Affects", "target": "Citrus× sinensis"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "greening"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "Citrus× sinensis"},
+      {"source": "Sarcotoxin IA", "type": "Have been found on", "target": "STX-5"},
+      {"source": "Sarcotoxin IA", "type": "Have been found on", "target": "STX-11"},
+      {"source": "Sarcotoxin IA", "type": "Have been found on", "target": "STX-12"},
+      {"source": "Sarcotoxin IA", "type": "Have been found on", "target": "STX-13"},
+      {"source": "stx IA", "type": "Have been found on", "target": "STX-5"},
+      {"source": "stx IA", "type": "Have been found on", "target": "STX-11"},
+      {"source": "stx IA", "type": "Have been found on", "target": "STX-12"},
+      {"source": "stx IA", "type": "Have been found on", "target": "STX-13"},
+      {"source": "Citrus× sinensis", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "Sweet Orange", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "Citrus× sinensis", "type": "Located in", "target": "MDPI"},
+      {"source": "Citrus× sinensis", "type": "Located in", "target": "ACS"},
+      {"source": "Pera sweet orange", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-5", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-11", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-12", "type": "Located in", "target": "Int. J. Mol. Sci."},
+      {"source": "STX-13", "type": "Located in", "target": "Int. J. Mol. Sci."}
+    ]
+  }
+]
+```

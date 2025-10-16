@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense Tropical Race 4"},
+    {"type": "Pest", "name": "Fusarium oxysporum f.sp. cubense Tropical Race 4"},
+    {"type": "Pest", "name": "FocTR4"},
+    {"type": "Pest", "name": "Foc Race1"},
+    {"type": "Plant", "name": "bananas"}
+  ],
+  "relationships": [
+    {"source": "Fusarium oxysporum f. sp. cubense Tropical Race 4", "type": "Causes", "target": "Panama disease"},
+    {"source": "FocTR4", "type": "Causes", "target": "Panama disease"},
+    {"source": "Panama disease", "type": "Affects", "target": "bananas"},
+    {"source": "FocTR4", "type": "Have been found on", "target": "bananas"}
+  ]
+}
+

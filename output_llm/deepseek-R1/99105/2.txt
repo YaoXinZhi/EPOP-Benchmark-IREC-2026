@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "orange"},
+    {"type": "Pest", "name": "citrus psyllid Diaphorina citri"},
+    {"type": "Vector", "name": "citrus psyllid Diaphorina citri"},
+    {"type": "Plant", "name": "garden myrtle Murraya paniculata"},
+    {"type": "Disease", "name": "Huanglongbing, Greening"},
+    {"type": "Pest", "name": "bacterium Candidatus Liberibacter spp."},
+    {"type": "Geographic", "name": "Brazil"}
+  ],
+  "relationships": [
+    {"source": "citrus psyllid Diaphorina citri", "type": "Transmits", "target": "bacterium Candidatus Liberibacter spp."},
+    {"source": "bacterium Candidatus Liberibacter spp.", "type": "Causes", "target": "Huanglongbing, Greening"},
+    {"source": "Huanglongbing, Greening", "type": "Affects", "target": "orange"},
+    {"source": "citrus psyllid Diaphorina citri", "type": "Have been found on", "target": "garden myrtle Murraya paniculata"},
+    {"source": "citrus psyllid Diaphorina citri", "type": "Have been found on", "target": "orange"},
+    {"source": "citrus psyllid Diaphorina citri", "type": "Located in", "target": "Brazil"}
+  ]
+}
+

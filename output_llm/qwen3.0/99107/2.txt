@@ -1,0 +1,65 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "lemon trees"},
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "mandarin trees"},
+      {"type": "Pest", "name": "African Psila"},
+      {"type": "Vector", "name": "African Psila"},
+      {"type": "Pest", "name": "Tamarixia dryi"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "greening of citrus trees"},
+      {"type": "Geographic", "name": "Cantabria"},
+      {"type": "Geographic", "name": "Villaescusa"},
+      {"type": "Geographic", "name": "Obregón"},
+      {"type": "Geographic", "name": "Villaescusa"},
+      {"type": "Geographic", "name": "Villaescusa"},
+      {"type": "Geographic", "name": "Miengo"},
+      {"type": "Geographic", "name": "Mogro"},
+      {"type": "Geographic", "name": "Canary Islands"},
+      {"type": "Geographic", "name": "Galicia"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "Cantabrian Coast"},
+      {"type": "Geographic", "name": "Santillana del Mar"},
+      {"type": "Geographic", "name": "Middle Cudeyo"},
+      {"type": "Geographic", "name": "Arnuero"},
+      {"type": "Geographic", "name": "Torrelavega"},
+      {"type": "Geographic", "name": "Camargo"},
+      {"type": "Geographic", "name": "Alfoz de Lloredo"},
+      {"type": "Geographic", "name": "Santa Cruz de Bezana"},
+      {"type": "Geographic", "name": "Piélagos"},
+      {"type": "Geographic", "name": "Santander"},
+      {"type": "Geographic", "name": "Valdáliga"},
+      {"type": "Geographic", "name": "Polanco"},
+      {"type": "Geographic", "name": "Miengo"},
+      {"type": "Geographic", "name": "Santoña"},
+      {"type": "Geographic", "name": "Bárcena de Cicero"},
+      {"type": "Geographic", "name": "Santa María de Cayón"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cantabria", "type": "Located in", "target": "African Psila"},
+      {"source": "African Psila", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+      {"source": "African Psila", "type": "Have been found on", "target": "lemon trees"},
+      {"source": "African Psila", "type": "Have been found on", "target": "orange trees"},
+      {"source": "African Psila", "type": "Have been found on", "target": "mandarin trees"},
+      {"source": "African Psila", "type": "Transmits", "target": "Huanglongbing"},
+      {"source": "African Psila", "type": "Located in", "target": "Canary Islands"},
+      {"source": "African Psila", "type": "Located in", "target": "Galicia"},
+      {"source": "African Psila", "type": "Located in", "target": "Portugal"},
+      {"source": "African Psila", "type": "Located in", "target": "Miengo"},
+      {"source": "African Psila", "type": "Located in", "target": "Cantabria"},
+      {"source": "Tamarixia dryi", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "Tamarixia dryi", "type": "Transmits", "target": "African Psila"},
+      {"source": "Tamarixia dryi", "type": "Located in", "target": "Cantabria"},
+      {"source": "Cantabria", "type": "Located in", "target": "citrus trees"},
+      {"source": "Miengo", "type": "Located in", "target": "African Psila"},
+      {"source": "Mogro", "type": "Located in", "target": "African Psila"}
+    ]
+  }
+]
+```

@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "xylella"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lecce-Bari state road"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bari-Lecce"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salento"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "xylella",
+      "type": "Located in",
+      "target": "Lecce-Bari state road"
+    },
+    {
+      "source": "xylella",
+      "type": "Located in",
+      "target": "Bari-Lecce"
+    },
+    {
+      "source": "xylella",
+      "type": "Located in",
+      "target": "Salento"
+    }
+  ]
+}
+

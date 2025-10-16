@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Campania"
+    },
+    {
+      "type": "Geographic",
+      "name": "Palma Campania"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Commission"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Campania"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Palma Campania"
+    },
+    {
+      "source": "Campania",
+      "type": "Located in",
+      "target": "European Commission"
+    }
+  ]
+}
+

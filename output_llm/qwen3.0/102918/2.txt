@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tobacco mosaic"},
+      {"type": "Pest", "name": "Tobamoviruses"},
+      {"type": "Pest", "name": "tobacco mosaic virus"},
+      {"type": "Pest", "name": "tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "cucumber green mottle mosaic virus"},
+      {"type": "Plant", "name": "tobacco"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "cucumber"},
+      {"type": "Plant", "name": "wild plants"},
+      {"type": "Plant", "name": "non-crop plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "tobacco mosaic virus", "type": "Causes", "target": "tobacco mosaic"},
+      {"source": "tobacco mosaic virus", "type": "Have been found on", "target": "tobacco"},
+      {"source": "tomato brown rugose fruit virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "cucumber green mottle mosaic virus", "type": "Have been found on", "target": "cucumber"},
+      {"source": "Tobamoviruses", "type": "Have been found on", "target": "wild plants"},
+      {"source": "Tobamoviruses", "type": "Have been found on", "target": "non-crop plants"}
+    ]
+  }
+]
+```

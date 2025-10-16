@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Plant", "name": "pine trees"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Vector", "name": "Monochamus spp."},
+      {"type": "Geographic", "name": "Japan"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Europe"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "pine wilt disease", "type": "Affects", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine trees"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Japan"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Asia"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Europe"},
+      {"source": "Monochamus spp.", "type": "Transmits", "target": "Bursaphelenchus xylophilus"}
+    ]
+  }
+]
+```

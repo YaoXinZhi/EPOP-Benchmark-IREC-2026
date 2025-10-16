@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "ARGENTINE REPUBLIC"
+    },
+    {
+      "type": "Geographic",
+      "name": "City of Buenos Aires"
+    },
+    {
+      "type": "Geographic",
+      "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "Northwest Argentina"
+    },
+    {
+      "type": "Geographic",
+      "name": "ENTRE RÍOS"
+    },
+    {
+      "type": "Geographic",
+      "name": "Corrientes"
+    },
+    {
+      "type": "Geographic",
+      "name": "Misiones"
+    },
+    {
+      "type": "Geographic",
+      "name": "Chaco"
+    },
+    {
+      "type": "Geographic",
+      "name": "Formosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santiago del Estero"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santa Fe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Capayan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Province of CATAMARCA"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB Disease"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Vector",
+      "name": "citrus sharpshooter"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ARGENTINE REPUBLIC",
+      "type": "Located in",
+      "target": "City of Buenos Aires"
+    },
+    {
+      "source": "HLB Protected Area",
+      "type": "Located in",
+      "target": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "ENTRE RÍOS"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Corrientes"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Misiones"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Chaco"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Formosa"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Santiago del Estero"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Santa Fe"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Capayan"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Province of CATAMARCA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Transmits",
+      "target": "HLB Disease"
+    },
+    {
+      "source": "HLB Disease",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "citrus sharpshooter",
+      "type": "Transmits",
+      "target": "Diaphorina citri"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Have been found on",
+      "target": "citrus"
+    }
+  ]
+}
+

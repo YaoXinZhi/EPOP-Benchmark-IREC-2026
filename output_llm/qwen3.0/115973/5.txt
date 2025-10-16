@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Institute for Sustainable Plant Protection-CNR"},
+      {"type": "Geographic", "name": "Institute of Photonics and Nanotechnology (CNR-Ifn)"},
+      {"type": "Geographic", "name": "Agritest s.r.l."},
+      {"type": "Geographic", "name": "Apulia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Apulia"}
+    ]
+  }
+]
+```

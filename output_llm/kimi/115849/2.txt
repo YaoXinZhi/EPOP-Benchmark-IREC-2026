@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sardegnagol"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute for the Sustainable Protection of Plants"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute of Photonics and Nanotechnology"
+    },
+    {
+      "type": "Organization",
+      "name": "National Research Council"
+    },
+    {
+      "type": "Organization",
+      "name": "University of Bari"
+    },
+    {
+      "type": "Organization",
+      "name": "Agritest S.r.l."
+    },
+    {
+      "type": "Organization",
+      "name": "Advanced Science"
+    },
+    {
+      "type": "Person",
+      "name": "Luisa Torsi"
+    },
+    {
+      "type": "Person",
+      "name": "Donato Boscia"
+    },
+    {
+      "type": "Person",
+      "name": "Eleonora Macchia"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Institute for the Sustainable Protection of Plants",
+      "type": "Located in",
+      "target": "National Research Council"
+    },
+    {
+      "source": "Institute of Photonics and Nanotechnology",
+      "type": "Located in",
+      "target": "National Research Council"
+    },
+    {
+      "source": "Luisa Torsi",
+      "type": "Located in",
+      "target": "University of Bari"
+    },
+    {
+      "source": "Donato Boscia",
+      "type": "Located in",
+      "target": "Puglia"
+    },
+    {
+      "source": "Eleonora Macchia",
+      "type": "Located in",
+      "target": "University of Bari"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Puglia"
+    }
+  ]
+}
+

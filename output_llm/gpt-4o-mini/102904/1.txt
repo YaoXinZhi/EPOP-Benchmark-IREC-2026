@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Sweet Orange"},
+    {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Pest", "name": "CLas"},
+    {"type": "Plant", "name": "Pera sweet orange"},
+    {"type": "Pest", "name": "sarcotoxin IA"},
+    {"type": "Vector", "name": "Sarcophaga peregrina"},
+    {"type": "Plant", "name": "citrus"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "Sweet Orange"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "Pera sweet orange"},
+    {"source": "Pera sweet orange", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "sarcotoxin IA", "type": "Have been found on", "target": "Sweet Orange"},
+    {"source": "sarcotoxin IA", "type": "Have been found on", "target": "Pera sweet orange"}
+  ]
+}
+

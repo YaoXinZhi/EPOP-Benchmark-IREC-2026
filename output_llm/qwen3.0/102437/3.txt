@@ -1,0 +1,35 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Liberibacter capsica"},
+      {"type": "Disease", "name": "citrus greening disease"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "pepper plants"},
+      {"type": "Plant", "name": "potatoes"},
+      {"type": "Vector", "name": "psyllids"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "University of British Columbia"},
+      {"type": "Geographic", "name": "UC Riverside"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "University of California, Riverside"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Liberibacter capsica", "type": "Have been found on", "target": "psyllids"},
+      {"source": "psyllids", "type": "Transmits", "target": "Liberibacter capsica"},
+      {"source": "Liberibacter capsica", "type": "Have been found on", "target": "pepper plants"},
+      {"source": "psyllids", "type": "Have been found on", "target": "pepper plants"},
+      {"source": "psyllids", "type": "Located in", "target": "Brazil"},
+      {"source": "psyllids", "type": "Located in", "target": "pepper plants"},
+      {"source": "Liberibacter capsica", "type": "Located in", "target": "psyllids"},
+      {"source": "citrus greening disease", "type": "Affects", "target": "citrus trees"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+      {"source": "Liberibacter capsica", "type": "Located in", "target": "Brazil"},
+      {"source": "Liberibacter capsica", "type": "Located in", "target": "pepper plants"}
+    ]
+  }
+]
+```

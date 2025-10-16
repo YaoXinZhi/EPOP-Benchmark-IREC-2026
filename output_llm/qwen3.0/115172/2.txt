@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Apulian"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Polignano"},
+      {"type": "Geographic", "name": "buffer zone"},
+      {"type": "Geographic", "name": "free zone"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella", "type": "Located in", "target": "Polignano"},
+      {"source": "Xylella", "type": "Located in", "target": "Puglia"},
+      {"source": "olive trees", "type": "Located in", "target": "Fasano"},
+      {"source": "olive trees", "type": "Located in", "target": "Martina Franca"},
+      {"source": "olive trees", "type": "Located in", "target": "Locorotondo"},
+      {"source": "olive trees", "type": "Located in", "target": "Polignano"},
+      {"source": "olive trees", "type": "Located in", "target": "buffer zone"},
+      {"source": "olive trees", "type": "Located in", "target": "free zone"},
+      {"source": "Xylella", "type": "Located in", "target": "buffer zone"},
+      {"source": "Xylella", "type": "Located in", "target": "free zone"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"}
+    ]
+  }
+]
+```

@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Liberibacter species"},
+    {"type": "Disease", "name": "citrus greening disease"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "citrus trees"},
+    {"type": "Plant", "name": "potatoes"},
+    {"type": "Pest", "name": "L. capsica"},
+    {"type": "Vector", "name": "psyllids"},
+    {"type": "Plant", "name": "pepper plant"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "University of British Columbia"}
+  ],
+  "relationships": [
+    {"source": "Liberibacter species", "type": "Causes", "target": "citrus greening disease"},
+    {"source": "citrus greening disease", "type": "Affects", "target": "citrus trees"},
+    {"source": "Liberibacter species", "type": "Have been found on", "target": "potatoes"},
+    {"source": "L. capsica", "type": "Have been found on", "target": "pepper plant"},
+    {"source": "psyllids", "type": "Transmits", "target": "L. capsica"},
+    {"source": "L. capsica", "type": "Located in", "target": "Brazil"},
+    {"source": "psyllids", "type": "Located in", "target": "Brazil"}
+  ]
+}
+

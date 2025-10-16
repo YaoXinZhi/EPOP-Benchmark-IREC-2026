@@ -1,0 +1,10 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "latent infection"},
+    {"type": "Pest", "name": "tobacco mosaic virus"},
+    {"type": "Pest", "name": "tomato brown rugose fruit virus"},
+    {"type": "Pest", "name": "cucumber green mottle mosaic virus"}
+  ],
+  "relationships": []
+}
+

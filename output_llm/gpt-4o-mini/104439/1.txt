@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "whitefly"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Pest", "name": "Scaptocoris castanea"},
+    {"type": "Pest", "name": "Bradysia matogrossensis"},
+    {"type": "Pest", "name": "Sphenophorus levis"},
+    {"type": "Pest", "name": "Heterorhabditis bacteriophora"},
+    {"type": "Pest", "name": "Steinernema carpocapsae"},
+    {"type": "Plant", "name": "sugarcane"},
+    {"type": "Plant", "name": "caterpillar"},
+    {"type": "Plant", "name": "crops"},
+    {"type": "Plant", "name": "organic agriculture"},
+    {"type": "Plant", "name": "biological products"},
+    {"type": "Plant", "name": "low-toxicity products"},
+    {"type": "Plant", "name": "natural enemies"},
+    {"type": "Plant", "name": "fungus"},
+    {"type": "Plant", "name": "Cordyceps javanica"},
+    {"type": "Plant", "name": "Beauveria bassiana"},
+    {"type": "Plant", "name": "Metarhizium anisopliae"},
+    {"type": "Vector", "name": "Tetrastichus howardi"},
+    {"type": "Vector", "name": "Telenomus podisi"}
+  ],
+  "relationships": [
+    {"source": "Cordyceps javanica", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Heterorhabditis bacteriophora", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+    {"source": "Steinernema carpocapsae", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+    {"source": "Steinernema carpocapsae", "type": "Have been found on", "target": "Bradysia matogrossensis"},
+    {"source": "Steinernema carpocapsae", "type": "Have been found on", "target": "Sphenophorus levis"},
+    {"source": "whitefly", "type": "Affects", "target": "crops"},
+    {"source": "Spodoptera frugiperda", "type": "Affects", "target": "crops"},
+    {"source": "Bradysia matogrossensis", "type": "Affects", "target": "sugarcane"},
+    {"source": "Sphenophorus levis", "type": "Affects", "target": "sugarcane"}
+  ]
+}
+

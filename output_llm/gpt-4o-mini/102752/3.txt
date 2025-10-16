@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Acrogonia albertoi"},
+    {"type": "Vector", "name": "Diestostemma cavichiolii"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Flona Tapajós"},
+    {"type": "Geographic", "name": "Amazon rainforest"},
+    {"type": "Geographic", "name": "Tapajós National Forest"},
+    {"type": "Geographic", "name": "Belterra"},
+    {"type": "Geographic", "name": "western Pará"}
+  ],
+  "relationships": [
+    {"source": "Acrogonia albertoi", "type": "Transmits", "target": "Xylella fastidiosa"},
+    {"source": "Diestostemma cavichiolii", "type": "Have been found on", "target": "vascular plants"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant diseases"}
+  ]
+}
+

@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella"},
+    {"type": "Plant", "name": "olive trees"},
+    {"type": "Geographic", "name": "Bari area"},
+    {"type": "Geographic", "name": "Polignano"},
+    {"type": "Geographic", "name": "Castellana"},
+    {"type": "Geographic", "name": "Puglia"},
+    {"type": "Geographic", "name": "Polignano a Mare"},
+    {"type": "Geographic", "name": "Castellana Grotte"},
+    {"type": "Geographic", "name": "Lecce"},
+    {"type": "Geographic", "name": "Brindisi"},
+    {"type": "Geographic", "name": "Taranto"},
+    {"type": "Geographic", "name": "Avetrana"},
+    {"type": "Geographic", "name": "Carosino"},
+    {"type": "Geographic", "name": "Faggiano"},
+    {"type": "Geographic", "name": "Fragagnano"},
+    {"type": "Geographic", "name": "Lizzano"},
+    {"type": "Geographic", "name": "Manduria"},
+    {"type": "Geographic", "name": "Maruggio"},
+    {"type": "Geographic", "name": "Monteiasi"},
+    {"type": "Geographic", "name": "Pulsano"},
+    {"type": "Geographic", "name": "Roccaforzata"},
+    {"type": "Geographic", "name": "San Marzano di San Giuseppe"},
+    {"type": "Geographic", "name": "Sava"},
+    {"type": "Geographic", "name": "Torricella"},
+    {"type": "Disease", "name": "infection due to the bacterium"}
+  ],
+  "relationships": [
+    {"source": "Xylella", "type": "Located in", "target": "Bari area"},
+    {"source": "olive trees", "type": "Located in", "target": "Polignano"},
+    {"source": "olive trees", "type": "Located in", "target": "Castellana"},
+    {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+    {"source": "infection due to the bacterium", "type": "Affects", "target": "olive trees"},
+    {"source": "Xylella", "type": "Located in", "target": "Puglia"},
+    {"source": "olive trees", "type": "Located in", "target": "Polignano a Mare"},
+    {"source": "olive trees", "type": "Located in", "target": "Castellana Grotte"},
+    {"source": "Xylella", "type": "Located in", "target": "Lecce"},
+    {"source": "Xylella", "type": "Located in", "target": "Brindisi"},
+    {"source": "Xylella", "type": "Located in", "target": "Taranto"}
+  ]
+}
+

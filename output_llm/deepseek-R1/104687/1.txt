@@ -1,0 +1,24 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Fusarium wilt"},
+    {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense"},
+    {"type": "Plant", "name": "banana"},
+    {"type": "Plant", "name": "Musa spp."},
+    {"type": "Plant", "name": "Prata-Anã"},
+    {"type": "Plant", "name": "BRS Platina"},
+    {"type": "Plant", "name": "Grand Naine"},
+    {"type": "Pest", "name": "Foc R1"},
+    {"type": "Pest", "name": "Foc ST4"},
+    {"type": "Pest", "name": "Foc 229A"},
+    {"type": "Pest", "name": "Foc tropical race 4"}
+  ],
+  "relationships": [
+    {"source": "Fusarium oxysporum f. sp. cubense", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+    {"source": "Foc R1", "type": "Have been found on", "target": "BRS Platina"},
+    {"source": "Foc ST4", "type": "Have been found on", "target": "BRS Platina"},
+    {"source": "Foc 229A", "type": "Have been found on", "target": "Grand Naine"},
+    {"source": "Foc 229A", "type": "Have been found on", "target": "Prata-Anã"}
+  ]
+}
+

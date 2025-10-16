@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Tobamoviruses"},
+    {"type": "Disease", "name": "tobacco mosaic virus"},
+    {"type": "Disease", "name": "tomato brown rugose fruit virus"},
+    {"type": "Disease", "name": "cucumber green mottle mosaic virus"},
+    {"type": "Plant", "name": "asymptomatic plants"},
+    {"type": "Plant", "name": "non-crop plants"},
+    {"type": "Plant", "name": "wild plants"}
+  ],
+  "relationships": [
+    {"source": "tobacco mosaic virus", "type": "Causes", "target": "latent infection"},
+    {"source": "tomato brown rugose fruit virus", "type": "Causes", "target": "latent infection"},
+    {"source": "cucumber green mottle mosaic virus", "type": "Causes", "target": "latent infection"},
+    {"source": "Tobamoviruses", "type": "Have been found on", "target": "asymptomatic plants"},
+    {"source": "Tobamoviruses", "type": "Have been found on", "target": "non-crop plants"},
+    {"source": "Tobamoviruses", "type": "Have been found on", "target": "wild plants"}
+  ]
+}
+

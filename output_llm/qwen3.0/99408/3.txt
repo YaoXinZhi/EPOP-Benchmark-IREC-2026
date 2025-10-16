@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Pinus rigida Mill."},
+      {"type": "Plant", "name": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"type": "Plant", "name": "Pinus koraiensis (Sieb. et Zucc.)"},
+      {"type": "Pest", "name": "Pinewood nematodes"},
+      {"type": "Geographic", "name": "North America"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Pinus rigida Mill.", "type": "Located in", "target": "North America"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus rigida Mill."},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus koraiensis (Sieb. et Zucc.)"}
+    ]
+  }
+]
+```

@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "brown wrinkle syndrome"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Pest", "name": "brown wrinkle virus"},
+      {"type": "Plant", "name": "Troy variety"},
+      {"type": "Geographic", "name": "Arcadia"},
+      {"type": "Geographic", "name": "Community of Levidi"},
+      {"type": "Plant", "name": "stypnus"},
+      {"type": "Plant", "name": "datula"},
+      {"type": "Plant", "name": "goosefoot"},
+      {"type": "Plant", "name": "petunia"},
+      {"type": "Pest", "name": "Tomato brown fruit wrinkle virus"},
+      {"type": "Plant", "name": "Cucurbitaceae"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "brown wrinkle virus", "type": "Causes", "target": "brown wrinkle syndrome"},
+      {"source": "brown wrinkle syndrome", "type": "Affects", "target": "tomato"},
+      {"source": "brown wrinkle syndrome", "type": "Affects", "target": "pepper"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "pepper"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "Community of Levidi"},
+      {"source": "brown wrinkle virus", "type": "Located in", "target": "Troy variety"},
+      {"source": "brown wrinkle virus", "type": "Transmits", "target": "tomato"},
+      {"source": "brown wrinkle virus", "type": "Transmits", "target": "pepper"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "stypnus"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "datula"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "goosefoot"},
+      {"source": "brown wrinkle virus", "type": "Have been found on", "target": "petunia"},
+      {"source": "Tomato brown fruit wrinkle virus", "type": "Causes", "target": "brown wrinkle syndrome"},
+      {"source": "Tomato brown fruit wrinkle virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "Tomato brown fruit wrinkle virus", "type": "Have been found on", "target": "pepper"},
+      {"source": "Cucurbitaceae", "type": "Affects", "target": "Tomato brown fruit wrinkle virus"}
+    ]
+  }
+]
+```

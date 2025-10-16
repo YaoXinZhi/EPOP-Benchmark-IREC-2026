@@ -1,0 +1,206 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Disease",
+      "name": "Tristeza"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing (HLB) or Citrus greening"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus fruits"
+    },
+    {
+      "type": "Disease",
+      "name": "yellow branch disease"
+    },
+    {
+      "type": "Plant",
+      "name": "Tarocco Scirè"
+    },
+    {
+      "type": "Plant",
+      "name": "Mandared"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus clementina"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus sinensis"
+    },
+    {
+      "type": "Plant",
+      "name": "pigmented orange cultivars"
+    },
+    {
+      "type": "Plant",
+      "name": "Californians"
+    },
+    {
+      "type": "Plant",
+      "name": "Californian Bitters"
+    },
+    {
+      "type": "Plant",
+      "name": "C35"
+    },
+    {
+      "type": "Plant",
+      "name": "Carrizo"
+    },
+    {
+      "type": "Plant",
+      "name": "Furr"
+    },
+    {
+      "type": "Plant",
+      "name": "Bitters"
+    },
+    {
+      "type": "Plant",
+      "name": "Carpenter"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "Huanglongbing (HLB) or Citrus greening",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "citrus fruits",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "yellow branch disease",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "Californian Bitters"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "C35"
+    },
+    {
+      "source": "Tarocco Scirè",
+      "type": "Have been found on",
+      "target": "Carrizo"
+    },
+    {
+      "source": "Mandared",
+      "type": "Have been found on",
+      "target": "C35"
+    },
+    {
+      "source": "Mandared",
+      "type": "Have been found on",
+      "target": "Californian Bitters"
+    },
+    {
+      "source": "Mandared",
+      "type": "Have been found on",
+      "target": "Carpenter"
+    },
+    {
+      "source": "Mandared",
+      "type": "Have been found on",
+      "target": "Furr"
+    },
+    {
+      "source": "C35",
+      "type": "Have been found on",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Have been found on",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "Carrizo",
+      "type": "Have been found on",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "C35",
+      "type": "Affects",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Affects",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "Carrizo",
+      "type": "Affects",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "C35",
+      "type": "Affects",
+      "target": "Mandared"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Affects",
+      "target": "Mandared"
+    },
+    {
+      "source": "Carpenter",
+      "type": "Affects",
+      "target": "Mandared"
+    },
+    {
+      "source": "Furr",
+      "type": "Affects",
+      "target": "Mandared"
+    }
+  ]
+}
+

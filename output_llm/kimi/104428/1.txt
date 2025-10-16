@@ -1,0 +1,225 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "whitefly"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Pest",
+      "name": "Scaptocoris castanea"
+    },
+    {
+      "type": "Pest",
+      "name": "fungus flies"
+    },
+    {
+      "type": "Pest",
+      "name": "sugarcane boll weevil"
+    },
+    {
+      "type": "Pest",
+      "name": "aphids"
+    },
+    {
+      "type": "Pest",
+      "name": "thrips"
+    },
+    {
+      "type": "Vector",
+      "name": "Tetrastichus howardi"
+    },
+    {
+      "type": "Vector",
+      "name": "Telenomus podisi"
+    },
+    {
+      "type": "Plant",
+      "name": "Cordyceps javanica"
+    },
+    {
+      "type": "Plant",
+      "name": "Heterorhabditis bacteriophora"
+    },
+    {
+      "type": "Plant",
+      "name": "Steinernema carpocapsae"
+    },
+    {
+      "type": "Plant",
+      "name": "Bradysia matogrossensis"
+    },
+    {
+      "type": "Plant",
+      "name": "Sphenophorus levis"
+    },
+    {
+      "type": "Plant",
+      "name": "Beauveria bassiana"
+    },
+    {
+      "type": "Plant",
+      "name": "Metarhizium anisopliae"
+    },
+    {
+      "type": "Plant",
+      "name": "Espiropidion"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Geographic",
+      "name": "Rio Grande do Sul"
+    },
+    {
+      "type": "Geographic",
+      "name": "Parana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cuiabá"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mato Grosso"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cordyceps javanica",
+      "type": "Have been found on",
+      "target": "whitefly"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Have been found on",
+      "target": "Scaptocoris castanea"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Have been found on",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Have been found on",
+      "target": "Bradysia matogrossensis"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Have been found on",
+      "target": "Sphenophorus levis"
+    },
+    {
+      "source": "Tetrastichus howardi",
+      "type": "Transmits",
+      "target": "whitefly"
+    },
+    {
+      "source": "Telenomus podisi",
+      "type": "Transmits",
+      "target": "whitefly"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Have been found on",
+      "target": "aphids"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Have been found on",
+      "target": "thrips"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Have been found on",
+      "target": "whitefly"
+    },
+    {
+      "source": "whitefly",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Spodoptera frugiperda",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Scaptocoris castanea",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Bradysia matogrossensis",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Sphenophorus levis",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "aphids",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "thrips",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Cordyceps javanica",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Metarhizium anisopliae",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "wheat",
+      "type": "Located in",
+      "target": "Rio Grande do Sul"
+    },
+    {
+      "source": "wheat",
+      "type": "Located in",
+      "target": "Parana"
+    }
+  ]
+}
+

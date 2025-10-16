@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "canker stain"},
+    {"type": "Pest", "name": "Ceratocystis platani"},
+    {"type": "Plant", "name": "plane trees"},
+    {"type": "Geographic", "name": "France"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Greece"},
+    {"type": "Geographic", "name": "Switzerland"},
+    {"type": "Geographic", "name": "Turkey"},
+    {"type": "Geographic", "name": "Albania"},
+    {"type": "Geographic", "name": "Provence-Alpes-Côte d'Azur"},
+    {"type": "Geographic", "name": "Occitanie"},
+    {"type": "Geographic", "name": "Auvergne-Rhône-Alpes"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Geographic", "name": "New Aquitaine"},
+    {"type": "Geographic", "name": "Pays de la Loire"},
+    {"type": "Geographic", "name": "Île-de-France"}
+  ],
+  "relationships": [
+    {"source": "Ceratocystis platani", "type": "Causes", "target": "canker stain"},
+    {"source": "canker stain", "type": "Affects", "target": "plane trees"},
+    {"source": "Ceratocystis platani", "type": "Have been found on", "target": "plane trees"},
+    {"source": "canker stain", "type": "Located in", "target": "France"},
+    {"source": "canker stain", "type": "Located in", "target": "Italy"},
+    {"source": "canker stain", "type": "Located in", "target": "Greece"},
+    {"source": "canker stain", "type": "Located in", "target": "Switzerland"},
+    {"source": "canker stain", "type": "Located in", "target": "Turkey"},
+    {"source": "canker stain", "type": "Located in", "target": "Albania"},
+    {"source": "canker stain", "type": "Located in", "target": "Provence-Alpes-Côte d'Azur"},
+    {"source": "canker stain", "type": "Located in", "target": "Occitanie"},
+    {"source": "canker stain", "type": "Located in", "target": "Auvergne-Rhône-Alpes"},
+    {"source": "canker stain", "type": "Located in", "target": "Corsica"},
+    {"source": "canker stain", "type": "Located in", "target": "New Aquitaine"},
+    {"source": "canker stain", "type": "Located in", "target": "Pays de la Loire"},
+    {"source": "canker stain", "type": "Located in", "target": "Île-de-France"}
+  ]
+}
+

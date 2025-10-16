@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Scots pine"},
+    {"type": "Pest", "name": "pine processionary moth"},
+    {"type": "Pest", "name": "mistletoe"},
+    {"type": "Geographic", "name": "southeast France"},
+    {"type": "Disease", "name": "forest dieback"}
+  ],
+  "relationships": [
+    {"source": "Scots pine", "type": "Located in", "target": "southeast France"},
+    {"source": "pine processionary moth", "type": "Have been found on", "target": "Scots pine"},
+    {"source": "mistletoe", "type": "Have been found on", "target": "Scots pine"},
+    {"source": "forest dieback", "type": "Affects", "target": "Scots pine"}
+  ]
+}
+

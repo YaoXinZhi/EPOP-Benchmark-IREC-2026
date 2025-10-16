@@ -1,0 +1,32 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "banana bunchy"},
+    {"type": "Plant", "name": "banana"},
+    {"type": "Disease", "name": "banana bunchy top disease"},
+    {"type": "Geographic", "name": "Arua district"},
+    {"type": "Geographic", "name": "West Nile region"},
+    {"type": "Geographic", "name": "Kasese district"},
+    {"type": "Geographic", "name": "Mpondwe"},
+    {"type": "Geographic", "name": "Rwenzori Mountains"},
+    {"type": "Geographic", "name": "Democratic Republic of the Congo"},
+    {"type": "Geographic", "name": "Buganda"},
+    {"type": "Geographic", "name": "Ankole"},
+    {"type": "Geographic", "name": "Malawi"},
+    {"type": "Geographic", "name": "Asia"}
+  ],
+  "relationships": [
+    {"source": "banana bunchy", "type": "Affects", "target": "banana"},
+    {"source": "banana bunchy top disease", "type": "Affects", "target": "banana"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Arua district"},
+    {"source": "banana bunchy", "type": "Located in", "target": "West Nile region"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Kasese district"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Mpondwe"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Rwenzori Mountains"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Democratic Republic of the Congo"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Buganda"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Ankole"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Malawi"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Asia"}
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Plant", "name": "sorghum"},
+    {"type": "Plant", "name": "corn"}
+  ],
+  "relationships": [
+    {"source": "sorghum", "type": "Have been found on", "target": "corn"},
+    {"source": "sorghum", "type": "Located in", "target": "Penn State"},
+    {"source": "fall armyworm", "type": "Causes", "target": "significant mortality"},
+    {"source": "fall armyworm", "type": "Affects", "target": "corn"}
+  ]
+}
+

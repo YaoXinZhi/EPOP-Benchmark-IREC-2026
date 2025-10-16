@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Pest", "name": "Candidatus Phytoplasma vitis"},
+    {"type": "Vector", "name": "Scaphoideus titanus"},
+    {"type": "Plant", "name": "grape vine"},
+    {"type": "Geographic", "name": "Europe"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Phytoplasma vitis", "type": "Causes", "target": "Flavescence dorée"},
+    {"source": "Scaphoideus titanus", "type": "Transmits", "target": "Candidatus Phytoplasma vitis"},
+    {"source": "Flavescence dorée", "type": "Affects", "target": "grape vine"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "Europe"}
+  ]
+}
+

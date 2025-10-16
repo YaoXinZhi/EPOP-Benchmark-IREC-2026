@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "ornamental plant"},
+      {"type": "Plant", "name": "rosemary"},
+      {"type": "Plant", "name": "ornamental plants"},
+      {"type": "Plant", "name": "fruit trees"},
+      {"type": "Geographic", "name": "Luz de Tavira"},
+      {"type": "Geographic", "name": "Santo Estevão"},
+      {"type": "Geographic", "name": "Tavira"},
+      {"type": "Geographic", "name": "Algarve"},
+      {"type": "Geographic", "name": "European Commission"},
+      {"type": "Geographic", "name": "EUROPHYT"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "rosemary"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Luz de Tavira"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Santo Estevão"},
+      {"source": "Luz de Tavira", "type": "Located in", "target": "Tavira"},
+      {"source": "Santo Estevão", "type": "Located in", "target": "Tavira"},
+      {"source": "Tavira", "type": "Located in", "target": "Algarve"},
+      {"source": "Algarve", "type": "Located in", "target": "EUROPHYT"},
+      {"source": "Algarve", "type": "Located in", "target": "European Commission"}
+    ]
+  }
+]
+```

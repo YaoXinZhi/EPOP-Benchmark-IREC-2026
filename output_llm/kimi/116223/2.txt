@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Veracruz"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "Persian lemon"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "tangerine"
+    },
+    {
+      "type": "Plant",
+      "name": "grapefruit"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexican Republic"
+    },
+    {
+      "type": "Geographic",
+      "name": "National Agrifood Health, Safety and Quality Service (Senasica)"
+    },
+    {
+      "type": "Geographic",
+      "name": "Postgraduate College"
+    },
+    {
+      "type": "Geographic",
+      "name": "State Plant Health Committee"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sedarpa"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "Persian lemon",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "orange",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "tangerine",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "grapefruit",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "HLB"
+    },
+    {
+      "source": "HLB",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Postgraduate College",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "State Plant Health Committee",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "Sedarpa",
+      "type": "Located in",
+      "target": "Veracruz"
+    }
+  ]
+}
+

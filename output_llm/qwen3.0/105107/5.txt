@@ -1,0 +1,30 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Switzerland"},
+      {"type": "Geographic", "name": "Ticino"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Pest", "name": "sharpshooter"},
+      {"type": "Pest", "name": "Candidatus phytoplasma vitis"},
+      {"type": "Disease", "name": "golden flavescence"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "France"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Switzerland"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Ticino"},
+      {"source": "Candidatus phytoplasma vitis", "type": "Causes", "target": "flavescence dorée"},
+      {"source": "sharpshooter", "type": "Transmits", "target": "flavescence dorée"},
+      {"source": "sharpshooter", "type": "Have been found on", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "vines"},
+      {"source": "golden flavescence", "type": "Located in", "target": "vines"}
+    ]
+  }
+]
+```

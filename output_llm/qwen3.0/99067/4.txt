@@ -1,0 +1,71 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "Phytophthora"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "Citrus greening"},
+      {"type": "Disease", "name": "yellow branch disease"},
+      {"type": "Plant", "name": "US-942"},
+      {"type": "Plant", "name": "US-897"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "C35"},
+      {"type": "Plant", "name": "Carpenter"},
+      {"type": "Plant", "name": "citrange Carrizo"},
+      {"type": "Plant", "name": "Bitters"},
+      {"type": "Plant", "name": "Furr"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Plant", "name": "Citrus clementina"},
+      {"type": "Plant", "name": "Citrus sinensis"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Acireale"},
+      {"type": "Geographic", "name": "Etnean capital"},
+      {"type": "Geographic", "name": "Mediterranean environment"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Affects", "target": "Phytophthora"},
+      {"source": "citrus plants", "type": "Affects", "target": "viruses"},
+      {"source": "citrus plants", "type": "Affects", "target": "viroids"},
+      {"source": "citrus plants", "type": "Affects", "target": "nematodes"},
+      {"source": "citrus plants", "type": "Affects", "target": "CTV-Citrus tristeza virus"},
+      {"source": "citrus plants", "type": "Affects", "target": "HLB"},
+      {"source": "citrus plants", "type": "Affects", "target": "frosts"},
+      {"source": "citrus plants", "type": "Affects", "target": "droughts"},
+      {"source": "citrus plants", "type": "Affects", "target": "floods"},
+      {"source": "citrus plants", "type": "Affects", "target": "salinity"},
+      {"source": "citrus plants", "type": "Affects", "target": "pH"},
+      {"source": "Tristeza", "type": "Located in", "target": "citrus-growing Italy"},
+      {"source": "Tristeza", "type": "Located in", "target": "Sicily"},
+      {"source": "HLB", "type": "Located in", "target": "United States"},
+      {"source": "HLB", "type": "Located in", "target": "Mediterranean environment"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Transmits", "target": "bacteria"},
+      {"source": "bacteria", "type": "Located in", "target": "phloem of plants"},
+      {"source": "bacteria", "type": "Transmits", "target": "vector insects"},
+      {"source": "HLB", "type": "Located in", "target": "Italy"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"},
+      {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "citrange Carrizo", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "C35", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Bitters", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Furr", "type": "Have been found on", "target": "Mandared"},
+      {"source": "citrus-growing Italy", "type": "Located in", "target": "Italy"},
+      {"source": "Sicily", "type": "Located in", "target": "Italy"},
+      {"source": "Acireale", "type": "Located in", "target": "Italy"},
+      {"source": "Etnean capital", "type": "Located in", "target": "Sicily"},
+      {"source": "Mediterranean environment", "type": "Located in", "target": "Italy"}
+    ]
+  }
+]
+```

@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Acrogonia albertoi"
+    },
+    {
+      "type": "Vector",
+      "name": "Diestostemma cavichiolii"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Flona Tapajós"
+    },
+    {
+      "type": "Geographic",
+      "name": "Amazon rainforest"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tapajós National Forest"
+    },
+    {
+      "type": "Geographic",
+      "name": "Belterra"
+    },
+    {
+      "type": "Geographic",
+      "name": "western Pará"
+    },
+    {
+      "type": "Geographic",
+      "name": "Federal University of Western Pará"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Acrogonia albertoi",
+      "type": "Transmits",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "Acrogonia albertoi",
+      "type": "Located in",
+      "target": "Amazon rainforest"
+    },
+    {
+      "source": "Diestostemma cavichiolii",
+      "type": "Located in",
+      "target": "Amazon rainforest"
+    },
+    {
+      "source": "Acrogonia albertoi",
+      "type": "Located in",
+      "target": "Tapajós National Forest"
+    },
+    {
+      "source": "Diestostemma cavichiolii",
+      "type": "Located in",
+      "target": "Tapajós National Forest"
+    },
+    {
+      "source": "Acrogonia albertoi",
+      "type": "Located in",
+      "target": "Belterra"
+    },
+    {
+      "source": "Diestostemma cavichiolii",
+      "type": "Located in",
+      "target": "Belterra"
+    },
+    {
+      "source": "Acrogonia albertoi",
+      "type": "Located in",
+      "target": "western Pará"
+    },
+    {
+      "source": "Diestostemma cavichiolii",
+      "type": "Located in",
+      "target": "western Pará"
+    },
+    {
+      "source": "Acrogonia albertoi",
+      "type": "Located in",
+      "target": "Federal University of Western Pará"
+    },
+    {
+      "source": "Diestostemma cavichiolii",
+      "type": "Located in",
+      "target": "Federal University of Western Pará"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Causes",
+      "target": "diseases in several agricultural crops"
+    }
+  ]
+}
+

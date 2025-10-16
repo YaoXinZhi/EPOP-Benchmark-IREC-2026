@@ -1,0 +1,25 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Plant", "name": "vine"},
+      {"type": "Geographic", "name": "canton of Ticino"},
+      {"type": "Geographic", "name": "canton of Vaud"},
+      {"type": "Geographic", "name": "Valais"},
+      {"type": "Geographic", "name": "Grisons"},
+      {"type": "Pest", "name": "phytoplasmas"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Affects", "target": "vine"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "canton of Ticino"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "canton of Vaud"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Valais"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Grisons"},
+      {"source": "phytoplasmas", "type": "Causes", "target": "flavescence dorée"}
+    ]
+  }
+]
+```

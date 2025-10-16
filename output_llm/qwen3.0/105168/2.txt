@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "tomato brown rugose fruit virus"},
+      {"type": "Plant", "name": "tomato fruit"},
+      {"type": "Plant", "name": "Solanum lycopersicum"},
+      {"type": "Geographic", "name": "Finland"},
+      {"type": "Geographic", "name": "Turku"},
+      {"type": "Geographic", "name": "Varsinais-Suomi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "tomato brown rugose fruit virus", "type": "Located in", "name": "Finland"},
+      {"source": "tomato brown rugose fruit virus", "type": "Have been found on", "target": "tomato fruit"},
+      {"source": "tomato fruit", "type": "Located in", "target": "Turku"},
+      {"source": "Turku", "type": "Located in", "target": "Varsinais-Suomi"},
+      {"source": "tomato fruit", "type": "Located in", "target": "Finland"}
+    ]
+  }
+]
+```

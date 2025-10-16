@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Pitch pine"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus rigida Mill."
+    },
+    {
+      "type": "Pest",
+      "name": "pine wood nematodes"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus densiflora"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus koraiensis"
+    },
+    {
+      "type": "Plant",
+      "name": "P. rigida"
+    },
+    {
+      "type": "Plant",
+      "name": "P. densiflora"
+    },
+    {
+      "type": "Plant",
+      "name": "P. koraiensis"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Pitch pine",
+      "type": "Located in",
+      "target": "North America"
+    },
+    {
+      "source": "Pinus rigida Mill.",
+      "type": "Located in",
+      "target": "North America"
+    },
+    {
+      "source": "Pinus rigida",
+      "type": "Have been found on",
+      "target": "pine wood nematodes"
+    },
+    {
+      "source": "Pinus densiflora",
+      "type": "Have been found on",
+      "target": "pine wood nematodes"
+    },
+    {
+      "source": "Pinus koraiensis",
+      "type": "Have been found on",
+      "target": "pine wood nematodes"
+    },
+    {
+      "source": "P. rigida",
+      "type": "Have been found on",
+      "target": "pine wood nematodes"
+    },
+    {
+      "source": "P. densiflora",
+      "type": "Have been found on",
+      "target": "pine wood nematodes"
+    },
+    {
+      "source": "P. koraiensis",
+      "type": "Have been found on",
+      "target": "pine wood nematodes"
+    },
+    {
+      "source": "cis-3,5-dimethoxystilbene",
+      "type": "Causes",
+      "target": "PWN toxicity"
+    }
+  ]
+}
+

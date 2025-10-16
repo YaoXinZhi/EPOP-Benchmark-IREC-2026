@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Pest", "name": "FAW"},
+    {"type": "Plant", "name": "maize"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Western Africa"}
+  ],
+  "relationships": [
+    {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Africa"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Africa"},
+    {"source": "FAW", "type": "Located in", "target": "Africa"},
+    {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize"},
+    {"source": "fall armyworm", "type": "Have been found on", "target": "maize"},
+    {"source": "FAW", "type": "Have been found on", "target": "maize"}
+  ]
+}
+

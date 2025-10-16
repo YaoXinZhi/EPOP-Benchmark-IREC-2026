@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Pinus rigida"},
+    {"type": "Plant", "name": "Pinus densiflora"},
+    {"type": "Plant", "name": "Pinus koraiensis"},
+    {"type": "Pest", "name": "pinewood nematodes"},
+    {"type": "Pest", "name": "PWNs"},
+    {"type": "Chemical", "name": "cis-3,5-dimethoxystilbene"},
+    {"type": "Chemical", "name": "trans-3,5-dimethoxystilbene"},
+    {"type": "Chemical", "name": "dehydroabietic aldehyde"},
+    {"type": "Chemical", "name": "methyl dehydroabietate"},
+    {"type": "Chemical", "name": "methyl abietate"}
+  ],
+  "relationships": [
+    {"source": "Pinus rigida", "type": "Located in", "target": "North America"},
+    {"source": "Pinus rigida", "type": "Have been found on", "target": "pinewood nematodes"},
+    {"source": "pinewood nematodes", "type": "Affects", "target": "Pinus rigida"},
+    {"source": "PWNs", "type": "Have been found on", "target": "Pinus rigida"},
+    {"source": "PWNs", "type": "Have been found on", "target": "Pinus densiflora"},
+    {"source": "PWNs", "type": "Have been found on", "target": "Pinus koraiensis"},
+    {"source": "cis-3,5-dimethoxystilbene", "type": "Causes", "target": "PWN toxicity"},
+    {"source": "Pinus rigida", "type": "Have been found on", "target": "cis-3,5-dimethoxystilbene"},
+    {"source": "Pinus rigida", "type": "Have been found on", "target": "trans-3,5-dimethoxystilbene"},
+    {"source": "Pinus rigida", "type": "Have been found on", "target": "dehydroabietic aldehyde"},
+    {"source": "Pinus rigida", "type": "Have been found on", "target": "methyl dehydroabietate"},
+    {"source": "Pinus rigida", "type": "Have been found on", "target": "methyl abietate"}
+  ]
+}
+

@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "sorghum plants"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Plant", "name": "sorghum leaves"},
+      {"type": "Plant", "name": "maize"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "vegetables"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "leaves"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavonoids", "type": "Have been found on", "target": "sorghum leaves"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "leaves of corn"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "sorghum plants"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "corn"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "maize"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "flowers"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "vegetables"},
+      {"source": "Flavonoids", "type": "Have been found on", "target": "fruits"},
+      {"source": "Flavonoids", "type": "Affects", "target": "fall armyworm larvae"},
+      {"source": "Flavonoids", "type": "Kills", "target": "fall armyworm"}
+    ]
+  }
+]
+```

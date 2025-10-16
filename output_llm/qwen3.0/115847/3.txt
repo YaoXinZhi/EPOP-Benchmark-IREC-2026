@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "plant disease"},
+      {"type": "Geographic", "name": "Salento"},
+      {"type": "Geographic", "name": "Apulian provinces"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Organization", "name": "Cnr-Uniba"},
+      {"type": "Organization", "name": "Cnr-Ipsp"},
+      {"type": "Organization", "name": "Cnr-Ifn"},
+      {"type": "Organization", "name": "National Research Council"},
+      {"type": "Organization", "name": "University of Bari"},
+      {"type": "Organization", "name": "Agritest"},
+      {"type": "Publication", "name": "Advanced Science"},
+      {"type": "Person", "name": "Luisa Torsi"},
+      {"type": "Person", "name": "Donato Boscia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant disease"},
+      {"source": "plant disease", "type": "Affects", "target": "olive trees"},
+      {"source": "plant disease", "type": "Located in", "target": "Salento"},
+      {"source": "plant disease", "type": "Located in", "target": "Apulian provinces"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Salento"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Apulian provinces"},
+      {"source": "Cnr-Ipsp", "type": "Located in", "target": "Bari"},
+      {"source": "Cnr-Ifn", "type": "Located in", "target": "Bari"},
+      {"source": "University of Bari", "type": "Located in", "target": "Bari"},
+      {"source": "Bari", "type": "Located in", "target": "Puglia"}
+    ]
+  }
+]
+```

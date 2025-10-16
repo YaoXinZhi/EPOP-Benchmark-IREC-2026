@@ -1,0 +1,45 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Pinus rigida Mill."},
+      {"type": "Plant", "name": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"type": "Plant", "name": "Pinus koraiensis (Sieb. et Zucc.)"},
+      {"type": "Pest", "name": "Pinewood nematodes"},
+      {"type": "Geographic", "name": "North America"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Pest", "name": "Pinus rigida resin"},
+      {"type": "Pest", "name": "dehydroabietic aldehyde"},
+      {"type": "Pest", "name": "methyl dehydroabietate"},
+      {"type": "Pest", "name": "methyl abietate"},
+      {"type": "Pest", "name": "cis-3,5-dimethoxystilbene"},
+      {"type": "Pest", "name": "trans-3,5-dimethoxystilbene"},
+      {"type": "Pest", "name": "sesquiterpenes"},
+      {"type": "Pest", "name": "diterpenes"},
+      {"type": "Pest", "name": "pinosylvin stilbene"},
+      {"type": "Pest", "name": "abietane diterpene"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Pinus rigida Mill.", "type": "Located in", "target": "North America"},
+      {"source": "Pinewood nematodes", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "pine wilt disease", "type": "Affects", "target": "Pinus rigida Mill."},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus rigida Mill."},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus koraiensis (Sieb. et Zucc.)"},
+      {"source": "Pinus rigida resin", "type": "Transmits", "target": "Pinewood nematodes"},
+      {"source": "Pinus rigida resin", "type": "Have been found on", "target": "Pinus rigida Mill."},
+      {"source": "cis-3,5-dimethoxystilbene", "type": "Have been found on", "target": "Pinus rigida resin"},
+      {"source": "trans-3,5-dimethoxystilbene", "type": "Have been found on", "target": "Pinus rigida resin"},
+      {"source": "dehydroabietic aldehyde", "type": "Have been found on", "target": "Pinus rigida resin"},
+      {"source": "methyl dehydroabietate", "type": "Have been found on", "target": "Pinus rigida resin"},
+      {"source": "methyl abietate", "type": "Have been found on", "target": "Pinus rigida resin"},
+      {"source": "sesquiterpenes", "type": "Have been found on", "target": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"source": "diterpenes", "type": "Have been found on", "target": "Pinus rigida resin"},
+      {"source": "cis-3,5-dimethoxystilbene", "type": "Causes", "target": "Pinewood nematodes"},
+      {"source": "Pinus rigida resin", "type": "Causes", "target": "Pinewood nematodes"}
+    ]
+  }
+]
+```

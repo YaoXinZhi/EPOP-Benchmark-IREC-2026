@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Fusarium Race 4 Tropical"},
+    {"type": "Disease", "name": "Foc R4T"},
+    {"type": "Plant", "name": "banana"},
+    {"type": "Plant", "name": "plantain"},
+    {"type": "Geographic", "name": "Tumbes region"},
+    {"type": "Geographic", "name": "Peruvian territory"},
+    {"type": "Geographic", "name": "Piura"},
+    {"type": "Geographic", "name": "Lambayeque"},
+    {"type": "Geographic", "name": "La Libertad"},
+    {"type": "Geographic", "name": "Cajamarca"},
+    {"type": "Geographic", "name": "Amazonas"},
+    {"type": "Geographic", "name": "San Martín"},
+    {"type": "Geographic", "name": "Loreto"},
+    {"type": "Geographic", "name": "Huánuco"},
+    {"type": "Geographic", "name": "Pasco"},
+    {"type": "Geographic", "name": "Ucayali"},
+    {"type": "Geographic", "name": "Junín"},
+    {"type": "Geographic", "name": "VRAE"},
+    {"type": "Geographic", "name": "Madre de Dios"},
+    {"type": "Geographic", "name": "Cusco"},
+    {"type": "Geographic", "name": "Puno"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "Sullana - Piura"}
+  ],
+  "relationships": [
+    {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "banana"},
+    {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "plantain"},
+    {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Tumbes region"},
+    {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Peruvian territory"},
+    {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Colombia"},
+    {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Sullana - Piura"}
+  ]
+}
+

@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Fusarium wilt"
+    },
+    {
+      "type": "Pest",
+      "name": "Tropical Race 4"
+    },
+    {
+      "type": "Geographic",
+      "name": "Africa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mozambique"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asia"
+    },
+    {
+      "type": "Geographic",
+      "name": "South America"
+    },
+    {
+      "type": "Plant",
+      "name": "banana plants"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish banana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tanzania"
+    },
+    {
+      "type": "Geographic",
+      "name": "Malawi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Uganda"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ruanda"
+    },
+    {
+      "type": "Disease",
+      "name": "Panama disease"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Tropical Race 4",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Located in",
+      "target": "Mozambique"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Located in",
+      "target": "Africa"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Has been found on",
+      "target": "banana plants"
+    },
+    {
+      "source": "Fusarium wilt",
+      "type": "Affects",
+      "target": "banana plants"
+    },
+    {
+      "source": "Fusarium",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Panama disease",
+      "type": "Affects",
+      "target": "Cavendish banana"
+    }
+  ]
+}
+

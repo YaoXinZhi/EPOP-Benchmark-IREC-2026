@@ -1,0 +1,47 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Geographic", "name": "Salento"},
+      {"type": "Geographic", "name": "Apulian provinces"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Organization", "name": "Cnr-Uniba"},
+      {"type": "Organization", "name": "Cnr-Ipsp"},
+      {"type": "Organization", "name": "Cnr-Ifn"},
+      {"type": "Organization", "name": "National Research Council"},
+      {"type": "Organization", "name": "University of Bari"},
+      {"type": "Organization", "name": "Agritest"},
+      {"type": "Publication", "name": "Advanced Science"},
+      {"type": "Person", "name": "Luisa Torsi"},
+      {"type": "Person", "name": "Donato Boscia"},
+      {"type": "Person", "name": "Institute for the Sustainable Protection of Plants"},
+      {"type": "Person", "name": "Scientific Council of the Cnr"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+      {"source": "Xylella", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "Salento"},
+      {"source": "Xylella", "type": "Located in", "target": "Apulian provinces"},
+      {"source": "Xylella", "type": "Located in", "target": "Puglia"},
+      {"source": "Cnr-Uniba", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Cnr-Ipsp", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Cnr-Ifn", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "National Research Council", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "University of Bari", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Agritest", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Advanced Science", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Luisa Torsi", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Donato Boscia", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Institute for the Sustainable Protection of Plants", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Scientific Council of the Cnr", "type": "Have been found on", "target": "Xylella fastidiosa"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"}
+    ]
+  }
+]
+```

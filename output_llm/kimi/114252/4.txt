@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Quercus suber"
+    },
+    {
+      "type": "Geographic",
+      "name": "SW Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "NW Africa"
+    },
+    {
+      "type": "Geographic",
+      "name": "western Mediterranean basin"
+    },
+    {
+      "type": "Geographic",
+      "name": "Iberia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tunisia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Algeria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Morocco"
+    },
+    {
+      "type": "Geographic",
+      "name": "Maâmora forest"
+    },
+    {
+      "type": "Pest",
+      "name": "Phytophthora quercina"
+    },
+    {
+      "type": "Disease",
+      "name": "dieback"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Quercus suber",
+      "type": "Located in",
+      "target": "SW Europe"
+    },
+    {
+      "source": "Quercus suber",
+      "type": "Located in",
+      "target": "NW Africa"
+    },
+    {
+      "source": "Quercus suber",
+      "type": "Located in",
+      "target": "western Mediterranean basin"
+    },
+    {
+      "source": "Phytophthora quercina",
+      "type": "Causes",
+      "target": "dieback"
+    },
+    {
+      "source": "Quercus suber",
+      "type": "Have been found on",
+      "target": "Phytophthora quercina"
+    },
+    {
+      "source": "dieback",
+      "type": "Affects",
+      "target": "Quercus suber"
+    },
+    {
+      "source": "Phytophthora quercina",
+      "type": "Located in",
+      "target": "Morocco"
+    },
+    {
+      "source": "Quercus suber",
+      "type": "Located in",
+      "target": "Maâmora forest"
+    }
+  ]
+}
+

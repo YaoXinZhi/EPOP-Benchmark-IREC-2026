@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Balearic Islands"},
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Plant", "name": "almond trees"},
+    {"type": "Plant", "name": "carob trees"},
+    {"type": "Geographic", "name": "Mallorca"},
+    {"type": "Geographic", "name": "Menorca"},
+    {"type": "Geographic", "name": "Ibiza"},
+    {"type": "Geographic", "name": "Formentera"},
+    {"type": "Vector", "name": "transmitting insects"},
+    {"type": "Pest", "name": "Xylella fastidiosa subspecies 'multiplex'"},
+    {"type": "Pest", "name": "Xylella fastidiosa subspecies 'fastidiosa'"},
+    {"type": "Pest", "name": "Xylella fastidiosa subspecies 'pauca'"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Balearic Islands"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Mallorca"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Menorca"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Ibiza"},
+    {"source": "Xylella fastidiosa subspecies 'pauca'", "type": "Located in", "target": "Ibiza"},
+    {"source": "transmitting insects", "type": "Transmits", "target": "Xylella fastidiosa"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "almond trees"},
+    {"source": "Xylella fastidiosa subspecies 'multiplex'", "type": "Have been found on", "target": "almond trees"},
+    {"source": "Xylella fastidiosa subspecies 'fastidiosa'", "type": "Have been found on", "target": "almond trees"},
+    {"source": "Xylella fastidiosa subspecies 'pauca'", "type": "Have been found on", "target": "almond trees"}
+  ]
+}
+

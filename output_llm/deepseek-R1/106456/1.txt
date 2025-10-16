@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "TR4 fungus resistance"},
+    {"type": "Plant", "name": "Cavendish bananas"},
+    {"type": "Pest", "name": "TR4"},
+    {"type": "Pest", "name": "TR1"},
+    {"type": "Plant", "name": "Gros Michel"},
+    {"type": "Pest", "name": "Fusarium fungus"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "Wageningen University"}
+  ],
+  "relationships": [
+    {"source": "TR4", "type": "Causes", "target": "TR4 fungus resistance"},
+    {"source": "TR1", "type": "Causes", "target": "TR4 fungus resistance"},
+    {"source": "Cavendish bananas", "type": "Located in", "target": "Colombia"},
+    {"source": "Cavendish bananas", "type": "Located in", "target": "Wageningen University"},
+    {"source": "TR4", "type": "Have been found on", "target": "Cavendish bananas"},
+    {"source": "TR1", "type": "Have been found on", "target": "Gros Michel"},
+    {"source": "TR4 fungus resistance", "type": "Affects", "target": "Cavendish bananas"}
+  ]
+}
+

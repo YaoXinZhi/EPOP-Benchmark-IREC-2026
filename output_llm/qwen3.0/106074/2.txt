@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "brown rust virus"},
+      {"type": "Plant", "name": "tomato crops"},
+      {"type": "Plant", "name": "tomato fruits"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Geographic", "name": "Arcadia"},
+      {"type": "Geographic", "name": "Levidi"},
+      {"type": "Disease", "name": "tomato brown wrinkle virus"},
+      {"type": "Plant", "name": "stypnus"},
+      {"type": "Plant", "name": "datula"},
+      {"type": "Plant", "name": "goosefoot"},
+      {"type": "Plant", "name": "petunia"},
+      {"type": "Plant", "name": "Cucurbitaceae"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "brown rust virus", "type": "Located in", "name": "Arcadia"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "tomato fruits"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "tomato crops"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "pepper"},
+      {"source": "brown rust virus", "type": "Located in", "target": "Levidi"},
+      {"source": "brown rust virus", "type": "Affects", "target": "tomato"},
+      {"source": "brown rust virus", "type": "Affects", "target": "pepper"},
+      {"source": "brown rust virus", "type": "Located in", "target": "stypnus"},
+      {"source": "brown rust virus", "type": "Located in", "target": "datula"},
+      {"source": "brown rust virus", "type": "Located in", "target": "goosefoot"},
+      {"source": "brown rust virus", "type": "Located in", "target": "petunia"},
+      {"source": "brown rust virus", "type": "Transmits", "target": "tomato brown wrinkle virus"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "tomato crops"},
+      {"source": "tomato brown wrinkle virus", "type": "Affects", "target": "pepper"}
+    ]
+  }
+]
+```

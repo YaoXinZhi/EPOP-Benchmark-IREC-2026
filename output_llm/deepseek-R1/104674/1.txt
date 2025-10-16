@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Plant", "name": "citrus trees"},
+    {"type": "Plant", "name": "citrus leaves"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus leaves"}
+  ]
+}
+

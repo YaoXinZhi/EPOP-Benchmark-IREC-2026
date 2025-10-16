@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Disease", "name": "plant pest diseases"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Cnr"},
+      {"type": "Geographic", "name": "Agritest s.r.l."},
+      {"type": "Geographic", "name": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"type": "Geographic", "name": "Institute of Photonics and Nanotechnology (Cnr-Ifn)"},
+      {"type": "Geographic", "name": "Department of Chemistry, Pharmacy-Drug Sciences and Physics of the University of Bari"},
+      {"type": "Geographic", "name": "Advanced Science"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Luisa Torsi"},
+      {"type": "Geographic", "name": "CNR"},
+      {"type": "Geographic", "name": "Donato Boscia"},
+      {"type": "Geographic", "name": "Bari branch of the Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"type": "Geographic", "name": "Eleonora Macchia"},
+      {"type": "Geographic", "name": "Department of Pharmacy-Drug Sciences of the University of Bari"},
+      {"type": "Geographic", "name": "ERC Starting Grant"},
+      {"type": "Geographic", "name": "Gaetano Scamarcio"},
+      {"type": "Geographic", "name": "Interuniversity Department of Physics of the University of Bari"},
+      {"type": "Geographic", "name": "Cnr-Ifn section of Bari"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "plants"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant pest diseases"},
+      {"source": "plant pest diseases", "type": "Affects", "target": "plants"},
+      {"source": "electronic biosensor", "type": "Located in", "target": "University of Bari"},
+      {"source": "electronic biosensor", "type": "Located in", "target": "Cnr"},
+      {"source": "electronic biosensor", "type": "Located in", "target": "Agritest s.r.l."},
+      {"source": "electronic biosensor", "type": "Located in", "target": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"source": "electronic biosensor", "type": "Located in", "target": "Institute of Photonics and Nanotechnology (Cnr-Ifn)"},
+      {"source": "electronic biosensor", "type": "Located in", "target": "Department of Chemistry, Pharmacy-Drug Sciences and Physics of the University of Bari"},
+      {"source": "electronic biosensor", "type": "Located in", "target": "Puglia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"}
+    ]
+  }
+]
+```

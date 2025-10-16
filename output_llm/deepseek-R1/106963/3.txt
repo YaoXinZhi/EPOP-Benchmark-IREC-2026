@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "golden-yellow yellowing"},
+    {"type": "Geographic", "name": "Burggrafenamt"},
+    {"type": "Geographic", "name": "Unterland"},
+    {"type": "Plant", "name": "vine"},
+    {"type": "Disease", "name": "yellowing diseases"},
+    {"type": "Geographic", "name": "Salurn"},
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Disease", "name": "blackwood disease"},
+    {"type": "Geographic", "name": "South Tyrol"},
+    {"type": "Plant", "name": "Chardonnay"},
+    {"type": "Plant", "name": "Pinot Grigio"},
+    {"type": "Geographic", "name": "Laimburg test center"},
+    {"type": "Pest", "name": "Flavescence dorèe phytoplasma (FDp)"},
+    {"type": "Vector", "name": "American leafhopper"}
+  ],
+  "relationships": [
+    {"source": "golden-yellow yellowing", "type": "Located in", "target": "Burggrafenamt"},
+    {"source": "yellowing diseases", "type": "Located in", "target": "Unterland"},
+    {"source": "yellowing diseases", "type": "Affects", "target": "vine"},
+    {"source": "yellowing diseases", "type": "Located in", "target": "Salurn"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+    {"source": "Flavescence dorèe phytoplasma (FDp)", "type": "Causes", "target": "golden-yellow yellowing"},
+    {"source": "American leafhopper", "type": "Transmits", "target": "Flavescence dorèe phytoplasma (FDp)"},
+    {"source": "American leafhopper", "type": "Have been found on", "target": "vine"}
+  ]
+}
+

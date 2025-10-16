@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Pest", "name": "Phyllosticta citricarpa"},
+      {"type": "Disease", "name": "Black Spot disease"},
+      {"type": "Geographic", "name": "Mercosur"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Uruguay"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "South Africa"},
+      {"type": "Geographic", "name": "European Union"},
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Pest", "name": "Cotonet"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Phyllosticta citricarpa", "type": "Causes", "target": "Black Spot disease"},
+      {"source": "Black Spot disease", "type": "Affects", "target": "citrus"},
+      {"source": "Phyllosticta citricarpa", "type": "Have been found on", "target": "citrus"},
+      {"source": "citrus", "type": "Located in", "target": "Mercosur"},
+      {"source": "citrus", "type": "Located in", "target": "South Africa"},
+      {"source": "citrus", "type": "Located in", "target": "European Union"},
+      {"source": "Xylella", "type": "Located in", "target": "European Union"},
+      {"source": "Cotonet", "type": "Located in", "target": "South Africa"}
+    ]
+  }
+]
+```

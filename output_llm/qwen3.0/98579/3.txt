@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Plant", "name": "vegetable gardens"},
+      {"type": "Plant", "name": "orchards"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Geographic", "name": "Piedmont Region"},
+      {"type": "Geographic", "name": "Lombardy Region"},
+      {"type": "Geographic", "name": "youtube"},
+      {"type": "Geographic", "name": "facebook"},
+      {"type": "Plant", "name": "hens"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "vegetable gardens"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "orchards"},
+      {"source": "Popillia japonica", "type": "Have been found on", "target": "vineyards"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Piedmont Region"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Lombardy Region"},
+      {"source": "Piedmont Region", "type": "Located in", "target": "Piedmont Region"},
+      {"source": "Lombardy Region", "type": "Located in", "target": "Lombardy Region"},
+      {"source": "youtube", "type": "Geographic", "target": "youtube"},
+      {"source": "facebook", "type": "Geographic", "target": "facebook"},
+      {"source": "Popillia japonica", "type": "Affects", "target": "vegetable gardens"},
+      {"source": "Popillia japonica", "type": "Affects", "target": "vineyards"},
+      {"source": "traps", "type": "Transmits", "target": "Popillia japonica"},
+      {"source": "hens", "type": "Affects", "target": "Popillia japonica"}
+    ]
+  }
+]
+```

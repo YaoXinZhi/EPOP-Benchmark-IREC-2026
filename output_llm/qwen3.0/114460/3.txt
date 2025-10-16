@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Oriental fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Geographic", "name": "Fountain Valley"},
+      {"type": "Geographic", "name": "Orange County"},
+      {"type": "Geographic", "name": "California"},
+      {"type": "Plant", "name": "fruit trees"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Orange County Agricultural Commissioner Division"},
+      {"type": "Geographic", "name": "Biden-Harris Administration"},
+      {"type": "Geographic", "name": "USDA"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "Fountain Valley"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "Orange County"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "California"},
+      {"source": "Oriental fruit fly", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "APHIS", "type": "Located in", "target": "United States"},
+      {"source": "APHIS", "type": "Located in", "target": "Orange County"},
+      {"source": "California Department of Food and Agriculture", "type": "Located in", "target": "California"},
+      {"source": "California Department of Food and Agriculture", "type": "Located in", "target": "Orange County"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "United States"},
+      {"source": "APHIS", "type": "Located in", "target": "Biden-Harris Administration"},
+      {"source": "USDA", "type": "Located in", "target": "Biden-Harris Administration"},
+      {"source": "USDA", "type": "Located in", "target": "United States"}
+    ]
+  }
+]
+```

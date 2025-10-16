@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "nitidulid beetle"
+    },
+    {
+      "type": "Disease",
+      "name": "oak wilt"
+    },
+    {
+      "type": "Plant",
+      "name": "Costus L."
+    },
+    {
+      "type": "Plant",
+      "name": "Lettuce"
+    },
+    {
+      "type": "Plant",
+      "name": "Common Ice Plant"
+    },
+    {
+      "type": "Plant",
+      "name": "Arabidopsis"
+    },
+    {
+      "type": "Plant",
+      "name": "Photinia Hybrid"
+    },
+    {
+      "type": "Plant",
+      "name": "rice"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "oak wilt",
+      "type": "Causes",
+      "target": "Bretziella fagacearum"
+    },
+    {
+      "source": "Bretziella fagacearum",
+      "type": "Have been found on",
+      "target": "oak"
+    },
+    {
+      "source": "nitidulid beetle",
+      "type": "Transmits",
+      "target": "Bretziella fagacearum"
+    },
+    {
+      "source": "Common Ice Plant",
+      "type": "Affects",
+      "target": "Sodium Chloride Concentration"
+    },
+    {
+      "source": "Arabidopsis",
+      "type": "Affects",
+      "target": "CNGC2"
+    },
+    {
+      "source": "Arabidopsis",
+      "type": "Affects",
+      "target": "CNGC4"
+    }
+  ]
+}
+

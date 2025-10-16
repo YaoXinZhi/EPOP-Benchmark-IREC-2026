@@ -1,0 +1,41 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Oriental fruit fly"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "fruit trees"},
+      {"type": "Geographic", "name": "Fountain Valley"},
+      {"type": "Geographic", "name": "Orange County"},
+      {"type": "Geographic", "name": "California"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Orange County Agricultural Commissioner Division"},
+      {"type": "Geographic", "name": "APHIS"},
+      {"type": "Geographic", "name": "California Department of Food and Agriculture"},
+      {"type": "Geographic", "name": "USDA"},
+      {"type": "Geographic", "name": "Biden-Harris Administration"},
+      {"type": "Geographic", "name": "rural America"},
+      {"type": "Geographic", "name": "www.usda.gov"},
+      {"type": "Geographic", "name": "www.aphis.usda.gov"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "Fountain Valley"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "Orange County"},
+      {"source": "Oriental fruit fly", "type": "Located in", "target": "California"},
+      {"source": "Oriental fruit fly", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "APHIS", "type": "Located in", "target": "United States"},
+      {"source": "California Department of Food and Agriculture", "type": "Located in", "target": "California"},
+      {"source": "USDA", "type": "Located in", "target": "United States"},
+      {"source": "Biden-Harris Administration", "type": "Located in", "target": "United States"},
+      {"source": "Orange County Agricultural Commissioner Division", "type": "Located in", "target": "Orange County"},
+      {"source": "APHIS", "type": "Establishes", "target": "quarantine"},
+      {"source": "California Department of Food and Agriculture", "type": "Establishes", "target": "quarantine"},
+      {"source": "APHIS", "type": "Works with", "target": "California Department of Food and Agriculture"},
+      {"source": "APHIS", "type": "Works with", "target": "Orange County Agricultural Commissioner Division"},
+      {"source": "www.aphis.usda.gov", "type": "Contains", "target": "Federal fruit fly quarantine areas"}
+    ]
+  }
+]
+```

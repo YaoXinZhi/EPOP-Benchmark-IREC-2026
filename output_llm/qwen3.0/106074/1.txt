@@ -1,0 +1,35 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "brown rust virus"},
+      {"type": "Plant", "name": "tomato crops"},
+      {"type": "Plant", "name": "tomato fruits"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Geographic", "name": "Arcadia"},
+      {"type": "Plant", "name": "stypnus"},
+      {"type": "Plant", "name": "datula"},
+      {"type": "Plant", "name": "goosefoot"},
+      {"type": "Plant", "name": "petunia"},
+      {"type": "Plant", "name": "gourd family"},
+      {"type": "Plant", "name": "Cucurbitaceae"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper foliage"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "brown rust virus", "type": "Affects", "target": "tomato crops"},
+      {"source": "brown rust virus", "type": "Affects", "target": "pepper"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "tomato fruits"},
+      {"source": "brown rust virus", "type": "Located in", "target": "Arcadia"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "pepper foliage"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "stypnus"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "datula"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "goosefoot"},
+      {"source": "brown rust virus", "type": "Have been found on", "target": "petunia"}
+    ]
+  }
+]
+```

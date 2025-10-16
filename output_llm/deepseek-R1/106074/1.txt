@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "brown rust virus"},
+    {"type": "Plant", "name": "tomato crops"},
+    {"type": "Geographic", "name": "Arcadia"},
+    {"type": "Plant", "name": "tomato fruits"},
+    {"type": "Plant", "name": "pepper"},
+    {"type": "Plant", "name": "stypnus"},
+    {"type": "Plant", "name": "datula"},
+    {"type": "Plant", "name": "goosefoot"},
+    {"type": "Plant", "name": "petunia"},
+    {"type": "Disease", "name": "tomato brown wrinkle virus (ToBRFV)"},
+    {"type": "Plant", "name": "plants of the gourd family (Cucurbitaceae)"}
+  ],
+  "relationships": [
+    {"source": "brown rust virus", "type": "Located in", "target": "Arcadia"},
+    {"source": "brown rust virus", "type": "Have been found on", "target": "tomato crops"},
+    {"source": "brown rust virus", "type": "Have been found on", "target": "tomato fruits"},
+    {"source": "brown rust virus", "type": "Affects", "target": "pepper"},
+    {"source": "brown rust virus", "type": "Have been found on", "target": "stypnus"},
+    {"source": "brown rust virus", "type": "Have been found on", "target": "datula"},
+    {"source": "brown rust virus", "type": "Have been found on", "target": "goosefoot"},
+    {"source": "brown rust virus", "type": "Have been found on", "target": "petunia"},
+    {"source": "tomato brown wrinkle virus (ToBRFV)", "type": "Affects", "target": "tomato crops"},
+    {"source": "tomato brown wrinkle virus (ToBRFV)", "type": "Affects", "target": "pepper"}
+  ]
+}
+

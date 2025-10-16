@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Aphelenchoides besseyi"},
+    {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+    {"type": "Pest", "name": "Ditylenchus dipsaci"},
+    {"type": "Pest", "name": "Globodera spp."},
+    {"type": "Pest", "name": "Heterodera spp."},
+    {"type": "Pest", "name": "Meloidogyne spp."},
+    {"type": "Pest", "name": "Nacobbus aberrans"},
+    {"type": "Pest", "name": "Pratylenchus spp."},
+    {"type": "Pest", "name": "Radopholus similis"},
+    {"type": "Pest", "name": "Rotylenchulus reniformis"},
+    {"type": "Pest", "name": "Xiphinema index"},
+    {"type": "Disease", "name": "plant-parasitic nematodes"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Spain"}
+  ],
+  "relationships": [
+    {"source": "Aphelenchoides besseyi", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Ditylenchus dipsaci", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Globodera spp.", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Heterodera spp.", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Meloidogyne spp.", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Nacobbus aberrans", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Pratylenchus spp.", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Radopholus similis", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Rotylenchulus reniformis", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "Xiphinema index", "type": "Causes", "target": "plant-parasitic nematodes"},
+    {"source": "plant-parasitic nematodes", "type": "Affects", "target": "crops"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "crops"},
+    {"source": "Ditylenchus dipsaci", "type": "Have been found on", "target": "crops"},
+    {"source": "Globodera spp.", "type": "Have been found on", "target": "crops"},
+    {"source": "Heterodera spp.", "type": "Have been found on", "target": "crops"},
+    {"source": "Meloidogyne spp.", "type": "Have been found on", "target": "crops"},
+    {"source": "Nacobbus aberrans", "type": "Have been found on", "target": "crops"},
+    {"source": "Pratylenchus spp.", "type": "Have been found on", "target": "crops"},
+    {"source": "Radopholus similis", "type": "Have been found on", "target": "crops"},
+    {"source": "Rotylenchulus reniformis", "type": "Have been found on", "target": "crops"},
+    {"source": "Xiphinema index", "type": "Have been found on", "target": "crops"}
+  ]
+}
+

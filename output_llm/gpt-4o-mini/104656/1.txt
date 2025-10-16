@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Asian longhorned beetle"},
+    {"type": "Geographic", "name": "Lucerne"},
+    {"type": "Plant", "name": "maple"},
+    {"type": "Plant", "name": "birch"},
+    {"type": "Plant", "name": "beech"},
+    {"type": "Plant", "name": "fruit trees"},
+    {"type": "Pest", "name": "ALB"},
+    {"type": "Geographic", "name": "Central Switzerland"},
+    {"type": "Geographic", "name": "Zell"},
+    {"type": "Geographic", "name": "Winterthur"},
+    {"type": "Geographic", "name": "Marly (FR)"}
+  ],
+  "relationships": [
+    {"source": "Asian longhorned beetle", "type": "Causes", "target": "ALB"},
+    {"source": "ALB", "type": "Have been found on", "target": "maple"},
+    {"source": "ALB", "type": "Have been found on", "target": "birch"},
+    {"source": "ALB", "type": "Have been found on", "target": "beech"},
+    {"source": "ALB", "type": "Have been found on", "target": "fruit trees"},
+    {"source": "ALB", "type": "Located in", "target": "Lucerne"},
+    {"source": "ALB", "type": "Located in", "target": "Zell"},
+    {"source": "ALB", "type": "Located in", "target": "Central Switzerland"},
+    {"source": "ALB", "type": "Located in", "target": "Winterthur"},
+    {"source": "ALB", "type": "Located in", "target": "Marly (FR)"}
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Pinheiro Wood Nematode"},
+    {"type": "Plant", "name": "pine wood"},
+    {"type": "Geographic", "name": "Lisbon"}
+  ],
+  "relationships": [
+    {"source": "Pinheiro Wood Nematode", "type": "Have been found on", "target": "pine wood"},
+    {"source": "Pinheiro Wood Nematode", "type": "Located in", "target": "Lisbon"}
+  ]
+}
+

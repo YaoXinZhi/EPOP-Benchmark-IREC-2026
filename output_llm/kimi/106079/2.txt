@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Tomato Brown Wrinkle Virus"
+    },
+    {
+      "type": "Geographic",
+      "name": "Arcadia"
+    },
+    {
+      "type": "Plant",
+      "name": "tomatoes"
+    },
+    {
+      "type": "Plant",
+      "name": "pepper plants"
+    },
+    {
+      "type": "Plant",
+      "name": "Troy variety"
+    },
+    {
+      "type": "Geographic",
+      "name": "Community of Levidi"
+    },
+    {
+      "type": "Plant",
+      "name": "stypnus"
+    },
+    {
+      "type": "Plant",
+      "name": "datula"
+    },
+    {
+      "type": "Plant",
+      "name": "goosefoot"
+    },
+    {
+      "type": "Plant",
+      "name": "ornamentals"
+    },
+    {
+      "type": "Plant",
+      "name": "petunia"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "Arcadia"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Affects",
+      "target": "tomatoes"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Affects",
+      "target": "pepper plants"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Have been found on",
+      "target": "Troy variety"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "Community of Levidi"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "stypnus"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "datula"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "goosefoot"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "ornamentals"
+    },
+    {
+      "source": "Tomato Brown Wrinkle Virus",
+      "type": "Located in",
+      "target": "petunia"
+    }
+  ]
+}
+

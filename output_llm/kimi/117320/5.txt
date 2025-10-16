@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Scots pine"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus sylvestris"
+    },
+    {
+      "type": "Pest",
+      "name": "pine processionary moth"
+    },
+    {
+      "type": "Pest",
+      "name": "Thaumetopoea pityocampa"
+    },
+    {
+      "type": "Pest",
+      "name": "mistletoe"
+    },
+    {
+      "type": "Pest",
+      "name": "Viscum album"
+    },
+    {
+      "type": "Geographic",
+      "name": "southeast France"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "southeastern part of France"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Pinus sylvestris",
+      "type": "Located in",
+      "target": "southeast France"
+    },
+    {
+      "source": "Pinus sylvestris",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "Pinus sylvestris",
+      "type": "Located in",
+      "target": "southeastern part of France"
+    },
+    {
+      "source": "Thaumetopoea pityocampa",
+      "type": "Have been found on",
+      "target": "Pinus sylvestris"
+    },
+    {
+      "source": "Viscum album",
+      "type": "Have been found on",
+      "target": "Pinus sylvestris"
+    }
+  ]
+}
+

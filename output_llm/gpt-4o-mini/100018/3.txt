@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "popilia japonica"},
+    {"type": "Geographic", "name": "Ticino"},
+    {"type": "Geographic", "name": "Lombardy"},
+    {"type": "Geographic", "name": "Piedmont"},
+    {"type": "Geographic", "name": "Stabio"},
+    {"type": "Geographic", "name": "Genestrerio"},
+    {"type": "Geographic", "name": "Mendrisio"},
+    {"type": "Geographic", "name": "Novazzano"},
+    {"type": "Geographic", "name": "Morcote"}
+  ],
+  "relationships": [
+    {"source": "popilia japonica", "type": "Causes", "target": "Ticino agriculture"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Ticino"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Lombardy"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Piedmont"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Stabio"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Genestrerio"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Mendrisio"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Novazzano"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "Morcote"}
+  ]
+}
+

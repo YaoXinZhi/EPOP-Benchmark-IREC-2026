@@ -1,0 +1,38 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Liberibacter capsica"},
+      {"type": "Disease", "name": "citrus greening disease"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "pepper plant"},
+      {"type": "Plant", "name": "potatoes"},
+      {"type": "Vector", "name": "psyllids"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "University of British Columbia"},
+      {"type": "Geographic", "name": "UC Riverside"},
+      {"type": "Geographic", "name": "University of California, Riverside"},
+      {"type": "Geographic", "name": "Black Lives Matter movement"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Liberibacter capsica", "type": "Causes", "target": "citrus greening disease"},
+      {"source": "citrus greening disease", "type": "Affects", "target": "citrus trees"},
+      {"source": "citrus greening disease", "type": "Located in", "target": "citrus trees"},
+      {"source": "psyllids", "type": "Transmits", "target": "Liberibacter capsica"},
+      {"source": "Liberibacter capsica", "type": "Have been found on", "target": "psyllids"},
+      {"source": "psyllids", "type": "Have been found on", "target": "pepper plant"},
+      {"source": "psyllids", "type": "Located in", "target": "Brazil"},
+      {"source": "Liberibacter capsica", "type": "Located in", "target": "Brazil"},
+      {"source": "psyllids", "type": "Located in", "target": "Brazil"},
+      {"source": "Diana Percy", "type": "Located in", "target": "University of British Columbia"},
+      {"source": "Allison Hansen", "type": "Located in", "target": "UC Riverside"},
+      {"source": "Black Lives Matter movement", "type": "Located in", "target": "2020"},
+      {"source": "University of British Columbia", "type": "Located in", "target": "University of British Columbia"},
+      {"source": "UC Riverside", "type": "Located in", "target": "University of California, Riverside"}
+    ]
+  }
+]
+```

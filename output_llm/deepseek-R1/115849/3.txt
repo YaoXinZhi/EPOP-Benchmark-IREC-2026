@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Disease", "name": "Xylella"},
+    {"type": "Geographic", "name": "Sardegnagol"},
+    {"type": "Geographic", "name": "Bari"},
+    {"type": "Geographic", "name": "Puglia"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "Xylella"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"},
+    {"source": "Xylella", "type": "Located in", "target": "Puglia"}
+  ]
+}
+

@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "flavescence dorée"
+    },
+    {
+      "type": "Vector",
+      "name": "Scaphoidus titanus"
+    },
+    {
+      "type": "Plant",
+      "name": "grape varieties"
+    },
+    {
+      "type": "Disease",
+      "name": "bois noir"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lot vineyards"
+    },
+    {
+      "type": "Geographic",
+      "name": "Parnac"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pradines"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mercuès"
+    },
+    {
+      "type": "Geographic",
+      "name": "Douelle"
+    },
+    {
+      "type": "Geographic",
+      "name": "Porte du Quercy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sauzet"
+    },
+    {
+      "type": "Geographic",
+      "name": "Luzech"
+    },
+    {
+      "type": "Geographic",
+      "name": "Prayssac"
+    },
+    {
+      "type": "Geographic",
+      "name": "Carnac"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sérignac"
+    },
+    {
+      "type": "Geographic",
+      "name": "Saux"
+    },
+    {
+      "type": "Geographic",
+      "name": "Montcuq"
+    },
+    {
+      "type": "Geographic",
+      "name": "Glanes"
+    },
+    {
+      "type": "Organization",
+      "name": "FDGDON"
+    },
+    {
+      "type": "Person",
+      "name": "Christophe FRANCEN"
+    },
+    {
+      "type": "Organization",
+      "name": "DRAAF"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "flavescence dorée",
+      "type": "Located in",
+      "target": "Lot vineyards"
+    },
+    {
+      "source": "Scaphoidus titanus",
+      "type": "Transmits",
+      "target": "flavescence dorée"
+    },
+    {
+      "source": "flavescence dorée",
+      "type": "Affects",
+      "target": "grape varieties"
+    },
+    {
+      "source": "bois noir",
+      "type": "Affects",
+      "target": "grape varieties"
+    },
+    {
+      "source": "FDGDON",
+      "type": "Located in",
+      "target": "Lot vineyards"
+    },
+    {
+      "source": "Christophe FRANCEN",
+      "type": "Located in",
+      "target": "Lot vineyards"
+    },
+    {
+      "source": "DRAAF",
+      "type": "Located in",
+      "target": "Lot vineyards"
+    },
+    {
+      "source": "Scaphoidus titanus",
+      "type": "Located in",
+      "target": "Lot vineyards"
+    }
+  ]
+}
+

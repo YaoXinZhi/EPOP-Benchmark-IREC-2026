@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Vector", "name": "Diaphorina citri"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Plant", "name": "Murraya paniculata"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "Greening"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Pest", "name": "Candidatus Liberibacter spp."}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri", "type": "Located in", "name": "Brazil"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "Candidatus Liberibacter spp."},
+      {"source": "Candidatus Liberibacter spp.", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Murraya paniculata"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Brazil"},
+      {"source": "Brazil", "type": "Located in", "target": "citrus producing regions"}
+    ]
+  }
+]
+```

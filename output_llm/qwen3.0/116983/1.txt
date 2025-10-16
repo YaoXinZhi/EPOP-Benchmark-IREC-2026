@@ -1,0 +1,55 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "oriental fruit fly"},
+      {"type": "Pest", "name": "Bactrocera Dorsalis"},
+      {"type": "Plant", "name": "fruit"},
+      {"type": "Plant", "name": "wine"},
+      {"type": "Plant", "name": "plant species"},
+      {"type": "Geographic", "name": "Campania"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Mediterranean basin"},
+      {"type": "Geographic", "name": "province of Naples"},
+      {"type": "Geographic", "name": "province of Avellino"},
+      {"type": "Geographic", "name": "Naples"},
+      {"type": "Geographic", "name": "Avellino"},
+      {"type": "Geographic", "name": "orchards"},
+      {"type": "Geographic", "name": "general wholesale markets"},
+      {"type": "Geographic", "name": "warehouses"},
+      {"type": "Geographic", "name": "collective collection centers"},
+      {"type": "Geographic", "name": "CNRPortici"},
+      {"type": "Geographic", "name": "Ministry for Agricultural Policies"},
+      {"type": "Geographic", "name": "regional agriculture department"},
+      {"type": "Geographic", "name": "municipalities"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "oriental fruit fly", "type": "Located in", "target": "Campania"},
+      {"source": "Campania", "type": "Geographic", "target": "Europe"},
+      {"source": "Campania", "type": "Geographic", "target": "Mediterranean basin"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "orchards"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "province of Naples"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "province of Avellino"},
+      {"source": "oriental fruit fly", "type": "Affects", "target": "fruit"},
+      {"source": "oriental fruit fly", "type": "Affects", "target": "wine"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "orchards"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "province of Avellino"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "plant species"},
+      {"source": "province of Avellino", "type": "Located in", "target": "Campania"},
+      {"source": "Bactrocera Dorsalis", "type": "Located in", "target": "province of Avellino"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "municipalities"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "ripe fruits"},
+      {"source": "oriental fruit fly", "type": "Have been found on", "target": "fruit"},
+      {"source": "CNRPortici", "type": "Located in", "target": "Campania"},
+      {"source": "Ministry for Agricultural Policies", "type": "Located in", "target": "Campania"},
+      {"source": "regional agriculture department", "type": "Located in", "target": "Campania"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "orchards"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "general wholesale markets"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "warehouses"},
+      {"source": "oriental fruit fly", "type": "Located in", "target": "collective collection centers"}
+    ]
+  }
+]
+```

@@ -1,0 +1,71 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Asian longhorned beetle"},
+      {"type": "Pest", "name": "Asian long-horned beetle"},
+      {"type": "Pest", "name": "ALB"},
+      {"type": "Plant", "name": "maple"},
+      {"type": "Plant", "name": "birch"},
+      {"type": "Plant", "name": "beech"},
+      {"type": "Plant", "name": "hardwood species"},
+      {"type": "Plant", "name": "fruit trees"},
+      {"type": "Geographic", "name": "Lucerne"},
+      {"type": "Geographic", "name": "Central Switzerland"},
+      {"type": "Geographic", "name": "Canton Lucerne"},
+      {"type": "Geographic", "name": "Zell"},
+      {"type": "Geographic", "name": "Winterthur"},
+      {"type": "Geographic", "name": "Marly (FR)"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Vector", "name": "Asian longhorned beetle"},
+      {"type": "Vector", "name": "Asian long-horned beetle"},
+      {"type": "Vector", "name": "ALB"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Asian longhorned beetle", "type": "Causes", "target": "tree damage"},
+      {"source": "Asian long-horned beetle", "type": "Causes", "target": "tree damage"},
+      {"source": "ALB", "type": "Causes", "target": "tree damage"},
+      {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "maple"},
+      {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "birch"},
+      {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "beech"},
+      {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "hardwood species"},
+      {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "maple"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "birch"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "beech"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "hardwood species"},
+      {"source": "Asian long-horned beetle", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "ALB", "type": "Have been found on", "target": "maple"},
+      {"source": "ALB", "type": "Have been found on", "target": "birch"},
+      {"source": "ALB", "type": "Have been found on", "target": "beech"},
+      {"source": "ALB", "type": "Have been found on", "target": "hardwood species"},
+      {"source": "ALB", "type": "Have been found on", "target": "fruit trees"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Lucerne"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Lucerne"},
+      {"source": "ALB", "type": "Located in", "target": "Lucerne"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Central Switzerland"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Central Switzerland"},
+      {"source": "ALB", "type": "Located in", "target": "Central Switzerland"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Canton Lucerne"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Canton Lucerne"},
+      {"source": "ALB", "type": "Located in", "target": "Canton Lucerne"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Zell"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Zell"},
+      {"source": "ALB", "type": "Located in", "target": "Zell"},
+      {"source": "Asian longhorned beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Asian long-horned beetle", "type": "Located in", "target": "Europe"},
+      {"source": "ALB", "type": "Located in", "target": "Europe"},
+      {"source": "Asian longhorned beetle", "type": "Transmits", "target": "tree damage"},
+      {"source": "Asian long-horned beetle", "type": "Transmits", "target": "tree damage"},
+      {"source": "ALB", "type": "Transmits", "target": "tree damage"},
+      {"source": "tree damage", "type": "Affects", "target": "maple"},
+      {"source": "tree damage", "type": "Affects", "target": "birch"},
+      {"source": "tree damage", "type": "Affects", "target": "beech"},
+      {"source": "tree damage", "type": "Affects", "target": "hardwood species"},
+      {"source": "tree damage", "type": "Affects", "target": "fruit trees"}
+    ]
+  }
+]
+```

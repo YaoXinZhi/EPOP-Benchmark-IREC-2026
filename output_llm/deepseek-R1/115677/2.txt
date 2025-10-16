@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "oak wilt fungus"},
+    {"type": "Pest", "name": "Bretziella fagacearum"},
+    {"type": "Vector", "name": "nitidulid beetle"},
+    {"type": "Plant", "name": "oak"},
+    {"type": "Plant", "name": "Costus L."},
+    {"type": "Plant", "name": "Lactuca sativa L."},
+    {"type": "Plant", "name": "common Ice Plant"},
+    {"type": "Plant", "name": "Mesembryanthemum crystallinum L."},
+    {"type": "Plant", "name": "Arabidopsis"},
+    {"type": "Plant", "name": "Photinia Hybrid"},
+    {"type": "Plant", "name": "rice"},
+    {"type": "Plant", "name": "OsNIP1;2"}
+  ],
+  "relationships": [
+    {"source": "Bretziella fagacearum", "type": "Causes", "target": "oak wilt fungus"},
+    {"source": "nitidulid beetle", "type": "Transmits", "target": "Bretziella fagacearum"},
+    {"source": "Bretziella fagacearum", "type": "Have been found on", "target": "oak"},
+    {"source": "oak wilt fungus", "type": "Affects", "target": "oak"}
+  ]
+}
+

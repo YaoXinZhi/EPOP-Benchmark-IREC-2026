@@ -1,0 +1,42 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis (Hendel)"},
+      {"type": "Pest", "name": "Beauveria bassiana"},
+      {"type": "Plant", "name": "mango"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "central Europe"},
+      {"type": "Geographic", "name": "North America"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Oceania"},
+      {"type": "Geographic", "name": "Hainan University"},
+      {"type": "Geographic", "name": "Sanya"},
+      {"type": "Geographic", "name": "Haikou"},
+      {"type": "Geographic", "name": "Hainan Province"},
+      {"type": "Geographic", "name": "RCP2.6"},
+      {"type": "Geographic", "name": "RCP8.5"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Beauveria bassiana", "type": "Transmits", "target": "Bactrocera dorsalis (Hendel)"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "Bactrocera dorsalis (Hendel)"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "central Europe"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "Asia"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "China"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "North America"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Africa"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Asia"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "China"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "South America"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Oceania"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Have been found on", "target": "mango"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "RCP2.6"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "RCP8.5"}
+    ]
+  }
+]
+```

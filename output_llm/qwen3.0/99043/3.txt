@@ -1,0 +1,55 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus seedlings"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Geographic", "name": "province of Tucumán"},
+      {"type": "Geographic", "name": "Los Vasquez"},
+      {"type": "Geographic", "name": "San Miguel de Tucumán"},
+      {"type": "Geographic", "name": "Mercofrut tucumano"},
+      {"type": "Plant", "name": "citrus plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "citrus seedlings",
+        "type": "Have been found on",
+        "target": "public roads"
+      },
+      {
+        "source": "Senasa",
+        "type": "Located in",
+        "target": "province of Tucumán"
+      },
+      {
+        "source": "Huanglongbing",
+        "type": "Affects",
+        "target": "citrus fruits"
+      },
+      {
+        "source": "Senasa",
+        "type": "Prevents",
+        "target": "Huanglongbing"
+      },
+      {
+        "source": "citrus seedlings",
+        "type": "Located in",
+        "target": "Los Vasquez"
+      },
+      {
+        "source": "citrus seedlings",
+        "type": "Located in",
+        "target": "province of Tucumán"
+      },
+      {
+        "source": "Senasa",
+        "type": "Located in",
+        "target": "San Miguel de Tucumán"
+      }
+    ]
+  }
+]
+```

@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Flavescence dorée"},
+    {"type": "Disease", "name": "grapevine yellows"},
+    {"type": "Geographic", "name": "Tuscany"},
+    {"type": "Plant", "name": "Vitis vinifera"},
+    {"type": "Pest", "name": "Candidatus Phytoplasma vitis"},
+    {"type": "Vector", "name": "Scaphoideus titanus"}
+  ],
+  "relationships": [
+    {"source": "Flavescence dorée", "type": "Affects", "target": "Vitis vinifera"},
+    {"source": "Candidatus Phytoplasma vitis", "type": "Causes", "target": "Flavescence dorée"},
+    {"source": "Scaphoideus titanus", "type": "Transmits", "target": "Candidatus Phytoplasma vitis"},
+    {"source": "Flavescence dorée", "type": "Located in", "target": "Tuscany"},
+    {"source": "Vitis vinifera", "type": "Have been found on", "target": "Flavescence dorée"}
+  ]
+}
+

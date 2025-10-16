@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "banana plants"
+    },
+    {
+      "type": "Disease",
+      "name": "Panama disease"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium oxysporum f. sp. cubense"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish variety bananas"
+    },
+    {
+      "type": "Pest",
+      "name": "Tropical Race 4"
+    },
+    {
+      "type": "Geographic",
+      "name": "Britain"
+    },
+    {
+      "type": "Geographic",
+      "name": "UK"
+    },
+    {
+      "type": "Geographic",
+      "name": "Exeter"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Panama disease",
+      "type": "Affects",
+      "target": "banana plants"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "Cavendish variety bananas"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Have been found on",
+      "target": "Cavendish variety bananas"
+    },
+    {
+      "source": "banana plants",
+      "type": "Located in",
+      "target": "Britain"
+    },
+    {
+      "source": "Panama disease",
+      "type": "Located in",
+      "target": "UK"
+    },
+    {
+      "source": "University of Exeter",
+      "type": "Located in",
+      "target": "Exeter"
+    }
+  ]
+}
+

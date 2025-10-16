@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Pest", "name": "Fusarium oxysporum f.sp. cubense"},
+      {"type": "Pest", "name": "Fusarium kalimantanense"},
+      {"type": "Plant", "name": "banana cultivar Maçã (Silk, AAB)"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium oxysporum f.sp. cubense", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium kalimantanense", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium oxysporum f.sp. cubense", "type": "Have been found on", "target": "banana"},
+      {"source": "Fusarium kalimantanense", "type": "Have been found on", "target": "banana"}
+    ]
+  }
+]
+```

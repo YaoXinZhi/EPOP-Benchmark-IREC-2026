@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Sweet Orange"},
+    {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Disease", "name": "HLB"},
+    {"type": "Disease", "name": "greening"},
+    {"type": "Plant", "name": "Pera sweet orange"},
+    {"type": "Pest", "name": "Sarcophaga peregrina"},
+    {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "greening"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "Sweet Orange"},
+    {"source": "HLB", "type": "Affects", "target": "Sweet Orange"},
+    {"source": "greening", "type": "Affects", "target": "Sweet Orange"},
+    {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "Pera sweet orange"}
+  ]
+}
+

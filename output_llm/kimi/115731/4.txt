@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée"
+    },
+    {
+      "type": "Disease",
+      "name": "grapevine yellows"
+    },
+    {
+      "type": "Pest",
+      "name": "phytoplasmas"
+    },
+    {
+      "type": "Plant",
+      "name": "grapevines"
+    },
+    {
+      "type": "Vector",
+      "name": "Scaphoideus titanus"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Phytoplasma vitis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tuscany"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Serbia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Slovenia"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Geographic",
+      "name": "Switzerland"
+    },
+    {
+      "type": "Plant",
+      "name": "Vitis vinifera"
+    },
+    {
+      "type": "Pest",
+      "name": "FD phytoplasma"
+    },
+    {
+      "type": "Pest",
+      "name": "FDp"
+    },
+    {
+      "type": "Pest",
+      "name": "16SrV–C"
+    },
+    {
+      "type": "Pest",
+      "name": "16SrV-D"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Flavescence dorée",
+      "type": "Causes",
+      "target": "grapevine yellows"
+    },
+    {
+      "source": "grapevine yellows",
+      "type": "Affects",
+      "target": "grapevines"
+    },
+    {
+      "source": "phytoplasmas",
+      "type": "Causes",
+      "target": "Flavescence dorée"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Causes",
+      "target": "Flavescence dorée"
+    },
+    {
+      "source": "Candidatus Phytoplasma vitis",
+      "type": "Have been found on",
+      "target": "grapevines"
+    },
+    {
+      "source": "FD phytoplasma",
+      "type": "Have been found on",
+      "target": "grapevines"
+    },
+    {
+      "source": "FDp",
+      "type": "Have been found on",
+      "target": "grapevines"
+    },
+    {
+      "source": "Scaphoideus titanus",
+      "type": "Transmits",
+      "target": "FDp"
+    },
+    {
+      "source": "FDp",
+      "type": "Transmits",
+      "target": "Candidatus Phytoplasma vitis"
+    },
+    {
+      "source": "16SrV–C",
+      "type": "Have been found on",
+      "target": "grapevines"
+    },
+    {
+      "source": "16SrV-D",
+      "type": "Have been found on",
+      "target": "grapevines"
+    },
+    {
+      "source": "Flavescence dorée",
+      "type": "Located in",
+      "target": "Tuscany"
+    },
+    {
+      "source": "grapevine yellows",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "FDp",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "FDp",
+      "type": "Located in",
+      "target": "Serbia"
+    },
+    {
+      "source": "FDp",
+      "type": "Located in",
+      "target": "Slovenia"
+    },
+    {
+      "source": "FDp",
+      "type": "Located in",
+      "target": "France"
+    },
+    {
+      "source": "FDp",
+      "type": "Located in",
+      "target": "Switzerland"
+    },
+    {
+      "source": "Vitis vinifera",
+      "type": "Located in",
+      "target": "Tuscany"
+    }
+  ]
+}
+

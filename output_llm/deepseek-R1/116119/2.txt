@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "fruit fly"},
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Plant", "name": "fruits"},
+    {"type": "Plant", "name": "vegetables"},
+    {"type": "Geographic", "name": "Reunion"},
+    {"type": "Geographic", "name": "Petite-Ile"},
+    {"type": "Vector", "name": "micro-wasp"}
+  ],
+  "relationships": [
+    {"source": "fruit fly", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetables"},
+    {"source": "citrus fruits", "type": "Located in", "target": "Petite-Ile"},
+    {"source": "fruit fly", "type": "Located in", "target": "Reunion"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Reunion"},
+    {"source": "micro-wasp", "type": "Transmits", "target": "fruit fly"}
+  ]
+}
+

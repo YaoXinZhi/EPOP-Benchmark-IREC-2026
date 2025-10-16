@@ -1,0 +1,31 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "whitefly"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Pest", "name": "Scaptocoris castanea"},
+    {"type": "Pest", "name": "Bradysia matogrossensis"},
+    {"type": "Pest", "name": "Sphenophorus levis"},
+    {"type": "Pest", "name": "Heterorhabditis bacteriophora"},
+    {"type": "Pest", "name": "Steinernema carpocapsae"},
+    {"type": "Plant", "name": "sugarcane"},
+    {"type": "Plant", "name": "caterpillar"},
+    {"type": "Plant", "name": "crops"},
+    {"type": "Disease", "name": "resistant populations"},
+    {"type": "Plant", "name": "organic agriculture"},
+    {"type": "Pest", "name": "Tetrastichus howardi"},
+    {"type": "Pest", "name": "Telenomus podisi"},
+    {"type": "Pest", "name": "Beauveria bassiana"},
+    {"type": "Pest", "name": "Metarhizium anisopliae"},
+    {"type": "Pest", "name": "Cordyceps javanica"}
+  ],
+  "relationships": [
+    {"source": "Cordyceps javanica", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Heterorhabditis bacteriophora", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+    {"source": "Steinernema carpocapsae", "type": "Have been found on", "target": "Spodoptera frugiperda"},
+    {"source": "Beauveria bassiana", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Metarhizium anisopliae", "type": "Have been found on", "target": "whitefly"},
+    {"source": "Spodoptera frugiperda", "type": "Causes", "target": "resistant populations"},
+    {"source": "resistant populations", "type": "Affects", "target": "crops"}
+  ]
+}
+

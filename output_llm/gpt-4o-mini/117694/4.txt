@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Cinara thujafilina Del Guercio"},
+    {"type": "Vector", "name": "Coccinella septempunctata"},
+    {"type": "Vector", "name": "Oenopia conglubata"},
+    {"type": "Plant", "name": "Platycladus orientalis"},
+    {"type": "Geographic", "name": "Iran"},
+    {"type": "Geographic", "name": "Mashhad"},
+    {"type": "Geographic", "name": "Razavi Khorasan"},
+    {"type": "Disease", "name": "air pollution"}
+  ],
+  "relationships": [
+    {"source": "Cinara thujafilina Del Guercio", "type": "Have been found on", "target": "Platycladus orientalis"},
+    {"source": "Coccinella septempunctata", "type": "Have been found on", "target": "Platycladus orientalis"},
+    {"source": "Oenopia conglubata", "type": "Have been found on", "target": "Platycladus orientalis"},
+    {"source": "air pollution", "type": "Affects", "target": "Platycladus orientalis"},
+    {"source": "air pollution", "type": "Located in", "target": "Mashhad"},
+    {"source": "Platycladus orientalis", "type": "Located in", "target": "Iran"}
+  ]
+}
+

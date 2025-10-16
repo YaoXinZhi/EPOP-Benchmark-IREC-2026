@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "olive trees"},
+    {"type": "Disease", "name": "xylella"},
+    {"type": "Geographic", "name": "Puglia Region"},
+    {"type": "Geographic", "name": "Salento"},
+    {"type": "Disease", "name": "bacteriosis"}
+  ],
+  "relationships": [
+    {"source": "olive trees", "type": "Have been found on", "target": "infected area"},
+    {"source": "xylella", "type": "Causes", "target": "bacteriosis"},
+    {"source": "bacteriosis", "type": "Affects", "target": "olive trees"},
+    {"source": "olive trees", "type": "Located in", "target": "Puglia Region"},
+    {"source": "olive trees", "type": "Located in", "target": "Salento"}
+  ]
+}
+

@@ -1,0 +1,54 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaporthe eres"},
+      {"type": "Plant", "name": "Vaccinium corymbosum"},
+      {"type": "Disease", "name": "stem blight"},
+      {"type": "Disease", "name": "dieback"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Northern Italy"},
+      {"type": "Geographic", "name": "Peveragno"},
+      {"type": "Geographic", "name": "Piedmont"},
+      {"type": "Geographic", "name": "Cuneo Province"},
+      {"type": "Plant", "name": "blueberry"},
+      {"type": "Plant", "name": "Machilus thunbergii"},
+      {"type": "Plant", "name": "Vaccinium virgatum"},
+      {"type": "Plant", "name": "hardy kiwifruit"},
+      {"type": "Plant", "name": "Populus davidiana × P. bolleana"},
+      {"type": "Geographic", "name": "Chile"},
+      {"type": "Geographic", "name": "Lithuania"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "U.S.A."},
+      {"type": "Geographic", "name": "Korea"},
+      {"type": "Geographic", "name": "China"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaporthe eres", "type": "Causes", "target": "stem blight"},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "dieback"},
+      {"source": "stem blight", "type": "Affects", "target": "Vaccinium corymbosum"},
+      {"source": "dieback", "type": "Affects", "target": "Vaccinium corymbosum"},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "Vaccinium corymbosum"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Italy"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Chile"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Lithuania"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Netherlands"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "U.S.A."},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "Machilus thunbergii"},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "Vaccinium virgatum"},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "hardy kiwifruit"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "China"},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "Populus davidiana × P. bolleana"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Korea"},
+      {"source": "Vaccinium corymbosum", "type": "Located in", "target": "Northern Italy"},
+      {"source": "Northern Italy", "type": "Located in", "target": "Italy"},
+      {"source": "Peveragno", "type": "Located in", "target": "Piedmont"},
+      {"source": "Piedmont", "type": "Located in", "target": "Cuneo Province"},
+      {"source": "Cuneo Province", "type": "Located in", "target": "Italy"},
+      {"source": "blueberry", "type": "Have been found on", "target": "Vaccinium corymbosum"}
+    ]
+  }
+]
+```

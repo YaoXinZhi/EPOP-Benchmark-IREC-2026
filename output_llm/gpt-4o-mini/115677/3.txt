@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Bretziella fagacearum"},
+    {"type": "Vector", "name": "nitidulid beetle"},
+    {"type": "Plant", "name": "Lactuca sativa"},
+    {"type": "Plant", "name": "Mesembryanthemum crystallinum"},
+    {"type": "Plant", "name": "Arabidopsis"},
+    {"type": "Plant", "name": "Photinia Hybrid"},
+    {"type": "Plant", "name": "rice"}
+  ],
+  "relationships": [
+    {"source": "Bretziella fagacearum", "type": "Have been found on", "target": "nitidulid beetle"},
+    {"source": "Lactuca sativa", "type": "Located in", "target": "n/a"},
+    {"source": "Mesembryanthemum crystallinum", "type": "Located in", "target": "n/a"},
+    {"source": "Arabidopsis", "type": "Located in", "target": "n/a"},
+    {"source": "Photinia Hybrid", "type": "Located in", "target": "n/a"},
+    {"source": "rice", "type": "Located in", "target": "n/a"}
+  ]
+}
+

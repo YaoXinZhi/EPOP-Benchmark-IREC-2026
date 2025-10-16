@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "TR4 fungus"},
+    {"type": "Plant", "name": "Cavendish bananas"},
+    {"type": "Pest", "name": "TR1"},
+    {"type": "Plant", "name": "Gros Michel"},
+    {"type": "Pest", "name": "Fusarium fungus"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "Wageningen University"}
+  ],
+  "relationships": [
+    {"source": "TR4 fungus", "type": "Affects", "target": "Cavendish bananas"},
+    {"source": "TR1", "type": "Affects", "target": "Gros Michel"},
+    {"source": "Cavendish bananas", "type": "Located in", "target": "Colombia"},
+    {"source": "Cavendish bananas", "type": "Located in", "target": "Wageningen University"}
+  ]
+}
+

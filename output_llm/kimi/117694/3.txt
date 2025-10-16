@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Cinara thujafilina Del Guercio"
+    },
+    {
+      "type": "Pest",
+      "name": "Coccinella septempunctata"
+    },
+    {
+      "type": "Pest",
+      "name": "Oenopia conglubata"
+    },
+    {
+      "type": "Plant",
+      "name": "Platycladus orientalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Iran"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lashkar"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sadaf"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sajjad"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mashhad"
+    },
+    {
+      "type": "Geographic",
+      "name": "Razavi Khorasan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Binalood"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hezar Masjed"
+    },
+    {
+      "type": "Geographic",
+      "name": "East Asia"
+    },
+    {
+      "type": "Geographic",
+      "name": "North Asia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Tehran"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ahwaz"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Australia"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Union"
+    },
+    {
+      "type": "Geographic",
+      "name": "World Health Organization"
+    },
+    {
+      "type": "Pest",
+      "name": "Hemiptera"
+    },
+    {
+      "type": "Pest",
+      "name": "Diptera"
+    },
+    {
+      "type": "Pest",
+      "name": "Hymenoptera"
+    },
+    {
+      "type": "Pest",
+      "name": "Thysanoptera"
+    },
+    {
+      "type": "Pest",
+      "name": "Coleoptera"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cinara thujafilina Del Guercio",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Coccinella septempunctata",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Oenopia conglubata",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Platycladus orientalis",
+      "type": "Located in",
+      "target": "Iran"
+    },
+    {
+      "source": "Platycladus orientalis",
+      "type": "Located in",
+      "target": "Mashhad"
+    },
+    {
+      "source": "Platycladus orientalis",
+      "type": "Located in",
+      "target": "Razavi Khorasan"
+    },
+    {
+      "source": "Cinara thujafilina Del Guercio",
+      "type": "Located in",
+      "target": "Lashkar"
+    },
+    {
+      "source": "Cinara thujafilina Del Guercio",
+      "type": "Located in",
+      "target": "Sadaf"
+    },
+    {
+      "source": "Cinara thujafilina Del Guercio",
+      "type": "Located in",
+      "target": "Sajjad"
+    },
+    {
+      "source": "Coccinella septempunctata",
+      "type": "Located in",
+      "target": "Lashkar"
+    },
+    {
+      "source": "Coccinella septempunctata",
+      "type": "Located in",
+      "target": "Sadaf"
+    },
+    {
+      "source": "Oenopia conglubata",
+      "type": "Located in",
+      "target": "Sajjad"
+    },
+    {
+      "source": "Hemiptera",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Diptera",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Hymenoptera",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Thysanoptera",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    },
+    {
+      "source": "Coleoptera",
+      "type": "Have been found on",
+      "target": "Platycladus orientalis"
+    }
+  ]
+}
+

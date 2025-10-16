@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "oriental fruit fly"},
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Pinellas County"},
+    {"type": "Geographic", "name": "St. Petersburg"},
+    {"type": "Plant", "name": "fig"},
+    {"type": "Plant", "name": "loquat"},
+    {"type": "Plant", "name": "mango"},
+    {"type": "Plant", "name": "orange"},
+    {"type": "Plant", "name": "peach"},
+    {"type": "Plant", "name": "plum"},
+    {"type": "Plant", "name": "sapote"},
+    {"type": "Plant", "name": "soursop"},
+    {"type": "Plant", "name": "Surinam cherry"},
+    {"type": "Plant", "name": "tangerine"},
+    {"type": "Plant", "name": "tropical almond"},
+    {"type": "Plant", "name": "guava"}
+  ],
+  "relationships": [
+    {"source": "oriental fruit fly", "type": "Located in", "target": "Pinellas County"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "fig"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "loquat"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "mango"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "orange"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "peach"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "plum"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "sapote"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "soursop"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "Surinam cherry"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "tangerine"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "tropical almond"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "guava"}
+  ]
+}
+

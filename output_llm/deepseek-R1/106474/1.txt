@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish bananas"},
+    {"type": "Disease", "name": "TR4 fungus"},
+    {"type": "Pest", "name": "TR1"},
+    {"type": "Plant", "name": "Gros Michel variety"},
+    {"type": "Pest", "name": "fusarium strain"},
+    {"type": "Plant", "name": "Cavendish"},
+    {"type": "Pest", "name": "Fusarium fungus"},
+    {"type": "Pest", "name": "TR4"},
+    {"type": "Geographic", "name": "Colombia"}
+  ],
+  "relationships": [
+    {"source": "TR4 fungus", "type": "Affects", "target": "Cavendish bananas"},
+    {"source": "TR1", "type": "Causes", "target": "fusarium strain"},
+    {"source": "fusarium strain", "type": "Affects", "target": "Gros Michel variety"},
+    {"source": "Cavendish", "type": "Located in", "target": "Colombia"},
+    {"source": "Fusarium fungus", "type": "Causes", "target": "TR4"},
+    {"source": "TR4", "type": "Affects", "target": "Cavendish bananas"}
+  ]
+}
+

@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "popilia japonica"
+    },
+    {
+      "type": "Geographic",
+      "name": "Ticino"
+    },
+    {
+      "type": "Geographic",
+      "name": "Stabio"
+    },
+    {
+      "type": "Geographic",
+      "name": "Genestrerio"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mendrisio"
+    },
+    {
+      "type": "Geographic",
+      "name": "Novazzano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Morcote"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lombardy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Piedmont"
+    },
+    {
+      "type": "Plant",
+      "name": "agriculture"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Ticino"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Stabio"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Genestrerio"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Mendrisio"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Novazzano"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Morcote"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Lombardy"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Located in",
+      "target": "Piedmont"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Causes",
+      "target": "damage to Ticino agriculture"
+    },
+    {
+      "source": "popilia japonica",
+      "type": "Have been found on",
+      "target": "agriculture"
+    }
+  ]
+}
+

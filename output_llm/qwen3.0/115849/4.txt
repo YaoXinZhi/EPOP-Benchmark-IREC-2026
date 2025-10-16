@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Disease", "name": "plant pest diseases"},
+      {"type": "Geographic", "name": "Sardegna"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "plants"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant pest diseases"},
+      {"source": "plant pest diseases", "type": "Affects", "target": "plants"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"}
+    ]
+  }
+]
+```

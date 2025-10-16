@@ -1,0 +1,43 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Beauveria bassiana"},
+      {"type": "Pest", "name": "Bactrocera dorsalis (Hendel)"},
+      {"type": "Plant", "name": "mango"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "central Europe"},
+      {"type": "Geographic", "name": "southwestern Asia"},
+      {"type": "Geographic", "name": "North America"},
+      {"type": "Geographic", "name": "Oceania"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Sanya"},
+      {"type": "Geographic", "name": "Haikou"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "central Europe"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "southwestern Asia"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "Asia"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "Africa"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "China"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "North America"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "Oceania"},
+      {"source": "Beauveria bassiana", "type": "Located in", "target": "South America"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Asia"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Africa"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "China"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "central Africa"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "South America"},
+      {"source": "Beauveria bassiana", "type": "Transmits", "target": "Bactrocera dorsalis (Hendel)"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "Bactrocera dorsalis (Hendel)"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "mango"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Sanya"},
+      {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Haikou"}
+    ]
+  }
+]
+```

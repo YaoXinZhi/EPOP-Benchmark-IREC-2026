@@ -1,0 +1,35 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "bananas"},
+      {"type": "Plant", "name": "banana plants"},
+      {"type": "Plant", "name": "Cavendish variety bananas"},
+      {"type": "Plant", "name": "Cavendish banana plantations"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "Fusarium oxysporum cubense Race 1"},
+      {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense"},
+      {"type": "Pest", "name": "Tropical Race 4"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "producer countries"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium oxysporum cubense Race 1", "type": "Causes", "target": "Panama disease"},
+      {"source": "Fusarium oxysporum f. sp. cubense", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "bananas"},
+      {"source": "Panama disease", "type": "Affects", "target": "banana plants"},
+      {"source": "Panama disease", "type": "Affects", "target": "Cavendish variety bananas"},
+      {"source": "Fusarium oxysporum f. sp. cubense", "type": "Have been found on", "target": "banana plants"},
+      {"source": "Tropical Race 4", "type": "Have been found on", "target": "Cavendish banana plantations"},
+      {"source": "Cavendish variety bananas", "type": "Located in", "target": "world"},
+      {"source": "Cavendish variety bananas", "type": "Located in", "target": "Britain"},
+      {"source": "Cavendish variety bananas", "type": "Located in", "target": "producer countries"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "world"}
+    ]
+  }
+]
+```

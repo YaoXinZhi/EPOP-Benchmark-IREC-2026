@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "ToBRFV infection"},
+    {"type": "Disease", "name": "tomato brown shriveling"},
+    {"type": "Disease", "name": "Tomato brown rugose fruit virus"},
+    {"type": "Disease", "name": "brown wrinkling of tomatoes"},
+    {"type": "Pest", "name": "tobamovirus"},
+    {"type": "Geographic", "name": "Netherlands"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Jordan"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Germany"},
+    {"type": "Geographic", "name": "Hungary"},
+    {"type": "Plant", "name": "tomatoes"},
+    {"type": "Plant", "name": "tomato farms"},
+    {"type": "Plant", "name": "young seedlings"}
+  ],
+  "relationships": [
+    {"source": "ToBRFV", "type": "Causes", "target": "tomato brown shriveling"},
+    {"source": "Tomato brown rugose fruit virus", "type": "Causes", "target": "brown wrinkling of tomatoes"},
+    {"source": "ToBRFV infection", "type": "Located in", "target": "Netherlands"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Israel"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Jordan"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Sicily"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Italy"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Germany"},
+    {"source": "ToBRFV", "type": "Affects", "target": "tomatoes"},
+    {"source": "ToBRFV", "type": "Affects", "target": "young seedlings"},
+    {"source": "tobamovirus", "type": "Have been found on", "target": "tomato farms"}
+  ]
+}
+

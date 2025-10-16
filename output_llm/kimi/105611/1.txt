@@ -1,0 +1,218 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Bari"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polignano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Castellana"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polignano a Mare"
+    },
+    {
+      "type": "Geographic",
+      "name": "Castellana Grotte"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lecce"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brindisi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Taranto Avetrana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Carosino"
+    },
+    {
+      "type": "Geographic",
+      "name": "Faggiano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Fragagnano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Lizzano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Manduria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Maruggio"
+    },
+    {
+      "type": "Geographic",
+      "name": "Monteiasi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Pulsano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Roccaforzata"
+    },
+    {
+      "type": "Geographic",
+      "name": "San Marzano di San Giuseppe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sava"
+    },
+    {
+      "type": "Geographic",
+      "name": "Torricella"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Polignano"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Castellana"
+    },
+    {
+      "source": "Xylella",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "olive groves"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Puglia"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Polignano a Mare"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Castellana Grotte"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Lecce"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Brindisi"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Taranto Avetrana"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Carosino"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Faggiano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Fragagnano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Lizzano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Manduria"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Maruggio"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Monteiasi"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Pulsano"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Roccaforzata"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "San Marzano di San Giuseppe"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Sava"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Torricella"
+    }
+  ]
+}
+

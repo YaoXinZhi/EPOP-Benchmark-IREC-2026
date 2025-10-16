@@ -1,0 +1,62 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaporthe eres"},
+      {"type": "Plant", "name": "Vaccinium corymbosum"},
+      {"type": "Plant", "name": "highbush blueberry"},
+      {"type": "Disease", "name": "stem blight"},
+      {"type": "Disease", "name": "dieback"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Northern Italy"},
+      {"type": "Geographic", "name": "Peveragno"},
+      {"type": "Geographic", "name": "Piedmont"},
+      {"type": "Geographic", "name": "Cuneo Province"},
+      {"type": "Plant", "name": "Draper"},
+      {"type": "Plant", "name": "Duke"},
+      {"type": "Geographic", "name": "Chile"},
+      {"type": "Geographic", "name": "Lithuania"},
+      {"type": "Geographic", "name": "the Netherlands"},
+      {"type": "Geographic", "name": "the U.S.A."},
+      {"type": "Disease", "name": "leaf spot disease"},
+      {"type": "Plant", "name": "Machilus thunbergii"},
+      {"type": "Plant", "name": "blueberry"},
+      {"type": "Plant", "name": "Vaccinium virgatum"},
+      {"type": "Disease", "name": "postharvest fruit rot disease"},
+      {"type": "Plant", "name": "hardy kiwifruit"},
+      {"type": "Plant", "name": "Populus davidiana × P. bolleana"},
+      {"type": "Disease", "name": "leaf blotch"},
+      {"type": "Plant", "name": "passion fruit"},
+      {"type": "Disease", "name": "leaf blight"},
+      {"type": "Pest", "name": "Nigrospora sphaerica"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaporthe eres", "type": "Causes", "target": "stem blight"},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "dieback"},
+      {"source": "stem blight", "type": "Affects", "target": "highbush blueberry"},
+      {"source": "dieback", "type": "Affects", "target": "highbush blueberry"},
+      {"source": "Diaporthe eres", "type": "Have been found on", "target": "Vaccinium corymbosum"},
+      {"source": "stem blight", "type": "Located in", "target": "Italy"},
+      {"source": "dieback", "type": "Located in", "target": "Italy"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Italy"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Chile"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "Lithuania"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "the Netherlands"},
+      {"source": "Diaporthe eres", "type": "Located in", "target": "the U.S.A."},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "leaf spot disease"},
+      {"source": "leaf spot disease", "type": "Affects", "target": "Machilus thunbergii"},
+      {"source": "Diaporthe phoenicicola", "type": "Causes", "target": "leaf spot"},
+      {"source": "leaf spot", "type": "Affects", "target": "blueberry"},
+      {"source": "Diaporthe eres", "type": "Causes", "target": "postharvest fruit rot disease"},
+      {"source": "postharvest fruit rot disease", "type": "Affects", "target": "hardy kiwifruit"},
+      {"source": "Diaporthe cercidis", "type": "Causes", "target": "leaf blotch"},
+      {"source": "Diaporthe nobilis", "type": "Causes", "target": "leaf blotch"},
+      {"source": "leaf blotch", "type": "Affects", "target": "Populus davidiana × P. bolleana"},
+      {"source": "Nigrospora sphaerica", "type": "Causes", "target": "leaf blight"},
+      {"source": "leaf blight", "type": "Affects", "target": "passion fruit"}
+    ]
+  }
+]
+```

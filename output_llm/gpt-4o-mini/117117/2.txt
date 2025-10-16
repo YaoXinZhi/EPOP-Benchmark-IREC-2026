@@ -1,0 +1,11 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Lombardy"},
+    {"type": "Pest", "name": "popillia japonica"},
+    {"type": "Pest", "name": "anoplophora glabripennis"},
+    {"type": "Pest", "name": "aromaa bungii"},
+    {"type": "Pest", "name": "meloidogyne graminicola"}
+  ],
+  "relationships": []
+}
+

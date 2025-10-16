@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Citrus"},
+    {"type": "Pest", "name": "Phyllosticta citricarpa"},
+    {"type": "Disease", "name": "Citrus Black Spot"},
+    {"type": "Geographic", "name": "European Union"},
+    {"type": "Geographic", "name": "Mercosur"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Argentina"},
+    {"type": "Geographic", "name": "Uruguay"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "South Africa"},
+    {"type": "Pest", "name": "Xylella"},
+    {"type": "Pest", "name": "Cotonet from South Africa"}
+  ],
+  "relationships": [
+    {"source": "Phyllosticta citricarpa", "type": "Causes", "target": "Citrus Black Spot"},
+    {"source": "Citrus Black Spot", "type": "Affects", "target": "Citrus"},
+    {"source": "Citrus", "type": "Located in", "target": "European Union"},
+    {"source": "Phyllosticta citricarpa", "type": "Located in", "target": "Brazil"},
+    {"source": "Phyllosticta citricarpa", "type": "Located in", "target": "Argentina"},
+    {"source": "Phyllosticta citricarpa", "type": "Located in", "target": "Uruguay"},
+    {"source": "Phyllosticta citricarpa", "type": "Located in", "target": "Colombia"},
+    {"source": "Phyllosticta citricarpa", "type": "Located in", "target": "South Africa"},
+    {"source": "Xylella", "type": "Located in", "target": "European Union"},
+    {"source": "Cotonet from South Africa", "type": "Located in", "target": "European Union"}
+  ]
+}
+

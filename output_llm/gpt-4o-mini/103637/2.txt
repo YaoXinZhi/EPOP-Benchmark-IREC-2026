@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Pest", "name": "Beauveria bassiana"},
+    {"type": "Plant", "name": "Bactrocera dorsalis (Hendel)"},
+    {"type": "Plant", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "B. dorsalis (Hendel)"},
+    {"type": "Plant", "name": "B. bassiana"},
+    {"type": "Geographic", "name": "central Europe"},
+    {"type": "Geographic", "name": "southwestern Asia"},
+    {"type": "Geographic", "name": "North America"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "southern coastal areas of China"},
+    {"type": "Geographic", "name": "South America"},
+    {"type": "Geographic", "name": "European region"},
+    {"type": "Geographic", "name": "American region"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "northern hemisphere"},
+    {"type": "Geographic", "name": "southern hemisphere"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Beauveria bassiana"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "central Europe"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "southwestern Asia"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "North America"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Africa"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "southern coastal areas of China"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "South America"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "European region"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "American region"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Asia"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "northern hemisphere"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "southern hemisphere"}
+  ]
+}
+

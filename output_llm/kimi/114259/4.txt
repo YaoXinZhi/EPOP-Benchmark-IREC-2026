@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "stem blight and dieback"
+    },
+    {
+      "type": "Plant",
+      "name": "highbush blueberry"
+    },
+    {
+      "type": "Plant",
+      "name": "Vaccinium corymbosum"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Northern Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Peveragno"
+    },
+    {
+      "type": "Geographic",
+      "name": "Piedmont"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cuneo Province"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaporthe eres"
+    },
+    {
+      "type": "Plant",
+      "name": "Vaccinium spp."
+    },
+    {
+      "type": "Plant",
+      "name": "blueberry"
+    },
+    {
+      "type": "Plant",
+      "name": "Machilus thunbergii"
+    },
+    {
+      "type": "Plant",
+      "name": "Vaccinium virgatum"
+    },
+    {
+      "type": "Plant",
+      "name": "Hardy Kiwifruit"
+    },
+    {
+      "type": "Plant",
+      "name": "Populus davidiana × P. bolleana"
+    },
+    {
+      "type": "Pest",
+      "name": "Nigrospora sphaerica"
+    },
+    {
+      "type": "Plant",
+      "name": "passion fruit"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "highbush blueberry",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Vaccinium corymbosum",
+      "type": "Located in",
+      "target": "Northern Italy"
+    },
+    {
+      "source": "Vaccinium corymbosum",
+      "type": "Located in",
+      "target": "Piedmont"
+    },
+    {
+      "source": "Vaccinium corymbosum",
+      "type": "Located in",
+      "target": "Cuneo Province"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Causes",
+      "target": "stem blight and dieback"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "highbush blueberry"
+    },
+    {
+      "source": "stem blight and dieback",
+      "type": "Affects",
+      "target": "Vaccinium corymbosum"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "Vaccinium spp."
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "blueberry"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "Machilus thunbergii"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "Vaccinium virgatum"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "Hardy Kiwifruit"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "Populus davidiana × P. bolleana"
+    },
+    {
+      "source": "Nigrospora sphaerica",
+      "type": "Have been found on",
+      "target": "passion fruit"
+    }
+  ]
+}
+

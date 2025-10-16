@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Bois noir disease"},
+    {"type": "Pest", "name": "‘Candidatus Phytoplasma solani’"},
+    {"type": "Plant", "name": "grapevine"},
+    {"type": "Vector", "name": "Hyalesthes obsoletus Signoret"},
+    {"type": "Geographic", "name": "Euro-Mediterranean area"},
+    {"type": "Geographic", "name": "Franciacorta"},
+    {"type": "Geographic", "name": "province of Brescia"},
+    {"type": "Geographic", "name": "North Italy"},
+    {"type": "Geographic", "name": "Erbusco"},
+    {"type": "Geographic", "name": "Gussago"}
+  ],
+  "relationships": [
+    {"source": "Bois noir disease", "type": "Affects", "target": "grapevine"},
+    {"source": "‘Candidatus Phytoplasma solani’", "type": "Causes", "target": "Bois noir disease"},
+    {"source": "Hyalesthes obsoletus Signoret", "type": "Transmits", "target": "‘Candidatus Phytoplasma solani’"},
+    {"source": "grapevine", "type": "Located in", "target": "Euro-Mediterranean area"},
+    {"source": "grapevine", "type": "Located in", "target": "Franciacorta"},
+    {"source": "grapevine", "type": "Located in", "target": "province of Brescia"},
+    {"source": "grapevine", "type": "Located in", "target": "North Italy"},
+    {"source": "grapevine", "type": "Located in", "target": "Erbusco"},
+    {"source": "grapevine", "type": "Located in", "target": "Gussago"},
+    {"source": "‘Candidatus Phytoplasma solani’", "type": "Have been found on", "target": "grapevine"},
+    {"source": "Hyalesthes obsoletus Signoret", "type": "Have been found on", "target": "grapevine"}
+  ]
+}
+

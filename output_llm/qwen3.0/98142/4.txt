@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "Entre Ríos"},
+      {"type": "Pest", "name": "HLB"},
+      {"type": "Disease", "name": "Huanglongbing (HLB)"},
+      {"type": "Geographic", "name": "Osvaldo Magnasco"},
+      {"type": "Geographic", "name": "Concordia"},
+      {"type": "Pest", "name": "Candidatus liberibacter"},
+      {"type": "Plant", "name": "trifoliate rootstock"},
+      {"type": "Plant", "name": "trifoliate seedbed"},
+      {"type": "Plant", "name": "poncirus trifoliata"},
+      {"type": "Geographic", "name": "northeast of Entre Ríos"},
+      {"type": "Organization", "name": "National Service for Agrifood Health and Quality (Senasa)"},
+      {"type": "Organization", "name": "Plant Protection Coordination"},
+      {"type": "Organization", "name": "Entre Ríos Regional Center of Senasa"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "HLB", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "HLB", "type": "Causes", "target": "Huanglongbing (HLB)"},
+      {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Osvaldo Magnasco", "type": "Located in", "target": "Concordia"},
+      {"source": "Candidatus liberibacter", "type": "Causes", "target": "Huanglongbing (HLB)"},
+      {"source": "trifoliate rootstock", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "trifoliate seedbed", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "poncirus trifoliata", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "northeast of Entre Ríos", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "National Service for Agrifood Health and Quality (Senasa)", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "Plant Protection Coordination", "type": "Located in", "target": "Entre Ríos"},
+      {"source": "Entre Ríos Regional Center of Senasa", "type": "Located in", "target": "Entre Ríos"}
+    ]
+  }
+]
+```

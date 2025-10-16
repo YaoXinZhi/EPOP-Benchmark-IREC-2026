@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "popilia japonica"},
+      {"type": "Plant", "name": "agriculture"},
+      {"type": "Geographic", "name": "Ticino"},
+      {"type": "Geographic", "name": "Stabio"},
+      {"type": "Geographic", "name": "Genestrerio"},
+      {"type": "Geographic", "name": "Mendrisio"},
+      {"type": "Geographic", "name": "Novazzano"},
+      {"type": "Geographic", "name": "Morcote"},
+      {"type": "Geographic", "name": "Lombardy"},
+      {"type": "Geographic", "name": "Piedmont"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "popilia japonica", "type": "Causes", "target": "damage"},
+      {"source": "damage", "type": "Affects", "target": "agriculture"},
+      {"source": "popilia japonica", "type": "Have been found on", "target": "agriculture"},
+      {"source": "popilia japonica", "type": "Located in", "target": "Ticino"},
+      {"source": "traps", "type": "Located in", "target": "Stabio"},
+      {"source": "traps", "type": "Located in", "target": "Genestrerio"},
+      {"source": "Mendrisio", "type": "Located in", "target": "Ticino"},
+      {"source": "Stabio", "type": "Located in", "target": "Ticino"},
+      {"source": "Novazzano", "type": "Located in", "target": "Ticino"},
+      {"source": "Morcote", "type": "Located in", "target": "Ticino"},
+      {"source": "popilia japonica", "type": "Located in", "target": "Lombardy"},
+      {"source": "popilia japonica", "type": "Located in", "target": "Piedmont"}
+    ]
+  }
+]
+```

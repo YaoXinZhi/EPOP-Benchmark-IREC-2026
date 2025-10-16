@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Monochamus alternatus"},
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Plant", "name": "pines"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Pest", "name": "Beauveria bassiana"},
+      {"type": "Pest", "name": "Pseudomonas"},
+      {"type": "Pest", "name": "Serratia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Monochamus alternatus", "type": "Transmits", "target": "Bursaphelenchus xylophilus"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "pine wilt disease", "type": "Affects", "target": "pines"},
+      {"source": "pine wilt disease", "type": "Located in", "target": "China"},
+      {"source": "pine wilt disease", "type": "Located in", "target": "Portugal"},
+      {"source": "Beauveria bassiana", "type": "Have been found on", "target": "Monochamus alternatus"},
+      {"source": "Pseudomonas", "type": "Have been found on", "target": "Monochamus alternatus"},
+      {"source": "Serratia", "type": "Have been found on", "target": "Monochamus alternatus"},
+      {"source": "Pseudomonas", "type": "Transmits", "target": "Beauveria bassiana"},
+      {"source": "Serratia", "type": "Transmits", "target": "Beauveria bassiana"}
+    ]
+  }
+]
+```

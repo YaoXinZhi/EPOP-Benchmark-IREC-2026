@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Pest", "name": "Spodoptera frugiperda"},
+    {"type": "Geographic", "name": "Americas"},
+    {"type": "Geographic", "name": "African"},
+    {"type": "Geographic", "name": "Asian"},
+    {"type": "Geographic", "name": "Eastern hemisphere"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "north- and central American"}
+  ],
+  "relationships": [
+    {"source": "fall armyworm", "type": "Located in", "target": "Americas"},
+    {"source": "fall armyworm", "type": "Located in", "target": "African"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Asian"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Eastern hemisphere"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Africa"},
+    {"source": "fall armyworm", "type": "Located in", "target": "Asia"},
+    {"source": "fall armyworm", "type": "Located in", "target": "north- and central American"}
+  ]
+}
+

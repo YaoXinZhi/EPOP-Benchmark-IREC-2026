@@ -1,0 +1,54 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "golden-yellow yellowing"},
+      {"type": "Disease", "name": "yellowing diseases"},
+      {"type": "Geographic", "name": "Burggrafenamt"},
+      {"type": "Geographic", "name": "Unterland"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "lowlands"},
+      {"type": "Geographic", "name": "Salurn"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Person", "name": "Arnold Schuler"},
+      {"type": "Institution", "name": "State Councilor for Agriculture"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "new plantations"},
+      {"type": "Institution", "name": "South Tyrolean Wine Consortium"},
+      {"type": "Plant", "name": "leaf samples"},
+      {"type": "Institution", "name": "plant protection service"},
+      {"type": "Institution", "name": "South Tyrolean Advisory Board"},
+      {"type": "Geographic", "name": "Laimburg test center"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Disease", "name": "blackwood disease"},
+      {"type": "Plant", "name": "white wine varieties"},
+      {"type": "Plant", "name": "red wine varieties"},
+      {"type": "Disease", "name": "Flavescence dorèe - Golden yellow yellowing"},
+      {"type": "Disease", "name": "Flavescence dorèe phytoplasma"},
+      {"type": "Vector", "name": "American leafhopper"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "golden-yellow yellowing", "type": "Located in", "target": "Burggrafenamt"},
+      {"source": "yellowing diseases", "type": "Located in", "target": "Unterland"},
+      {"source": "yellowing diseases", "type": "Affects", "target": "vines"},
+      {"source": "yellowing diseases", "type": "Located in", "target": "lowlands"},
+      {"source": "yellowing diseases", "type": "Located in", "target": "Salurn"},
+      {"source": "vineyards", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Chardonnay", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Pinot Grigio", "type": "Located in", "target": "South Tyrol"},
+      {"source": "new plantations", "type": "Located in", "target": "South Tyrol"},
+      {"source": "leaf samples", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Flavescence dorèe phytoplasma", "type": "Causes", "target": "Flavescence dorèe"},
+      {"source": "Flavescence dorèe", "type": "Transmits", "target": "American leafhopper"},
+      {"source": "American leafhopper", "type": "Have been found on", "target": "vines"},
+      {"source": "Flavescence dorèe", "type": "Affects", "target": "white wine varieties"},
+      {"source": "Flavescence dorèe", "type": "Affects", "target": "red wine varieties"}
+    ]
+  }
+]
+```

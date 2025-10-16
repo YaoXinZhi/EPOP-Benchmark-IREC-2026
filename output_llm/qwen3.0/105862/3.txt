@@ -1,0 +1,52 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "greening disease"},
+      {"type": "Disease", "name": "huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "orange groves"},
+      {"type": "Plant", "name": "citrus belt"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Brotas"},
+      {"type": "Plant", "name": "Limeira"},
+      {"type": "Plant", "name": "Porto Ferreira"},
+      {"type": "Plant", "name": "Avaré"},
+      {"type": "Plant", "name": "Duartina"},
+      {"type": "Plant", "name": "Altinópolis"},
+      {"type": "Plant", "name": "Bebedouro"},
+      {"type": "Plant", "name": "São José do Rio Preto"},
+      {"type": "Plant", "name": "Itapetininga"},
+      {"type": "Plant", "name": "Matão"},
+      {"type": "Plant", "name": "Triângulo Mineiro"},
+      {"type": "Plant", "name": "Votuporanga"},
+      {"type": "Plant", "name": "cancer"},
+      {"type": "Plant", "name": "CVC"},
+      {"type": "Vector", "name": "psyllid"},
+      {"type": "Pest", "name": "Candidatus Liberibacter spp."},
+      {"type": "Geographic", "name": "São Paulo"},
+      {"type": "Geographic", "name": "Minas Gerais"},
+      {"type": "Geographic", "name": "Triângulo"},
+      {"type": "Geographic", "name": "southwest of Minas Gerais"},
+      {"type": "Geographic", "name": "Brazil"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "greening disease", "type": "Located in", "target": "citrus belt"},
+      {"source": "greening disease", "type": "Located in", "target": "São Paulo"},
+      {"source": "greening disease", "type": "Located in", "target": "Minas Gerais"},
+      {"source": "greening disease", "type": "Affects", "target": "orange groves"},
+      {"source": "greening disease", "type": "Affects", "target": "citrus"},
+      {"source": "psyllid", "type": "Transmits", "target": "Candidatus Liberibacter spp."},
+      {"source": "Candidatus Liberibacter spp.", "type": "Causes", "target": "greening disease"},
+      {"source": "greening disease", "type": "Have been found on", "target": "orange groves"},
+      {"source": "greening disease", "type": "Have been found on", "target": "citrus"},
+      {"source": "cancer", "type": "Located in", "target": "citrus belt"},
+      {"source": "cancer", "type": "Affects", "target": "citrus"},
+      {"source": "CVC", "type": "Located in", "target": "citrus industry"},
+      {"source": "CVC", "type": "Affects", "target": "citrus"}
+    ]
+  }
+]
+```

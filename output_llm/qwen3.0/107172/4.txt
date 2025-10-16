@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Banana plants"},
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Pest", "name": "tropical race 1 (TR1)"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "tropical race 4 (TR4)"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Western countries"},
+      {"type": "Geographic", "name": "banana-producing areas"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "Banana plants"},
+      {"source": "tropical race 4 (TR4)", "type": "Affects", "target": "Cavendish banana plants"},
+      {"source": "tropical race 1 (TR1)", "type": "Have been found on", "target": "Banana plants"},
+      {"source": "tropical race 1 (TR1)", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "tropical race 1 (TR1)", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "tropical race 1 (TR1)", "type": "Located in", "target": "Brazil"},
+      {"source": "tropical race 4 (TR4)", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Gert Kema", "type": "Located in", "target": "Netherlands"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "banana-producing areas"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Western countries"},
+      {"source": "Gros Michel", "type": "Located in", "target": "banana-producing areas"}
+    ]
+  }
+]
+```

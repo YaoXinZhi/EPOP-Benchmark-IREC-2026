@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "sorghum plants"
+    },
+    {
+      "type": "Pest",
+      "name": "fall armyworm"
+    },
+    {
+      "type": "Plant",
+      "name": "corn"
+    },
+    {
+      "type": "Plant",
+      "name": "sorghum"
+    },
+    {
+      "type": "Plant",
+      "name": "sorghum leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves of corn"
+    },
+    {
+      "type": "Plant",
+      "name": "flowers"
+    },
+    {
+      "type": "Plant",
+      "name": "vegetables"
+    },
+    {
+      "type": "Plant",
+      "name": "fruits"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "sorghum plants",
+      "type": "Have been found on",
+      "target": "fall armyworm"
+    },
+    {
+      "source": "fall armyworm",
+      "type": "Have been found on",
+      "target": "corn"
+    },
+    {
+      "source": "sorghum leaves",
+      "type": "Have been found on",
+      "target": "fall armyworm"
+    },
+    {
+      "source": "leaves of corn",
+      "type": "Have been found on",
+      "target": "fall armyworm"
+    }
+  ]
+}
+

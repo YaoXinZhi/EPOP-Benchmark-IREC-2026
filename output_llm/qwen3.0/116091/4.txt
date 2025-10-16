@@ -1,0 +1,65 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Aphelenchoides besseyi"},
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Pest", "name": "Ditylenchus dipsaci"},
+      {"type": "Pest", "name": "Globodera pallida"},
+      {"type": "Pest", "name": "Globodera rostochiensis"},
+      {"type": "Pest", "name": "Heterodera glycines"},
+      {"type": "Pest", "name": "Meloidogyne chitwoodi"},
+      {"type": "Pest", "name": "Meloidogyne enterolobii"},
+      {"type": "Pest", "name": "Meloidogyne fallax"},
+      {"type": "Pest", "name": "Meloidogyne mali"},
+      {"type": "Pest", "name": "Radopholus similis"},
+      {"type": "Pest", "name": "Xiphinema rivesi"},
+      {"type": "Pest", "name": "Meloidogyne spp."},
+      {"type": "Pest", "name": "Globodera spp."},
+      {"type": "Pest", "name": "Heterodera spp."},
+      {"type": "Pest", "name": "Pratylenchus spp."},
+      {"type": "Pest", "name": "Rotylenchulus reniformis"},
+      {"type": "Pest", "name": "Xiphinema index"},
+      {"type": "Pest", "name": "Nacobbus aberrans"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Mediterranean"},
+      {"type": "Plant", "name": "agricultural crops"},
+      {"type": "Plant", "name": "forestry systems"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Aphelenchoides besseyi", "type": "Located in", "target": "Europe"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "Europe"},
+      {"source": "Ditylenchus dipsaci", "type": "Located in", "target": "Europe"},
+      {"source": "Globodera pallida", "type": "Located in", "target": "Europe"},
+      {"source": "Globodera rostochiensis", "type": "Located in", "target": "Europe"},
+      {"source": "Heterodera glycines", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne chitwoodi", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne enterolobii", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne fallax", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne mali", "type": "Located in", "target": "Europe"},
+      {"source": "Radopholus similis", "type": "Located in", "target": "Europe"},
+      {"source": "Xiphinema rivesi", "type": "Located in", "target": "Europe"},
+      {"source": "Meloidogyne spp.", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Globodera spp.", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Heterodera spp.", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Pratylenchus spp.", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Radopholus similis", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Located in", "target": "forestry systems"},
+      {"source": "Aphelenchoides besseyi", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Ditylenchus dipsaci", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Globodera pallida", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Globodera rostochiensis", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Heterodera glycines", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Meloidogyne chitwoodi", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Meloidogyne enterolobii", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Meloidogyne fallax", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Meloidogyne mali", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Radopholus similis", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Xiphinema index", "type": "Located in", "target": "agricultural crops"},
+      {"source": "Nacobbus aberrans", "type": "Located in", "target": "agricultural crops"}
+    ]
+  }
+]
+```

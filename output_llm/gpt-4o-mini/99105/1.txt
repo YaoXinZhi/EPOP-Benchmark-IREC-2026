@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Diaphorina citri"},
+    {"type": "Plant", "name": "orange"},
+    {"type": "Plant", "name": "Murraya paniculata"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Plant", "name": "orange juice"},
+    {"type": "Plant", "name": "citrus producing regions"},
+    {"type": "Plant", "name": "crops"}
+  ],
+  "relationships": [
+    {"source": "Diaphorina citri", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "Murraya paniculata"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "orange"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "crops"}
+  ]
+}
+

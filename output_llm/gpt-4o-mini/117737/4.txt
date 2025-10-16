@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Netherlands"},
+    {"type": "Geographic", "name": "Belgium"},
+    {"type": "Disease", "name": "tomato brown rugose fruit virus"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Pest", "name": "persistent tomato brown rugose fruit virus"},
+    {"type": "Vector", "name": "Nederlandse Voedsel- en Warenautoriteit"}
+  ],
+  "relationships": [
+    {"source": "tomato brown rugose fruit virus", "type": "Affects", "target": "tomato"},
+    {"source": "persistent tomato brown rugose fruit virus", "type": "Causes", "target": "tomato brown rugose fruit virus"},
+    {"source": "persistent tomato brown rugose fruit virus", "type": "Have been found on", "target": "tomato"},
+    {"source": "Netherlands", "type": "Located in", "target": "Netherlands"},
+    {"source": "Belgium", "type": "Located in", "target": "Belgium"}
+  ]
+}
+

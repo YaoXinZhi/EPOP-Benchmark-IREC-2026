@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Cavendish bananas"
+    },
+    {
+      "type": "Disease",
+      "name": "TR4"
+    },
+    {
+      "type": "Geographic",
+      "name": "Wageningen University"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Plant",
+      "name": "Gros Michel"
+    },
+    {
+      "type": "Disease",
+      "name": "TR1"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish"
+    },
+    {
+      "type": "Disease",
+      "name": "Fusarium wilt"
+    },
+    {
+      "type": "Geographic",
+      "name": "PLANE ONE"
+    },
+    {
+      "type": "Pest",
+      "name": "TR1 fungus"
+    },
+    {
+      "type": "Pest",
+      "name": "TR4 spores"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cavendish bananas",
+      "type": "Located in",
+      "target": "Colombia"
+    },
+    {
+      "source": "TR4",
+      "type": "Affects",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "TR1",
+      "type": "Affects",
+      "target": "Gros Michel"
+    },
+    {
+      "source": "TR1",
+      "type": "Causes",
+      "target": "TR1"
+    },
+    {
+      "source": "TR4",
+      "type": "Causes",
+      "target": "Fusarium wilt"
+    },
+    {
+      "source": "TR1 fungus",
+      "type": "Has been found on",
+      "target": "Cavendish"
+    },
+    {
+      "source": "TR4 spores",
+      "type": "Has been found on",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "TR1 fungus",
+      "type": "Transmits",
+      "target": "TR1"
+    },
+    {
+      "source": "Cavendish bananas",
+      "type": "Have been found on",
+      "target": "Cavendish"
+    }
+  ]
+}
+

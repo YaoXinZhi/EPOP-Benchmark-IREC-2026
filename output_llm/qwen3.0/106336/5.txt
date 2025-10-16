@@ -1,0 +1,65 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fusarium Race 4 Tropical"},
+      {"type": "Pest", "name": "Foc R4T"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "plantain"},
+      {"type": "Plant", "name": "Musaceae Plants"},
+      {"type": "Geographic", "name": "Tumbes"},
+      {"type": "Geographic", "name": "Piura"},
+      {"type": "Geographic", "name": "Lambayeque"},
+      {"type": "Geographic", "name": "La Libertad"},
+      {"type": "Geographic", "name": "Cajamarca"},
+      {"type": "Geographic", "name": "Amazonas"},
+      {"type": "Geographic", "name": "San Martín"},
+      {"type": "Geographic", "name": "Loreto"},
+      {"type": "Geographic", "name": "Huánuco"},
+      {"type": "Geographic", "name": "Pasco"},
+      {"type": "Geographic", "name": "Ucayali"},
+      {"type": "Geographic", "name": "Junín"},
+      {"type": "Geographic", "name": "VRAE"},
+      {"type": "Geographic", "name": "Madre de Dios"},
+      {"type": "Geographic", "name": "Cusco"},
+      {"type": "Geographic", "name": "Puno"},
+      {"type": "Geographic", "name": "Sullana"},
+      {"type": "Geographic", "name": "Peru"},
+      {"type": "Geographic", "name": "Colombia"},
+      {"type": "Geographic", "name": "Andean Community"},
+      {"type": "Disease", "name": "Fusarium Race 4 Tropical"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Peru"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Colombia"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Located in", "target": "Sullana"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Have been found on", "target": "banana"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Have been found on", "target": "plantain"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Have been found on", "target": "Musaceae Plants"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "plantain"},
+      {"source": "Fusarium Race 4 Tropical", "type": "Affects", "target": "Musaceae Plants"},
+      {"source": "SENASA", "type": "Located in", "target": "Peru"},
+      {"source": "Tumbes", "type": "Located in", "target": "Peru"},
+      {"source": "Piura", "type": "Located in", "target": "Peru"},
+      {"source": "Lambayeque", "type": "Located in", "target": "Peru"},
+      {"source": "La Libertad", "type": "Located in", "target": "Peru"},
+      {"source": "Cajamarca", "type": "Located in", "target": "Peru"},
+      {"source": "Amazonas", "type": "Located in", "target": "Peru"},
+      {"source": "San Martín", "type": "Located in", "target": "Peru"},
+      {"source": "Loreto", "type": "Located in", "target": "Peru"},
+      {"source": "Huánuco", "type": "Located in", "target": "Peru"},
+      {"source": "Pasco", "type": "Located in", "target": "Peru"},
+      {"source": "Ucayali", "type": "Located in", "target": "Peru"},
+      {"source": "Junín", "type": "Located in", "target": "Peru"},
+      {"source": "VRAE", "type": "Located in", "target": "Peru"},
+      {"source": "Madre de Dios", "type": "Located in", "target": "Peru"},
+      {"source": "Cusco", "type": "Located in", "target": "Peru"},
+      {"source": "Puno", "type": "Located in", "target": "Peru"},
+      {"source": "Sullana", "type": "Located in", "target": "Piura"}
+    ]
+  }
+]
+```

@@ -1,0 +1,33 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "latent infection"},
+      {"type": "Disease", "name": "asymptomatic infection"},
+      {"type": "Pest", "name": "Tobamoviruses"},
+      {"type": "Pest", "name": "tobacco mosaic virus"},
+      {"type": "Pest", "name": "tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "cucumber green mottle mosaic virus"},
+      {"type": "Plant", "name": "host plants"},
+      {"type": "Plant", "name": "asymptomatic plants"},
+      {"type": "Plant", "name": "non-crop plants"},
+      {"type": "Plant", "name": "wild plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tobamoviruses", "type": "Causes", "target": "latent infection"},
+      {"source": "Tobamoviruses", "type": "Causes", "target": "asymptomatic infection"},
+      {"source": "tobacco mosaic virus", "type": "Causes", "target": "latent infection"},
+      {"source": "tomato brown rugose fruit virus", "type": "Causes", "target": "latent infection"},
+      {"source": "cucumber green mottle mosaic virus", "type": "Causes", "target": "latent infection"},
+      {"source": "Tobamoviruses", "type": "Have been found on", "target": "host plants"},
+      {"source": "Tobamoviruses", "type": "Have been found on", "target": "asymptomatic plants"},
+      {"source": "Tobamoviruses", "type": "Have been found on", "target": "non-crop plants"},
+      {"source": "Tobamoviruses", "type": "Have been found on", "target": "wild plants"},
+      {"source": "latent infection", "type": "Affects", "target": "host plants"},
+      {"source": "asymptomatic infection", "type": "Affects", "target": "host plants"}
+    ]
+  }
+]
+```

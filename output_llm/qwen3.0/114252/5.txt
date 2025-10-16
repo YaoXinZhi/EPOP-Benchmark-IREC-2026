@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Quercus suber"},
+      {"type": "Plant", "name": "cork oak"},
+      {"type": "Pest", "name": "Phytophthora quercina"},
+      {"type": "Disease", "name": "dieback"},
+      {"type": "Geographic", "name": "Morocco"},
+      {"type": "Geographic", "name": "SW Europe"},
+      {"type": "Geographic", "name": "NW Africa"},
+      {"type": "Geographic", "name": "Maâmora forest"},
+      {"type": "Geographic", "name": "Touazithe"},
+      {"type": "Pest", "name": "Phytophthora cinnamomi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Quercus suber", "type": "Located in", "target": "SW Europe"},
+      {"source": "Quercus suber", "type": "Located in", "target": "NW Africa"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Morocco"},
+      {"source": "Quercus suber", "type": "Located in", "target": "Maâmora forest"},
+      {"source": "Phytophthora quercina", "type": "Located in", "target": "Morocco"},
+      {"source": "Phytophthora quercina", "type": "Causes", "target": "dieback"},
+      {"source": "dieback", "type": "Affects", "target": "Quercus suber"},
+      {"source": "Phytophthora quercina", "type": "Have been found on", "target": "Quercus suber"},
+      {"source": "Phytophthora cinnamomi", "type": "Have been found on", "target": "Quercus suber"},
+      {"source": "Morocco", "type": "Located in", "target": "North Africa"}
+    ]
+  }
+]
+```

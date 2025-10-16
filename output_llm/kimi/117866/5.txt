@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "banana borer"
+    },
+    {
+      "type": "Pest",
+      "name": "Cosmopolites sordidus"
+    },
+    {
+      "type": "Disease",
+      "name": "fusariosis"
+    },
+    {
+      "type": "Disease",
+      "name": "Panama disease"
+    },
+    {
+      "type": "Plant",
+      "name": "banana trees"
+    },
+    {
+      "type": "Fungus",
+      "name": "Beauveria caledonica"
+    },
+    {
+      "type": "Fungus",
+      "name": "Fusarium oxysporum f. sp. cubense"
+    },
+    {
+      "type": "Fungus",
+      "name": "B. bassiana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Vale do Ribeira"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Geographic",
+      "name": "São Paulo"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "banana borer",
+      "type": "Causes",
+      "target": "fusariosis"
+    },
+    {
+      "source": "fusariosis",
+      "type": "Affects",
+      "target": "banana trees"
+    },
+    {
+      "source": "banana borer",
+      "type": "Have been found on",
+      "target": "banana trees"
+    },
+    {
+      "source": "Beauveria caledonica",
+      "type": "Transmits",
+      "target": "banana borer"
+    },
+    {
+      "source": "Beauveria caledonica",
+      "type": "Transmits",
+      "target": "Fusarium oxysporum f. sp. cubense"
+    },
+    {
+      "source": "banana borer",
+      "type": "Located in",
+      "target": "Vale do Ribeira"
+    },
+    {
+      "source": "Beauveria caledonica",
+      "type": "Located in",
+      "target": "Vale do Ribeira"
+    },
+    {
+      "source": "Beauveria caledonica",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Beauveria caledonica",
+      "type": "Located in",
+      "target": "Colombia"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Located in",
+      "target": "Vale do Ribeira"
+    },
+    {
+      "source": "B. bassiana",
+      "type": "Located in",
+      "target": "United States"
+    }
+  ]
+}
+

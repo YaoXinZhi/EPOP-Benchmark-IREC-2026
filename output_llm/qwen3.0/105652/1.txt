@@ -1,0 +1,27 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Xylella"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari area"},
+      {"type": "Geographic", "name": "Polignano a Mare"},
+      {"type": "Plant", "name": "olive-growing"},
+      {"type": "Plant", "name": "labor"},
+      {"type": "Plant", "name": "tourism heritage"},
+      {"type": "Geographic", "name": "Puglia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "name": "Bari area"},
+      {"source": "Xylella", "type": "Have been found on", "name": "olive trees"},
+      {"source": "Xylella", "type": "Affects", "name": "olive-growing"},
+      {"source": "Xylella", "type": "Affects", "name": "labor"},
+      {"source": "Xylella", "type": "Affects", "name": "tourism heritage"},
+      {"source": "Polignano a Mare", "type": "Located in", "name": "Bari area"},
+      {"source": "Coldiretti", "type": "Located in", "name": "Puglia"}
+    ]
+  }
+]
+```

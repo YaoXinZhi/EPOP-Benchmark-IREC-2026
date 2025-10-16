@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Bactrocera dorsalis"},
+    {"type": "Geographic", "name": "Campania"},
+    {"type": "Plant", "name": "fruits"},
+    {"type": "Plant", "name": "vegetables"},
+    {"type": "Plant", "name": "income crops"},
+    {"type": "Geographic", "name": "Palma Campania"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetables"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "income crops"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Palma Campania"}
+  ]
+}
+

@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Disease", "name": "vector-borne bacterial plant pathogen"},
+      {"type": "Plant", "name": "Xylella"},
+      {"type": "Plant", "name": "multiplex"},
+      {"type": "Plant", "name": "X. taiwanensis"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Portugal"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "vector-borne bacterial plant pathogen"},
+      {"source": "vector-borne bacterial plant pathogen", "type": "Affects", "target": "Xylella"},
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "multiplex"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "EU"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "France"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Italy"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Portugal"}
+    ]
+  }
+]
+```

@@ -1,0 +1,35 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "City of Buenos Aires"},
+    {"type": "Geographic", "name": "NORTHWEST ARGENTINA (NOA)"},
+    {"type": "Geographic", "name": "JUJUY"},
+    {"type": "Geographic", "name": "SALTA"},
+    {"type": "Geographic", "name": "TUCUMÁN"},
+    {"type": "Geographic", "name": "CATAMARCA"},
+    {"type": "Geographic", "name": "ARGENTINA"},
+    {"type": "Geographic", "name": "Northeast region (NEA)"},
+    {"type": "Geographic", "name": "ENTRE RÍOS"},
+    {"type": "Geographic", "name": "CORRIENTES"},
+    {"type": "Geographic", "name": "MISIONES"},
+    {"type": "Geographic", "name": "CHACO"},
+    {"type": "Geographic", "name": "FORMOSA"},
+    {"type": "Geographic", "name": "SANTIAGO DEL ESTERO"},
+    {"type": "Geographic", "name": "SANTA FE"},
+    {"type": "Geographic", "name": "Villa de Medinas"},
+    {"type": "Geographic", "name": "Chicligasta Department"},
+    {"type": "Geographic", "name": "Capayán Department"},
+    {"type": "Geographic", "name": "Province of TUCUMÁN"},
+    {"type": "Geographic", "name": "Province of CATAMARCA"},
+    {"type": "Pest", "name": "Diaphorina citri"},
+    {"type": "Disease", "name": "HLB Disease"},
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Pest", "name": "Citrus Leafhopper"}
+  ],
+  "relationships": [
+    {"source": "Diaphorina citri", "type": "Causes", "target": "HLB Disease"},
+    {"source": "HLB Disease", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB Disease"}
+  ]
+}
+

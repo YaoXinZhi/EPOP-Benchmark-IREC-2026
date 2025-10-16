@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "ToBRFV infection"
+    },
+    {
+      "type": "Plant",
+      "name": "tomatoes"
+    },
+    {
+      "type": "Geographic",
+      "name": "Dutch"
+    },
+    {
+      "type": "Geographic",
+      "name": "Netherlands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jordan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Germany"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hungary"
+    },
+    {
+      "type": "Pest",
+      "name": "ToBRFV"
+    },
+    {
+      "type": "Pest",
+      "name": "Tomato brown rugose fruit virus"
+    },
+    {
+      "type": "Pest",
+      "name": "tobamovirus"
+    },
+    {
+      "type": "Pest",
+      "name": "Tm-22 resistance gene"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ToBRFV infection",
+      "type": "Located in",
+      "target": "Dutch"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Israel"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Jordan"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Germany"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Located in",
+      "target": "Hungary"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Causes",
+      "target": "ToBRFV infection"
+    },
+    {
+      "source": "ToBRFV infection",
+      "type": "Affects",
+      "target": "tomatoes"
+    },
+    {
+      "source": "ToBRFV",
+      "type": "Have been found on",
+      "target": "tomatoes"
+    },
+    {
+      "source": "Tm-22 resistance gene",
+      "type": "Transmits",
+      "target": "ToBRFV"
+    }
+  ]
+}
+

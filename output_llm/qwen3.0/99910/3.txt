@@ -1,0 +1,63 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Plague of the yellow dragon"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "huanglongbing"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Geographic", "name": "country"},
+      {"type": "Geographic", "name": "Venezuela"},
+      {"type": "Geographic", "name": "Zulia state"},
+      {"type": "Geographic", "name": "Maracaibo"},
+      {"type": "Geographic", "name": "San Francisco"},
+      {"type": "Geographic", "name": "Costa Oriental del Lago"},
+      {"type": "Geographic", "name": "Aragua"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Plague of the yellow dragon", "type": "Affects", "target": "citrus"},
+      {"source": "HLB", "type": "Causes", "target": "Plague of the yellow dragon"},
+      {"source": "huanglongbing", "type": "Causes", "target": "Plague of the yellow dragon"},
+      {"source": "Plague of the yellow dragon", "type": "Affects", "target": "citrus fruits"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "country"},
+      {"source": "HLB", "type": "Located in", "target": "country"},
+      {"source": "huanglongbing", "type": "Located in", "target": "country"},
+      {"source": "citrus", "type": "Located in", "target": "country"},
+      {"source": "citrus fruits", "type": "Located in", "target": "country"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "Venezuela"},
+      {"source": "HLB", "type": "Located in", "target": "Venezuela"},
+      {"source": "huanglongbing", "type": "Located in", "target": "Venezuela"},
+      {"source": "citrus", "type": "Located in", "target": "Venezuela"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Venezuela"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "Zulia state"},
+      {"source": "HLB", "type": "Located in", "target": "Zulia state"},
+      {"source": "huanglongbing", "type": "Located in", "target": "Zulia state"},
+      {"source": "citrus", "type": "Located in", "target": "Zulia state"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Zulia state"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "Maracaibo"},
+      {"source": "HLB", "type": "Located in", "target": "Maracaibo"},
+      {"source": "huanglongbing", "type": "Located in", "target": "Maracaibo"},
+      {"source": "citrus", "type": "Located in", "target": "Maracaibo"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Maracaibo"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "San Francisco"},
+      {"source": "HLB", "type": "Located in", "target": "San Francisco"},
+      {"source": "huanglongbing", "type": "Located in", "target": "San Francisco"},
+      {"source": "citrus", "type": "Located in", "target": "San Francisco"},
+      {"source": "citrus fruits", "type": "Located in", "target": "San Francisco"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "Costa Oriental del Lago"},
+      {"source": "HLB", "type": "Located in", "target": "Costa Oriental del Lago"},
+      {"source": "huanglongbing", "type": "Located in", "target": "Costa Oriental del Lago"},
+      {"source": "citrus", "type": "Located in", "target": "Costa Oriental del Lago"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Costa Oriental del Lago"},
+      {"source": "Plague of the yellow dragon", "type": "Located in", "target": "Aragua"},
+      {"source": "HLB", "type": "Located in", "target": "Aragua"},
+      {"source": "huanglongbing", "type": "Located in", "target": "Aragua"},
+      {"source": "citrus", "type": "Located in", "target": "Aragua"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Aragua"}
+    ]
+  }
+]
+```

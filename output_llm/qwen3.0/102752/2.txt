@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Acrogonia albertoi"},
+      {"type": "Vector", "name": "Diestostemma cavichiolii"},
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Geographic", "name": "Tapajós National Forest"},
+      {"type": "Geographic", "name": "Belterra"},
+      {"type": "Geographic", "name": "western Pará"},
+      {"type": "Plant", "name": "vascular plants"},
+      {"type": "Disease", "name": "phytopathogens"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Acrogonia albertoi", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "phytopathogens"},
+      {"source": "phytopathogens", "type": "Affects", "target": "vascular plants"},
+      {"source": "Acrogonia albertoi", "type": "Have been found on", "target": "vascular plants"},
+      {"source": "Diestostemma cavichiolii", "type": "Have been found on", "target": "vascular plants"},
+      {"source": "Acrogonia albertoi", "type": "Located in", "target": "Tapajós National Forest"},
+      {"source": "Diestostemma cavichiolii", "type": "Located in", "target": "Tapajós National Forest"},
+      {"source": "Tapajós National Forest", "type": "Located in", "target": "Belterra"},
+      {"source": "Belterra", "type": "Located in", "target": "western Pará"}
+    ]
+  }
+]
+```

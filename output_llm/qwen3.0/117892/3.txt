@@ -1,0 +1,15 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Plant", "name": "Equisetum"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "Equisetum"}
+    ]
+  }
+]
+```

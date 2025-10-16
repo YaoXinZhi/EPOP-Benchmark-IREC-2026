@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Balearic Islands"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Plant", "name": "almond trees"},
+    {"type": "Plant", "name": "carob trees"},
+    {"type": "Plant", "name": "dried fruit"},
+    {"type": "Disease", "name": "plague"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Balearic Islands"},
+    {"source": "Xylella fastidiosa", "type": "Causes", "target": "plague"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "almond trees"},
+    {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "carob trees"},
+    {"source": "plague", "type": "Affects", "target": "almond trees"},
+    {"source": "plague", "type": "Affects", "target": "carob trees"},
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Corsica"}
+  ]
+}
+

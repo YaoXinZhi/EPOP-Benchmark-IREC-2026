@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Réunion"},
+    {"type": "Geographic", "name": "Saint-Denis"},
+    {"type": "Geographic", "name": "Sainte-Marie"},
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Plant", "name": "fruit"},
+    {"type": "Plant", "name": "vegetable"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Causes", "target": "significant losses"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruit"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetable"},
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Réunion"}
+  ]
+}
+

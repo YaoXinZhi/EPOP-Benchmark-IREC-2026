@@ -1,0 +1,57 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Pest", "name": "phytoplasmas"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Sauvignon Blanc"},
+      {"type": "Plant", "name": "Pinot Blanc"},
+      {"type": "Plant", "name": "Isabella"},
+      {"type": "Plant", "name": "Cabernet Sauvignon"},
+      {"type": "Plant", "name": "Gamaret"},
+      {"type": "Plant", "name": "Pinot Noir"},
+      {"type": "Plant", "name": "Muscat"},
+      {"type": "Plant", "name": "Doral"},
+      {"type": "Plant", "name": "Gamay"},
+      {"type": "Plant", "name": "Cabernet Franc"},
+      {"type": "Plant", "name": "Garanoir"},
+      {"type": "Plant", "name": "Merlot"},
+      {"type": "Plant", "name": "Syrah"},
+      {"type": "Vector", "name": "leafhopper"},
+      {"type": "Geographic", "name": "Switzerland"},
+      {"type": "Geographic", "name": "Ticino"},
+      {"type": "Geographic", "name": "Vaud"},
+      {"type": "Geographic", "name": "Valais"},
+      {"type": "Geographic", "name": "Grisons"},
+      {"type": "Geographic", "name": "Fully"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "phytoplasmas", "type": "Causes", "target": "flavescence dorée"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "grapevine"},
+      {"source": "leafhopper", "type": "Transmits", "target": "phytoplasmas"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Switzerland"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Ticino"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Vaud"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Valais"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Grisons"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Fully"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Sauvignon Blanc"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Pinot Blanc"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Isabella"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Cabernet Sauvignon"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Gamaret"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Pinot Noir"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Muscat"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Doral"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Gamay"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Cabernet Franc"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Garanoir"}
+    ]
+  }
+]
+```

@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "whitefly"
+    },
+    {
+      "type": "Pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Pest",
+      "name": "Scaptocoris castanea"
+    },
+    {
+      "type": "Pest",
+      "name": "fungus flies"
+    },
+    {
+      "type": "Pest",
+      "name": "sugarcane boll weevil"
+    },
+    {
+      "type": "Pest",
+      "name": "aphids"
+    },
+    {
+      "type": "Pest",
+      "name": "thrips"
+    },
+    {
+      "type": "Vector",
+      "name": "Tetrastichus howardi"
+    },
+    {
+      "type": "Vector",
+      "name": "Telenomus podisi"
+    },
+    {
+      "type": "Pest",
+      "name": "Bradysia matogrossensis"
+    },
+    {
+      "type": "Pest",
+      "name": "Sphenophorus levis"
+    },
+    {
+      "type": "Pest",
+      "name": "Cordyceps javanica"
+    },
+    {
+      "type": "Pest",
+      "name": "Heterorhabditis bacteriophora"
+    },
+    {
+      "type": "Pest",
+      "name": "Steinernema carpocapsae"
+    },
+    {
+      "type": "Pest",
+      "name": "Espiropidion"
+    },
+    {
+      "type": "Plant",
+      "name": "cotton"
+    },
+    {
+      "type": "Plant",
+      "name": "beans"
+    },
+    {
+      "type": "Plant",
+      "name": "soybeans"
+    },
+    {
+      "type": "Plant",
+      "name": "tomato"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Geographic",
+      "name": "Rio Grande do Sul"
+    },
+    {
+      "type": "Geographic",
+      "name": "Parana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cuiabá"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mato Grosso"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cordyceps javanica",
+      "type": "Transmits",
+      "target": "whitefly"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Transmits",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Heterorhabditis bacteriophora",
+      "type": "Transmits",
+      "target": "Scaptocoris castanea"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Transmits",
+      "target": "Spodoptera frugiperda"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Transmits",
+      "target": "Bradysia matogrossensis"
+    },
+    {
+      "source": "Steinernema carpocapsae",
+      "type": "Transmits",
+      "target": "Sphenophorus levis"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Transmits",
+      "target": "aphids"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Transmits",
+      "target": "thrips"
+    },
+    {
+      "source": "Espiropidion",
+      "type": "Transmits",
+      "target": "whitefly"
+    },
+    {
+      "source": "whitefly",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Spodoptera frugiperda",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Scaptocoris castanea",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Bradysia matogrossensis",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "Sphenophorus levis",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "aphids",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "thrips",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "cotton",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "beans",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "soybeans",
+      "type": "Located in",
+      "target": "Brazil"
+    },
+    {
+      "source": "tomato",
+      "type": "Located in",
+      "target": "Brazil"
+    }
+  ]
+}
+

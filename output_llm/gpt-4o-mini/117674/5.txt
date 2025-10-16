@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "City of Buenos Aires"},
+    {"type": "Geographic", "name": "NORTHWEST ARGENTINA (NOA)"},
+    {"type": "Geographic", "name": "JUJUY"},
+    {"type": "Geographic", "name": "SALTA"},
+    {"type": "Geographic", "name": "TUCUMÁN"},
+    {"type": "Geographic", "name": "CATAMARCA"},
+    {"type": "Geographic", "name": "ARGENTINA"},
+    {"type": "Geographic", "name": "Northeast region (NEA)"},
+    {"type": "Geographic", "name": "ENTRE RÍOS"},
+    {"type": "Geographic", "name": "CORRIENTES"},
+    {"type": "Geographic", "name": "MISIONES"},
+    {"type": "Geographic", "name": "CHACO"},
+    {"type": "Geographic", "name": "FORMOSA"},
+    {"type": "Geographic", "name": "SANTIAGO DEL ESTERO"},
+    {"type": "Geographic", "name": "SANTA FE"},
+    {"type": "Geographic", "name": "Villa de Medinas"},
+    {"type": "Geographic", "name": "Chicligasta Department"},
+    {"type": "Geographic", "name": "Capayán Department"},
+    {"type": "Geographic", "name": "Province of TUCUMÁN"},
+    {"type": "Geographic", "name": "Province of CATAMARCA"},
+    {"type": "Pest", "name": "Diaphorina citri. Kuwayama"},
+    {"type": "Disease", "name": "HLB Disease (Huanglongbing or citrus greening)"}
+  ],
+  "relationships": [
+    {"source": "Diaphorina citri. Kuwayama", "type": "Causes", "target": "HLB Disease (Huanglongbing or citrus greening)"},
+    {"source": "HLB Disease (Huanglongbing or citrus greening)", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "NORTHWEST ARGENTINA (NOA)"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "ENTRE RÍOS"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "CORRIENTES"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "MISIONES"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "CHACO"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "FORMOSA"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "SANTIAGO DEL ESTERO"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "SALTA"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "JUJUY"},
+    {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "SANTA FE"},
+    {"source": "HLB Disease (Huanglongbing or citrus greening)", "type": "Located in", "target": "Province of TUCUMÁN"},
+    {"source": "HLB Disease (Huanglongbing or citrus greening)", "type": "Located in", "target": "Province of CATAMARCA"}
+  ]
+}
+

@@ -1,0 +1,1417 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Pest",
+      "name": "Candidatus Liberibacter asiaticus"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "xylem"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "leaves"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type
+

@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "sorghum"},
+    {"type": "Plant", "name": "corn"},
+    {"type": "Pest", "name": "fall armyworm"}
+  ],
+  "relationships": [
+    {"source": "sorghum", "type": "Have been found on", "target": "fall armyworm"},
+    {"source": "sorghum", "type": "Have been found on", "target": "corn"},
+    {"source": "fall armyworm", "type": "Affects", "target": "corn"}
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+    {"type": "Plant", "name": "pine trees"},
+    {"type": "Disease", "name": "pine wilt disease"},
+    {"type": "Plant", "name": "pine species"},
+    {"type": "Plant", "name": "healthy pines"}
+  ],
+  "relationships": [
+    {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+    {"source": "pine wilt disease", "type": "Affects", "target": "pine trees"},
+    {"source": "pine wilt disease", "type": "Affects", "target": "pine species"},
+    {"source": "pine wilt disease", "type": "Affects", "target": "healthy pines"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine trees"},
+    {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "pine species"}
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Plant",
+      "name": "Equisetum"
+    }
+  ],
+  "relationships": []
+}
+

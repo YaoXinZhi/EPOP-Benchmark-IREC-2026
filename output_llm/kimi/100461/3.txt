@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Japanese beetle"
+    },
+    {
+      "type": "Geographic",
+      "name": "Freiburg"
+    },
+    {
+      "type": "Geographic",
+      "name": "Baden-Württemberg"
+    },
+    {
+      "type": "Geographic",
+      "name": "northern Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asia"
+    },
+    {
+      "type": "Pest",
+      "name": "garden leaf beetle"
+    },
+    {
+      "type": "Pest",
+      "name": "rose chafer"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Freiburg"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "Baden-Württemberg"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Located in",
+      "target": "EU"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Have been found on",
+      "target": "flowers"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Have been found on",
+      "target": "leaves"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Have been found on",
+      "target": "fruits"
+    },
+    {
+      "source": "Japanese beetle",
+      "type": "Have been found on",
+      "target": "roots"
+    },
+    {
+      "source": "garden leaf beetle",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "rose chafer",
+      "type": "Located in",
+      "target": "Europe"
+    }
+  ]
+}
+

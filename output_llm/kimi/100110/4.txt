@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Tomato Brown Rugose Fruit Virus"
+    },
+    {
+      "type": "Pest",
+      "name": "Tomato brown rugose fruit virus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Tomato Brown Rugose Fruit Virus",
+      "type": "Causes",
+      "target": "Tomato brown rugose fruit virus"
+    }
+  ]
+}
+

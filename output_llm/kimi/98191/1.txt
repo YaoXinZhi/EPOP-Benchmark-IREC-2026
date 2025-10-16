@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "TUESDAY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SEPTEMBER 6th"
+    },
+    {
+      "type": "Geographic",
+      "name": "WEDNESDAY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SEPTEMBER 7th"
+    },
+    {
+      "type": "Geographic",
+      "name": "THURSDAY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SEPTEMBER 8th"
+    },
+    {
+      "type": "Geographic",
+      "name": "FRIDAY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SEPTEMBER 9th"
+    }
+  ]
+}
+

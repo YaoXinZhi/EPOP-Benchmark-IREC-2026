@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Brown wrinkle syndrome"
+    },
+    {
+      "type": "Geographic",
+      "name": "Arcadia"
+    },
+    {
+      "type": "Plant",
+      "name": "tomato"
+    },
+    {
+      "type": "Plant",
+      "name": "pepper"
+    },
+    {
+      "type": "Disease",
+      "name": "Tomato brown fruit wrinkle virus"
+    },
+    {
+      "type": "Plant",
+      "name": "gourd family"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Brown wrinkle syndrome",
+      "type": "Located in",
+      "target": "Arcadia"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Affects",
+      "target": "tomato"
+    },
+    {
+      "source": "Tomato brown fruit wrinkle virus",
+      "type": "Affects",
+      "target": "pepper"
+    }
+  ]
+}
+

@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Plant", "name": "citrus seedlings"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Geographic", "name": "province of Tucumán"},
+      {"type": "Geographic", "name": "San Miguel de Tucumán"},
+      {"type": "Geographic", "name": "Los Vasquez"},
+      {"type": "Geographic", "name": "Mercofrut tucumano"},
+      {"type": "Organization", "name": "National Service for Agrifood Health and Quality"},
+      {"type": "Organization", "name": "Regional Center NOA Sur del Senasa"},
+      {"type": "Organization", "name": "Secretary of Agriculture of the Province"},
+      {"type": "Person", "name": "Mario Córdoba"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "National Service for Agrifood Health and Quality", "type": "Located in", "target": "province of Tucumán"},
+      {"source": "Regional Center NOA Sur del Senasa", "type": "Located in", "target": "province of Tucumán"},
+      {"source": "citrus seedlings", "type": "Located in", "target": "Los Vasquez"},
+      {"source": "National Service for Agrifood Health and Quality", "type": "Have been found on", "target": "citrus seedlings"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus fruits"},
+      {"source": "National Service for Agrifood Health and Quality", "type": "Prevents", "target": "Huanglongbing"}
+    ]
+  }
+]
+```

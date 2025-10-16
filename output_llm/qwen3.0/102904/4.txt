@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Transgenic Sweet Orange"},
+      {"type": "Plant", "name": "Citrus × sinensis (L.) Osbeck"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Pest", "name": "Sarcophaga peregrina"},
+      {"type": "Plant", "name": "STX-5"},
+      {"type": "Plant", "name": "STX-11"},
+      {"type": "Plant", "name": "STX-12"},
+      {"type": "Plant", "name": "STX-13"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Causes", "target": "greening"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "HLB", "type": "Affects", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "greening", "type": "Affects", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "Citrus × sinensis (L.) Osbeck"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Located in", "target": "Transgenic Sweet Orange"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Located in", "target": "Pera sweet orange"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Located in", "target": "STX-5"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Located in", "target": "STX-11"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Located in", "target": "STX-12"},
+      {"source": "‘Candidatus Liberibacter asiaticus", "type": "Located in", "target": "STX-13"}
+    ]
+  }
+]
+```

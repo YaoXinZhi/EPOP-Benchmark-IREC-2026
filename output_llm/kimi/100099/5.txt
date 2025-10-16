@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "crops"
+    },
+    {
+      "type": "Pest",
+      "name": "pests"
+    },
+    {
+      "type": "Disease",
+      "name": "plant diseases"
+    },
+    {
+      "type": "Plant",
+      "name": "strawberries"
+    },
+    {
+      "type": "Pest",
+      "name": "potato aphid"
+    },
+    {
+      "type": "Geographic",
+      "name": "Midlands"
+    },
+    {
+      "type": "Geographic",
+      "name": "United Nations"
+    },
+    {
+      "type": "Geographic",
+      "name": "UK"
+    },
+    {
+      "type": "Geographic",
+      "name": "Central Europe"
+    },
+    {
+      "type": "Organization",
+      "name": "Aston University"
+    },
+    {
+      "type": "Organization",
+      "name": "Harper Adams University"
+    },
+    {
+      "type": "Organization",
+      "name": "Food and Agriculture Organization"
+    },
+    {
+      "type": "Organization",
+      "name": "Biotechnology and Biological Sciences Research Council"
+    },
+    {
+      "type": "Organization",
+      "name": "Natural Environment Research Council"
+    },
+    {
+      "type": "Organization",
+      "name": "Aston Institute of Photonic Technologies"
+    },
+    {
+      "type": "Organization",
+      "name": "International Journal of Fruit Science"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "crops",
+      "type": "Located in",
+      "target": "Midlands"
+    },
+    {
+      "source": "strawberries",
+      "type": "Located in",
+      "target": "UK"
+    },
+    {
+      "source": "strawberries",
+      "type": "Have been found on",
+      "target": "potato aphid"
+    },
+    {
+      "source": "crops",
+      "type": "Affects",
+      "target": "pests"
+    },
+    {
+      "source": "crops",
+      "type": "Affects",
+      "target": "plant diseases"
+    },
+    {
+      "source": "Food and Agriculture Organization",
+      "type": "Located in",
+      "target": "United Nations"
+    },
+    {
+      "source": "Biotechnology and Biological Sciences Research Council",
+      "type": "Located in",
+      "target": "UK"
+    },
+    {
+      "source": "Natural Environment Research Council",
+      "type": "Located in",
+      "target": "UK"
+    },
+    {
+      "source": "Strawberry production in Central Europe",
+      "type": "Located in",
+      "target": "Central Europe"
+    }
+  ]
+}
+

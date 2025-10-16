@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "tomato brown rugose fruit virus"
+    },
+    {
+      "type": "Plant",
+      "name": "tomato fruit"
+    },
+    {
+      "type": "Geographic",
+      "name": "Finland"
+    },
+    {
+      "type": "Geographic",
+      "name": "Turku"
+    },
+    {
+      "type": "Geographic",
+      "name": "Varsinais-Suomi"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Finland"
+    },
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Turku"
+    },
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Varsinais-Suomi"
+    },
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Have been found on",
+      "target": "tomato fruit"
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Coniferous Wood"},
+    {"type": "Plant", "name": "Wood Packaging Material"},
+    {"type": "Plant", "name": "pine wood"},
+    {"type": "Pest", "name": "Pinheiro Wood Nematode"},
+    {"type": "Geographic", "name": "Lisbon"},
+    {"type": "Geographic", "name": "Tapada da Ajuda"}
+  ],
+  "relationships": [
+    {"source": "Pinheiro Wood Nematode", "type": "Have been found on", "target": "pine wood"},
+    {"source": "Pinheiro Wood Nematode", "type": "Have been found on", "target": "Coniferous Wood"},
+    {"source": "Pinheiro Wood Nematode", "type": "Have been found on", "target": "Wood Packaging Material"},
+    {"source": "pine wood", "type": "Located in", "target": "Lisbon"},
+    {"source": "Coniferous Wood", "type": "Located in", "target": "Lisbon"},
+    {"source": "Wood Packaging Material", "type": "Located in", "target": "Lisbon"}
+  ]
+}
+

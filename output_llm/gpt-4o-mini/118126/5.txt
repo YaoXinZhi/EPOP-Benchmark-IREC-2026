@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "African vector HB"},
+    {"type": "Vector", "name": "Diaphorina citri"},
+    {"type": "Vector", "name": "Trioza erytreae"},
+    {"type": "Disease", "name": "HLB"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Geographic", "name": "Portugal"},
+    {"type": "Geographic", "name": "Huelva"},
+    {"type": "Geographic", "name": "Ayamonte"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "Cantabria"},
+    {"type": "Geographic", "name": "Asturias"},
+    {"type": "Geographic", "name": "Basque Country"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Hefer Valley"},
+    {"type": "Geographic", "name": "Florida"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Plant", "name": "Citrange reed"}
+  ],
+  "relationships": [
+    {"source": "African vector HB", "type": "Transmits", "target": "HLB"},
+    {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB"},
+    {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+    {"source": "HLB", "type": "Affects", "target": "citrus"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+    {"source": "HLB", "type": "Located in", "target": "Israel"},
+    {"source": "HLB", "type": "Located in", "target": "Florida"},
+    {"source": "HLB", "type": "Located in", "target": "Brazil"},
+    {"source": "African vector HB", "type": "Have been found on", "target": "citrus"},
+    {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+    {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+    {"source": "HLB", "type": "Located in", "target": "Portugal"},
+    {"source": "HLB", "type": "Located in", "target": "Huelva"},
+    {"source": "HLB", "type": "Located in", "target": "Ayamonte"},
+    {"source": "HLB", "type": "Located in", "target": "Galicia"},
+    {"source": "HLB", "type": "Located in", "target": "Cantabria"},
+    {"source": "HLB", "type": "Located in", "target": "Asturias"},
+    {"source": "HLB", "type": "Located in", "target": "Basque Country"},
+    {"source": "Diaphorina citri", "type": "Located in", "target": "Hefer Valley"}
+  ]
+}
+

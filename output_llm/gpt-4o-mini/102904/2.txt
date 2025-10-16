@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Sweet Orange"},
+    {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Pest", "name": "CLas"},
+    {"type": "Pest", "name": "sarcotoxin IA"},
+    {"type": "Plant", "name": "Pera sweet orange"},
+    {"type": "Plant", "name": "citrus species"},
+    {"type": "Plant", "name": "STX-5"},
+    {"type": "Plant", "name": "STX-11"},
+    {"type": "Plant", "name": "STX-12"},
+    {"type": "Plant", "name": "STX-13"}
+  ],
+  "relationships": [
+    {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus species"},
+    {"source": "Pera sweet orange", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "Sweet Orange", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "STX-5", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "STX-11", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "STX-12", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "STX-13", "type": "Have been found on", "target": "Candidatus Liberibacter asiaticus"},
+    {"source": "sarcotoxin IA", "type": "Have been found on", "target": "STX-5"},
+    {"source": "sarcotoxin IA", "type": "Have been found on", "target": "STX-11"},
+    {"source": "sarcotoxin IA", "type": "Have been found on", "target": "STX-12"},
+    {"source": "sarcotoxin IA", "type": "Have been found on", "target": "STX-13"}
+  ]
+}
+

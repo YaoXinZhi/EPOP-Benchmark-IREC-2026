@@ -1,0 +1,38 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "leaves"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "roots"},
+      {"type": "Pest", "name": "garden leaf beetle"},
+      {"type": "Pest", "name": "rose chafer"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Augustenberg"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "name": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Asia"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "EU"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Italy"},
+      {"source": "Japanese beetle", "type": "Located in", "name": "Augustenberg"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "garden leaf beetle"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "rose chafer"}
+    ]
+  }
+]
+```

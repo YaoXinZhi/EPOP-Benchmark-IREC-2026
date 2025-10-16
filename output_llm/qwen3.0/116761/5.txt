@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "banana Panama disease"},
+      {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense Tropical Race 4"},
+      {"type": "Pest", "name": "Fusarium oxysporum f.sp. cubense Tropical Race 4"},
+      {"type": "Pest", "name": "FocTR4"},
+      {"type": "Pest", "name": "Foc Race1"},
+      {"type": "Pest", "name": "FocR1"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "bananas"},
+      {"type": "Pest", "name": "Zymoseptoria tritici"},
+      {"type": "Geographic", "name": "Global"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium oxysporum f. sp. cubense Tropical Race 4", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "banana Panama disease", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium oxysporum f.sp. cubense Tropical Race 4", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "FocTR4", "type": "Causes", "target": "banana Panama disease"},
+      {"source": "FocTR4", "type": "Have been found on", "target": "bananas"},
+      {"source": "Foc Race1", "type": "Have been found on", "target": "bananas"},
+      {"source": "captan", "type": "Suppresses", "target": "banana Panama disease"},
+      {"source": "lipophilic cations", "type": "Suppresses", "target": "banana Panama disease"},
+      {"source": "Global", "type": "Located in", "target": "banana"}
+    ]
+  }
+]
+```

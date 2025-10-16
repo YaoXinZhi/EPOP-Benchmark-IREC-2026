@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Popillia"},
+    {"type": "Plant", "name": "crops"},
+    {"type": "Geographic", "name": "Vercelli area"},
+    {"type": "Geographic", "name": "provinces of Novara"},
+    {"type": "Geographic", "name": "Vercelli"},
+    {"type": "Geographic", "name": "Turin"}
+  ],
+  "relationships": [
+    {"source": "Popillia", "type": "Have been found on", "target": "crops"},
+    {"source": "Popillia", "type": "Located in", "target": "Vercelli area"},
+    {"source": "Popillia", "type": "Located in", "target": "provinces of Novara"},
+    {"source": "Popillia", "type": "Located in", "target": "Vercelli"},
+    {"source": "Popillia", "type": "Located in", "target": "Turin"}
+  ]
+}
+

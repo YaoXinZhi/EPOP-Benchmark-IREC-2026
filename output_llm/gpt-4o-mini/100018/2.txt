@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "popilia japonica"},
+    {"type": "Geographic", "name": "Ticino"},
+    {"type": "Geographic", "name": "Lombardy"},
+    {"type": "Geographic", "name": "Piedmont"},
+    {"type": "Plant", "name": "agriculture"}
+  ],
+  "relationships": [
+    {"source": "popilia japonica", "type": "Causes", "target": "agriculture"},
+    {"source": "popilia japonica", "type": "Have been found on", "target": "agriculture"},
+    {"source": "popilia japonica", "type": "Located in", "target": "Ticino"},
+    {"source": "popilia japonica", "type": "Located in", "target": "Lombardy"},
+    {"source": "popilia japonica", "type": "Located in", "target": "Piedmont"}
+  ]
+}
+

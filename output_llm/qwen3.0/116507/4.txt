@@ -1,0 +1,24 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Vector", "name": "insect vectors"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Corsica"},
+      {"type": "Geographic", "name": "France"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "insect vectors"},
+      {"source": "insect vectors", "type": "Transmits", "target": "Xylella fastidiosa"},
+      {"source": "Xylella fastidiosa", "type": "Causes", "target": "plant diseases"},
+      {"source": "plant diseases", "type": "Affects", "target": "plants"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Corsica"},
+      {"source": "Corsica", "type": "Located in", "target": "France"}
+    ]
+  }
+]
+```

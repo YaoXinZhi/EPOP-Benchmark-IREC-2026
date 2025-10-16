@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "orange trees"},
+      {"type": "Pest", "name": "HBL"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Geographic", "name": "Buhaira Gardens"},
+      {"type": "Geographic", "name": "Seville"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Plant", "name": "ground cover meadows"},
+      {"type": "Vector", "name": "insects"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "pollinating insects"},
+      {"type": "Plant", "name": "auxiliary species"},
+      {"type": "Plant", "name": "bushes"},
+      {"type": "Plant", "name": "insect hotel"},
+      {"type": "Plant", "name": "nest boxes"},
+      {"type": "Plant", "name": "local bird species"},
+      {"type": "Plant", "name": "plant substrates"},
+      {"type": "Plant", "name": "adventitia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "HBL", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "insects", "type": "Transmits", "target": "HBL"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+      {"source": "Buhaira Gardens", "type": "Located in", "target": "Seville"},
+      {"source": "Spain", "type": "Located in", "target": "Europe"},
+      {"source": "HBL", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "insects", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "ground cover meadows", "type": "Have been found on", "target": "orange trees"},
+      {"source": "pollinating insects", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "auxiliary species", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "bushes", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "insect hotel", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "nest boxes", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "local bird species", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "plant substrates", "type": "Have been found on", "target": "ground cover meadows"},
+      {"source": "adventitia", "type": "Have been found on", "ground cover meadows"}
+    ]
+  }
+]
+```

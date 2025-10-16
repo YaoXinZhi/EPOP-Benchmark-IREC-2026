@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "banana Panama disease"},
+    {"type": "Pest", "name": "Fusarium oxysporum f. sp. cubense Tropical Race 4"},
+    {"type": "Pest", "name": "FocTR4"},
+    {"type": "Pest", "name": "Foc Race1"},
+    {"type": "Pest", "name": "FocR1"},
+    {"type": "Plant", "name": "bananas"},
+    {"type": "Pest", "name": "Zymoseptoria tritici"}
+  ],
+  "relationships": [
+    {"source": "Fusarium oxysporum f. sp. cubense Tropical Race 4", "type": "Causes", "target": "banana Panama disease"},
+    {"source": "FocTR4", "type": "Causes", "target": "banana Panama disease"},
+    {"source": "banana Panama disease", "type": "Affects", "target": "bananas"}
+  ]
+}
+

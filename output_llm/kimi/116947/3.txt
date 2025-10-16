@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Réunion"
+    },
+    {
+      "type": "Geographic",
+      "name": "Palais de la Source"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sainte-Marie"
+    },
+    {
+      "type": "Pest",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Geographic",
+      "name": "Jardin de l’Etat"
+    },
+    {
+      "type": "Geographic",
+      "name": "Saint-Denis"
+    },
+    {
+      "type": "Geographic",
+      "name": "France"
+    },
+    {
+      "type": "Geographic",
+      "name": "Reunion"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Reunion"
+    }
+  ]
+}
+

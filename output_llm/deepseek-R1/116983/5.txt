@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "oriental fruit fly"},
+    {"type": "Geographic", "name": "Campania"},
+    {"type": "Geographic", "name": "Europe"},
+    {"type": "Geographic", "name": "Mediterranean basin"},
+    {"type": "Plant", "name": "fruit"},
+    {"type": "Plant", "name": "wine"},
+    {"type": "Pest", "name": "Bactrocera Dorsalis"},
+    {"type": "Geographic", "name": "province of Naples"},
+    {"type": "Geographic", "name": "province of Avellino"}
+  ],
+  "relationships": [
+    {"source": "oriental fruit fly", "type": "Located in", "target": "Campania"},
+    {"source": "oriental fruit fly", "type": "Located in", "target": "Europe"},
+    {"source": "oriental fruit fly", "type": "Located in", "target": "Mediterranean basin"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "fruit"},
+    {"source": "oriental fruit fly", "type": "Have been found on", "target": "wine"},
+    {"source": "Bactrocera Dorsalis", "type": "Located in", "target": "province of Avellino"}
+  ]
+}
+

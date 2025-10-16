@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Phyllosticta citricarpa"},
+    {"type": "Disease", "name": "citrus black spot disease"},
+    {"type": "Plant", "name": "citrus"},
+    {"type": "Plant", "name": "oranges"},
+    {"type": "Geographic", "name": "European Union"},
+    {"type": "Geographic", "name": "Mercosur"},
+    {"type": "Geographic", "name": "Brazil"},
+    {"type": "Geographic", "name": "Argentina"},
+    {"type": "Geographic", "name": "Uruguay"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "South Africa"}
+  ],
+  "relationships": [
+    {"source": "Phyllosticta citricarpa", "type": "Causes", "target": "citrus black spot disease"},
+    {"source": "citrus black spot disease", "type": "Affects", "target": "citrus"},
+    {"source": "Phyllosticta citricarpa", "type": "Have been found on", "target": "citrus"},
+    {"source": "citrus", "type": "Located in", "target": "Brazil"},
+    {"source": "citrus", "type": "Located in", "target": "Argentina"},
+    {"source": "citrus", "type": "Located in", "target": "Uruguay"},
+    {"source": "citrus", "type": "Located in", "target": "Colombia"},
+    {"source": "citrus", "type": "Located in", "target": "South Africa"},
+    {"source": "oranges", "type": "Located in", "target": "South Africa"}
+  ]
+}
+

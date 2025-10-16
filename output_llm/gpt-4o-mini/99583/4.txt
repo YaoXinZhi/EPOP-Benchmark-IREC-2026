@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "ToBRFV"},
+    {"type": "Disease", "name": "tomato brown shriveling"},
+    {"type": "Disease", "name": "brown wrinkling of tomatoes"},
+    {"type": "Plant", "name": "tomatoes"},
+    {"type": "Geographic", "name": "Netherlands"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Jordan"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Germany"},
+    {"type": "Geographic", "name": "Hungary"}
+  ],
+  "relationships": [
+    {"source": "ToBRFV", "type": "Causes", "target": "tomato brown shriveling"},
+    {"source": "ToBRFV", "type": "Causes", "target": "brown wrinkling of tomatoes"},
+    {"source": "ToBRFV", "type": "Have been found on", "target": "tomatoes"},
+    {"source": "brown wrinkling of tomatoes", "type": "Affects", "target": "tomatoes"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Netherlands"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Israel"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Jordan"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Sicily"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Italy"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Germany"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Hungary"}
+  ]
+}
+

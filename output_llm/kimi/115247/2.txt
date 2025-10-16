@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "Locorotondo"
+    },
+    {
+      "type": "Geographic",
+      "name": "Martina Franca"
+    },
+    {
+      "type": "Geographic",
+      "name": "Contrada San Marco"
+    },
+    {
+      "type": "Geographic",
+      "name": "Maranna"
+    },
+    {
+      "type": "Geographic",
+      "name": "SS 172"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polignano a Mare"
+    },
+    {
+      "type": "Geographic",
+      "name": "Fasano"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia Region"
+    },
+    {
+      "type": "Geographic",
+      "name": "c.da San Marco"
+    },
+    {
+      "type": "Geographic",
+      "name": "c.da Mavugliola"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Locorotondo"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Martina Franca"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Polignano a Mare"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Fasano"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Puglia Region"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "c.da San Marco"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "Maranna"
+    },
+    {
+      "source": "Xylella",
+      "type": "Located in",
+      "target": "SS 172"
+    }
+  ]
+}
+

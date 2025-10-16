@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "banana plants"
+    },
+    {
+      "type": "Disease",
+      "name": "Panama disease"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium oxysporum f. sp. cubense"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish bananas"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium oxysporum cubense Race 1"
+    },
+    {
+      "type": "Pest",
+      "name": "Tropical Race 4"
+    },
+    {
+      "type": "Geographic",
+      "name": "Britain"
+    },
+    {
+      "type": "Geographic",
+      "name": "UK"
+    },
+    {
+      "type": "Geographic",
+      "name": "Exeter"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Fusarium oxysporum cubense Race 1",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Causes",
+      "target": "Panama disease"
+    },
+    {
+      "source": "Panama disease",
+      "type": "Affects",
+      "target": "banana plants"
+    },
+    {
+      "source": "Panama disease",
+      "type": "Affects",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "Fusarium oxysporum f. sp. cubense",
+      "type": "Have been found on",
+      "target": "banana plants"
+    },
+    {
+      "source": "Fusarium oxysporum cubense Race 1",
+      "type": "Have been found on",
+      "target": "banana plants"
+    },
+    {
+      "source": "Tropical Race 4",
+      "type": "Have been found on",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "banana plants",
+      "type": "Located in",
+      "target": "Exeter"
+    },
+    {
+      "source": "Cavendish bananas",
+      "type": "Located in",
+      "target": "Exeter"
+    },
+    {
+      "source": "banana plants",
+      "type": "Located in",
+      "target": "Britain"
+    },
+    {
+      "source": "Cavendish bananas",
+      "type": "Located in",
+      "target": "Britain"
+    },
+    {
+      "source": "banana plants",
+      "type": "Located in",
+      "target": "UK"
+    },
+    {
+      "source": "Cavendish bananas",
+      "type": "Located in",
+      "target": "UK"
+    }
+  ]
+}
+

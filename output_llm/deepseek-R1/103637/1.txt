@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Beauveria bassiana"},
+    {"type": "Pest", "name": "Bactrocera dorsalis (Hendel)"},
+    {"type": "Geographic", "name": "central Europe"},
+    {"type": "Geographic", "name": "southwestern Asia"},
+    {"type": "Geographic", "name": "North America"},
+    {"type": "Geographic", "name": "Africa"},
+    {"type": "Geographic", "name": "southern coastal areas of China"},
+    {"type": "Geographic", "name": "South America"},
+    {"type": "Geographic", "name": "European region"},
+    {"type": "Geographic", "name": "American region"},
+    {"type": "Geographic", "name": "Oceania"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Geographic", "name": "China"},
+    {"type": "Geographic", "name": "Zhanjiang"}
+  ],
+  "relationships": [
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "central Europe"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "southwestern Asia"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "North America"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "Africa"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "southern coastal areas of China"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "South America"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "European region"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "American region"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "Oceania"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "Asia"},
+    {"source": "Bactrocera dorsalis (Hendel)", "type": "Located in", "target": "China"},
+    {"source": "Beauveria bassiana", "type": "Located in", "target": "Zhanjiang"}
+  ]
+}
+

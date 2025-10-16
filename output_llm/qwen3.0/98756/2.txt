@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Popillia"},
+      {"type": "Geographic", "name": "Vercelli"},
+      {"type": "Geographic", "name": "Novara"},
+      {"type": "Geographic", "name": "Turin"},
+      {"type": "Plant", "name": "crops"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Popillia", "type": "Have been found on", "target": "crops"},
+      {"source": "Popillia", "type": "Located in", "target": "Vercelli"},
+      {"source": "Popillia", "type": "Located in", "target": "Novara"},
+      {"source": "Popillia", "type": "Located in", "target": "Turin"}
+    ]
+  }
+]
+```

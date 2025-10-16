@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Bactrocera dorsalis"},
+    {"type": "Pest", "name": "Eastern fruit fly"},
+    {"type": "Geographic", "name": "Campania"},
+    {"type": "Geographic", "name": "Palma Campania"},
+    {"type": "Plant", "name": "fruits"},
+    {"type": "Plant", "name": "vegetable sector"},
+    {"type": "Plant", "name": "income crops"}
+  ],
+  "relationships": [
+    {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Campania"},
+    {"source": "Eastern fruit fly", "type": "Located in", "target": "Campania"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "fruits"},
+    {"source": "Eastern fruit fly", "type": "Have been found on", "target": "fruits"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "vegetable sector"},
+    {"source": "Eastern fruit fly", "type": "Have been found on", "target": "vegetable sector"},
+    {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "income crops"},
+    {"source": "Eastern fruit fly", "type": "Have been found on", "target": "income crops"}
+  ]
+}
+

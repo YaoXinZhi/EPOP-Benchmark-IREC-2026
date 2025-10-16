@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Netherlands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Belgian"
+    },
+    {
+      "type": "Geographic",
+      "name": "Dutch"
+    },
+    {
+      "type": "Disease",
+      "name": "tomato brown rugose fruit virus"
+    },
+    {
+      "type": "Geographic",
+      "name": "Westland"
+    },
+    {
+      "type": "Geographic",
+      "name": "Belgium"
+    },
+    {
+      "type": "Organization",
+      "name": "Nederlandse Voedsel- en Warenautoriteit"
+    },
+    {
+      "type": "Organization",
+      "name": "Dutch Food and Consumer Product Safety Authority"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Netherlands"
+    },
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Westland"
+    },
+    {
+      "source": "tomato brown rugose fruit virus",
+      "type": "Located in",
+      "target": "Belgium"
+    }
+  ]
+}
+

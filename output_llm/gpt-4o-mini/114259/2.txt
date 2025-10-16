@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Diaporthe eres"},
+    {"type": "Plant", "name": "highbush blueberry"},
+    {"type": "Plant", "name": "Vaccinium corymbosum"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Disease", "name": "stem blight"},
+    {"type": "Disease", "name": "dieback"},
+    {"type": "Plant", "name": "Draper"},
+    {"type": "Plant", "name": "Duke"},
+    {"type": "Geographic", "name": "Piedmont"},
+    {"type": "Geographic", "name": "Cuneo Province"},
+    {"type": "Plant", "name": "Vaccinium spp."}
+  ],
+  "relationships": [
+    {"source": "Diaporthe eres", "type": "Causes", "target": "stem blight"},
+    {"source": "Diaporthe eres", "type": "Causes", "target": "dieback"},
+    {"source": "stem blight", "type": "Affects", "target": "highbush blueberry"},
+    {"source": "dieback", "type": "Affects", "target": "highbush blueberry"},
+    {"source": "highbush blueberry", "type": "Located in", "target": "Italy"},
+    {"source": "Vaccinium corymbosum", "type": "Located in", "target": "Italy"},
+    {"source": "Draper", "type": "Have been found on", "target": "highbush blueberry"},
+    {"source": "Duke", "type": "Have been found on", "target": "highbush blueberry"},
+    {"source": "Diaporthe eres", "type": "Have been found on", "target": "Vaccinium spp."}
+  ]
+}
+

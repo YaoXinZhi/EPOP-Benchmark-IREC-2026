@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "Tomato Brown Wrinkle Virus"},
+    {"type": "Disease", "name": "virus of brown wrinkling of tomato fruits"},
+    {"type": "Disease", "name": "tomato brown wrinkle virus"},
+    {"type": "Disease", "name": "ToBRFV"},
+    {"type": "Plant", "name": "tomato fruits"},
+    {"type": "Plant", "name": "tomatoes"},
+    {"type": "Plant", "name": "peppers"},
+    {"type": "Plant", "name": "tomato and pepper plants"},
+    {"type": "Plant", "name": "tomato"},
+    {"type": "Plant", "name": "pepper"},
+    {"type": "Plant", "name": "Troy variety"},
+    {"type": "Plant", "name": "stypnus"},
+    {"type": "Plant", "name": "datula"},
+    {"type": "Plant", "name": "goosefoot"},
+    {"type": "Plant", "name": "petunia"},
+    {"type": "Geographic", "name": "Arcadia"},
+    {"type": "Geographic", "name": "Community of Levidi"}
+  ],
+  "relationships": [
+    {"source": "Tomato Brown Wrinkle Virus", "type": "Located in", "target": "Arcadia"},
+    {"source": "virus of brown wrinkling of tomato fruits", "type": "Located in", "target": "Arcadia"},
+    {"source": "tomato brown wrinkle virus", "type": "Located in", "target": "Arcadia"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Arcadia"},
+    {"source": "ToBRFV", "type": "Located in", "target": "Community of Levidi"},
+    {"source": "ToBRFV", "type": "Affects", "target": "tomato"},
+    {"source": "ToBRFV", "type": "Affects", "target": "pepper"},
+    {"source": "ToBRFV", "type": "Affects", "target": "Troy variety"},
+    {"source": "ToBRFV", "type": "Affects", "target": "stypnus"},
+    {"source": "ToBRFV", "type": "Affects", "target": "datula"},
+    {"source": "ToBRFV", "type": "Affects", "target": "goosefoot"},
+    {"source": "ToBRFV", "type": "Affects", "target": "petunia"}
+  ]
+}
+

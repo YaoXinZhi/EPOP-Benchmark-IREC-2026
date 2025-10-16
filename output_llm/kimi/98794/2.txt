@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Rhizopus arrhizus"
+    },
+    {
+      "type": "Pest",
+      "name": "R. oryzae"
+    },
+    {
+      "type": "Plant",
+      "name": "garlic"
+    },
+    {
+      "type": "Disease",
+      "name": "Garlic Bulb Soft Rot"
+    },
+    {
+      "type": "Geographic",
+      "name": "Hebei Province, China"
+    },
+    {
+      "type": "Geographic",
+      "name": "Daming County, Handan City"
+    },
+    {
+      "type": "Plant",
+      "name": "cassava"
+    },
+    {
+      "type": "Plant",
+      "name": "potato"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Causes",
+      "target": "Garlic Bulb Soft Rot"
+    },
+    {
+      "source": "R. oryzae",
+      "type": "Causes",
+      "target": "Garlic Bulb Soft Rot"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Have been found on",
+      "target": "garlic"
+    },
+    {
+      "source": "R. oryzae",
+      "type": "Have been found on",
+      "target": "garlic"
+    },
+    {
+      "source": "Garlic Bulb Soft Rot",
+      "type": "Affects",
+      "target": "garlic"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Have been found on",
+      "target": "cassava"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Have been found on",
+      "target": "potato"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Located in",
+      "target": "Hebei Province, China"
+    },
+    {
+      "source": "Rhizopus arrhizus",
+      "type": "Located in",
+      "target": "Daming County, Handan City"
+    },
+    {
+      "source": "Garlic Bulb Soft Rot",
+      "type": "Located in",
+      "target": "Hebei Province, China"
+    },
+    {
+      "source": "Garlic Bulb Soft Rot",
+      "type": "Located in",
+      "target": "Daming County, Handan City"
+    }
+  ]
+}
+

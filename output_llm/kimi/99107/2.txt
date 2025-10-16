@@ -1,0 +1,183 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "African Psila"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "lemon"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "mandarin trees"
+    },
+    {
+      "type": "Vector",
+      "name": "Tamarixia dryi"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cantabria"
+    },
+    {
+      "type": "Geographic",
+      "name": "Obregón"
+    },
+    {
+      "type": "Geographic",
+      "name": "Villaescusa"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santillana del Mar"
+    },
+    {
+      "type": "Geographic",
+      "name": "Middle Cudeyo"
+    },
+    {
+      "type": "Geographic",
+      "name": "Arnuero"
+    },
+    {
+      "type": "Geographic",
+      "name": "Torrelavega"
+    },
+    {
+      "type": "Geographic",
+      "name": "Camargo"
+    },
+    {
+      "type": "Geographic",
+      "name": "Alfoz de Lloredo"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santa Cruz de Bezana"
+    },
+    {
+      "type": "Geographic",
+      "name": "Piélagos"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santander"
+    },
+    {
+      "type": "Geographic",
+      "name": "Valdáliga"
+    },
+    {
+      "type": "Geographic",
+      "name": "Polanco"
+    },
+    {
+      "type": "Geographic",
+      "name": "Miengo"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santoña"
+    },
+    {
+      "type": "Geographic",
+      "name": "Bárcena de Cicero"
+    },
+    {
+      "type": "Geographic",
+      "name": "Santa María de Cayón"
+    },
+    {
+      "type": "Geographic",
+      "name": "Canary Islands"
+    },
+    {
+      "type": "Geographic",
+      "name": "Galicia"
+    },
+    {
+      "type": "Geographic",
+      "name": "northern Portugal"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Union"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mogro"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "African Psila",
+      "type": "Located in",
+      "target": "Cantabria"
+    },
+    {
+      "source": "Tamarixia dryi",
+      "type": "Located in",
+      "target": "Cantabria"
+    },
+    {
+      "source": "Tamarixia dryi",
+      "type": "Has been found on",
+      "target": "citrus trees"
+    },
+    {
+      "source": "African Psila",
+      "type": "Has been found on",
+      "target": "lemon"
+    },
+    {
+      "source": "African Psila",
+      "type": "Has been found on",
+      "target": "orange"
+    },
+    {
+      "source": "African Psila",
+      "type": "Has been found on",
+      "target": "mandarin trees"
+    },
+    {
+      "source": "Tamarixia dryi",
+      "type": "Transmits",
+      "target": "African Psila"
+    },
+    {
+      "source": "African Psila",
+      "type": "Located in",
+      "target": "European Union"
+    },
+    {
+      "source": "African Psila",
+      "type": "Located in",
+      "target": "Canary Islands"
+    },
+    {
+      "source": "African Psila",
+      "type": "Located in",
+      "target": "Galicia"
+    },
+    {
+      "source": "African Psila",
+      "type": "Located in",
+      "target": "northern Portugal"
+    },
+    {
+      "source": "African Psila",
+      "type": "Located in",
+      "target": "Mogro"
+    }
+  ]
+}
+

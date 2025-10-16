@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "flavescence dorée"},
+    {"type": "Vector", "name": "Scaphoidus titanus"},
+    {"type": "Disease", "name": "bois noir"},
+    {"type": "Geographic", "name": "Lot"},
+    {"type": "Geographic", "name": "Parnac"},
+    {"type": "Geographic", "name": "Pradines"},
+    {"type": "Geographic", "name": "Mercuès"},
+    {"type": "Geographic", "name": "Douelle"},
+    {"type": "Geographic", "name": "Porte du Quercy"},
+    {"type": "Geographic", "name": "Sauzet"},
+    {"type": "Geographic", "name": "Luzech"},
+    {"type": "Geographic", "name": "Prayssac"},
+    {"type": "Geographic", "name": "Carnac"},
+    {"type": "Geographic", "name": "Sérignac"},
+    {"type": "Geographic", "name": "Saux"},
+    {"type": "Geographic", "name": "Montcuq"},
+    {"type": "Geographic", "name": "Glanes"}
+  ],
+  "relationships": [
+    {"source": "flavescence dorée", "type": "Located in", "target": "Lot"},
+    {"source": "flavescence dorée", "type": "Causes", "target": "bois noir"},
+    {"source": "Scaphoidus titanus", "type": "Transmits", "target": "flavescence dorée"},
+    {"source": "flavescence dorée", "type": "Affects", "target": "vine"},
+    {"source": "flavescence dorée", "type": "Have been found on", "target": "vine"},
+    {"source": "bois noir", "type": "Affects", "target": "vine"}
+  ]
+}
+

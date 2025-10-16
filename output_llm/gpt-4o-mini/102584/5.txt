@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "flavescence dorée"},
+    {"type": "Plant", "name": "vine"},
+    {"type": "Geographic", "name": "Ticino"},
+    {"type": "Geographic", "name": "Vaud"},
+    {"type": "Geographic", "name": "Valais"},
+    {"type": "Geographic", "name": "Grisons"},
+    {"type": "Pest", "name": "leafhopper"},
+    {"type": "Pest", "name": "phytoplasmas"}
+  ],
+  "relationships": [
+    {"source": "flavescence dorée", "type": "Affects", "target": "vine"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "Ticino"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "Vaud"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "Valais"},
+    {"source": "flavescence dorée", "type": "Located in", "target": "Grisons"},
+    {"source": "leafhopper", "type": "Transmits", "target": "flavescence dorée"},
+    {"source": "flavescence dorée", "type": "Causes", "target": "phytoplasmas"}
+  ]
+}
+

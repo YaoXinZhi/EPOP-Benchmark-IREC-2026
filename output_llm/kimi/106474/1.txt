@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Cavendish bananas"
+    },
+    {
+      "type": "Disease",
+      "name": "TR4"
+    },
+    {
+      "type": "Geographic",
+      "name": "Wageningen University"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Plant",
+      "name": "Gros Michel"
+    },
+    {
+      "type": "Disease",
+      "name": "TR1"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish"
+    },
+    {
+      "type": "Pest",
+      "name": "Fusarium"
+    },
+    {
+      "type": "Plant",
+      "name": "Cavendish cv Grand Naine"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cavendish bananas",
+      "type": "Located in",
+      "target": "Colombia"
+    },
+    {
+      "source": "TR4",
+      "type": "Affects",
+      "target": "Cavendish bananas"
+    },
+    {
+      "source": "TR1",
+      "type": "Causes",
+      "target": "destruction of banana crops"
+    },
+    {
+      "source": "Cavendish",
+      "type": "Have been found on",
+      "target": "Gros Michel"
+    },
+    {
+      "source": "TR4",
+      "type": "Causes",
+      "target": "destruction of Cavendish bananas"
+    },
+    {
+      "source": "Fusarium",
+      "type": "Causes",
+      "target": "TR4"
+    },
+    {
+      "source": "Fusarium",
+      "type": "Causes",
+      "target": "TR1"
+    },
+    {
+      "source": "TR1",
+      "type": "Affects",
+      "target": "Cavendish cv Grand Naine"
+    },
+    {
+      "source": "TR4",
+      "type": "Affects",
+      "target": "Cavendish cv Grand Naine"
+    }
+  ]
+}
+

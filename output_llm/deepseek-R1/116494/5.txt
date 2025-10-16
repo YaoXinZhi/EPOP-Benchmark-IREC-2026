@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish banana"},
+    {"type": "Disease", "name": "TR4 Panama disease"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Plant", "name": "banana plants"},
+    {"type": "Disease", "name": "Panama disease TR4"},
+    {"type": "Geographic", "name": "Philippines"},
+    {"type": "Disease", "name": "Fusarium Wilt (Foc TR4)"}
+  ],
+  "relationships": [
+    {"source": "Cavendish banana", "type": "Located in", "target": "Israel"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Colombia"},
+    {"source": "banana plants", "type": "Located in", "target": "Colombia"},
+    {"source": "TR4 Panama disease", "type": "Affects", "target": "Cavendish banana"},
+    {"source": "Panama disease TR4", "type": "Affects", "target": "banana plants"},
+    {"source": "Fusarium Wilt (Foc TR4)", "type": "Affects", "target": "banana plants"}
+  ]
+}
+

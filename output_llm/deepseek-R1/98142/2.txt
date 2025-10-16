@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "HLB"},
+    {"type": "Pest", "name": "Candidatus liberibacter"},
+    {"type": "Plant", "name": "citrus plants"},
+    {"type": "Plant", "name": "trifoliate rootstock"},
+    {"type": "Plant", "name": "trifoliate seedbed"},
+    {"type": "Plant", "name": "poncirus trifoliata"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Geographic", "name": "Entre Ríos"},
+    {"type": "Geographic", "name": "Osvaldo Magnasco"},
+    {"type": "Geographic", "name": "Concordia"}
+  ],
+  "relationships": [
+    {"source": "HLB", "type": "Located in", "target": "Entre Ríos"},
+    {"source": "Candidatus liberibacter", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus plants"},
+    {"source": "HLB", "type": "Have been found on", "target": "citrus plants"}
+  ]
+}
+

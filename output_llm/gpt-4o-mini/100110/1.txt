@@ -1,0 +1,8 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Tomato Brown Rugose Fruit Virus"},
+    {"type": "Plant", "name": "Tomato"}
+  ],
+  "relationships": []
+}
+

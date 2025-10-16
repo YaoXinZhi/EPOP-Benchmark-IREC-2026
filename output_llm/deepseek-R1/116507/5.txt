@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Vector", "name": "insect vectors"},
+    {"type": "Geographic", "name": "Corsica"},
+    {"type": "Geographic", "name": "France"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Corsica"},
+    {"source": "Corsica", "type": "Located in", "target": "France"},
+    {"source": "insect vectors", "type": "Transmits", "target": "Xylella fastidiosa"}
+  ]
+}
+

@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish bananas"},
+    {"type": "Disease", "name": "TR4 fungus"},
+    {"type": "Pest", "name": "TR1"},
+    {"type": "Plant", "name": "Gros Michel variety"},
+    {"type": "Plant", "name": "Cavendish"},
+    {"type": "Pest", "name": "TR4"},
+    {"type": "Plant", "name": "Cavendish cv Grand Naine bananas"},
+    {"type": "Disease", "name": "Fusarium wilt"},
+    {"type": "Pest", "name": "Tropical Race 4"},
+    {"type": "Pest", "name": "avirulent Fusarium species"}
+  ],
+  "relationships": [
+    {"source": "TR4 fungus", "type": "Affects", "target": "Cavendish bananas"},
+    {"source": "TR1", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "TR1", "type": "Have been found on", "target": "Gros Michel variety"},
+    {"source": "Cavendish", "type": "Have been found on", "target": "Gros Michel variety"},
+    {"source": "TR4", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "TR4", "type": "Have been found on", "target": "Cavendish bananas"},
+    {"source": "Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+    {"source": "avirulent Fusarium species", "type": "Have been found on", "target": "Cavendish cv Grand Naine bananas"}
+  ]
+}
+

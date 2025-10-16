@@ -1,0 +1,41 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Pinus rigida Mill."},
+      {"type": "Plant", "name": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"type": "Plant", "name": "Pinus koraiensis (Sieb. et Zucc.)"},
+      {"type": "Pest", "name": "Pinewood nematodes"},
+      {"type": "Geographic", "name": "North America"},
+      {"type": "Plant", "name": "pitch pine"},
+      {"type": "Pest", "name": "pine wood nematodes (PWNs)"},
+      {"type": "Plant", "name": "P. rigida"},
+      {"type": "Plant", "name": "P. densiflora"},
+      {"type": "Plant", "name": "P. koraiensis"},
+      {"type": "Plant", "name": "branch"},
+      {"type": "Plant", "name": "resin"},
+      {"type": "Pest", "name": "PWNs"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Pinus rigida Mill.", "type": "Located in", "target": "North America"},
+      {"source": "Pinus rigida Mill.", "type": "Have been found on", "target": "pitch pine"},
+      {"source": "Pinus rigida Mill.", "type": "Have been found on", "target": "P. rigida"},
+      {"source": "Pinus densiflora (Sieb. et Zucc.)", "type": "Have been found on", "target": "P. densiflora"},
+      {"source": "Pinus koraiensis (Sieb. et Zucc.)", "type": "Have been found on", "target": "P. koraiensis"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "PWNs"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "branch"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus rigida Mill."},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"source": "Pinewood nematodes", "type": "Have been found on", "target": "Pinus koraiensis (Sieb. et Zucc.)"},
+      {"source": "resin", "type": "Have been found on", "target": "Pinus rigida Mill."},
+      {"source": "resin", "type": "Have been found on", "target": "P. rigida"},
+      {"source": "resin", "type": "Have been found on", "target": "P. densiflora"},
+      {"source": "resin", "type": "Have been found on", "target": "P. koraiensis"},
+      {"source": "resin", "type": "Have been found on", "target": "Pinus densiflora (Sieb. et Zucc.)"},
+      {"source": "resin", "type": "Have been found on", "target": "Pinus koraiensis (Sieb. et Zucc.)"}
+    ]
+  }
+]
+```

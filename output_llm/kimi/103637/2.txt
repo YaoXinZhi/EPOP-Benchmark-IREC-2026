@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Bactrocera dorsalis"
+    },
+    {
+      "type": "Pest",
+      "name": "Beauveria bassiana"
+    },
+    {
+      "type": "Geographic",
+      "name": "central Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "southwestern Asia"
+    },
+    {
+      "type": "Geographic",
+      "name": "North America"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asian regions"
+    },
+    {
+      "type": "Geographic",
+      "name": "Africa"
+    },
+    {
+      "type": "Geographic",
+      "name": "southern coastal areas of China"
+    },
+    {
+      "type": "Geographic",
+      "name": "central Africa"
+    },
+    {
+      "type": "Geographic",
+      "name": "South America"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "American region"
+    },
+    {
+      "type": "Geographic",
+      "name": "Africa and Oceania"
+    },
+    {
+      "type": "Geographic",
+      "name": "northern hemisphere"
+    },
+    {
+      "type": "Geographic",
+      "name": "southern hemisphere"
+    },
+    {
+      "type": "Geographic",
+      "name": "North America"
+    },
+    {
+      "type": "Geographic",
+      "name": "arid areas"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Asian regions"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "Africa"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "southern coastal areas of China"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "central Europe"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "American region"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "Africa and Oceania"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "North America"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "arid areas"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "northern hemisphere"
+    },
+    {
+      "source": "Bactrocera dorsalis",
+      "type": "Located in",
+      "target": "southern hemisphere"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Located in",
+      "target": "North America"
+    },
+    {
+      "source": "Beauveria bassiana",
+      "type": "Have been found on",
+      "target": "Bactrocera dorsalis"
+    }
+  ]
+}
+

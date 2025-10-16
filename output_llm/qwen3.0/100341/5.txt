@@ -1,0 +1,59 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Geographic", "name": "China"},
+      {"type": "Geographic", "name": "Yunnan"},
+      {"type": "Geographic", "name": "Hunan"},
+      {"type": "Geographic", "name": "Anhui"},
+      {"type": "Geographic", "name": "Sichuan"},
+      {"type": "Geographic", "name": "Guizhou"},
+      {"type": "Geographic", "name": "Henan"},
+      {"type": "Geographic", "name": "Shaanxi"},
+      {"type": "Geographic", "name": "Hebei"},
+      {"type": "Geographic", "name": "Tianjin"},
+      {"type": "Plant", "name": "corn"},
+      {"type": "Plant", "name": "sugar cane"},
+      {"type": "Plant", "name": "sorghum"},
+      {"type": "Plant", "name": "wheat"},
+      {"type": "Disease", "name": "corn rust"},
+      {"type": "Disease", "name": "leaf blight"},
+      {"type": "Disease", "name": "stalk rot"},
+      {"type": "Disease", "name": "yellow rust"},
+      {"type": "Geographic", "name": "Liaoning"},
+      {"type": "Geographic", "name": "Gansu"},
+      {"type": "Geographic", "name": "Ningxia"},
+      {"type": "Geographic", "name": "Heilongjiang"},
+      {"type": "Geographic", "name": "Jilin"},
+      {"type": "Geographic", "name": "Inner Mongolia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "fall armyworm", "type": "Located in", "name": "China"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "corn"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "sugar cane"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "sorghum"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "wheat"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Yunnan"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Hunan"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Anhui"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Sichuan"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Guizhou"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Henan"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Shaanxi"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Hebei"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Tianjin"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Liaoning"},
+      {"source": "yellow rust", "type": "Located in", "target": "Gansu"},
+      {"source": "yellow rust", "type": "Located in", "target": "Ningxia"},
+      {"source": "yellow rust", "type": "Located in", "target": "Shaanxi"},
+      {"source": "yellow rust", "type": "Affects", "target": "wheat"},
+      {"source": "corn rust", "type": "Affects", "target": "corn"},
+      {"source": "leaf blight", "type": "Affects", "target": "corn"},
+      {"source": "stalk rot", "type": "Affects", "target": "corn"}
+    ]
+  }
+]
+```

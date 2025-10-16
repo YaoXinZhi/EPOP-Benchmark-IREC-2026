@@ -1,0 +1,33 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Tomato brown rot virus"},
+      {"type": "Pest", "name": "Tomato brown rot virus (ToBRFV)"},
+      {"type": "Plant", "name": "tomato"},
+      {"type": "Plant", "name": "pepper"},
+      {"type": "Plant", "name": "tomato and pepper"},
+      {"type": "Plant", "name": "tomato farm"},
+      {"type": "Plant", "name": "paprika"},
+      {"type": "Geographic", "name": "Finland"},
+      {"type": "Geographic", "name": "Varsinais-Suomi"},
+      {"type": "Geographic", "name": "EU"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tomato brown rot virus", "type": "Located in", "target": "Finland"},
+      {"source": "Tomato brown rot virus", "type": "Located in", "target": "Varsinais-Suomi"},
+      {"source": "Tomato brown rot virus (ToBRFV)", "type": "Located in", "target": "Finland"},
+      {"source": "Tomato brown rot virus", "type": "Have been found on", "target": "tomato farm"},
+      {"source": "Tomato brown rot virus", "type": "Have been found on", "target": "tomato"},
+      {"source": "Tomato brown rot virus", "type": "Have been found on", "target": "pepper"},
+      {"source": "Tomato brown rot virus", "type": "Have been found on", "target": "tomato and pepper"},
+      {"source": "Tomato brown rot virus", "type": "Have been found on", "target": "paprika"},
+      {"source": "Tomato brown rot virus", "type": "Causes", "target": "yield losses"},
+      {"source": "yield losses", "type": "Affects", "target": "professional vegetable production"},
+      {"source": "Tomato brown rot virus", "type": "Located in", "target": "EU"}
+    ]
+  }
+]
+```

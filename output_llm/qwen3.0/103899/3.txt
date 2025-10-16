@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "xylella"},
+      {"type": "Vector", "name": "spittoon"},
+      {"type": "Geographic", "name": "Lecce"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Salento"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "xylella", "type": "Located in", "name": "Bari-Lecce"},
+      {"source": "spittoon", "type": "Transmits", "target": "xylella"},
+      {"source": "spittoon", "type": "Have been found on", "target": "vehicles"},
+      {"source": "xylella", "type": "Located in", "target": "infected plants"}
+    ]
+  }
+]
+```

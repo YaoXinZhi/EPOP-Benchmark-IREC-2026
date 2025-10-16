@@ -1,0 +1,47 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Polignano a Mare"},
+      {"type": "Geographic", "name": "Martina Franca"},
+      {"type": "Geographic", "name": "Castellana Grotte"},
+      {"type": "Geographic", "name": "Fasano"},
+      {"type": "Geographic", "name": "Locorotondo"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Puglia"},
+      {"type": "Geographic", "name": "Alberobello"},
+      {"type": "Geographic", "name": "Monopoli"},
+      {"type": "Geographic", "name": "Barletta"},
+      {"type": "Geographic", "name": "Manduria"},
+      {"type": "Geographic", "name": "Avetrana"},
+      {"type": "Geographic", "name": "Sava"},
+      {"type": "Geographic", "name": "Maruggio"},
+      {"type": "Geographic", "name": "Torricella"},
+      {"type": "Geographic", "name": "Andria"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Polignano a Mare"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Martina Franca"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Castellana Grotte"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Fasano"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Locorotondo"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Puglia"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Alberobello"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Monopoli"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Barletta"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Manduria"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Avetrana"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Sava"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Maruggio"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Torricella"},
+      {"source": "Xylella fastidiosa", "type": "Located in", "target": "Andria"}
+    ]
+  }
+]
+```

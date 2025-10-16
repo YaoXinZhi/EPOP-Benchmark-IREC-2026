@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Valencian Community"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mercosur countries"
+    },
+    {
+      "type": "Geographic",
+      "name": "Brazil"
+    },
+    {
+      "type": "Geographic",
+      "name": "Argentina"
+    },
+    {
+      "type": "Geographic",
+      "name": "Uruguay"
+    },
+    {
+      "type": "Geographic",
+      "name": "Colombia"
+    },
+    {
+      "type": "Geographic",
+      "name": "South Africa"
+    },
+    {
+      "type": "Pest",
+      "name": "Phyllosticta citricarpa"
+    },
+    {
+      "type": "Disease",
+      "name": "Citrus Black Spot disease"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Union"
+    },
+    {
+      "type": "Geographic",
+      "name": "EU"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Phyllosticta citricarpa",
+      "type": "Causes",
+      "target": "Citrus Black Spot disease"
+    },
+    {
+      "source": "Citrus Black Spot disease",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Phyllosticta citricarpa",
+      "type": "Have been found on",
+      "target": "citrus"
+    },
+    {
+      "source": "citrus",
+      "type": "Located in",
+      "target": "European Union"
+    },
+    {
+      "source": "citrus",
+      "type": "Located in",
+      "target": "Mercosur countries"
+    },
+    {
+      "source": "citrus",
+      "type": "Located in",
+      "target": "South Africa"
+    },
+    {
+      "source": "Valencian Community",
+      "type": "Located in",
+      "target": "European Union"
+    }
+  ]
+}
+

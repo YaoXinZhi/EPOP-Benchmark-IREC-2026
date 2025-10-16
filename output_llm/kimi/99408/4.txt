@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "Pitch pine"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus rigida Mill."
+    },
+    {
+      "type": "Pest",
+      "name": "pine wood nematodes"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus densiflora"
+    },
+    {
+      "type": "Plant",
+      "name": "Pinus koraiensis"
+    },
+    {
+      "type": "Plant",
+      "name": "P. rigida"
+    },
+    {
+      "type": "Plant",
+      "name": "P. densiflora"
+    },
+    {
+      "type": "Plant",
+      "name": "P. koraiensis"
+    },
+    {
+      "type": "Chemical",
+      "name": "sesquiterpenes"
+    },
+    {
+      "type": "Chemical",
+      "name": "diterpenes"
+    },
+    {
+      "type": "Chemical",
+      "name": "dehydroabietic aldehyde"
+    },
+    {
+      "type": "Chemical",
+      "name": "methyl dehydroabietate"
+    },
+    {
+      "type": "Chemical",
+      "name": "methyl abietate"
+    },
+    {
+      "type": "Chemical",
+      "name": "pinosylvin stilbenes"
+    },
+    {
+      "type": "Chemical",
+      "name": "cis-3,5-dimethoxystilbene"
+    },
+    {
+      "type": "Chemical",
+      "name": "trans-3,5-dimethoxystilbene"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Pitch pine",
+      "type": "Located in",
+      "target": "North America"
+    },
+    {
+      "source": "Pinus rigida Mill.",
+      "type": "Located in",
+      "target": "North America"
+    },
+    {
+      "source": "pine wood nematodes",
+      "type": "Have been found on",
+      "target": "Pinus rigida Mill."
+    },
+    {
+      "source": "pine wood nematodes",
+      "type": "Have been found on",
+      "target": "Pinus densiflora"
+    },
+    {
+      "source": "pine wood nematodes",
+      "type": "Have been found on",
+      "target": "Pinus koraiensis"
+    },
+    {
+      "source": "P. rigida resin",
+      "type": "Contains",
+      "target": "diterpenes"
+    },
+    {
+      "source": "P. rigida resin",
+      "type": "Contains",
+      "target": "dehydroabietic aldehyde"
+    },
+    {
+      "source": "P. rigida resin",
+      "type": "Contains",
+      "target": "methyl dehydroabietate"
+    },
+    {
+      "source": "P. rigida resin",
+      "type": "Contains",
+      "target": "methyl abietate"
+    },
+    {
+      "source": "P. rigida resin",
+      "type": "Contains",
+      "target": "pinosylvin stilbenes"
+    },
+    {
+      "source": "P. rigida resin",
+      "type": "Contains",
+      "target": "cis-3,5-dimethoxystilbene"
+    },
+    {
+      "source": "cis-3,5-dimethoxystilbene",
+      "type": "Causes",
+      "target": "PWN toxicity"
+    },
+    {
+      "source": "P. rigida",
+      "type": "Have been found on",
+      "target": "Pinus rigida Mill."
+    },
+    {
+      "source": "P. densiflora",
+      "type": "Have been found on",
+      "target": "Pinus densiflora"
+    },
+    {
+      "source": "P. koraiensis",
+      "type": "Have been found on",
+      "target": "Pinus koraiensis"
+    }
+  ]
+}
+

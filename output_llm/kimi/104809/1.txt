@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia Region"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salento"
+    },
+    {
+      "type": "Geographic",
+      "name": "BARI"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Puglia Region"
+    },
+    {
+      "source": "olive trees",
+      "type": "Located in",
+      "target": "Salento"
+    }
+  ]
+}
+

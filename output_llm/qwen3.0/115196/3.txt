@@ -1,0 +1,69 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "xylella fastidiosa"},
+      {"type": "Disease", "name": "Pierce's disease"},
+      {"type": "Plant", "name": "Elaeagnus angustifolia"},
+      {"type": "Plant", "name": "Citrus sinensis"},
+      {"type": "Plant", "name": "Citrus limon"},
+      {"type": "Plant", "name": "Citrus paradisi"},
+      {"type": "Plant", "name": "Citrus reticulata"},
+      {"type": "Plant", "name": "olive"},
+      {"type": "Plant", "name": "almond tree"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "grape"},
+      {"type": "Plant", "name": "oleander"},
+      {"type": "Plant", "name": "sycamore"},
+      {"type": "Plant", "name": "myrtles"},
+      {"type": "Plant", "name": "milkweed"},
+      {"type": "Plant", "name": "coffee"},
+      {"type": "Plant", "name": "rosemary"},
+      {"type": "Plant", "name": "acacia"},
+      {"type": "Plant", "name": "sorghum"},
+      {"type": "Plant", "name": "alfalfa"},
+      {"type": "Geographic", "name": "France"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "Occitanie"},
+      {"type": "Geographic", "name": "Provence-Alpes-Côte d'Azur"},
+      {"type": "Geographic", "name": "RAOA"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Geographic", "name": "Union"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "our country"},
+      {"type": "Pest", "name": "xylella fastidiosa subsp. fastidiosa"},
+      {"type": "Pest", "name": "xylella fastidiosa subsp. multiplex"},
+      {"type": "Pest", "name": "xylella fastidiosa"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "xylella fastidiosa subsp. fastidiosa", "type": "Causes", "target": "Pierce's disease"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "olive"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "almond tree"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "citrus fruits"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "grape"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "oleander"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "sycamore"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "myrtles"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "milkweed"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "coffee"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "rosemary"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "acacia"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "sorghum"},
+      {"source": "xylella fastidiosa", "type": "Affects", "target": "alfalfa"},
+      {"source": "xylella fastidiosa subsp. multiplex", "type": "Have been found on", "target": "Citrus sinensis"},
+      {"source": "xylella fastidiosa subsp. fastidiosa", "type": "Have been found on", "target": "Elaeagnus angustifolia"},
+      {"source": "xylella fastidiosa subsp. multiplex", "type": "Have been found on", "target": "Citrus limon"},
+      {"source": "xylella fastidiosa subsp. multiplex", "type": "Have been found on", "target": "Citrus paradisi"},
+      {"source": "xylella fastidiosa subsp. multiplex", "type": "Have been found on", "target": "Citrus reticulata"},
+      {"source": "xylella fastidiosa", "type": "Located in", "target": "France"},
+      {"source": "xylella fastidiosa", "type": "Located in", "target": "Portugal"},
+      {"source": "xylella fastidiosa", "type": "Located in", "target": "United States"},
+      {"source": "xylella fastidiosa", "type": "Located in", "target": "RAOA"},
+      {"source": "xylella fastidiosa subsp. fastidiosa", "type": "Located in", "target": "Portugal"},
+      {"source": "xylella fastidiosa subsp. multiplex", "type": "Located in", "target": "France"}
+    ]
+  }
+]
+```

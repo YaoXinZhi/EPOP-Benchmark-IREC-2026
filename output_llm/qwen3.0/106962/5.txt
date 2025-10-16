@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Golden flavescence"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Plant", "name": "Bassa Atesina"},
+      {"type": "Plant", "name": "Salorno"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "Burgraviato"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Disease", "name": "black wood disease"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Disease", "name": "Flavescence dorèe"},
+      {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma"},
+      {"type": "Vector", "name": "American vine leafhopper"},
+      {"type": "Geographic", "name": "Laimburg Research Center"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "name": "Burgraviato"},
+      {"source": "flavescence dorée", "type": "Located in", "name": "Salorno"},
+      {"source": "flavescence dorée", "type": "Located in", "name": "Bassa Atesina"},
+      {"source": "flavescence dorée", "type": "Located in", "name": "South Tyrol"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "vineyards"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Pinot Grigio"},
+      {"source": "flavescence dorée", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "Flavescence dorèe-Phytoplasma", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "American vine leafhopper", "type": "Transmits", "target": "Flavescence dorèe-Phytoplasma"},
+      {"source": "Flavescence dorée", "type": "Located in", "name": "South Tyrol"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "vineyards"},
+      {"source": "Flavescence dorée", "type": "Have been found on", "target": "Chardonnay"},
+      {"source": "Flavescence dorée", "type": "Have been found on", "target": "Pinot Grigio"},
+      {"source": "Flavescence dorée", "type": "Have been found on", "target": "vines"},
+      {"source": "Flavescence dorée", "type": "Located in", "name": "Salorno"},
+      {"source": "Flavescence dorée", "type": "Located in", "name": "Bassa Atesina"},
+      {"source": "Flavescence dorée", "type": "Located in", "name": "Burgraviato"}
+    ]
+  }
+]
+```
