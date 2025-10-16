@@ -14,7 +14,7 @@ plant health epidemiology · relation extraction · n-ary event · entity linkin
 
 ## 📘 Contents
 This repository includes:
-- `output_llm`: raw outputs from large language models, including GPT-4o-mini, DeepSeek-R1, Qwen3.0, and Kimi;  
+- `output_llm`: raw outputs from large language models, including GPT-4o-mini, DeepSeek-V3, Qwen3.0, and Kimi-K2;  
 - `prompt`: prompt templates for entity and relation extraction;  
 - `scripts`: scripts for LLM API requests and evaluation.  
 
